@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Entregas de Líderes · Ops & Eng & Proj · Binário Cloud</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAiCAYAAADVhWD8AAAEOUlEQVR4nKWYa2hURxTH/+dyS8zGmM3dxEQCiVITJaa29oNWUSyWUkF8VIgNyiqoqKjER6vYVlpL1dqWBEXEBygiWBTrC+uLJYIKQf2QDyKiaR4YjclGJQpCSYI7/bB37zzuzL48cPfOzD0z57dnzpm5cynglDGAQHDFK4hChvYMhHk/RgXbAyGmkOgAsiVibleSmmQ4gs11BEVSjZKGJRWYYIipuno422dAZ1DtmJaQpsiSwtm8gzxFObuva03Env+LoQP1GTAxwUmqh2U4WwbRTYcydm6+BG0WkxeEZ5I9BlsPksSInaOJKZ2QbFcHobTZGYGohgAMHzEcZaNGoSA/H73RKHqiLzA0OCioMn8/r0nOYFvWU7ykExbzihvWrsSun7+XHkf7XuDEqbM4efpvtLV36qeJBA8JYBbPoDRAACDGACLs/eNXHwgAlIwsxpb6NWiO/IOG3TswrqoyPq0kZirxyysSLD0IAbF3ehiLMGZ0OVYuW5yUORAYhtXLwzh2sBGlJSP5uEQKHAezeHcBhIB3LU16K0NDqKtdkBRElI9rqnH0QANy83Lh97oMZvkU3Gpk7Sw4nfd8Hor1tgMAeqN9aQPNnD4VR/b9KRgQL26Y8oormOoVgPA2Gjf6pKsbXc+eSYPPXhiWwAGgdsEcbN20DtVVY41QX86vQ/PdFrebkGUUr1qStia1K8rLMGPaFO+S/pzwD89cuILwqno8bG0zwsyb85WXQAwEpqS6JmZ8PAbxKz163I6dv+8z9vji8xngcQIXjEP5YyYtGgVcyJCLVyO43XxP26u6aixyhn0gdpSguGey2ZmJB6EpLFUpDAbVQTwoy6edLg/JEIlISP42BwSDBYa9jTQwKSQQCGhaNfuPQZyCEa4a+aCsdAYQpSjkKG8a4k6cepy+l6+U9zdey9gzRSEn1UwklafdPQBPag7EY0Z8X00+WF4gF6UlRVmBtHd2YXCAv17IfpRihgGIIRGEp85eNA46+dNJABiYRB4vT5o4AdOnTdb2a+voUPTjq0yibEnPhEqk6aYRZu+eHfjko2pfe2lJMX74dr2x3+lzl7Tt3pIg7U3CWhMsLMT9O01wfOsClyPHT+L85WsAgPGVlVixtA4146u0ug8eteKzWXO1z7wU8MO4BSJs37YZ2zauM8JkIj/91ojG/Ye1EAmxzE8Zdu5pxKGjJ94b5Nyla2jYf1haFnV5omSTcHeL3/34C/46c/69QMKrNyTRYACLX5RXXM68nVQ6SSSmLn7fumk9lixaiA/HVGQGsir9Ax+H4RRGIACo/Xo+loe/gRNyEAoGEXKC+G9gAP39b9D/+jWePO1G5MZNXL9xC897ommDxGGKypnxdCABGXTcOpOrWYnNwABGIO+TiHCwYoD3qUQs+06GyvLOSBugKWH4AMLYWiC4BzLxc4ayW3tNLCvn/A83iy8+3r4GUwAAAABJRU5ErkJggg==">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#080b10; --bg2:#0f1520; --panel:#141c29; --panel-hi:#1b2534; --border:#2a374a; --border-hi:#3c4f68;
+    --text:#f3f6fa; --text-dim:#c3cee0; --text-mute:#8a9ab0;
+    --cyan:#2dd9f5; --cyan-dim:#0d3d49;
+    --green:#4ade9c; --green-dim:#123527;
+    --blue:#4cc3fb; --blue-dim:#10324a;
+    --amber:#ffc65c; --amber-dim:#3a2907;
+    --violet:#b79bfb; --violet-dim:#2a2148;
+    --orange:#ff9052; --orange-dim:#3a2110;
+    --teal:#2dd4bf; --teal-dim:#0f3733;
+    --slate:#8695a8; --slate-dim:#212c3b;
+    --red:#ff8585;
+    --mono:'JetBrains Mono',monospace; --disp:'Space Grotesk',sans-serif; --body:'Inter',sans-serif;
+    --shadow-sm:0 2px 10px -4px rgba(0,0,0,.5);
+    --shadow-md:0 10px 30px -10px rgba(0,0,0,.55);
+    --shadow-lg:0 24px 60px -20px rgba(0,0,0,.65);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth; color-scheme:dark;}
+  html, body{background:#0a0e14 !important;}
+  html,body{overflow-x:hidden; max-width:100%;}
+  ::-webkit-scrollbar{width:11px; height:11px;}
+  ::-webkit-scrollbar-track{background:transparent;}
+  ::-webkit-scrollbar-thumb{background:var(--border-hi); border-radius:99px; border:3px solid #0a0e14;}
+  ::-webkit-scrollbar-thumb:hover{background:var(--cyan-dim);}
+  *{scrollbar-width:thin; scrollbar-color:var(--border-hi) transparent;}
+  body{
+    margin:0;
+    background-color:#0a0e14 !important;
+    background-image:
+      radial-gradient(1100px 600px at 85% -10%, #0e2733 0%, transparent 60%),
+      radial-gradient(900px 500px at -10% 10%, #171029 0%, transparent 55%),
+      radial-gradient(1400px 800px at 50% 120%, #0d1a24 0%, transparent 60%);
+    background-repeat:no-repeat;
+    min-height:100vh;
+    color:var(--text); font-family:var(--body); -webkit-font-smoothing:antialiased;
+  }
+  ::selection{background:var(--cyan); color:#03181c;}
+
+  /* Topbar */
+  .topbar{
+    position:sticky; top:0; z-index:50; display:flex; align-items:center; justify-content:space-between;
+    padding:14px 28px; background:rgba(10,14,20,.82); backdrop-filter:blur(10px); border-bottom:1px solid var(--border);
+    box-shadow:0 8px 24px -12px rgba(0,0,0,.6);
+  }
+  .tb-left{display:flex; align-items:center; gap:10px;}
+  .tb-mark{height:34px; display:flex; align-items:center; justify-content:center;}
+  .tb-mark img{height:100%; width:auto; object-fit:contain; display:block; border-radius:6px;}
+  .tb-title{font-family:var(--mono); font-size:13px; color:var(--text-dim); letter-spacing:.03em;}
+  .tb-title b{color:var(--text); font-weight:600;}
+  .tb-back{
+    display:flex; align-items:center; gap:5px; margin-left:6px; padding:4px 10px 4px 6px;
+    border:1px solid var(--border); border-radius:999px; color:var(--text-mute);
+    font-family:var(--mono); font-size:11px; text-decoration:none; transition:.15s;
+  }
+  .tb-back:hover{color:var(--cyan); border-color:var(--cyan);}
+  .tb-right{display:flex; flex-direction:column; align-items:flex-end; gap:3px; font-family:var(--mono); font-size:12px; color:var(--text-mute);}
+  .tb-right-top{display:flex; align-items:center; gap:18px;}
+  .tb-right-sub{font-size:10.5px; color:var(--text-mute); opacity:.75;}
+  .tb-live{display:flex; align-items:center; gap:6px;}
+  .dot-live{width:6px; height:6px; border-radius:50%; background:var(--green); box-shadow:0 0 0 3px var(--green-dim); animation:pulse 2s infinite;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.35;}}
+
+  /* Hero */
+  .hero{padding:64px 28px 40px; max-width:1180px; margin:0 auto;}
+  .hero-eyebrow{font-family:var(--mono); font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--cyan); margin-bottom:14px; display:flex; align-items:center; gap:10px;}
+  .hero-eyebrow::before{content:''; width:22px; height:1px; background:var(--cyan);}
+  .hero-grid{display:grid; grid-template-columns:1.3fr .8fr; gap:40px; align-items:end;}
+  .hero-title{font-family:var(--disp); font-weight:600; font-size:clamp(30px,4.2vw,50px); line-height:1.08; margin:0 0 16px; letter-spacing:-.01em;}
+  .hero-title span{color:var(--cyan);}
+  .hero-sub{color:var(--text-dim); font-size:15px; line-height:1.6; max-width:52ch; margin:0;}
+
+  .ring-card{
+    background:linear-gradient(180deg,var(--panel-hi),var(--panel)); border:1px solid var(--border-hi); border-radius:18px;
+    padding:22px; display:flex; align-items:center; justify-content:center; gap:20px;
+  }
+  .ring-wrap{position:relative; width:132px; height:132px; flex:none;}
+  .ring-wrap svg{transform:rotate(-90deg); width:132px; height:132px;}
+  .ring-bg{fill:none; stroke:var(--border); stroke-width:9;}
+  .ring-fg{fill:none; stroke:var(--cyan); stroke-width:9; stroke-linecap:round; transition:stroke-dashoffset 1.2s cubic-bezier(.4,0,.2,1);}
+  .ring-num{position:absolute; inset:0; display:flex; align-items:center; justify-content:center; flex-direction:column;}
+  .ring-num b{font-family:var(--disp); font-size:30px; font-weight:700;}
+  .ring-num small{font-family:var(--mono); font-size:10px; color:var(--text-mute); text-transform:uppercase; letter-spacing:.08em;}
+
+  /* KPI strip */
+  .kpis{max-width:1180px; margin:0 auto; padding:0 28px 36px; display:grid; grid-template-columns:repeat(5,1fr); gap:12px;}
+  .kpi{
+    background:linear-gradient(165deg, var(--panel-hi), var(--panel)); border:1px solid var(--border); border-radius:14px;
+    padding:16px 18px; box-shadow:var(--shadow-sm); transition:transform .2s cubic-bezier(.2,.8,.2,1), border-color .2s, box-shadow .2s;
+  }
+  .kpi:hover{transform:translateY(-2px); border-color:var(--border-hi); box-shadow:var(--shadow-md);}
+  .kpi .k-num{font-family:var(--disp); font-size:26px; font-weight:700;}
+  .kpi .k-label{font-family:var(--mono); font-size:10.5px; color:var(--text-mute); text-transform:uppercase; letter-spacing:.06em; margin-top:2px;}
+  .kpi.c-shipped .k-num{color:var(--green);}
+  .kpi.c-progress .k-num{color:var(--blue);}
+  .kpi.c-planning .k-num{color:var(--violet);}
+  .kpi.c-backlog .k-num{color:var(--slate);}
+  .kpi.kpi-muted{background:transparent; border-style:dashed; box-shadow:none;}
+  .kpi.kpi-muted .k-num{color:var(--text-mute); font-size:20px;}
+
+  /* Controls */
+  .controls{max-width:1180px; margin:0 auto; padding:0 28px 20px; display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between;}
+  .search{position:relative; flex:1; min-width:220px; max-width:340px;}
+  .search input{
+    width:100%; background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:10px 12px 10px 34px;
+    color:var(--text); font-family:var(--body); font-size:13.5px; outline:none; transition:border-color .15s, box-shadow .15s;
+    -webkit-appearance:none; appearance:none; -webkit-text-fill-color:var(--text); caret-color:var(--cyan);
+    box-shadow:var(--shadow-sm);
+  }
+  .search input::placeholder{color:var(--text-mute); opacity:1;}
+  .search input:-webkit-autofill{
+    -webkit-box-shadow:0 0 0 1000px var(--panel) inset; -webkit-text-fill-color:var(--text);
+  }
+  .search input:focus{border-color:var(--cyan); box-shadow:0 0 0 3px var(--cyan-dim);}
+  .search svg{position:absolute; left:11px; top:50%; transform:translateY(-50%); color:var(--text-mute);}
+  .chips{display:flex; flex-wrap:wrap; gap:8px;}
+  .chip{
+    font-family:var(--mono); font-size:11px; padding:6px 12px; border-radius:999px; border:1px solid var(--border);
+    background:var(--panel); color:var(--text-dim); cursor:pointer; user-select:none; transition:.15s;
+  }
+  .chip:hover{border-color:var(--border-hi); color:var(--text);}
+  .chip.active{background:var(--cyan); border-color:var(--cyan); color:#03181c; font-weight:600; box-shadow:0 4px 16px -4px var(--cyan-dim);}
+
+  /* Metas list */
+  .metas{max-width:1180px; margin:0 auto; padding:0 28px 60px; display:flex; flex-direction:column; gap:14px;}
+  .meta-card{
+    background:linear-gradient(165deg, var(--panel-hi), var(--panel)); border:1px solid var(--border); border-radius:16px;
+    overflow:hidden; box-shadow:var(--shadow-sm); transition:border-color .2s, box-shadow .2s, transform .2s cubic-bezier(.2,.8,.2,1);
+  }
+  .meta-card.meta-atrasada{border-color:var(--red); box-shadow:0 0 0 1px var(--red), 0 0 18px -6px rgba(255,90,90,.45);}
+  .meta-card.meta-pendente{border-color:var(--amber); box-shadow:0 0 0 1px var(--amber), 0 0 18px -6px rgba(255,198,92,.45);}
+  .overdue-pill{
+    font-family:var(--mono); font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.03em;
+    color:#ffb3b3; background:rgba(255,90,90,.14); border:1px solid #5c1f1f; border-radius:999px;
+    padding:2px 9px; white-space:nowrap;
+  }
+  .meta-card:hover{border-color:var(--border-hi); box-shadow:var(--shadow-md);}
+  .meta-head{display:grid; grid-template-columns:56px 1fr auto 190px 30px; align-items:center; gap:16px; padding:16px 18px; cursor:pointer;}
+  .meta-card-link{cursor:pointer; transition:border-color .2s, transform .2s cubic-bezier(.2,.8,.2,1), box-shadow .2s;}
+  .meta-card-link:hover{border-color:var(--cyan); transform:translateY(-2px); box-shadow:var(--shadow-md), 0 0 0 1px var(--cyan-dim);}
+  .meta-card-link:hover .chev-open{color:var(--cyan); transform:translateX(3px);}
+  .chev-open{transition:transform .15s, color .15s; color:var(--text-mute);}
+  .meta-num{font-family:var(--mono); font-size:11px; color:var(--text-mute);}
+  .meta-num b{display:block; font-family:var(--disp); font-size:20px; color:var(--cyan); font-weight:700;}
+  .meta-name{min-width:0;}
+  .meta-name .n1{font-family:var(--disp); font-weight:600; font-size:15.5px; color:var(--text); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .meta-name .n2{font-family:var(--mono); font-size:11px; color:var(--text-mute); margin-top:3px; display:flex; gap:6px; flex-wrap:wrap;}
+  .tag{padding:2px 7px; border-radius:5px; font-size:9.5px; text-transform:uppercase; letter-spacing:.03em; background:var(--panel-hi); border:1px solid var(--border-hi); color:var(--text-dim);}
+  .badge{font-family:var(--mono); font-size:10.5px; font-weight:600; padding:5px 10px; border-radius:7px; white-space:nowrap; text-transform:uppercase; letter-spacing:.02em; text-align:center;}
+  .b-shipped{color:var(--green); background:var(--green-dim); border:1px solid #14523f;}
+  .b-progress{color:var(--blue); background:var(--blue-dim); border:1px solid #0f4560;}
+  .b-review{color:var(--orange); background:var(--orange-dim); border:1px solid #5c3419;}
+  .b-test{color:var(--violet); background:var(--violet-dim); border:1px solid #3d2f66;}
+  .b-planning{color:var(--amber); background:var(--amber-dim); border:1px solid #5c4110;}
+  .b-backlog{color:var(--slate); background:var(--slate-dim); border:1px solid #2a3444;}
+
+  .meta-bar{display:flex; align-items:center; gap:10px;}
+  .bar-track{flex:1; height:6px; border-radius:99px; background:var(--border); overflow:hidden;}
+  .bar-fill{height:100%; border-radius:99px; background:linear-gradient(90deg,var(--cyan),var(--green));}
+  .bar-pct{font-family:var(--mono); font-size:11.5px; color:var(--text-dim); width:36px; text-align:right;}
+
+  .chev{color:var(--text-mute); transition:transform .2s;}
+  .meta-card.open .chev{transform:rotate(180deg);}
+
+  .meta-body{max-height:0; overflow:hidden; transition:max-height .3s ease;}
+  .meta-body-in{padding:0 18px 20px; border-top:1px solid var(--border);}
+  .meta-detail{
+    font-family:var(--mono); font-size:12px; color:var(--text-dim); line-height:1.7; background:var(--bg2);
+    border:1px solid var(--border); border-radius:10px; padding:14px 16px; margin:16px 0; white-space:pre-wrap;
+  }
+  .meta-detail b{color:var(--cyan);}
+  .meta-toggle-detail{
+    font-family:var(--mono); font-size:10.5px; color:var(--text-mute); cursor:pointer; margin-top:14px; display:inline-flex;
+    align-items:center; gap:5px; text-transform:uppercase; letter-spacing:.05em;
+  }
+  .meta-toggle-detail:hover{color:var(--cyan);}
+
+  .fases-label{font-family:var(--mono); font-size:10.5px; color:var(--text-mute); text-transform:uppercase; letter-spacing:.07em; margin:16px 0 8px;}
+  .fase-row{display:grid; grid-template-columns:26px 1fr auto 150px 16px auto; align-items:center; gap:12px; padding:10px 12px; border-radius:10px; background:var(--bg2); border:1px solid var(--border); margin-bottom:0; transition:border-color .15s;}
+  .fase-wrap{margin-bottom:7px;}
+  .fase-row:hover{border-color:var(--border-hi);}
+  .fase-idx{font-family:var(--mono); font-size:10px; color:var(--text-mute);}
+  .fase-name{font-size:13px; color:var(--text);}
+  .fase-name small{display:block; font-family:var(--mono); font-size:10.5px; color:var(--text-mute); margin-top:2px;}
+  .fase-assignee{font-family:var(--mono); font-size:11px; color:var(--text-mute); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .fase-link{color:var(--text-mute); display:flex;}
+  .fase-link:hover{color:var(--cyan);}
+  .fase-row.has-ativ{cursor:pointer;}
+  .fase-row.has-ativ:hover{border-color:var(--cyan);}
+  .ativ-chev{color:var(--text-mute); transition:transform .2s; flex:none;}
+  .fase-wrap.open .ativ-chev{transform:rotate(180deg); color:var(--cyan);}
+  .ativ-list{margin:2px 0 10px 38px; padding:4px 0 4px 14px; border-left:2px solid var(--border-hi); display:flex; flex-direction:column; gap:6px;}
+  .ativ-row{display:flex; align-items:center; gap:9px; font-size:12px; color:var(--text-dim); padding:2px 0;}
+  .ativ-dot{width:7px; height:7px; border-radius:50%; flex:none;}
+  .ativ-name{flex:1; min-width:0;}
+  .ativ-due{font-family:var(--mono); font-size:10px; color:var(--text-mute); white-space:nowrap;}
+  .ativ-status{font-family:var(--mono); font-size:10px; color:var(--text-mute); text-transform:uppercase; white-space:nowrap;}
+  .ativ-link{color:var(--text-mute); display:flex; align-items:center; opacity:.6; transition:.15s; flex:none; margin-left:4px;}
+  .ativ-link:hover{color:var(--cyan); opacity:1;}
+  @keyframes blinkRed{0%,100%{background:rgba(255,90,90,.10); box-shadow:0 0 0 rgba(255,90,90,0);}50%{background:rgba(255,60,60,.35); box-shadow:0 0 10px rgba(255,60,60,.35);}}
+  @keyframes blinkAmber{0%,100%{background:rgba(255,198,92,.10); box-shadow:0 0 0 rgba(255,198,92,0);}50%{background:rgba(255,198,92,.35); box-shadow:0 0 10px rgba(255,198,92,.35);}}
+  .ativ-row.atrasada{animation:blinkRed 1.1s ease-in-out infinite; border-radius:6px; padding:2px 6px; margin:0 -6px;}
+  .ativ-row.atrasada .ativ-dot{animation:blinkRed 1.1s ease-in-out infinite; background:var(--red) !important;}
+  .ativ-row.atrasada .ativ-name{color:#ffb3b3; font-weight:600;}
+  .ativ-row.atrasada .ativ-status{color:#ffb3b3; font-weight:700;}
+  .ativ-row.pendente{animation:blinkAmber 1.1s ease-in-out infinite; border-radius:6px; padding:2px 6px; margin:0 -6px;}
+  .ativ-row.pendente .ativ-dot{animation:blinkAmber 1.1s ease-in-out infinite; background:var(--amber) !important;}
+  .ativ-row.pendente .ativ-name{color:var(--amber); font-weight:600;}
+  .ativ-row.pendente .ativ-status{color:var(--amber); font-weight:700;}
+  .ativ-row.concluida .ativ-name{color:var(--green); font-weight:600;}
+  .ativ-row.concluida .ativ-status{color:var(--green); font-weight:700;}
+
+  .crit-section{max-width:1180px; margin:0 auto; padding:0 28px 70px;}
+  .crit-title{font-family:var(--disp); font-size:20px; font-weight:600; margin:0 0 6px;}
+  .crit-sub{font-family:var(--mono); font-size:12px; color:var(--text-mute); margin:0 0 20px;}
+  .crit-grid{display:grid; grid-template-columns:1fr 1fr; gap:14px;}
+  .crit-card{background:linear-gradient(165deg, var(--panel-hi), var(--panel)); border:1px solid var(--border); border-radius:14px; padding:18px 20px; box-shadow:var(--shadow-sm); transition:transform .2s cubic-bezier(.2,.8,.2,1), box-shadow .2s;}
+  .crit-card:hover{transform:translateY(-2px); box-shadow:var(--shadow-md);}
+  .crit-card h4{font-family:var(--disp); font-size:14.5px; margin:0 0 12px; display:flex; align-items:center; gap:8px;}
+  .crit-card h4 .sw{width:8px; height:8px; border-radius:2px;}
+  .crit-list{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:9px;}
+  .crit-list li{display:flex; align-items:flex-start; gap:9px; font-size:12.5px; color:var(--text-dim); line-height:1.5;}
+  .crit-list li .cb{width:14px; height:14px; border-radius:4px; border:1.5px solid var(--slate); flex:none; margin-top:2px;}
+
+  footer{max-width:1180px; margin:0 auto; padding:24px 28px 50px; border-top:1px solid var(--border); font-family:var(--mono); font-size:11px; color:var(--text-mute); display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px;}
+  footer a{color:var(--text-mute);}
+
+  @media (max-width:900px){
+    .hero{padding:48px 20px 28px;}
+    .hero-grid{grid-template-columns:1fr; gap:26px;}
+    .ring-card{padding:18px;}
+    .kpis{grid-template-columns:repeat(2,1fr); padding:0 20px 28px;}
+    .controls{padding:0 20px 16px;}
+    .crit-section{padding:0 20px 50px;}
+    .metas{padding:0 20px 50px;}
+  }
+
+  @media (max-width:640px){
+    .topbar{padding:12px 16px;}
+    .tb-title{font-size:11.5px;}
+    .tb-right{gap:10px; font-size:10.5px;}
+    .tb-right #tb-date{display:none;}
+
+    .hero{padding:36px 16px 24px;}
+    .hero-eyebrow{font-size:10.5px; margin-bottom:10px;}
+    .hero-sub{font-size:13.5px;}
+    .ring-card{flex-direction:column; align-items:flex-start; gap:16px;}
+    .ring-wrap{width:96px; height:96px;}
+    .ring-wrap svg{width:96px; height:96px;}
+
+    .kpis{grid-template-columns:repeat(2,1fr); gap:10px; padding:0 16px 24px;}
+    .kpi{padding:12px 14px;}
+    .kpi .k-num{font-size:21px;}
+
+    .controls{flex-direction:column; align-items:stretch; padding:0 16px 16px; gap:12px;}
+    .search{max-width:none;}
+    .chips{gap:6px;}
+    .chip{font-size:10.5px; padding:7px 11px;}
+
+    .metas{padding:0 16px 50px; gap:10px;}
+    .meta-card{border-radius:14px;}
+    .meta-head{
+      grid-template-columns:1fr auto; column-gap:10px; row-gap:8px; padding:14px;
+    }
+    .meta-num{grid-column:1; order:1;}
+    .meta-name{grid-column:1/-1; order:2;}
+    .meta-head > .badge{order:3; justify-self:start;}
+    .meta-bar{grid-column:1/-1; order:4;}
+    .chev{order:3; justify-self:end; align-self:start;}
+    .meta-openpage{display:none !important;}
+    .meta-name .n1{white-space:normal; font-size:14.5px;}
+
+    .meta-body-in{padding:0 14px 16px;}
+    .fases-label{font-size:10px; line-height:1.5;}
+    .fase-row{
+      grid-template-columns:1fr auto; row-gap:6px; padding:11px;
+    }
+    .fase-idx{display:none;}
+    .fase-name{grid-column:1/-1; order:1;}
+    .fase-assignee{order:2; font-size:10.5px;}
+    .fase-row .badge{order:3;}
+    .ativ-chev{order:4;}
+    .fase-link{order:5; justify-self:end;}
+    .ativ-list{margin-left:0;}
+
+    .crit-section{padding:0 16px 50px;}
+    .crit-title{font-size:17px;}
+    .crit-grid{grid-template-columns:1fr; gap:10px;}
+    .crit-card{padding:15px 16px;}
+
+    footer{padding:20px 16px 40px; flex-direction:column;}
+  }
+
+  .page-nav{max-width:1180px; margin:14px auto 0; padding:0 28px; display:flex; gap:10px;}
+  .page-nav a{font-family:var(--mono); font-size:12px; padding:7px 14px; border-radius:999px; border:1px solid var(--border); background:var(--panel); color:var(--text-dim); text-decoration:none; transition:.15s;}
+  .page-nav a:hover{border-color:var(--border-hi); color:var(--text);}
+  .page-nav a.active{background:var(--cyan); border-color:var(--cyan); color:#03181c; font-weight:600;}
+  @media (max-width:640px){.page-nav{padding:0 16px; margin-top:10px;}}
+  .b-blocked{color:var(--red); background:rgba(255,90,90,.12); border:1px solid #5c1f1f;}
+
+  /* ===== Capa (Líderes · Binário Cloud) ===== */
+  .cover{
+    max-width:1180px; margin:0 auto; padding:40px 28px 28px; text-align:center;
+    min-height:calc(100vh - 63px); display:flex; flex-direction:column; justify-content:center;
+  }
+  .cover-mark{margin:0 auto 14px; width:92px; height:92px; filter:drop-shadow(0 6px 22px rgba(45,217,245,.25));}
+  .cover-title{
+    font-family:var(--disp); font-weight:700; font-size:52px; letter-spacing:.14em;
+    margin:0; background:linear-gradient(90deg, var(--text), var(--cyan));
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+  }
+  .cover-subtitle{
+    font-family:var(--mono); font-size:12.5px; letter-spacing:.28em; color:var(--cyan);
+    font-weight:600; margin-top:10px; text-transform:uppercase;
+  }
+  .cover-divider{max-width:760px; margin:26px auto; height:1px; background:var(--border); position:relative;}
+  .cover-divider::after{
+    content:''; position:absolute; left:50%; top:-1px; transform:translateX(-50%);
+    width:84px; height:3px; background:var(--cyan); border-radius:2px;
+  }
+  .cover-brand{font-family:var(--disp); font-weight:700; font-size:32px; letter-spacing:.09em;}
+  .cover-brand .b1{color:var(--text);}
+  .cover-brand .b2{color:var(--cyan);}
+  .cover-tagline{
+    font-family:var(--mono); font-size:11.5px; letter-spacing:.14em; color:var(--text-mute);
+    margin-top:10px; text-transform:uppercase;
+  }
+  .cover-tree{margin-top:46px;}
+  .cover-tree-row{
+    display:flex; column-gap:8px; row-gap:34px; flex-wrap:wrap;
+    position:relative; padding-top:1px;
+  }
+  .cover-tree-row::before{
+    content:''; position:absolute; top:0; left:7.14%; right:7.14%; height:1px; background:var(--border-hi);
+  }
+  .tree-node{--tc:var(--cyan); --tc-dim:var(--cyan-dim); position:relative; display:flex; flex-direction:column; align-items:center; padding-top:30px; flex:1 1 0; min-width:110px;}
+  .tree-node::before{
+    content:''; position:absolute; top:0; left:50%; transform:translateX(-50%);
+    width:1px; height:24px; background:var(--border-hi);
+  }
+  .tree-node::after{
+    content:''; position:absolute; top:0; left:50%; transform:translate(-50%,-50%);
+    width:7px; height:7px; border-radius:50%; background:var(--tc); box-shadow:0 0 0 3px var(--tc-dim);
+  }
+  .node-icon-wrap{
+    width:62px; height:62px; border-radius:50%; border:2px solid var(--tc); background:linear-gradient(165deg, var(--panel-hi), var(--panel));
+    display:flex; align-items:center; justify-content:center; color:var(--tc); margin-bottom:13px;
+    box-shadow:0 0 0 4px var(--tc-dim), var(--shadow-sm); transition:transform .2s cubic-bezier(.2,.8,.2,1);
+  }
+  .tree-node:hover .node-icon-wrap{transform:translateY(-3px) scale(1.04);}
+  .node-icon-wrap svg{width:26px; height:26px;}
+  .node-title{font-family:var(--disp); font-weight:700; font-size:14px; color:var(--text); letter-spacing:.02em; text-transform:uppercase; transition:color .2s ease;}
+  .node-desc{font-family:var(--mono); font-size:10px; color:var(--text-mute); margin-top:7px; line-height:1.55; text-transform:uppercase; letter-spacing:.02em;}
+  .node-underline{width:24px; height:2px; background:var(--tc); opacity:.5; margin-top:12px; border-radius:2px; transition:width .2s ease, opacity .2s ease;}
+  .tree-node-link{cursor:pointer;}
+  .tree-node-link:hover .node-title{color:var(--tc);}
+  .tree-node-link:hover .node-underline{opacity:1; width:34px;}
+  .cover-values{display:flex; align-items:center; gap:18px; margin-top:52px;}
+  .cover-values .values-line{flex:1; height:1px; background:var(--border);}
+  .values-list{
+    display:flex; align-items:center; flex-wrap:wrap; justify-content:center;
+    font-family:var(--mono); font-size:11.5px; letter-spacing:.05em; color:var(--text-dim);
+    text-transform:uppercase; font-weight:600;
+  }
+  .values-list > *{margin:4px 10px;}
+  .v-item{display:flex; align-items:center; white-space:nowrap;}
+  .v-item svg{width:16px; height:16px; color:var(--cyan); flex:none; margin-right:8px;}
+  .v-dot{color:var(--text-mute);}
+  .v-sep{width:1px; height:13px; background:var(--border-hi);}
+  @media (max-width:900px){
+    .cover{padding:44px 20px 30px; min-height:calc(100vh - 59px);}
+    .cover-title{font-size:42px;}
+    .cover-tree-row::before, .tree-node::before{display:none;}
+    .tree-node{padding-top:0; flex:1 1 21%; min-width:130px;}
+  }
+  @media (max-width:640px){
+    .cover{padding:36px 16px 24px;}
+    .cover-mark{width:72px; height:72px;}
+    .cover-title{font-size:32px; letter-spacing:.1em;}
+    .cover-subtitle{font-size:10.5px; letter-spacing:.2em;}
+    .cover-brand{font-size:22px;}
+    .cover-tree{margin-top:32px;}
+    .tree-node{flex:1 1 40%; min-width:0;}
+    .node-icon-wrap{width:52px; height:52px;}
+    .node-icon-wrap svg{width:22px; height:22px;}
+    .node-desc{display:none;}
+    .cover-values{flex-direction:column; gap:10px; margin-top:36px;}
+    .cover-values .values-line{display:none;}
+  }
+
+
+  .folder-outer{max-width:1180px; margin:30px auto 0; padding:0 28px; display:flex; align-items:flex-start; gap:0;}
+  .folder-tabs{display:none;}
+  .folder-tab{
+    --tc:var(--cyan); --tc-dim:var(--cyan-dim);
+    position:relative; cursor:pointer; user-select:none;
+    width:52px; padding:12px 0; margin-bottom:9px; margin-right:-2px;
+    border:2px solid var(--tc); border-right:none;
+    border-radius:16px 0 0 16px;
+    background:linear-gradient(90deg, var(--panel-hi), var(--panel));
+    display:flex; align-items:center; justify-content:center;
+    transition:transform .22s ease, opacity .22s ease, box-shadow .2s ease, width .22s ease;
+    z-index:1; opacity:.6; transform:translateX(14px);
+  }
+  .folder-tab:last-child{margin-bottom:0;}
+  .folder-tab .f-dot{
+    width:28px; height:28px; border-radius:50%; background:var(--tc); flex:none;
+    box-shadow:0 0 0 3px var(--tc-dim), 0 3px 10px -2px var(--tc-dim); display:flex; align-items:center; justify-content:center;
+    font-family:var(--disp); font-size:13px; font-weight:800; color:#0a0e14;
+    transition:box-shadow .2s ease;
+  }
+  .folder-tab:hover{opacity:.85; transform:translateX(6px);}
+  .folder-tab.active{
+    z-index:3; opacity:1; transform:translateX(-6px); width:58px;
+    box-shadow:-10px 6px 22px -10px var(--tc-dim);
+  }
+  .folder-panel{
+    position:relative; z-index:2; flex:1; min-width:0;
+    border:2px solid var(--panel-active, var(--cyan));
+    border-radius:20px;
+    background:radial-gradient(1100px 500px at 90% -10%, rgba(45,217,245,.07) 0%, transparent 60%), var(--bg2);
+    padding:8px 0 4px;
+    box-shadow:var(--shadow-lg), 0 0 0 1px rgba(255,255,255,.02) inset;
+    transition:border-color .25s ease, box-shadow .25s ease;
+  }
+  .folder-panel .hero{padding-top:40px;}
+  @media (max-width:900px){
+    .folder-outer{padding:0 20px;}
+  }
+  @media (max-width:640px){
+    .folder-outer{padding:0 16px; margin-top:20px; flex-direction:column;}
+    .folder-panel{border-radius:14px;}
+  }
+
+  /* ===== Botão "abrir página da meta" no card ===== */
+  .meta-openpage{
+    display:flex; align-items:center; justify-content:center; flex:none;
+    width:30px; height:30px; border-radius:9px; color:var(--text-mute);
+    border:1px solid var(--border); background:var(--panel-hi); text-decoration:none;
+    transition:.15s;
+  }
+  .meta-openpage:hover{color:var(--cyan); border-color:var(--cyan); background:var(--panel);}
+
+  /* ===== Página de detalhe de uma meta ===== */
+  .detail-outer{max-width:1180px; margin:30px auto; padding:0 28px 60px;}
+  .detail-back{
+    display:inline-flex; align-items:center; gap:7px; font-family:var(--mono); font-size:12.5px; font-weight:600;
+    color:var(--text-dim); text-decoration:none; margin-bottom:18px; transition:.15s;
+  }
+  .detail-back:hover{color:var(--cyan);}
+  .detail-panel{
+    border:2px solid var(--detail-color, var(--cyan)); border-radius:20px;
+    background:radial-gradient(1100px 500px at 90% -10%, rgba(45,217,245,.07) 0%, transparent 60%), var(--bg2);
+    padding:36px 36px 44px;
+  }
+  .detail-eyebrow{font-family:var(--mono); font-size:12px; color:var(--detail-color, var(--cyan)); text-transform:uppercase; letter-spacing:.05em; margin-bottom:10px;}
+  .detail-top{display:flex; align-items:flex-start; justify-content:space-between; gap:24px; flex-wrap:wrap; margin-bottom:22px;}
+  .detail-title{font-family:var(--disp); font-weight:700; font-size:clamp(24px,3.2vw,36px); line-height:1.15; margin:0 0 12px;}
+  .detail-tags{display:flex; flex-wrap:wrap; gap:6px; margin-bottom:6px;}
+  .detail-meta-row{font-family:var(--mono); font-size:12.5px; color:var(--text-dim); margin-top:10px;}
+  .detail-ring-box{display:flex; flex-direction:column; align-items:center; gap:8px; flex:none;}
+  .detail-progress-bar{max-width:1180px; margin:0 0 30px;}
+  .detail-fases-title{font-family:var(--disp); font-weight:600; font-size:17px; margin:0 0 14px;}
+  .detail-text{
+    font-size:13.5px; line-height:1.7; color:var(--text-dim); white-space:pre-line;
+    background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:18px 20px; margin-top:26px;
+  }
+  .detail-text h4{font-family:var(--mono); font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--text-mute); margin:0 0 10px;}
+  @media (max-width:640px){
+    .detail-outer{padding:0 16px 40px; margin-top:20px;}
+    .detail-panel{padding:22px 18px 30px; border-radius:16px;}
+  }
+
+  /* ===== RoadMap board (Kanban) ===== */
+  .board{
+    display:flex; flex-wrap:nowrap; align-items:flex-start; gap:14px; padding:4px 28px 26px;
+    max-width:1180px; margin:0 auto; overflow-x:auto; -webkit-overflow-scrolling:touch;
+    scrollbar-width:thin; scrollbar-color:var(--border-hi) transparent;
+  }
+  .board::-webkit-scrollbar{height:9px;}
+  .board::-webkit-scrollbar-thumb{background:var(--border-hi); border-radius:99px;}
+  .board::-webkit-scrollbar-thumb:hover{background:var(--cyan-dim);}
+  .board-col{
+    background:linear-gradient(165deg, var(--panel-hi), var(--panel)); border:1px solid var(--border); border-radius:14px;
+    display:flex; flex-direction:column; min-height:80px;
+    flex:0 0 270px; align-self:flex-start; box-shadow:var(--shadow-sm);
+  }
+  .board-col-head{
+    display:flex; align-items:center; gap:8px; padding:13px 14px 11px;
+    border-bottom:1px solid var(--border); font-family:var(--mono); font-size:11.5px;
+    font-weight:700; text-transform:uppercase; letter-spacing:.04em; color:var(--text-dim);
+    background:transparent; border-radius:14px 14px 0 0;
+  }
+  .board-col-head .bc-dot{width:8px; height:8px; border-radius:50%; flex:none; box-shadow:0 0 8px -1px currentColor;}
+  .board-col-head .bc-count{margin-left:auto; background:var(--panel); color:var(--text-mute); border-radius:999px; padding:1px 8px; font-size:10.5px;}
+  .board-col-body{padding:10px; display:flex; flex-direction:column; gap:9px;}
+  .board-card{
+    background:var(--panel-hi); border:1px solid var(--border); border-radius:11px;
+    padding:11px 12px; transition:transform .2s cubic-bezier(.2,.8,.2,1), border-color .2s, box-shadow .2s; position:relative;
+    box-shadow:var(--shadow-sm);
+  }
+  .board-card:hover{border-color:var(--cyan); transform:translateY(-2px); box-shadow:var(--shadow-md);}
+  .board-card .bc-name{font-family:var(--body); font-size:12.5px; color:var(--text); line-height:1.42; margin-bottom:9px;}
+  .board-card .bc-foot{display:flex; align-items:center; justify-content:space-between; gap:8px;}
+  .board-card .bc-avatars{display:flex;}
+  .board-card .bc-av{
+    width:20px; height:20px; border-radius:50%; background:var(--panel); border:2px solid var(--panel-hi);
+    display:flex; align-items:center; justify-content:center; font-size:8.5px; font-weight:700; color:var(--text);
+    margin-left:-6px; flex:none;
+  }
+  .board-card .bc-av:first-child{margin-left:0;}
+  .board-card a.bc-link{color:var(--text-mute); display:flex; opacity:.7; transition:.15s;}
+  .board-card a.bc-link:hover{color:var(--text); opacity:1;}
+  .board-empty{padding:22px 12px; text-align:center; color:var(--text-mute); font-size:11.5px; font-family:var(--mono);}
+  @media (max-width:640px){
+    .board{padding:4px 16px 20px; scroll-snap-type:x proximity;}
+    .board-col{flex:0 0 82vw; max-width:300px; scroll-snap-align:start;}
+    .board-col-head{padding:12px 13px 10px; font-size:11px;}
+    .board-card{padding:10px 11px;}
+  }
+
+</style>
+</head>
+<body style="background:#0a0e14; margin:0;">
+
+<div class="topbar">
+  <div class="tb-left">
+    <div class="tb-mark"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAABFCAYAAACRzK44AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABgySURBVHhe3V15fFXF2X7m3CwkxCSEJUEWRRCVQqnW4reWopVFcaHiUqxarS27KHUD68baWvxUtGpFxSpaN5ai4gYqIsi+E7YQQhKyk9zc9c6d5f3+uCH3nHOTQAj4az/PJ8x958y8886ZM+edmXsuUZIkicagACIRPWQjaLZFqBuYMV3+/QsRNlwtkR1D4ZmEjmOCiZIswkypYPqH1A0x2XVVR2pk/AcwR+lK0rHhCBCI1pJPabbG6YAb5oiVthyUG656pmCC0n85nCsVadIsEP0Sowig0Q67CiL/SgO0HmviqOCg6o9GDNYISHdOOQKHEWiwwAUS0AFNiQ6QAL4xQKMPIuWAU5hPXLg63sA5lyFdsW24LzHabuToECERxSECqSkiRBuR2jLbMPwD6BMf5pyI43JophSQcxBtMjzLUQtg2oIWyxiEXFjb5MdwpRBEFotAQFyzyaB0wiJVJyMIRVY1B23HJLkFJSyaZrMd3QvDOZepIbDGZxEG6nMfE4ZGDdYw1KsraVay3H2CCURTlIHIwnD5MbgsVp+AQBZQTSE+GhpbNE2JCB2P4BLRyYfmzgpeeuIgLPGDygmK8GqEUJl0Iw+h+rijKMkIrvKBMO5hrLGcyDDH7xhvAK0jpYMOzZUVSG5hifsphptQLgy1LP4m1IzeAFCA6rH088A4K6yTxCIahrSepJoajr45KB+hRh+Km80RtuJ8WYQZ04HZEdSdVwXTahYBJ+0kT0A05NKY6uRRFmqUZpJb2FZ31XZmWxyGTgyYu0y9Q+VfAeC2dAQjkMTMEMnpP4bIO1oUsTlJH9QUiCmOSLuGSxQmEREOD0cRjFMkKoItTqTp/hnkBkJFk0oolqDBFUgkcSguMOtA3+FonJ+3zRq77gAAAABJRU5ErkJggg==" alt="Binário Cloud"></div>
+    <span class="tb-title"><b id="tbTitleName">Metas 2026</b> · Binário Cloud</span>
+    <a href="#" class="tb-back" id="tbBackLink" onclick="backToCover(); return false;" style="display:none;">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+      Capa
+    </a>
+  </div>
+  <div class="tb-right">
+    <div class="tb-right-top">
+      <div class="tb-live"><span class="dot-live"></span> Modelo em branco</div>
+      <span id="tb-date"></span>
+    </div>
+    <div class="tb-right-sub" id="tb-gen"></div>
+  </div>
+</div>
+
+<div class="cover" onclick="enterPanel()" style="cursor:pointer;" title="Clique para ver o painel">
+  <div class="cover-mark">
+    <svg viewBox="0 0 100 100" width="92" height="92" fill="none">
+      <defs>
+        <linearGradient id="markGrad" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#2dd9f5"/>
+          <stop offset="1" stop-color="#4cc3fb"/>
+        </linearGradient>
+      </defs>
+      <path d="M70 14 A38 38 0 1 0 70 86" stroke="url(#markGrad)" stroke-width="6" stroke-linecap="round"/>
+      <path d="M34 66 a16 16 0 0 1 32 0" stroke="url(#markGrad)" stroke-width="4.5" stroke-linecap="round"/>
+      <circle cx="50" cy="46" r="10" stroke="url(#markGrad)" stroke-width="4.5"/>
+      <path d="M22 64 a11 11 0 0 1 20 -6" stroke="#c3cee0" stroke-width="3.5" stroke-linecap="round" opacity=".7"/>
+      <circle cx="30" cy="50" r="6.5" stroke="#c3cee0" stroke-width="3.5" opacity=".7"/>
+      <path d="M78 64 a11 11 0 0 0 -20 -6" stroke="#c3cee0" stroke-width="3.5" stroke-linecap="round" opacity=".7"/>
+      <circle cx="70" cy="50" r="6.5" stroke="#c3cee0" stroke-width="3.5" opacity=".7"/>
+    </svg>
+  </div>
+
+  <h1 class="cover-title">LÍDERES</h1>
+  <div class="cover-subtitle">Do desenho ao resultado</div>
+
+  <div class="cover-divider"></div>
+
+  <div class="cover-brand"><span class="b1">BINARIO</span> <span class="b2">CLOUD</span></div>
+  <div class="cover-tagline">Liderar · Conectar · Inspirar · Entregar resultados</div>
+
+  <div class="cover-tree">
+    <div class="cover-tree-row">
+
+      <div class="tree-node tree-node-link" style="--tc:var(--cyan); --tc-dim:var(--cyan-dim);" onclick="event.stopPropagation(); goToLeader('joao');" title="Ver entregas de João Alves">
+        <div class="node-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 18a4 4 0 0 0 0-8h-.3A5.5 5.5 0 0 0 6.8 8.1 4 4 0 0 0 6.5 16H7"/><path d="M17.5 18H7"/><circle cx="8.3" cy="14.5" r="1.15"/><circle cx="12" cy="12.3" r="1.15"/><circle cx="15.7" cy="14.5" r="1.15"/><path d="M8.3 14.5L12 12.3l3.7 2.2" stroke-width="1.4"/></svg>
+        </div>
+        <div class="node-title">COO</div>
+        <div class="node-desc">Estratégia<br>e resultados</div>
+        <div class="node-underline"></div>
+      </div>
+
+      <div class="tree-node tree-node-link" style="--tc:var(--green); --tc-dim:var(--green-dim);" onclick="event.stopPropagation(); goToLeader('rodney');" title="Ver entregas de Rodney Botelho">
+        <div class="node-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 18a4 4 0 0 0 0-8h-.3A5.5 5.5 0 0 0 6.8 8.1 4 4 0 0 0 6.5 16H7"/><path d="M17.5 18H7"/><path d="M8 15.3l2.4-2.4 1.8 1.8 3.3-3.3" stroke-width="1.8"/><path d="M13.3 10.6h2.4v2.4"/></svg>
+        </div>
+        <div class="node-title">Pré-vendas</div>
+        <div class="node-desc">Soluções que<br>geram valor</div>
+        <div class="node-underline"></div>
+      </div>
+
+      <div class="tree-node tree-node-link" style="--tc:var(--blue); --tc-dim:var(--blue-dim);" onclick="event.stopPropagation(); goToLeader('bruno');" title="Ver entregas de Bruno Queiroz">
+        <div class="node-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 18a4 4 0 0 0 0-8h-.3A5.5 5.5 0 0 0 6.8 8.1 4 4 0 0 0 6.5 16H7"/><path d="M17.5 18H7"/><circle cx="12" cy="13.3" r="1.6" stroke-width="1.8"/></svg>
+        </div>
+        <div class="node-title">CSE</div>
+        <div class="node-desc">Especialistas<br>em cloud</div>
+        <div class="node-underline"></div>
+      </div>
+
+      <div class="tree-node tree-node-link" style="--tc:var(--amber); --tc-dim:var(--amber-dim);" onclick="event.stopPropagation(); goToLeader('leonardo');" title="Ver entregas de Leonardo Gonçalez">
+        <div class="node-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        </div>
+        <div class="node-title">Engenharia</div>
+        <div class="node-desc">Inovar, projetar<br>e construir</div>
+        <div class="node-underline"></div>
+      </div>
+
+      <div class="tree-node tree-node-link" style="--tc:var(--violet); --tc-dim:var(--violet-dim);" onclick="event.stopPropagation(); goToLeader('joao');" title="Ver entregas de João Alves">
+        <div class="node-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5.2 3.4 9.4 8 11 4.6-1.6 8-5.8 8-11V5z"/><polyline points="9 12 11 14 15 10"/></svg>
+        </div>
+        <div class="node-title">SecOps</div>
+        <div class="node-desc">Proteger, monitorar,<br>responder</div>
+        <div class="node-underline"></div>
+      </div>
+
+      <div class="tree-node tree-node-link" style="--tc:var(--orange); --tc-dim:var(--orange-dim);" onclick="event.stopPropagation(); goToLeader('gustavo');" title="Ver entregas de Gustavo Camargo">
+        <div class="node-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <div class="node-title">CCOE</div>
+        <div class="node-desc">Governar, padronizar,<br>otimizar</div>
+        <div class="node-underline"></div>
+      </div>
+
+      <div class="tree-node tree-node-link" style="--tc:var(--teal); --tc-dim:var(--teal-dim);" onclick="event.stopPropagation(); goToLeader('wagner');" title="Ver entregas de Wagner Felix">
+        <div class="node-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 18a4 4 0 0 0 0-8h-.3A5.5 5.5 0 0 0 6.8 8.1 4 4 0 0 0 6.5 16H7"/><path d="M17.5 18H7"/><rect x="10.4" y="10" width="3.2" height="2.2" rx="0.5"/><rect x="7" y="14.6" width="3.2" height="2.2" rx="0.5"/><rect x="13.8" y="14.6" width="3.2" height="2.2" rx="0.5"/><path d="M12 12.2v1.2M12 13.4H8.6v1.2M12 13.4h3.4v1.2" stroke-width="1.4"/></svg>
+        </div>
+        <div class="node-title">Projetos</div>
+        <div class="node-desc">Planejar, executar,<br>entregar</div>
+        <div class="node-underline"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="cover-values">
+    <span class="values-line"></span>
+    <div class="values-list">
+      <span class="v-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>Propósito</span>
+      <span class="v-dot">•</span>
+      <span class="v-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>Colaboração</span>
+      <span class="v-sep"></span>
+      <span class="v-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M8.21 13.89 7 23l5-3 5 3-1.21-9.12"/></svg>Excelência</span>
+      <span class="v-sep"></span>
+      <span class="v-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3z"/><path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>Cliente</span>
+      <span class="v-sep"></span>
+      <span class="v-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.1v.2h6v-.2c0-.8.4-1.6 1-2.1A7 7 0 0 0 12 2z"/></svg>Inovação</span>
+    </div>
+    <span class="values-line"></span>
+  </div>
+</div>
+
+<div class="folder-outer" id="folderOuter" style="display:none;">
+  <div class="folder-tabs" id="tabBar">
+    <div class="folder-tab" data-tab="wagner" title="Wagner Felix" style="--tc:var(--cyan); --tc-dim:var(--cyan-dim);">
+      <span class="f-dot">W</span>
+    </div>
+    <div class="folder-tab" data-tab="bruno" title="Bruno Queiroz" style="--tc:var(--green); --tc-dim:var(--green-dim);">
+      <span class="f-dot">B</span>
+    </div>
+    <div class="folder-tab" data-tab="leonardo" title="Leonardo Gonçalez" style="--tc:var(--blue); --tc-dim:var(--blue-dim);">
+      <span class="f-dot">L</span>
+    </div>
+    <div class="folder-tab" data-tab="joao" title="João Alves" style="--tc:var(--amber); --tc-dim:var(--amber-dim);">
+      <span class="f-dot">J</span>
+    </div>
+    <div class="folder-tab" data-tab="rodney" title="Rodney Botelho" style="--tc:var(--violet); --tc-dim:var(--violet-dim);">
+      <span class="f-dot">R</span>
+    </div>
+    <div class="folder-tab" data-tab="gustavo" title="Gustavo Camargo" style="--tc:var(--orange); --tc-dim:var(--orange-dim);">
+      <span class="f-dot">G</span>
+    </div>
+  </div>
+
+  <div class="folder-panel" id="folderPanel">
+    <div class="hero">
+      <div class="hero-eyebrow" id="heroEyebrow">Painel de acompanhamento</div>
+      <div class="hero-grid">
+        <div>
+          <h1 class="hero-title" id="heroTitle"></h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="kpis" id="kpiStrip"></div>
+
+    <div class="controls">
+      <div class="search">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input id="searchInput" placeholder="Buscar meta ou fase…">
+      </div>
+      <div class="chips" id="statusChips"></div>
+    </div>
+
+    <div id="metasSection">
+      <div class="metas" id="metasList"></div>
+
+      <div class="crit-section" id="critSection">
+        <h3 class="crit-title">Critérios de sucesso adicionais</h3>
+        <p class="crit-sub">Itens do backlog geral sem fases detalhadas — critérios de aceite do trimestre.</p>
+        <div class="crit-grid" id="critGrid"></div>
+      </div>
+
+      <div id="indexNote" style="display:none; max-width:1180px; margin:0 auto; padding:0 28px 40px;">
+        <div style="border:1px dashed var(--border-hi); border-radius:14px; padding:16px 20px; font-family:var(--mono); font-size:12px; color:var(--text-mute); line-height:1.6;">
+          <span style="color:var(--text-dim);">* Observação:</span> <span id="indexNoteText"></span>
+        </div>
+      </div>
+    </div>
+
+    <div id="roadmapSection" style="display:none;">
+      <div style="max-width:1180px; margin:0 auto; padding:8px 28px 14px;">
+        <h3 class="crit-title">Quadro · ClickUp</h3>
+        <p class="crit-sub">Snapshot das tarefas da lista do ClickUp — role para o lado para ver todas as colunas.</p>
+      </div>
+      <div class="board" id="roadmapBoard"></div>
+    </div>
+
+    <footer>
+      <span>Fonte: ClickUp · Lista <a id="footerSourceLink" href="#" target="_blank">—</a></span>
+    </footer>
+  </div>
+</div>
+
+<div class="detail-outer" id="metaDetailView" style="display:none;"></div>
+
+<script>
+// ================= DADOS =================
+const LAST_SYNC_UTC = "2026-08-14T22:11:50.359423+00:00";
+
+const WAGNER_METAS = [
+];
+const BRUNO_METAS = [
+];
+const LEONARDO_METAS = [
+];
+const JOAO_METAS = [
+];
+const RODNEY_METAS = [
+];
+const GUSTAVO_METAS = [
+];
+
+
+const STATUS_META = {
+  'backlog':    {label:'Não iniciado', cls:'b-backlog',  color:'var(--slate)'},
+  'in planning':{label:'Planejamento', cls:'b-planning', color:'var(--amber)'},
+  'in progress':{label:'Em andamento', cls:'b-progress', color:'var(--blue)'},
+  'in test':    {label:'Em teste',     cls:'b-test',     color:'var(--violet)'},
+  'in review':  {label:'Em revisão',   cls:'b-review',   color:'var(--orange)'},
+  'blocked':    {label:'Bloqueada',    cls:'b-blocked',  color:'var(--red)'},
+  'shipped':    {label:'Concluído',    cls:'b-shipped',  color:'var(--green)'}
+};
+const STATUS_WEIGHT = {'backlog':0,'in planning':0,'in progress':0,'in test':0,'in review':0,'blocked':0,'shipped':1};
+
+// Status do board RoadMap — cores oficiais configuradas na lista "Wagner" do ClickUp
+const ROADMAP_STATUS_META = {
+  'aberto':             {label:'Aberto',             color:'#656f7d'},
+  'planejamento':       {label:'Planejamento',       color:'#a18072'},
+  'em andamento':       {label:'Em andamento',       color:'#4466ff'},
+  'revisando':          {label:'Revisando',          color:'#e16b16'},
+  'bloqueada':          {label:'Bloqueada',          color:'#000000'},
+  'rejeitada':          {label:'Rejeitada',          color:'#b660e0'},
+  'aguardando retorno': {label:'Aguardando retorno', color:'#ffc53d'},
+  'impedimento':        {label:'Impedimento',        color:'#d33d44'},
+  'concluído':          {label:'Concluído',          color:'#3e63dd'},
+  'fechado':            {label:'Fechado',            color:'#008844'}
+};
+const ROADMAP_DONE_STATUSES = ['concluído','fechado'];
+
+// Tarefas da lista "Wagner" · ClickUp (https://app.clickup.com/3080406/v/b/li/901326954601)
+const WAGNER_TASKS = [
+  {id:'86ak0ykuq', name:'Criar alarme de alerta amarelo, no dia do vencimento', status:'aberto', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0ykuq'},
+  {id:'86ak0ykhj', name:'Alarmar com atrasado somente quando passar a data de conclusão', status:'aberto', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0ykhj'},
+  {id:'86ak0yjnn', name:'Melhoria do painel de metas', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0yjnn'},
+  {id:'86ak0vchx', name:'Automatizar no escritório de Projetos o envio da TEP assinada pelo cliente para início do faturamento', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0vchx'},
+  {id:'86ak0v91j', name:'Criar painel de tarefas para todos os times da diretoria (OnePage)', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0v91j'},
+  {id:'86ajhv42w', name:'Replanejamento da migração com abertura do projeto de Desmobilização 2.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ajhv42w'},
+  {id:'86ajdufj9', name:'Redefinir o painel de projetos nos moldes do CC', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ajdufj9'},
+  {id:'86aj74xpa', name:'Finalização do projeto da GIMBA no sistema', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj74xpa'},
+  {id:'86aj74bfu', name:'Deleção de domínio', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj74bfu'},
+  {id:'86aj7461w', name:'Mudança de IP da BMC para liberar IP', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj7461w'},
+  {id:'86aj73tvf', name:'Controle sendo o mesmo core do CC (projetos.binario.cloud)', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73tvf'},
+  {id:'86aj73tv0', name:'Desativação da 2.0 fisicamente', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73tv0'},
+  {id:'86aj73tut', name:'Migração 2>3: reduzir e chegar a ≤100 VMs de clientes com comprovação', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73tut'},
+  {id:'86aj73tua', name:'Consolidação da Governança', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73tua'},
+  {id:'86aj73ttz', name:'Sanitização 3.0 (contínuo)', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73ttz'},
+  {id:'86aj73tth', name:'Sanitização 2.0 (contínuo)', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73tth'},
+  {id:'86aj73try', name:'Projeto Observabilidade', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73try'},
+  {id:'86aj73trc', name:'Projeto ClaudIA', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73trc'},
+  {id:'86aj3t57d', name:'Planejamento modificações Alerj', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj3t57d'},
+  {id:'86ahf5dbz', name:'Novo planejamento de Ondas para Migração BCP', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5dbz'},
+  {id:'86ahf5dby', name:'Fechar projeto DISMAC', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5dby'},
+  {id:'86ahf5dbn', name:'Alinhar apresentação com o Bruno', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5dbn'},
+  {id:'86ahf5dba', name:'Limpar 2.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5dba'},
+  {id:'86ahf5db1', name:'Capacity 3.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5db1'},
+  {id:'86ahf5daf', name:'Capacity 2.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5daf'},
+  {id:'86ahd7jn3', name:'Reunião com cada líder/par para entendimento da área', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahd7jn3'},
+  {id:'86ahd7hkq', name:'Dash único com todas as visões de projetos internos', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahd7hkq'},
+  {id:'86ahc8yjj', name:'08/05 - Continuação da limpeza de VMs', status:'fechado', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahc8yjj'},
+  {id:'86ahbt0ud', name:'07/05 - Atualização do relatório e desligamento de VMs', status:'fechado', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahbt0ud'},
+  {id:'86ahar8k5', name:'Status migração 2>3', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahar8k5'},
+  {id:'86ahar8a7', name:'Validação dos modelos no ClickUp', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahar8a7'},
+  {id:'86ahar860', name:'Criação do relatório de fechamento tático', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahar860'},
+  {id:'86ahar7zw', name:'Processo da área', status:'revisando', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahar7zw'},
+  {id:'86ahar7wh', name:'Plano de 100 dias', status:'revisando', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahar7wh'},
+  {id:'86ah462pk', name:'Limpeza - BCOS 2.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ah462pk'},
+  {id:'86ah436mx', name:'Execução da limpeza - Services', status:'fechado', assignees:['João Alves'], url:'https://app.clickup.com/t/86ah436mx'},
+  {id:'86ah4368f', name:'Lista de máquinas recebidas da Engenharia', status:'fechado', assignees:[], url:'https://app.clickup.com/t/86ah4368f'},
+  {id:'86ah435z8', name:'Limpeza das VMs em Default - Services', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ah435z8'},
+  {id:'86ah435by', name:'Limpeza dos projetos internos', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ah435by'}
+];
+
+function fmtDate(ms){
+  if(!ms) return '—';
+  const d = new Date(Number(ms));
+  return d.toLocaleDateString('pt-BR',{day:'2-digit',month:'short',year:'numeric'});
+}
+
+// Regra: uma atividade só fica "atrasada" (vermelho) a partir do dia SEGUINTE
+// ao prazo — compara datas de calendário, não o horário exato. No próprio dia
+// do prazo, fica "pendente" (amarelo), não atrasada.
+function startOfDay(ms){
+  const d = new Date(Number(ms));
+  d.setHours(0,0,0,0);
+  return d.getTime();
+}
+function ativDueState(a){
+  if(!a.due || a.status === 'shipped') return null;
+  const hoje = startOfDay(Date.now());
+  const dia = startOfDay(a.due);
+  if(dia < hoje) return 'atrasada';
+  if(dia === hoje) return 'pendente';
+  return null;
+}
+
+const CRITERIOS = {};
+
+const PROJECTS = {
+  wagner: {
+    label: 'Wagner Felix',
+    tbTitle: 'Entregas de Líderes Ops & Eng & Proj · Wagner Felix',
+    eyebrow: 'Painel de acompanhamento · Engenharia e Operações · Wagner Felix',
+    heroHtml: 'Entregas de Líderes<br>Ops &amp; Eng &amp; <span>Proj</span>',
+    metas: WAGNER_METAS,
+    criterios: CRITERIOS,
+    tasks: WAGNER_TASKS,
+    sourceLabel: 'Quadro Wagner',
+    sourceUrl: 'https://app.clickup.com/3080406/v/b/li/901326954601',
+    color: 'var(--cyan)'
+  },
+  bruno: {
+    label: 'Bruno Queiroz',
+    tbTitle: 'Entregas de Líderes Ops & Eng & Proj · Bruno Queiroz',
+    eyebrow: 'Painel de acompanhamento · Engenharia e Operações · Bruno Queiroz',
+    heroHtml: 'Entregas de Líderes<br>Ops &amp; Eng &amp; <span>Proj</span>',
+    metas: BRUNO_METAS,
+    criterios: CRITERIOS,
+    sourceLabel: 'Metas de Operações',
+    sourceUrl: '',
+    color: 'var(--green)'
+  },
+  leonardo: {
+    label: 'Leonardo Gonçalez',
+    tbTitle: 'Entregas de Líderes Ops & Eng & Proj · Leonardo Gonçalez',
+    eyebrow: 'Painel de acompanhamento · Engenharia e Operações · Leonardo Gonçalez',
+    heroHtml: 'Entregas de Líderes<br>Ops &amp; Eng &amp; <span>Proj</span>',
+    metas: LEONARDO_METAS,
+    criterios: CRITERIOS,
+    sourceLabel: 'Metas de Operações',
+    sourceUrl: '',
+    color: 'var(--blue)'
+  },
+  joao: {
+    label: 'João Alves',
+    tbTitle: 'Entregas de Líderes Ops & Eng & Proj · João Alves',
+    eyebrow: 'Painel de acompanhamento · Engenharia e Operações · João Alves',
+    heroHtml: 'Entregas de Líderes<br>Ops &amp; Eng &amp; <span>Proj</span>',
+    metas: JOAO_METAS,
+    criterios: CRITERIOS,
+    sourceLabel: 'Metas de Operações',
+    sourceUrl: '',
+    color: 'var(--amber)'
+  },
+  rodney: {
+    label: 'Rodney Botelho',
+    tbTitle: 'Entregas de Líderes Ops & Eng & Proj · Rodney Botelho',
+    eyebrow: 'Painel de acompanhamento · Engenharia e Operações · Rodney Botelho',
+    heroHtml: 'Entregas de Líderes<br>Ops &amp; Eng &amp; <span>Proj</span>',
+    metas: RODNEY_METAS,
+    criterios: CRITERIOS,
+    sourceLabel: 'Metas de Operações',
+    sourceUrl: '',
+    color: 'var(--violet)'
+  },
+  gustavo: {
+    label: 'Gustavo Camargo',
+    tbTitle: 'Entregas de Líderes Ops & Eng & Proj · Gustavo Camargo',
+    eyebrow: 'Painel de acompanhamento · Engenharia e Operações · Gustavo Camargo',
+    heroHtml: 'Entregas de Líderes<br>Ops &amp; Eng &amp; <span>Proj</span>',
+    metas: GUSTAVO_METAS,
+    criterios: CRITERIOS,
+    sourceLabel: 'Metas de Operações',
+    sourceUrl: '',
+    color: 'var(--orange)'
+  }
+};
+
+let activeTab = 'wagner';
+let activeStatus = 'all';
+let detailStatusFilter = 'all';
+
+function faseProgress(f){
+  if(f.status==='shipped') return 1;
+  if(!f.ativ || !f.ativ.length) return STATUS_WEIGHT[f.status] || 0;
+  const shipped = f.ativ.filter(a=>a.status==='shipped').length;
+  return shipped/f.ativ.length;
+}
+function metaProgress(m){
+  if(m.status==='shipped') return 1;
+  if(!m.fases.length) return STATUS_WEIGHT[m.status] || 0;
+  const w = m.fases.reduce((s,f)=>s+faseProgress(f),0);
+  return w/m.fases.length;
+}
+function metaOverdueCount(m){
+  let n = 0;
+  m.fases.forEach(f=>(f.ativ||[]).forEach(a=>{
+    if(ativDueState(a) === 'atrasada') n++;
+  }));
+  return n;
+}
+function metaPendingCount(m){
+  let n = 0;
+  m.fases.forEach(f=>(f.ativ||[]).forEach(a=>{
+    if(ativDueState(a) === 'pendente') n++;
+  }));
+  return n;
+}
+
+function badge(status){
+  const s = STATUS_META[status];
+  return `<span class="badge ${s.cls}">${s.label}</span>`;
+}
+
+const chipDefs = [['all','Todas'],['backlog','Não iniciado'],['in planning','Planejamento'],['in progress','Em andamento'],['in test','Em teste'],['in review','Em revisão'],['blocked','Bloqueada'],['shipped','Concluído']];
+const chipsEl = document.getElementById('statusChips');
+function buildChips(){
+  chipsEl.innerHTML = '';
+  chipDefs.forEach(([key,label])=>{
+    const el = document.createElement('div');
+    el.className = 'chip'+(key===activeStatus?' active':'');
+    el.textContent = label;
+    el.dataset.key = key;
+    el.onclick = ()=>{ activeStatus = key; [...chipsEl.children].forEach(c=>c.classList.toggle('active', c===el)); renderMetas(); };
+    chipsEl.appendChild(el);
+  });
+}
+
+function renderRing(project){
+  const metasParaIndice = project.metas.filter(m=>!m.excludeFromIndex);
+  const allFases = metasParaIndice.flatMap(m=>m.fases);
+
+  // contagem por status a nível de META (não de fase) — bate com o total de "metas estratégicas"
+  const metaCounts = {shipped:0,'in progress':0,'in review':0,'in test':0,'in planning':0,blocked:0,backlog:0};
+  metasParaIndice.forEach(m=>metaCounts[m.status]++);
+
+  // % geral = média do progresso de cada meta (metaProgress já trata metas com e sem fases)
+  // metas marcadas com excludeFromIndex ficam de fora dessa conta (ver nota no rodapé da página)
+  const sumProgress = metasParaIndice.reduce((s,m)=>s+metaProgress(m),0);
+  const overallPct = metasParaIndice.length ? Math.round((sumProgress/metasParaIndice.length)*100) : 0;
+
+  const foraDoIndice = project.metas.length - metasParaIndice.length;
+  document.getElementById('kpiStrip').innerHTML = `
+    <div class="kpi"><div class="k-num">${project.metas.length}</div><div class="k-label">Metas estratégicas</div></div>
+    <div class="kpi c-shipped"><div class="k-num">${metaCounts.shipped}</div><div class="k-label">Metas concluídas</div></div>
+    <div class="kpi c-progress"><div class="k-num">${metaCounts['in progress']}</div><div class="k-label">Metas em andamento</div></div>
+    <div class="kpi c-backlog"><div class="k-num">${metaCounts.backlog}</div><div class="k-label">Metas não iniciadas</div></div>
+    ${foraDoIndice ? `<div class="kpi kpi-muted"><div class="k-num">${foraDoIndice}</div><div class="k-label">Novas (fora do índice)*</div></div>` : `<div class="kpi kpi-muted"><div class="k-num">${allFases.length}</div><div class="k-label">Fases mapeadas (detalhe)</div></div>`}`;
+
+  const noteEl = document.getElementById('indexNote');
+  if(foraDoIndice){
+    const nomes = project.metas.filter(m=>m.excludeFromIndex).map(m=>m.short).join(', ');
+    document.getElementById('indexNoteText').textContent =
+      `${nomes} estão listadas para acompanhamento, mas não integram o cálculo do índice consolidado geral.`;
+    noteEl.style.display = '';
+  } else {
+    noteEl.style.display = 'none';
+  }
+}
+
+function renderMetas(){
+  const project = PROJECTS[activeTab];
+  const q = document.getElementById('searchInput').value.trim().toLowerCase();
+  const list = document.getElementById('metasList');
+  list.innerHTML = '';
+  if(project.metas.length === 0){
+    list.innerHTML = '<div style="padding:48px 20px; text-align:center; color:var(--text-mute); font-family:var(--mono); font-size:13px;">Nenhuma meta cadastrada ainda.</div>';
+    return;
+  }
+  project.metas.forEach(m=>{
+    const matchStatus = activeStatus==='all' || m.status===activeStatus;
+    const matchQ = !q || m.name.toLowerCase().includes(q) || m.short.toLowerCase().includes(q) || m.fases.some(f=>f.n.toLowerCase().includes(q));
+    if(!matchStatus || !matchQ) return;
+
+    const pct = Math.round(metaProgress(m)*100);
+    const overdueCount = metaOverdueCount(m);
+    const pendingCount = metaPendingCount(m);
+    const card = document.createElement('div');
+    card.className = 'meta-card meta-card-link' + (overdueCount>0 ? ' meta-atrasada' : (pendingCount>0 ? ' meta-pendente' : ''));
+    card.innerHTML = `
+      <div class="meta-head">
+        <div class="meta-num">META<b>${String(m.num).padStart(2,'0')}</b></div>
+        <div class="meta-name">
+          <div class="n1">${m.short}${m.excludeFromIndex?' <span style="color:var(--text-mute); font-weight:400;">*</span>':''}</div>
+          <div class="n2">${m.tags.map(t=>`<span class="tag">${t}</span>`).join('')}${overdueCount>0?`<span class="overdue-pill">⚠ ${overdueCount} atrasada${overdueCount>1?'s':''}</span>`:(pendingCount>0?`<span class="overdue-pill" style="color:var(--amber); background:rgba(255,198,92,.14); border-color:#5c4a1f;">● ${pendingCount} pendente${pendingCount>1?'s':''} hoje</span>`:'')}</div>
+        </div>
+        ${badge(m.status)}
+        <div class="meta-bar"><div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div></div>
+        <svg class="chev chev-open" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
+      </div>`;
+    card.addEventListener('click', ()=>{
+      location.hash = '#/meta/'+activeTab+'/'+m.num;
+    });
+    list.appendChild(card);
+  });
+}
+
+function renderCriterios(project){
+  const critGrid = document.getElementById('critGrid');
+  critGrid.innerHTML = '';
+  const critColors = {'Solução de Backup em produção':'var(--blue)','Higiene de infraestrutura':'var(--red)'};
+  Object.entries(project.criterios).forEach(([title,items])=>{
+    const card = document.createElement('div');
+    card.className = 'crit-card';
+    card.innerHTML = `<h4><span class="sw" style="background:${critColors[title]||'var(--cyan)'}"></span>${title}</h4>
+      <ul class="crit-list">${items.map(i=>`<li><span class="cb"></span>${i}</li>`).join('')}</ul>`;
+    critGrid.appendChild(card);
+  });
+}
+
+// ================= ROADMAP (board) =================
+function initials(name){
+  return name.split(' ').filter(Boolean).slice(0,2).map(w=>w[0]).join('').toUpperCase();
+}
+function avColor(name){
+  let h = 0;
+  for(let i=0;i<name.length;i++) h = name.charCodeAt(i) + ((h<<5)-h);
+  return `hsl(${h%360},55%,45%)`;
+}
+
+function renderBoardRing(project){
+  const tasks = project.tasks;
+  const counts = {};
+  Object.keys(ROADMAP_STATUS_META).forEach(k=>counts[k]=0);
+  tasks.forEach(t=>{ if(counts[t.status]===undefined) counts[t.status]=0; counts[t.status]++; });
+
+  const doneCount = tasks.filter(t=>ROADMAP_DONE_STATUSES.includes(t.status)).length;
+  const overallPct = tasks.length ? Math.round((doneCount/tasks.length)*100) : 0;
+
+  const CIRC = 2*Math.PI*48;
+  const ringFg = document.getElementById('ringFg');
+  ringFg.style.strokeDasharray = CIRC.toFixed(1);
+  ringFg.style.strokeDashoffset = CIRC.toFixed(1);
+  requestAnimationFrame(()=>{
+    ringFg.style.strokeDashoffset = (CIRC*(1-overallPct/100)).toFixed(1);
+  });
+  document.getElementById('ringPct').textContent = overallPct+'%';
+
+  document.getElementById('kpiStrip').innerHTML = `
+    <div class="kpi"><div class="k-num">${tasks.length}</div><div class="k-label">Itens no backlog</div></div>
+    <div class="kpi"><div class="k-num">${counts['aberto']||0}</div><div class="k-label">Em aberto</div></div>
+    <div class="kpi c-progress"><div class="k-num">${(counts['em andamento']||0)+(counts['revisando']||0)}</div><div class="k-label">Em andamento / revisão</div></div>
+    <div class="kpi"><div class="k-num">${counts['impedimento']||0}</div><div class="k-label">Impedimentos</div></div>
+    <div class="kpi c-shipped"><div class="k-num">${doneCount}</div><div class="k-label">Concluídos</div></div>`;
+}
+
+function renderBoard(project){
+  const board = document.getElementById('roadmapBoard');
+  board.innerHTML = '';
+
+  const statusKeys = Object.keys(ROADMAP_STATUS_META);
+
+  statusKeys.forEach(statusKey=>{
+    const meta = ROADMAP_STATUS_META[statusKey];
+    const tasks = (project.tasks||[]).filter(t=>t.status===statusKey);
+    if(tasks.length===0) return; // esconde colunas vazias
+
+    const col = document.createElement('div');
+    col.className = 'board-col';
+    col.innerHTML = `
+      <div class="board-col-head">
+        <span class="bc-dot" style="background:${meta.color}"></span>
+        <span>${meta.label}</span>
+        <span class="bc-count">${tasks.length}</span>
+      </div>
+      <div class="board-col-body">
+        ${tasks.length ? tasks.map(t=>`
+          <div class="board-card">
+            <div class="bc-name">${t.name}</div>
+            <div class="bc-foot">
+              <div class="bc-avatars">
+                ${t.assignees.map(a=>`<span class="bc-av" style="background:${avColor(a)}" title="${a}">${initials(a)}</span>`).join('')}
+              </div>
+              <a class="bc-link" href="${t.url}" target="_blank" title="Abrir no ClickUp">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><path d="M15 3h6v6"/><path d="M10 14L21 3"/></svg>
+              </a>
+            </div>
+          </div>`).join('') : '<div class="board-empty">Sem itens</div>'}
+      </div>`;
+    board.appendChild(col);
+  });
+}
+
+function selectTab(tab){
+  activeTab = tab;
+  activeStatus = 'all';
+  document.getElementById('searchInput').value = '';
+  const project = PROJECTS[tab];
+  const hasBoard = !!(project.tasks && project.tasks.length);
+  [...document.querySelectorAll('.folder-tab')].forEach(b=>b.classList.toggle('active', b.dataset.tab===tab));
+  document.getElementById('folderPanel').style.setProperty('--panel-active', project.color);
+  document.getElementById('tbTitleName').textContent = project.tbTitle;
+  document.getElementById('heroEyebrow').textContent = project.eyebrow;
+  document.getElementById('heroTitle').innerHTML = project.heroHtml;
+  document.getElementById('footerSourceLink').textContent = project.sourceLabel;
+  document.getElementById('footerSourceLink').href = project.sourceUrl;
+  document.getElementById('searchInput').placeholder = 'Buscar meta ou fase…';
+  document.querySelector('.controls').style.display = '';
+  document.getElementById('metasSection').style.display = '';
+  document.getElementById('roadmapSection').style.display = hasBoard ? '' : 'none';
+  buildChips();
+  renderRing(project);
+  renderMetas();
+  renderCriterios(project);
+  if(hasBoard){
+    renderBoard(project);
+  }
+}
+
+document.querySelectorAll('.folder-tab').forEach(btn=>{
+  btn.addEventListener('click', ()=>selectTab(btn.dataset.tab));
+});
+document.getElementById('searchInput').addEventListener('input', ()=>{
+  PROJECTS[activeTab].type==='board' ? renderBoard() : renderMetas();
+});
+
+selectTab('wagner');
+
+// footer / topbar dates
+const now = new Date();
+document.getElementById('tb-date').textContent = now.toLocaleDateString('pt-BR',{day:'2-digit',month:'short',year:'numeric'});
+
+if (typeof LAST_SYNC_UTC !== 'undefined' && LAST_SYNC_UTC) {
+  const syncDate = new Date(LAST_SYNC_UTC);
+  const formatted = syncDate.toLocaleString('pt-BR', {
+    timeZone: 'America/Sao_Paulo',
+    day: '2-digit', month: '2-digit', year: 'numeric',
+    hour: '2-digit', minute: '2-digit'
+  });
+  document.getElementById('tb-gen').textContent = 'Atualizado em ' + formatted + ' (horário de Brasília)';
+} else {
+  document.getElementById('tb-gen').textContent = 'Atualizado em ' + now.toLocaleString('pt-BR');
+}
+
+// ================= PÁGINA DE DETALHE DE UMA META =================
+function renderMetaDetailPage(tab, num){
+  const project = PROJECTS[tab];
+  const meta = project.metas.find(m=>m.num===num);
+  const view = document.getElementById('metaDetailView');
+  if(!project || project.type==='board' || !meta){
+    view.innerHTML = `<div class="detail-outer"><a class="detail-back" href="#">← Voltar ao painel</a><p style="color:var(--text-dim); font-family:var(--mono); font-size:13px;">Meta não encontrada.</p></div>`;
+    return;
+  }
+  const pct = Math.round(metaProgress(meta)*100);
+  const overdueCount = metaOverdueCount(meta);
+
+  // índice de atividades da meta (todas as atividades de todas as fases)
+  const allAtiv = meta.fases.flatMap(f=>f.ativ||[]);
+  const ativCounts = {concluida:0, atrasada:0, pendente:0, andamento:0, naoIniciada:0};
+  allAtiv.forEach(a=>{
+    const estado = ativDueState(a);
+    if(a.status==='shipped') ativCounts.concluida++;
+    else if(estado==='atrasada') ativCounts.atrasada++;
+    else if(estado==='pendente') ativCounts.pendente++;
+    else if(a.status==='in progress'||a.status==='in test'||a.status==='in review') ativCounts.andamento++;
+    else ativCounts.naoIniciada++;
+  });
+
+  const fasesFiltered = detailStatusFilter==='all' ? meta.fases : meta.fases.filter(f=>
+    f.status===detailStatusFilter || (f.ativ||[]).some(a=>a.status===detailStatusFilter)
+  );
+
+  const fasesHtml = fasesFiltered.length ? fasesFiltered.map((f)=>{
+    const i = meta.fases.indexOf(f);
+    return `
+    <div class="fase-wrap open">
+      <div class="fase-row${f.ativ&&f.ativ.length?' has-ativ':''}" style="cursor:default;">
+        <div class="fase-idx">${String(i+1).padStart(2,'0')}</div>
+        <div class="fase-name">${f.n}${f.ativ&&f.ativ.length?`<small>${f.ativ.length} atividade(s)</small>`:''}</div>
+        <div class="fase-assignee">${f.assignee||'—'}</div>
+        ${badge(f.status)}
+        <span></span>
+        <a class="fase-link" href="https://app.clickup.com/t/${f.id}" target="_blank" title="Abrir no ClickUp">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><path d="M15 3h6v6"/><path d="M10 14L21 3"/></svg>
+        </a>
+      </div>
+      ${f.ativ&&f.ativ.length?`<div class="ativ-list" style="display:flex">
+        ${f.ativ.map(a=>{
+          const estado = ativDueState(a);
+          const od = estado==='atrasada', pend = estado==='pendente', done = a.status==='shipped';
+          const cor = od?'var(--red)':pend?'var(--amber)':STATUS_META[a.status].color;
+          const label = od?'ATRASADA':pend?'PENDENTE':STATUS_META[a.status].label;
+          return `<div class="ativ-row${od?' atrasada':''}${pend?' pendente':''}${done?' concluida':''}"><span class="ativ-dot" style="background:${cor}"></span><span class="ativ-name">${a.n}</span>${a.due?`<span class="ativ-due">${fmtDate(a.due)}</span>`:''}<span class="ativ-status">${label}</span>${a.id?`<a class="ativ-link" href="https://app.clickup.com/t/${a.id}" target="_blank" title="Abrir no ClickUp"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg></a>`:''}</div>`;
+        }).join('')}
+      </div>`:''}
+    </div>`;}).join('') : (meta.fases.length ? `<p style="color:var(--text-mute); font-family:var(--mono); font-size:12.5px;">Nenhuma fase com esse status.</p>` : `<p style="color:var(--text-mute); font-family:var(--mono); font-size:12.5px;">Esta meta não possui fases detalhadas — acompanhamento feito diretamente pelo status geral.</p>`);
+
+  const detailChipDefs = [['all','Todas'],['backlog','Não iniciado'],['in planning','Planejamento'],['in progress','Em andamento'],['in test','Em teste'],['in review','Em revisão'],['blocked','Bloqueada'],['shipped','Concluído']];
+  const detailChipsHtml = meta.fases.length ? `<div class="chips" style="margin-bottom:18px;">${detailChipDefs.map(([key,label])=>
+    `<div class="chip${detailStatusFilter===key?' active':''}" onclick="setDetailFilter('${tab}',${num},'${key}')">${label}</div>`
+  ).join('')}</div>` : '';
+
+  const CIRC = 2*Math.PI*48;
+  const offset = (CIRC*(1-pct/100)).toFixed(1);
+
+  view.innerHTML = `
+    <div class="detail-outer">
+      <a class="detail-back" href="#">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+        Voltar ao painel · ${project.label}
+      </a>
+      <div class="detail-panel" style="--detail-color:${project.color};">
+        <div class="detail-eyebrow">META ${String(meta.num).padStart(2,'0')} · ${project.tbTitle}</div>
+        <div class="detail-top">
+          <div>
+            <h1 class="detail-title">${meta.name}</h1>
+            <div class="detail-tags">${meta.tags.map(t=>`<span class="tag">${t}</span>`).join('')}${overdueCount>0?`<span class="overdue-pill">⚠ ${overdueCount} atrasada${overdueCount>1?'s':''}</span>`:''}</div>
+            <div class="detail-meta-row">Responsável ${meta.assignee} · Prazo ${fmtDate(meta.due)} · ${meta.fases.length} fase(s) · ${allAtiv.length} atividade(s)</div>
+          </div>
+          <div class="detail-ring-box">
+            <div class="ring-wrap">
+              <svg width="112" height="112" viewBox="0 0 112 112">
+                <circle class="ring-bg" cx="56" cy="56" r="48"></circle>
+                <circle class="ring-fg" cx="56" cy="56" r="48" stroke="${project.color}" stroke-dasharray="${CIRC.toFixed(1)}" stroke-dashoffset="${offset}"></circle>
+              </svg>
+              <div class="ring-num"><small>Status</small></div>
+            </div>
+            ${badge(meta.status)}
+          </div>
+        </div>
+
+        ${allAtiv.length ? `
+        <div class="kpis" style="max-width:none; margin:0 0 30px; padding:0;">
+          <div class="kpi"><div class="k-num">${allAtiv.length}</div><div class="k-label">Total de atividades</div></div>
+          <div class="kpi c-shipped"><div class="k-num">${ativCounts.concluida}</div><div class="k-label">Concluídas</div></div>
+          <div class="kpi c-progress"><div class="k-num">${ativCounts.andamento}</div><div class="k-label">Em andamento</div></div>
+          <div class="kpi c-backlog"><div class="k-num">${ativCounts.naoIniciada}</div><div class="k-label">Não iniciadas</div></div>
+          <div class="kpi" style="border-color:${ativCounts.pendente>0?'var(--amber)':'var(--border)'}"><div class="k-num" style="color:${ativCounts.pendente>0?'var(--amber)':'var(--text)'}">${ativCounts.pendente}</div><div class="k-label">Pendentes (hoje)</div></div>
+          <div class="kpi" style="border-color:${ativCounts.atrasada>0?'var(--red)':'var(--border)'}"><div class="k-num" style="color:${ativCounts.atrasada>0?'var(--red)':'var(--text)'}">${ativCounts.atrasada}</div><div class="k-label">Atrasadas</div></div>
+        </div>` : ''}
+
+        <h3 class="detail-fases-title">Fases da meta</h3>
+        ${detailChipsHtml}
+        ${fasesHtml}
+
+        ${meta.detail?`<div class="detail-text"><h4>Ficha completa da meta</h4>${meta.detail}</div>`:''}
+      </div>
+    </div>`;
+}
+
+function setDetailFilter(tab, num, status){
+  detailStatusFilter = status;
+  renderMetaDetailPage(tab, parseInt(num,10));
+}
+
+let enteredPanel = false;
+
+function goToLeader(tab){
+  enterPanel();
+  selectTab(tab);
+}
+
+function enterPanel(){
+  enteredPanel = true;
+  document.querySelector('.cover').style.display = 'none';
+  document.querySelector('.folder-outer').style.display = '';
+  document.getElementById('tbBackLink').style.display = '';
+  window.scrollTo(0,0);
+}
+function backToCover(){
+  enteredPanel = false;
+  document.querySelector('.cover').style.display = '';
+  document.querySelector('.folder-outer').style.display = 'none';
+  document.getElementById('metaDetailView').style.display = 'none';
+  document.getElementById('tbBackLink').style.display = 'none';
+  window.scrollTo(0,0);
+  if(location.hash) history.pushState('', document.title, window.location.pathname + window.location.search);
+}
+
+function showDetailPage(tab, num){
+  if(activeTab !== tab) selectTab(tab);
+  detailStatusFilter = 'all';
+  enteredPanel = true;
+  document.querySelector('.cover').style.display = 'none';
+  document.querySelector('.folder-outer').style.display = 'none';
+  document.getElementById('tbBackLink').style.display = '';
+  const view = document.getElementById('metaDetailView');
+  view.style.display = 'block';
+  renderMetaDetailPage(tab, num);
+  window.scrollTo(0,0);
+}
+function showDashboard(){
+  document.querySelector('.folder-outer').style.display = enteredPanel ? '' : 'none';
+  document.querySelector('.cover').style.display = enteredPanel ? 'none' : '';
+  document.getElementById('tbBackLink').style.display = enteredPanel ? '' : 'none';
+  document.getElementById('metaDetailView').style.display = 'none';
+}
+function checkRoute(){
+  const match = location.hash.match(/^#\/meta\/(wagner|bruno|leonardo|joao|rodney|gustavo)\/(\d+)$/);
+  if(match){
+    enteredPanel = true;
+    showDetailPage(match[1], parseInt(match[2], 10));
+  } else {
+    showDashboard();
+  }
+}
+window.addEventListener('hashchange', checkRoute);
+checkRoute();
+</script>
+</body>
+</html>
