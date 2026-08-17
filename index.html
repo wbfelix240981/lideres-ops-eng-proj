@@ -1409,7 +1409,7 @@ function buildChips(){
 function renderRing(project){
   const hasBoard = !!(project.tasks && project.tasks.length);
 
-  if(project.metas.length === 0 && hasBoard){
+  if(hasBoard){
     // Sem metas cadastradas, mas com quadro do ClickUp: os índices refletem as tarefas do quadro
     const total = project.tasks.length;
     const done = project.tasks.filter(t=>ROADMAP_DONE_STATUSES.includes(t.status)).length;
