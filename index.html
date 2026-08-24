@@ -520,6 +520,24 @@
     box-shadow:var(--shadow-sm);
   }
   .board-card:hover{border-color:var(--cyan); transform:translateY(-2px); box-shadow:var(--shadow-md);}
+  .board-card.just-done{
+    border:1.5px solid var(--green);
+    animation: pulseDone 1.8s ease-in-out infinite;
+  }
+  .board-card.just-done .bc-name{font-weight:600;}
+  .board-card .done-badge{
+    display:inline-flex; align-items:center; gap:4px; font-family:var(--mono); font-size:9.5px; font-weight:700;
+    letter-spacing:.04em; text-transform:uppercase; color:var(--green); margin-bottom:6px;
+  }
+  .board-card .done-badge .dot{width:6px; height:6px; border-radius:50%; background:var(--green); animation: pulseDot 1.8s ease-in-out infinite;}
+  @keyframes pulseDone{
+    0%, 100% { box-shadow:0 0 0 0 rgba(34,197,94,.45), var(--shadow-sm); border-color:var(--green); }
+    50% { box-shadow:0 0 0 6px rgba(34,197,94,0), var(--shadow-sm); border-color:var(--green); }
+  }
+  @keyframes pulseDot{
+    0%, 100% { opacity:1; transform:scale(1); }
+    50% { opacity:.35; transform:scale(1.3); }
+  }
   .board-card .bc-name{font-family:var(--body); font-size:12.5px; color:var(--text); line-height:1.42; margin-bottom:9px;}
   .board-card .bc-foot{display:flex; align-items:center; justify-content:space-between; gap:8px;}
   .board-card .bc-avatars{display:flex;}
@@ -942,40 +960,40 @@ const WAGNER_TASKS = [
   {id:'86ak0yjnn', name:'Melhoria do painel de metas', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0yjnn'},
   {id:'86ak0vchx', name:'Automatizar no escritório de Projetos o envio da TEP assinada pelo cliente para início do faturamento', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0vchx'},
   {id:'86ak0v91j', name:'Criar painel de tarefas para todos os times da diretoria (OnePage)', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0v91j'},
-  {id:'86ajhv42w', name:'Replanejamento da migração com abertura do projeto de Desmobilização 2.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ajhv42w'},
-  {id:'86ajdufj9', name:'Redefinir o painel de projetos nos moldes do CC', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ajdufj9'},
-  {id:'86aj74xpa', name:'Finalização do projeto da GIMBA no sistema', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj74xpa'},
+  {id:'86ajhv42w', name:'Replanejamento da migração com abertura do projeto de Desmobilização 2.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ajhv42w', doneAt:1784128185933},
+  {id:'86ajdufj9', name:'Redefinir o painel de projetos nos moldes do CC', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ajdufj9', doneAt:1784128255901},
+  {id:'86aj74xpa', name:'Finalização do projeto da GIMBA no sistema', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj74xpa', doneAt:1784128003113},
   {id:'86aj74bfu', name:'Deleção de domínio', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj74bfu'},
-  {id:'86aj7461w', name:'Mudança de IP da BMC para liberar IP', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj7461w'},
+  {id:'86aj7461w', name:'Mudança de IP da BMC para liberar IP', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj7461w', doneAt:1786540831332},
   {id:'86aj73tvf', name:'Controle sendo o mesmo core do CC (projetos.binario.cloud)', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73tvf'},
   {id:'86aj73tv0', name:'Desativação da 2.0 fisicamente', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73tv0'},
-  {id:'86aj73tut', name:'Migração 2>3: reduzir e chegar a ≤100 VMs de clientes com comprovação', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73tut'},
+  {id:'86aj73tut', name:'Migração 2>3: reduzir e chegar a ≤100 VMs de clientes com comprovação', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73tut', doneAt:1784127886561},
   {id:'86aj73tua', name:'Consolidação da Governança', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73tua'},
   {id:'86aj73ttz', name:'Sanitização 3.0 (contínuo)', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73ttz'},
   {id:'86aj73tth', name:'Sanitização 2.0 (contínuo)', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73tth'},
-  {id:'86aj73try', name:'Projeto Observabilidade', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73try'},
-  {id:'86aj73trc', name:'Projeto ClaudIA', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73trc'},
+  {id:'86aj73try', name:'Projeto Observabilidade', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73try', doneAt:1786540574869},
+  {id:'86aj73trc', name:'Projeto ClaudIA', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73trc', doneAt:1784128135170},
   {id:'86aj3t57d', name:'Planejamento modificações Alerj', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj3t57d'},
-  {id:'86ahf5dbz', name:'Novo planejamento de Ondas para Migração BCP', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5dbz'},
-  {id:'86ahf5dby', name:'Fechar projeto DISMAC', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5dby'},
-  {id:'86ahf5dbn', name:'Alinhar apresentação com o Bruno', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5dbn'},
-  {id:'86ahf5dba', name:'Limpar 2.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5dba'},
-  {id:'86ahf5db1', name:'Capacity 3.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5db1'},
-  {id:'86ahf5daf', name:'Capacity 2.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5daf'},
-  {id:'86ahd7jn3', name:'Reunião com cada líder/par para entendimento da área', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahd7jn3'},
-  {id:'86ahd7hkq', name:'Dash único com todas as visões de projetos internos', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahd7hkq'},
-  {id:'86ahc8yjj', name:'08/05 - Continuação da limpeza de VMs', status:'fechado', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahc8yjj'},
-  {id:'86ahbt0ud', name:'07/05 - Atualização do relatório e desligamento de VMs', status:'fechado', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahbt0ud'},
-  {id:'86ahar8k5', name:'Status migração 2>3', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahar8k5'},
-  {id:'86ahar8a7', name:'Validação dos modelos no ClickUp', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahar8a7'},
-  {id:'86ahar860', name:'Criação do relatório de fechamento tático', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahar860'},
+  {id:'86ahf5dbz', name:'Novo planejamento de Ondas para Migração BCP', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5dbz', doneAt:1784128079225},
+  {id:'86ahf5dby', name:'Fechar projeto DISMAC', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5dby', doneAt:1781125683729},
+  {id:'86ahf5dbn', name:'Alinhar apresentação com o Bruno', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5dbn', doneAt:1781125683729},
+  {id:'86ahf5dba', name:'Limpar 2.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5dba', doneAt:1782239952032},
+  {id:'86ahf5db1', name:'Capacity 3.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5db1', doneAt:1784128299271},
+  {id:'86ahf5daf', name:'Capacity 2.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5daf', doneAt:1784128305278},
+  {id:'86ahd7jn3', name:'Reunião com cada líder/par para entendimento da área', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahd7jn3', doneAt:1782240066498},
+  {id:'86ahd7hkq', name:'Dash único com todas as visões de projetos internos', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahd7hkq', doneAt:1781125683729},
+  {id:'86ahc8yjj', name:'08/05 - Continuação da limpeza de VMs', status:'fechado', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahc8yjj', doneAt:1781125683729},
+  {id:'86ahbt0ud', name:'07/05 - Atualização do relatório e desligamento de VMs', status:'fechado', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahbt0ud', doneAt:1781125683729},
+  {id:'86ahar8k5', name:'Status migração 2>3', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahar8k5', doneAt:1784128095240},
+  {id:'86ahar8a7', name:'Validação dos modelos no ClickUp', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahar8a7', doneAt:1782240074492},
+  {id:'86ahar860', name:'Criação do relatório de fechamento tático', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahar860', doneAt:1781722897592},
   {id:'86ahar7zw', name:'Processo da área', status:'revisando', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahar7zw'},
   {id:'86ahar7wh', name:'Plano de 100 dias', status:'revisando', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahar7wh'},
-  {id:'86ah462pk', name:'Limpeza - BCOS 2.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ah462pk'},
-  {id:'86ah436mx', name:'Execução da limpeza - Services', status:'fechado', assignees:['João Alves'], url:'https://app.clickup.com/t/86ah436mx'},
-  {id:'86ah4368f', name:'Lista de máquinas recebidas da Engenharia', status:'fechado', assignees:[], url:'https://app.clickup.com/t/86ah4368f'},
-  {id:'86ah435z8', name:'Limpeza das VMs em Default - Services', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ah435z8'},
-  {id:'86ah435by', name:'Limpeza dos projetos internos', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ah435by'}
+  {id:'86ah462pk', name:'Limpeza - BCOS 2.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ah462pk', doneAt:1784128119928},
+  {id:'86ah436mx', name:'Execução da limpeza - Services', status:'fechado', assignees:['João Alves'], url:'https://app.clickup.com/t/86ah436mx', doneAt:1784128119928},
+  {id:'86ah4368f', name:'Lista de máquinas recebidas da Engenharia', status:'fechado', assignees:[], url:'https://app.clickup.com/t/86ah4368f', doneAt:1781125683729},
+  {id:'86ah435z8', name:'Limpeza das VMs em Default - Services', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ah435z8', doneAt:1784128119928},
+  {id:'86ah435by', name:'Limpeza dos projetos internos', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ah435by', doneAt:1784128119928}
 ];
 
 const BRUNO_TASKS = [
@@ -1539,6 +1557,21 @@ function renderBoardRing(project){
     <div class="kpi c-shipped"><div class="k-num">${doneCount}</div><div class="k-label">Concluídos</div></div>`;
 }
 
+const RECENT_DONE_WINDOW_MS = 15 * 24 * 60 * 60 * 1000; // 15 dias
+
+function isRecentlyDone(t){
+  if(!ROADMAP_DONE_STATUSES.includes(t.status)) return false;
+  if(!t.doneAt) return false;
+  return (Date.now() - t.doneAt) <= RECENT_DONE_WINDOW_MS;
+}
+
+function daysAgo(ts){
+  const d = Math.floor((Date.now() - ts) / (24*60*60*1000));
+  if(d <= 0) return 'hoje';
+  if(d === 1) return 'há 1 dia';
+  return `há ${d} dias`;
+}
+
 function renderBoard(project){
   const board = document.getElementById('roadmapBoard');
   board.innerHTML = '';
@@ -1547,8 +1580,16 @@ function renderBoard(project){
 
   statusKeys.forEach(statusKey=>{
     const meta = ROADMAP_STATUS_META[statusKey];
-    const tasks = (project.tasks||[]).filter(t=>t.status===statusKey);
+    let tasks = (project.tasks||[]).filter(t=>t.status===statusKey);
     if(tasks.length===0) return; // esconde colunas vazias
+
+    tasks = [...tasks].sort((a,b)=>{
+      const ra = isRecentlyDone(a) ? 1 : 0;
+      const rb = isRecentlyDone(b) ? 1 : 0;
+      if(ra !== rb) return rb - ra;
+      if(ra && rb) return (b.doneAt||0) - (a.doneAt||0);
+      return 0;
+    });
 
     const col = document.createElement('div');
     col.className = 'board-col';
@@ -1559,8 +1600,11 @@ function renderBoard(project){
         <span class="bc-count">${tasks.length}</span>
       </div>
       <div class="board-col-body">
-        ${tasks.length ? tasks.map(t=>`
-          <div class="board-card">
+        ${tasks.length ? tasks.map(t=>{
+          const recent = isRecentlyDone(t);
+          return `
+          <div class="board-card${recent ? ' just-done' : ''}">
+            ${recent ? `<div class="done-badge"><span class="dot"></span>Concluída ${daysAgo(t.doneAt)}</div>` : ''}
             <div class="bc-name">${t.name}</div>
             <div class="bc-foot">
               <div class="bc-avatars">
@@ -1570,7 +1614,8 @@ function renderBoard(project){
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><path d="M15 3h6v6"/><path d="M10 14L21 3"/></svg>
               </a>
             </div>
-          </div>`).join('') : '<div class="board-empty">Sem itens</div>'}
+          </div>`;
+        }).join('') : '<div class="board-empty">Sem itens</div>'}
       </div>`;
     board.appendChild(col);
   });
