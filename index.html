@@ -749,83 +749,77 @@ const WAGNER_METAS = [
  {
   num: 1,
   id: 'cliente-soprema',
-  status: 'backlog',
+  status: 'in progress',
   due: null,
   name: 'Migração e onboarding — SOPREMA LTDA',
   short: 'SOPREMA LTDA',
   assignee: 'Wagner Felix',
   tags: ['cliente', 'migração'],
-  detail: 'Checklist padrão de onboarding e migração do cliente SOPREMA LTDA para a Binário Cloud — do kickoff ao encerramento do projeto.',
+  detail: 'Checklist de onboarding e migração do cliente SOPREMA LTDA — dados sincronizados da lista real do ClickUp (projeto Soprema).',
+  sourceUrl: 'https://app.clickup.com/3080406/v/li/901328281164',
   fases: [
    {
-    n: 'Fase 1 - Início do Projeto',
-    status: 'backlog',
-    assignee: 'Wagner Felix',
+    n: 'Fase 1 - Iniciação',
+    status: 'in progress',
+    assignee: 'Equipe do projeto',
     due: null,
     id: 'soprema-f1',
     ativ: [
-     {n:'Kickoff com o cliente', status:'backlog', due:null, id:'soprema-f1-a1'},
-     {n:'Definição de escopo', status:'backlog', due:null, id:'soprema-f1-a2'},
-     {n:'Assinatura do contrato / TEP', status:'backlog', due:null, id:'soprema-f1-a3'}
+      {n:'Reunião de Kickoff', status:'in progress', due:null, id:'86ak5e3vk', url:'https://app.clickup.com/t/86ak5e3vk'},
+      {n:'Elaboração da TAP', status:'shipped', due:null, doneAt:1787612709710, id:'86ak5e3u8', url:'https://app.clickup.com/t/86ak5e3u8'},
+      {n:'Definição de Stakeholders', status:'shipped', due:null, doneAt:1787666155949, id:'86ak5e3zq', url:'https://app.clickup.com/t/86ak5e3zq'}
     ]
    },
    {
-    n: 'Fase 2 - Onboarding',
-    status: 'backlog',
-    assignee: 'Wagner Felix',
+    n: 'Fase 2 - Planejamento',
+    status: 'in progress',
+    assignee: 'Equipe do projeto',
     due: null,
     id: 'soprema-f2',
     ativ: [
-     {n:'Definição da squad responsável', status:'backlog', due:null, id:'soprema-f2-a1'},
-     {n:'Definição de papéis e responsabilidades', status:'backlog', due:null, id:'soprema-f2-a2'}
+      {n:'Realizar cronograma', status:'in progress', due:null, id:'86ak5e436', url:'https://app.clickup.com/t/86ak5e436'},
+      {n:'Estimar recursos e tempo de execução', status:'backlog', due:null, id:'86ak5exf2', url:'https://app.clickup.com/t/86ak5exf2'}
     ]
    },
    {
-    n: 'Fase 3 - Planejamento',
+    n: 'Fase 3 - Execução',
     status: 'backlog',
-    assignee: 'Wagner Felix',
+    assignee: 'Equipe do projeto',
     due: null,
     id: 'soprema-f3',
     ativ: [
-     {n:'Levantamento do ambiente atual', status:'backlog', due:null, id:'soprema-f3-a1'},
-     {n:'Desenho da arquitetura de destino', status:'backlog', due:null, id:'soprema-f3-a2'},
-     {n:'Mapeamento de dependências', status:'backlog', due:null, id:'soprema-f3-a3'}
+      {n:'Definição de servidor para instalar o VBR', status:'backlog', due:null, id:'86ak5e6z0', url:'https://app.clickup.com/t/86ak5e6z0'},
+      {n:'Instalação do VBR', status:'backlog', due:null, id:'86ak5e70q', url:'https://app.clickup.com/t/86ak5e70q'},
+      {n:'Configurar repositório', status:'backlog', due:null, id:'86ak5e78d', url:'https://app.clickup.com/t/86ak5e78d'},
+      {n:'Instalar Endpoint nos servidor', status:'backlog', due:null, id:'86ak5e7cy', url:'https://app.clickup.com/t/86ak5e7cy'},
+      {n:'Configurar Jobs de backup', status:'backlog', due:null, id:'86ak5e7f4', url:'https://app.clickup.com/t/86ak5e7f4'},
+      {n:'Backup', status:'backlog', due:null, id:'86ak5e6re', url:'https://app.clickup.com/t/86ak5e6re'}
     ]
    },
    {
-    n: 'Fase 4 - Preparação',
+    n: 'Fase 4 - Monitoramento e controle',
     status: 'backlog',
-    assignee: 'Wagner Felix',
+    assignee: 'Equipe do projeto',
     due: null,
     id: 'soprema-f4',
     ativ: [
-     {n:'Provisionamento do ambiente de destino', status:'backlog', due:null, id:'soprema-f4-a1'},
-     {n:'Testes de conectividade', status:'backlog', due:null, id:'soprema-f4-a2'},
-     {n:'Plano de rollback', status:'backlog', due:null, id:'soprema-f4-a3'}
+      {n:'Validação de backup e restore', status:'backlog', due:null, id:'86ak5e7jr', url:'https://app.clickup.com/t/86ak5e7jr'},
+      {n:'Validar entregas do Projeto', status:'backlog', due:null, id:'86ak5e7pz', url:'https://app.clickup.com/t/86ak5e7pz'},
+      {n:'Acompanhamento do cronograma e status report', status:'backlog', due:null, id:'86ak5e7tq', url:'https://app.clickup.com/t/86ak5e7tq'}
     ]
    },
    {
-    n: 'Fase 5 - Execução (Migração)',
+    n: 'Fase 5 - Encerramento',
     status: 'backlog',
-    assignee: 'Wagner Felix',
+    assignee: 'Equipe do projeto',
     due: null,
     id: 'soprema-f5',
     ativ: [
-     {n:'Migração piloto', status:'backlog', due:null, id:'soprema-f5-a1'},
-     {n:'Migração em produção', status:'backlog', due:null, id:'soprema-f5-a2'},
-     {n:'Validação pós-migração', status:'backlog', due:null, id:'soprema-f5-a3'}
-    ]
-   },
-   {
-    n: 'Fase 6 - Encerramento',
-    status: 'backlog',
-    assignee: 'Wagner Felix',
-    due: null,
-    id: 'soprema-f6',
-    ativ: [
-     {n:'Testes finais com o cliente', status:'backlog', due:null, id:'soprema-f6-a1'},
-     {n:'Passagem de conhecimento', status:'backlog', due:null, id:'soprema-f6-a2'},
-     {n:'Encerramento formal do projeto', status:'backlog', due:null, id:'soprema-f6-a3'}
+      {n:'Elaboração da TEP', status:'backlog', due:null, id:'86ak5ebre', url:'https://app.clickup.com/t/86ak5ebre'},
+      {n:'Assinatura da TEP', status:'backlog', due:null, id:'86ak5ec3z', url:'https://app.clickup.com/t/86ak5ec3z'},
+      {n:'Realizar contato de encerramento', status:'backlog', due:null, id:'86ak5ebup', url:'https://app.clickup.com/t/86ak5ebup'},
+      {n:'Documentação técnica final', status:'backlog', due:null, id:'86ak5ebyb', url:'https://app.clickup.com/t/86ak5ebyb'},
+      {n:'Documentação técnica', status:'backlog', due:null, id:'86ak5ec77', url:'https://app.clickup.com/t/86ak5ec77'}
     ]
    }
   ]
@@ -833,83 +827,76 @@ const WAGNER_METAS = [
  {
   num: 2,
   id: 'cliente-pleion',
-  status: 'backlog',
+  status: 'in progress',
   due: null,
   name: 'Migração e onboarding — Pleion Indústria e Comércio de Plásticos LTDA.',
   short: 'Pleion LTDA',
   assignee: 'Wagner Felix',
   tags: ['cliente', 'migração'],
-  detail: 'Checklist padrão de onboarding e migração do cliente Pleion Indústria e Comércio de Plásticos LTDA. para a Binário Cloud — do kickoff ao encerramento do projeto.',
+  detail: 'Checklist de onboarding e migração do cliente Pleion Indústria e Comércio de Plásticos LTDA. — dados sincronizados da lista real do ClickUp (projeto Pleion).',
+  sourceUrl: 'https://app.clickup.com/3080406/v/li/901328281869',
   fases: [
    {
-    n: 'Fase 1 - Início do Projeto',
-    status: 'backlog',
-    assignee: 'Wagner Felix',
+    n: 'Fase 1 - Iniciação',
+    status: 'in progress',
+    assignee: 'Equipe do projeto',
     due: null,
     id: 'pleion-f1',
     ativ: [
-     {n:'Kickoff com o cliente', status:'backlog', due:null, id:'pleion-f1-a1'},
-     {n:'Definição de escopo', status:'backlog', due:null, id:'pleion-f1-a2'},
-     {n:'Assinatura do contrato / TEP', status:'backlog', due:null, id:'pleion-f1-a3'}
+      {n:'Reunião de kickoff', status:'in progress', due:null, id:'86ak5ew22', url:'https://app.clickup.com/t/86ak5ew22'},
+      {n:'Elaboração da TAP', status:'shipped', due:null, doneAt:1787612789378, id:'86ak5ew0r', url:'https://app.clickup.com/t/86ak5ew0r'},
+      {n:'Definição de Stakeholders', status:'backlog', due:null, id:'86ak5ew6y', url:'https://app.clickup.com/t/86ak5ew6y'},
+      {n:'Assinatura da TAP', status:'backlog', due:null, id:'86ak5ew9h', url:'https://app.clickup.com/t/86ak5ew9h'}
     ]
    },
    {
-    n: 'Fase 2 - Onboarding',
+    n: 'Fase 2 - Planejamento',
     status: 'backlog',
-    assignee: 'Wagner Felix',
+    assignee: 'Equipe do projeto',
     due: null,
     id: 'pleion-f2',
     ativ: [
-     {n:'Definição da squad responsável', status:'backlog', due:null, id:'pleion-f2-a1'},
-     {n:'Definição de papéis e responsabilidades', status:'backlog', due:null, id:'pleion-f2-a2'}
+      {n:'Realizar cronograma', status:'backlog', due:null, id:'86ak5ex8z', url:'https://app.clickup.com/t/86ak5ex8z'},
+      {n:'Estimar recursos e tempo de execução', status:'backlog', due:null, id:'86ak5exe1', url:'https://app.clickup.com/t/86ak5exe1'}
     ]
    },
    {
-    n: 'Fase 3 - Planejamento',
+    n: 'Fase 3 - Execução',
     status: 'backlog',
-    assignee: 'Wagner Felix',
+    assignee: 'Equipe do projeto',
     due: null,
     id: 'pleion-f3',
     ativ: [
-     {n:'Levantamento do ambiente atual', status:'backlog', due:null, id:'pleion-f3-a1'},
-     {n:'Desenho da arquitetura de destino', status:'backlog', due:null, id:'pleion-f3-a2'},
-     {n:'Mapeamento de dependências', status:'backlog', due:null, id:'pleion-f3-a3'}
+      {n:'Criação do Projeto', status:'backlog', due:null, id:'86ak5ewpn', url:'https://app.clickup.com/t/86ak5ewpn'},
+      {n:'Criação do dominio', status:'backlog', due:null, id:'86ak5ewkr', url:'https://app.clickup.com/t/86ak5ewkr'},
+      {n:'Infraestrutura', status:'backlog', due:null, id:'86ak5ewf8', url:'https://app.clickup.com/t/86ak5ewf8'},
+      {n:'Movimentação do ambiente da POC para Projeto em produção', status:'backlog', due:null, id:'86ak5ewx4', url:'https://app.clickup.com/t/86ak5ewx4'},
+      {n:'Configurar repositorio', status:'backlog', due:null, id:'86ak5ey5a', url:'https://app.clickup.com/t/86ak5ey5a'},
+      {n:'Configurar Jobs de backup', status:'backlog', due:null, id:'86ak5ey7n', url:'https://app.clickup.com/t/86ak5ey7n'},
+      {n:'Backup', status:'backlog', due:null, id:'86ak5exvf', url:'https://app.clickup.com/t/86ak5exvf'}
     ]
    },
    {
-    n: 'Fase 4 - Preparação',
+    n: 'Fase 4 - Monitoramento e controle',
     status: 'backlog',
-    assignee: 'Wagner Felix',
+    assignee: 'Equipe do projeto',
     due: null,
     id: 'pleion-f4',
     ativ: [
-     {n:'Provisionamento do ambiente de destino', status:'backlog', due:null, id:'pleion-f4-a1'},
-     {n:'Testes de conectividade', status:'backlog', due:null, id:'pleion-f4-a2'},
-     {n:'Plano de rollback', status:'backlog', due:null, id:'pleion-f4-a3'}
+      {n:'Validar entregas do projeto', status:'backlog', due:null, id:'86ak5eykw', url:'https://app.clickup.com/t/86ak5eykw'}
     ]
    },
    {
-    n: 'Fase 5 - Execução (Migração)',
+    n: 'Fase 5 - Encerramento',
     status: 'backlog',
-    assignee: 'Wagner Felix',
+    assignee: 'Equipe do projeto',
     due: null,
     id: 'pleion-f5',
     ativ: [
-     {n:'Migração piloto', status:'backlog', due:null, id:'pleion-f5-a1'},
-     {n:'Migração em produção', status:'backlog', due:null, id:'pleion-f5-a2'},
-     {n:'Validação pós-migração', status:'backlog', due:null, id:'pleion-f5-a3'}
-    ]
-   },
-   {
-    n: 'Fase 6 - Encerramento',
-    status: 'backlog',
-    assignee: 'Wagner Felix',
-    due: null,
-    id: 'pleion-f6',
-    ativ: [
-     {n:'Testes finais com o cliente', status:'backlog', due:null, id:'pleion-f6-a1'},
-     {n:'Passagem de conhecimento', status:'backlog', due:null, id:'pleion-f6-a2'},
-     {n:'Encerramento formal do projeto', status:'backlog', due:null, id:'pleion-f6-a3'}
+      {n:'Elaboração da TEP', status:'backlog', due:null, id:'86ak5eyy7', url:'https://app.clickup.com/t/86ak5eyy7'},
+      {n:'Assinatura da TEP', status:'backlog', due:null, id:'86ak5ez40', url:'https://app.clickup.com/t/86ak5ez40'},
+      {n:'Realizar contato de encerramento', status:'backlog', due:null, id:'86ak5ez0e', url:'https://app.clickup.com/t/86ak5ez0e'},
+      {n:'Documentação técnica final', status:'backlog', due:null, id:'86ak5ez25', url:'https://app.clickup.com/t/86ak5ez25'}
     ]
    }
   ]
@@ -1745,7 +1732,7 @@ function renderMetaDetailPage(tab, num){
           <div>
             <h1 class="detail-title">${meta.name}</h1>
             <div class="detail-tags">${meta.tags.map(t=>`<span class="tag">${t}</span>`).join('')}${overdueCount>0?`<span class="overdue-pill">⚠ ${overdueCount} atrasada${overdueCount>1?'s':''}</span>`:''}</div>
-            <div class="detail-meta-row">Responsável ${meta.assignee} · Prazo ${fmtDate(meta.due)} · ${meta.fases.length} fase(s) · ${allAtiv.length} atividade(s)</div>
+            <div class="detail-meta-row">Responsável ${meta.assignee} · Prazo ${fmtDate(meta.due)} · ${meta.fases.length} fase(s) · ${allAtiv.length} atividade(s)${meta.sourceUrl ? ` · <a href="${meta.sourceUrl}" target="_blank" style="color:var(--cyan); text-decoration:none;">Fonte: ClickUp ↗</a>` : ''}</div>
           </div>
           <div class="detail-ring-box">
             <div class="ring-wrap">
