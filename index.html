@@ -572,8 +572,7 @@
   </div>
   <div class="tb-right">
     <div class="tb-right-top">
-      <div class="tb-live"><span class="dot-live"></span> Modelo em branco</div>
-      <span id="tb-date"></span>
+      <div class="tb-live"><span class="dot-live"></span> <span id="tb-date"></span></div>
     </div>
     <div class="tb-right-sub" id="tb-gen"></div>
   </div>
@@ -1671,20 +1670,25 @@ document.getElementById('searchInput').addEventListener('input', ()=>{
 
 selectTab('wagner');
 
-// footer / topbar dates
+// footer / topbar dates (sempre no horário de Brasília)
 const now = new Date();
-document.getElementById('tb-date').textContent = now.toLocaleDateString('pt-BR',{day:'2-digit',month:'short',year:'numeric'});
+document.getElementById('tb-date').textContent = now.toLocaleDateString('pt-BR',{timeZone:'America/Sao_Paulo', day:'2-digit', month:'short', year:'numeric'});
 
 if (typeof LAST_SYNC_UTC !== 'undefined' && LAST_SYNC_UTC) {
   const syncDate = new Date(LAST_SYNC_UTC);
   const formatted = syncDate.toLocaleString('pt-BR', {
-    timeZone: 'America/Sao_Paulo',
+    timeZone: 'America/Sao_Paulo', hour12: false,
     day: '2-digit', month: '2-digit', year: 'numeric',
     hour: '2-digit', minute: '2-digit'
   });
   document.getElementById('tb-gen').textContent = 'Atualizado em ' + formatted + ' (horário de Brasília)';
 } else {
-  document.getElementById('tb-gen').textContent = 'Atualizado em ' + now.toLocaleString('pt-BR');
+  const formatted = now.toLocaleString('pt-BR', {
+    timeZone: 'America/Sao_Paulo', hour12: false,
+    day: '2-digit', month: '2-digit', year: 'numeric',
+    hour: '2-digit', minute: '2-digit'
+  });
+  document.getElementById('tb-gen').textContent = 'Atualizado em ' + formatted + ' (horário de Brasília)';
 }
 
 // ================= PÁGINA DE DETALHE DE UMA META =================
