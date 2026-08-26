@@ -743,7 +743,7 @@
 
 <script>
 // ================= DADOS =================
-const LAST_SYNC_UTC = "2026-08-26T10:51:52.000000+00:00";
+const LAST_SYNC_UTC = "2026-08-26T14:30:00.000000+00:00";
 
 const WAGNER_METAS = [
  {
@@ -765,7 +765,7 @@ const WAGNER_METAS = [
     due: null,
     id: 'soprema-f1',
     ativ: [
-      {n:'Reunião de Kickoff', status:'in progress', due:null, id:'86ak5e3vk', url:'https://app.clickup.com/t/86ak5e3vk'},
+      {n:'Reunião de Kickoff', status:'in review', due:null, id:'86ak5e3vk', url:'https://app.clickup.com/t/86ak5e3vk'},
       {n:'Elaboração da TAP', status:'shipped', due:null, doneAt:1787612709710, id:'86ak5e3u8', url:'https://app.clickup.com/t/86ak5e3u8'},
       {n:'Definição de Stakeholders', status:'shipped', due:null, doneAt:1787666155949, id:'86ak5e3zq', url:'https://app.clickup.com/t/86ak5e3zq'}
     ]
@@ -790,10 +790,11 @@ const WAGNER_METAS = [
     ativ: [
       {n:'Definição de servidor para instalar o VBR', status:'backlog', due:null, id:'86ak5e6z0', url:'https://app.clickup.com/t/86ak5e6z0'},
       {n:'Instalação do VBR', status:'backlog', due:null, id:'86ak5e70q', url:'https://app.clickup.com/t/86ak5e70q'},
-      {n:'Configurar repositório', status:'backlog', due:null, id:'86ak5e78d', url:'https://app.clickup.com/t/86ak5e78d'},
+      {n:'Configurar repositório (8Tb)', status:'backlog', due:null, id:'86ak5e78d', url:'https://app.clickup.com/t/86ak5e78d'},
       {n:'Instalar Endpoint nos servidor', status:'backlog', due:null, id:'86ak5e7cy', url:'https://app.clickup.com/t/86ak5e7cy'},
       {n:'Configurar Jobs de backup', status:'backlog', due:null, id:'86ak5e7f4', url:'https://app.clickup.com/t/86ak5e7f4'},
-      {n:'Backup', status:'backlog', due:null, id:'86ak5e6re', url:'https://app.clickup.com/t/86ak5e6re'}
+      {n:'Backup Gerenciado', status:'backlog', due:null, id:'86ak5e6re', url:'https://app.clickup.com/t/86ak5e6re'},
+      {n:'Monitoramento do backup', status:'backlog', due:null, id:'86ak5ygpj', url:'https://app.clickup.com/t/86ak5ygpj'}
     ]
    },
    {
@@ -843,7 +844,7 @@ const WAGNER_METAS = [
     due: null,
     id: 'pleion-f1',
     ativ: [
-      {n:'Reunião de kickoff', status:'in progress', due:null, id:'86ak5ew22', url:'https://app.clickup.com/t/86ak5ew22'},
+      {n:'Reunião de kickoff', status:'in review', due:null, id:'86ak5ew22', url:'https://app.clickup.com/t/86ak5ew22'},
       {n:'Elaboração da TAP', status:'shipped', due:null, doneAt:1787612789378, id:'86ak5ew0r', url:'https://app.clickup.com/t/86ak5ew0r'},
       {n:'Definição de Stakeholders', status:'backlog', due:null, id:'86ak5ew6y', url:'https://app.clickup.com/t/86ak5ew6y'},
       {n:'Assinatura da TAP', status:'backlog', due:null, id:'86ak5ew9h', url:'https://app.clickup.com/t/86ak5ew9h'}
@@ -869,11 +870,16 @@ const WAGNER_METAS = [
     ativ: [
       {n:'Criação do Projeto', status:'backlog', due:null, id:'86ak5ewpn', url:'https://app.clickup.com/t/86ak5ewpn'},
       {n:'Criação do dominio', status:'backlog', due:null, id:'86ak5ewkr', url:'https://app.clickup.com/t/86ak5ewkr'},
-      {n:'Infraestrutura', status:'backlog', due:null, id:'86ak5ewf8', url:'https://app.clickup.com/t/86ak5ewf8'},
-      {n:'Movimentação do ambiente da POC para Projeto em produção', status:'backlog', due:null, id:'86ak5ewx4', url:'https://app.clickup.com/t/86ak5ewx4'},
+      {n:'Infraestrutura (Gerenciado)', status:'backlog', due:null, id:'86ak5ewf8', url:'https://app.clickup.com/t/86ak5ewf8'},
+      {n:'Mover POC para Projeto em produção', status:'backlog', due:null, id:'86ak5ewx4', url:'https://app.clickup.com/t/86ak5ewx4'},
       {n:'Configurar repositorio', status:'backlog', due:null, id:'86ak5ey5a', url:'https://app.clickup.com/t/86ak5ey5a'},
       {n:'Configurar Jobs de backup', status:'backlog', due:null, id:'86ak5ey7n', url:'https://app.clickup.com/t/86ak5ey7n'},
-      {n:'Backup', status:'backlog', due:null, id:'86ak5exvf', url:'https://app.clickup.com/t/86ak5exvf'}
+      {n:'BC-Backup (Gerenciado)', status:'backlog', due:null, id:'86ak5exvf', url:'https://app.clickup.com/t/86ak5exvf'},
+      {n:'Firewall (Gerenciado)', status:'backlog', due:null, id:'86ak5z7v9', url:'https://app.clickup.com/t/86ak5z7v9'},
+      {n:'Criação de firewall', status:'backlog', due:null, id:'86ak5z8tg', url:'https://app.clickup.com/t/86ak5z8tg'},
+      {n:'Servidor', status:'backlog', due:null, id:'86ak5z83a', url:'https://app.clickup.com/t/86ak5z83a'},
+      {n:'Configuração', status:'backlog', due:null, id:'86ak5z8ze', url:'https://app.clickup.com/t/86ak5z8ze'},
+      {n:'1 VM', status:'backlog', due:null, id:'86ak5zcrb', url:'https://app.clickup.com/t/86ak5zcrb'}
     ]
    },
    {
@@ -883,7 +889,9 @@ const WAGNER_METAS = [
     due: null,
     id: 'pleion-f4',
     ativ: [
-      {n:'Validar entregas do projeto', status:'backlog', due:null, id:'86ak5eykw', url:'https://app.clickup.com/t/86ak5eykw'}
+      {n:'Validar entregas do projeto', status:'backlog', due:null, id:'86ak5eykw', url:'https://app.clickup.com/t/86ak5eykw'},
+      {n:'Monitoramento', status:'backlog', due:null, id:'86ak5z856', url:'https://app.clickup.com/t/86ak5z856'},
+      {n:'Configurar monitoramento', status:'backlog', due:null, id:'86ak5zh01', url:'https://app.clickup.com/t/86ak5zh01'}
     ]
    },
    {
@@ -984,6 +992,8 @@ const WAGNER_TASKS = [
 ];
 
 const BRUNO_TASKS = [
+  {id:'86ak5pat9', name:'Analise para deleção dos Dominios sem Vms 2.0', status:'aberto', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ak5pat9'},
+  {id:'86ak52c7n', name:'Regularização Pós Migração - Gimba', status:'aberto', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ak52c7n'},
   {id:'86ajzvbmq', name:'Add metadados de monitoração em todos os servidores', status:'planejamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ajzvbmq'},
   {id:'86ajzvbh2', name:'Ajustar ícones dos servidores (metadados)', status:'planejamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ajzvbh2'},
   {id:'86ajzvb9z', name:'Migrar SQLs para flavor correto', status:'planejamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ajzvb9z'},
@@ -996,7 +1006,7 @@ const BRUNO_TASKS = [
   {id:'86aj73kd1', name:'Ativar o link Algar', status:'aguardando retorno', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aj73kd1'},
   {id:'86aj73kcy', name:'Refinamento da Gimba', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aj73kcy'},
   {id:'86aj73kcq', name:'Automatização do processo da Gimba para redução', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aj73kcq'},
-  {id:'86ahjxj34', name:'Validação dos PaaS na plataforma', status:'bloqueada', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ahjxj34'},
+  {id:'86ahjxj34', name:'Validação dos PaaS na plataforma', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ahjxj34'},
   {id:'86ah9y7by', name:'Processo de atualização do certificado (revisão de periodicidade)', status:'aguardando retorno', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ah9y7by'},
   {id:'86aeprcpk', name:'FW', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aeprcpk'},
   {id:'86aeprcdh', name:'DevOps', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aeprcdh'},
@@ -1065,7 +1075,7 @@ const JOAO_TASKS = [
   {id:'86aj08h51', name:'Área de comunicado virar gestão de alto impacto', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86aj08h51'},
   {id:'86ahzxhpd', name:'Ao cancelar GMUD, adicionar campo com motivo do cancelamento', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzxhpd'},
   {id:'86ahzw1bm', name:'Mover comando para undercloud', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzw1bm'},
-  {id:'86ahzvd6r', name:'Status Page pública de serviços (modelo Claude/SaveinCloud)', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86ahzvd6r'},
+  {id:'86ahzvd6r', name:'Status Page pública de serviços', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86ahzvd6r'},
   {id:'86ahzvd6n', name:'Redes - integrar dados do Zabbix da equipe de redes', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ahzvd6n'},
   {id:'86ahzvd6j', name:'OpenStack - status do projeto de Observabilidade', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ahzvd6j'},
   {id:'86ahzvd6e', name:'Status de serviço (vermelho/amarelo/verde)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzvd6e'},
@@ -1118,27 +1128,24 @@ const JOAO_TASKS = [
   {id:'86ag5pjfp', name:'Pílula: Canal oficial do DPO (Net e Cloud)', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86ag5pjfp'},
   {id:'86ae0trz2', name:'Implantação', status:'aguardando retorno', assignees:['João Alves'], url:'https://app.clickup.com/t/86ae0trz2'},
   {id:'86ae0tq6e', name:'Firewall', status:'impedimento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ae0tq6e'},
-  {id:'86abxr65r', name:'Envio de e-mail com Política de IA pelo Comitê', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr65r'},
-  {id:'86abxr62f', name:'Política de Uso de IA', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr62f'},
-  {id:'86abxr5yk', name:'Política de Contratação de Fornecedor (critérios de homologação)', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr5yk'},
-  {id:'86abxr5vj', name:'Divulgação da Política de Descarte para o Comitê', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr5vj'},
-  {id:'86abxr5rd', name:'Revisão da Política de Descarte de Dados', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr5rd'},
-  {id:'86abxr5gd', name:'Envio de e-mail - Política de Gestão de Incidentes pelo Comitê', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr5gd'},
-  {id:'86abxr5ch', name:'Validação da Política de Gestão de Incidentes pelo Comitê', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr5ch'},
-  {id:'86abxr5ah', name:'Envio de e-mail - Política de Gestão de Incidentes (2ª rodada)', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr5ah'},
-  {id:'86abxr4em', name:'Validação da Política de Segurança da Informação pelo Comitê', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr4em'},
-  {id:'86abxqw5h', name:'Elaboração da Instrução de Governança do Comitê de Cibersegurança', status:'revisando', assignees:['João Alves'], url:'https://app.clickup.com/t/86abxqw5h'},
-  {id:'86abxqq3m', name:'Ações de conscientização semanal', status:'em andamento', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqq3m'},
-  {id:'86abxqpyv', name:'Treinamento inicial (LGPD e Segurança da Informação)', status:'em andamento', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqpyv'},
-  {id:'86abxqnqv', name:'Divulgação do canal DPO (externo e interno)', status:'em andamento', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqnqv'},
-  {id:'86abxqmqd', name:'Comitê de Cibersegurança', status:'revisando', assignees:['João Alves'], url:'https://app.clickup.com/t/86abxqmqd'},
-  {id:'86abxqkxw', name:'Capacitação e ações de conscientização', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86abxqkxw'},
-  {id:'86abxqk9b', name:'Canal DPO', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86abxqk9b'},
-  {id:'86abxqju8', name:'Políticas', status:'em andamento', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqju8'},
-  {id:'86abxqeun', name:'Validação final do inventário de dados [Comitê]', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqeun'},
-  {id:'86abxqek5', name:'Envio do inventário para o Comitê', status:'em andamento', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqek5'},
-  {id:'86abxqe81', name:'Avaliação de governança dos templates preenchidos', status:'em andamento', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqe81'},
-  {id:'86abxq99v', name:'Inventário de Dados', status:'em andamento', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxq99v'},
+  {id:'86adhthxj', name:'O lobo em pele de cordeiro', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86adhthxj'},
+  {id:'86adhthww', name:'Tudo começou com um PDF', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86adhthww'},
+  {id:'86adhthwk', name:'Freio existe para o carro correr mais', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86adhthwk'},
+  {id:'86adhthw6', name:'Hacker hackeia pessoas, não PC', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthw6'},
+  {id:'86adhthvp', name:'Você é o Firewall Humano', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthvp'},
+  {id:'86adhthv6', name:'Viu algo estranho? Grite (para a TI)', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthv6'},
+  {id:'86adhthuk', name:'Você não precisa ser Deus (Admin)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86adhthuk'},
+  {id:'86adhthtq', name:'Lixeira não é cofre', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthtq'},
+  {id:'86adhtht6', name:'Quem tem um, não tem nenhum', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86adhtht6'},
+  {id:'86adhthrv', name:'Baixaki? Melhor não.', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86adhthrv'},
+  {id:'86adhthrk', name:'Uma senha para dominar a todas', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthrk'},
+  {id:'86adhthr3', name:'Seu guarda-costas digital', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86adhthr3'},
+  {id:'86adhthqh', name:'O túnel blindado da sua conexão', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthqh'},
+  {id:'86adhthpy', name:'O Pen Drive achado não é presente', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthpy'},
+  {id:'86adhthp9', name:'Reiniciar o PC não é frescura', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthp9'},
+  {id:'86adhthne', name:'O Wi-Fi do café pode custar caro', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthne'},
+  {id:'86adhthmu', name:'Seu celular, dados da empresa?', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthmu'},
+  {id:'86adhthm8', name:'O que aparece atrás de você?', status:'em andamento', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthm8'},
   {id:'86acugmz2', name:'Workshop 3 - O fator humano na segurança', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86acugmz2'},
   {id:'86acqqp85', name:'17.3 Processo empresarial para relatar incidentes (CIS)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqqp85'},
   {id:'86acqqn54', name:'17. Resposta a Incidentes (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqqn54'},
@@ -1182,10 +1189,32 @@ const JOAO_TASKS = [
   {id:'86acqk0p4', name:'4. Controle de Permissões (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqk0p4'},
   {id:'86acqjzvc', name:'3.5 Descarte de dados com segurança (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqjzvc'},
   {id:'86acqjzar', name:'3.1 Processo de gerenciamento de dados (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqjzar'},
-  {id:'86acqjz2u', name:'3. Gerenciamento de Vulnerabilidades (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqjz2u'}
+  {id:'86acqjz2u', name:'3. Gerenciamento de Vulnerabilidades (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqjz2u'},
+  {id:'86abxr65r', name:'Envio de e-mail com Política de IA pelo Comitê', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr65r'},
+  {id:'86abxr62f', name:'Política de Uso de IA', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr62f'},
+  {id:'86abxr5yk', name:'Política de Contratação de Fornecedor (critérios de homologação)', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr5yk'},
+  {id:'86abxr5vj', name:'Divulgação da Política de Descarte para o Comitê', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr5vj'},
+  {id:'86abxr5rd', name:'Revisão da Política de Descarte de Dados', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr5rd'},
+  {id:'86abxr5gd', name:'Envio de e-mail - Política de Gestão de Incidentes pelo Comitê', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr5gd'},
+  {id:'86abxr5ch', name:'Validação da Política de Gestão de Incidentes pelo Comitê', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr5ch'},
+  {id:'86abxr5ah', name:'Envio de e-mail - Política de Gestão de Incidentes (2ª rodada)', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr5ah'},
+  {id:'86abxr4em', name:'Validação da Política de Segurança da Informação pelo Comitê', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr4em'},
+  {id:'86abxqw5h', name:'Elaboração da Instrução de Governança do Comitê de Cibersegurança', status:'revisando', assignees:['João Alves'], url:'https://app.clickup.com/t/86abxqw5h'},
+  {id:'86abxqq3m', name:'Ações de conscientização semanal', status:'em andamento', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqq3m'},
+  {id:'86abxqpyv', name:'Treinamento inicial (LGPD e Segurança da Informação)', status:'em andamento', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqpyv'},
+  {id:'86abxqnqv', name:'Divulgação do canal DPO (externo e interno)', status:'em andamento', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqnqv'},
+  {id:'86abxqmqd', name:'Comitê de Cibersegurança', status:'revisando', assignees:['João Alves'], url:'https://app.clickup.com/t/86abxqmqd'},
+  {id:'86abxqkxw', name:'Capacitação e ações de conscientização', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86abxqkxw'},
+  {id:'86abxqk9b', name:'Canal DPO', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86abxqk9b'},
+  {id:'86abxqju8', name:'Políticas', status:'em andamento', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqju8'},
+  {id:'86abxqeun', name:'Validação final do inventário de dados [Comitê]', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqeun'},
+  {id:'86abxqek5', name:'Envio do inventário para o Comitê', status:'em andamento', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqek5'},
+  {id:'86abxqe81', name:'Avaliação de governança dos templates preenchidos', status:'em andamento', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqe81'},
+  {id:'86abxq99v', name:'Inventário de Dados', status:'em andamento', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxq99v'}
 ];
 
 const GUSTAVO_TASKS = [
+  {id:'86ak2tamx', name:'Inventário NetBox para Observabilidade', status:'aberto', assignees:['Gustavo Camargo','Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak2tamx'},
   {id:'86ajzxx85', name:'Chamar HostFiber e Algar para viabilidade em Gimba Ipiranga', status:'aberto', assignees:['Rafael Alves','Bruno Queiroz','Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajzxx85'},
   {id:'86ajzxpea', name:'Definição de regras para utilização de imagem de clientes', status:'aberto', assignees:['Leonardo Gonçalez','Bruno Queiroz','Gustavo Camargo'], url:'https://app.clickup.com/t/86ajzxpea'},
   {id:'86ajztj4g', name:'Passagem de turno', status:'revisando', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajztj4g'},
@@ -1196,8 +1225,6 @@ const GUSTAVO_TASKS = [
   {id:'86ajzthw7', name:'Área book', status:'revisando', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajzthw7'},
   {id:'86ajzthv9', name:'Saúde Cliente', status:'em andamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajzthv9'},
   {id:'86ajzmmz5', name:'Painel Coriolis', status:'em andamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajzmmz5'},
-  {id:'86ajzmkj9', name:'Node08', status:'planejamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajzmkj9'},
-  {id:'86ajzmk89', name:'Node19', status:'planejamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajzmk89'},
   {id:'86ajr1pud', name:'Validação dos tenants ociosos de backup', status:'em andamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajr1pud'},
   {id:'86ajr1pu9', name:'Validação módulos CC', status:'em andamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajr1pu9'},
   {id:'86ajjja87', name:'Definição de compliance sobre licenciamento', status:'aberto', assignees:['Rafael Alves'], url:'https://app.clickup.com/t/86ajjja87'},
@@ -1206,7 +1233,6 @@ const GUSTAVO_TASKS = [
   {id:'86ajj4tre', name:'Backup', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ajj4tre'},
   {id:'86ajdudvy', name:'Atender os chamados através do CC', status:'aberto', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajdudvy'},
   {id:'86aj74vnr', name:'Painel Grafana do CEPH (acompanhar os 3 clusters)', status:'impedimento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86aj74vnr'},
-  {id:'86aj74vgd', name:'Lista de atividades da equipe da madrugada', status:'em andamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86aj74vgd'},
   {id:'86aj3tfxx', name:'Assumir infraestrutura do Grupo Binário', status:'em andamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86aj3tfxx'},
   {id:'86aj3t2up', name:'Evacuação de Nodes 2.0 para liberar capacidade', status:'em andamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86aj3t2up'},
   {id:'86ahb0awe', name:'Revisitação de Clientes', status:'em andamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ahb0awe'},
@@ -1229,14 +1255,13 @@ const RODNEY_TASKS = [
 ];
 
 const LEONARDO_TASKS = [
-  {id:'86ak0t9un', name:'Defesa técnica com dados e pipe comercial (crescimento vegetativo)', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak0t9un'},
+  {id:'86ak33ugq', name:'Centralizar nossos projetos no GIT corporativo', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak33ugq'},
   {id:'86ak0t950', name:'Apresentação do BOM', status:'concluído', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak0t950'},
-  {id:'86ak0t8qe', name:'Material de slides para apresentação ao time de CSE', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak0t8qe'},
-  {id:'86ak0h5ya', name:'Roadmap de Engenharia para o time Comercial (visão de negócio)', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak0h5ya'},
+  {id:'86ak0h5ya', name:'Roadmap de Engenharia para o time Comercial (visão de negócio)', status:'em andamento', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak0h5ya'},
   {id:'86ak00qcy', name:'Investigação: imagens Linux exigindo keypair para mudar senha', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak00qcy'},
   {id:'86ak00q7q', name:'Grupo de Servidores', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak00q7q'},
   {id:'86ajzq08d', name:'Connectway', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86ajzq08d'},
-  {id:'86ajzdryz', name:'Atualização MariaDB 12.3.2 solicitada por cliente', status:'planejamento', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajzdryz'},
+  {id:'86ajzdryz', name:'Cliente cobrando atualização da versão do MariaDB 12.3.2', status:'planejamento', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajzdryz'},
   {id:'86ajvyfac', name:'Auditoria dentro do BCP (quem, o quê e como fez)', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajvyfac'},
   {id:'86ajvx0jp', name:'Reformular controller do Veeam para remover do Proxmox', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajvx0jp'},
   {id:'86ajrg26r', name:'Dell', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajrg26r'},
@@ -1246,11 +1271,11 @@ const LEONARDO_TASKS = [
   {id:'86ajr1wkw', name:'Firewall como serviço (FWaaS)', status:'planejamento', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1wkw'},
   {id:'86ajr1wkv', name:'Menu de automação no Skyline (subir/agendar máquinas)', status:'aguardando retorno', assignees:['Leonardo Gonçalez','Bruno Queiroz'], url:'https://app.clickup.com/t/86ajr1wkv'},
   {id:'86ajr1wkt', name:'Functions como serviço', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1wkt'},
-  {id:'86ajr1wkq', name:'Reformular controle de acesso (perfis falhos)', status:'aberto', assignees:['Leonardo Gonçalez','João Alves'], url:'https://app.clickup.com/t/86ajr1wkq'},
+  {id:'86ajr1wkq', name:'Reformular controle de acesso (perfis falhos)', status:'planejamento', assignees:['Leonardo Gonçalez','João Alves'], url:'https://app.clickup.com/t/86ajr1wkq'},
   {id:'86ajr1v9q', name:'Projeto atualização BCP Alerj', status:'em andamento', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1v9q'},
   {id:'86ajr1v4w', name:'Projeto segunda região UOL', status:'em andamento', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1v4w'},
-  {id:'86ajr1uxp', name:'Criação da página da Engenharia no SharePoint', status:'em andamento', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1uxp'},
-  {id:'86ajr1ukv', name:'Painel automático de capacity', status:'impedimento', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1ukv'},
+  {id:'86ajr1uxp', name:'Criação da página da Engenharia no SharePoint', status:'bloqueada', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1uxp'},
+  {id:'86ajr1ukv', name:'Painel automático de capacity', status:'bloqueada', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1ukv'},
   {id:'86aea9jaw', name:'Planejar atualização do OpenStack (por módulo)', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86aea9jaw'},
   {id:'86aea8x8b', name:'Resolver MongoDB versão 8.2', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86aea8x8b'}
 ];
