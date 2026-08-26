@@ -1588,11 +1588,13 @@ function renderBoard(project){
   const board = document.getElementById('roadmapBoard');
   board.innerHTML = '';
 
-  const statusKeys = Object.keys(ROADMAP_STATUS_META);
+  // Concluído e Fechado contam juntos no índice, então também aparecem juntos aqui, numa coluna só.
+  const statusKeys = Object.keys(ROADMAP_STATUS_META).filter(k => k !== 'fechado');
 
   statusKeys.forEach(statusKey=>{
     const meta = ROADMAP_STATUS_META[statusKey];
-    let tasks = (project.tasks||[]).filter(t=>t.status===statusKey);
+    const matchStatuses = statusKey === 'concluído' ? ROADMAP_DONE_STATUSES : [statusKey];
+    let tasks = (project.tasks||[]).filter(t=>matchStatuses.includes(t.status));
     if(tasks.length===0) return; // esconde colunas vazias
 
     tasks = [...tasks].sort((a,b)=>{
@@ -1632,6 +1634,7 @@ function renderBoard(project){
     board.appendChild(col);
   });
 }
+
 
 function selectTab(tab){
   activeTab = tab;
