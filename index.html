@@ -742,7 +742,7 @@
 
 <script>
 // ================= DADOS =================
-const LAST_SYNC_UTC = "2026-08-29T12:41:46.000000+00:00";
+const LAST_SYNC_UTC = "2026-08-30T19:18:35.000000+00:00";
 
 const WAGNER_METAS = [
  {
@@ -764,7 +764,7 @@ const WAGNER_METAS = [
     due: null,
     id: 'soprema-f1',
     ativ: [
-      {n:'Reunião de Kickoff', status:'in review', due:null, assignee:'Diogo Lerison', id:'86ak5e3vk', url:'https://app.clickup.com/t/86ak5e3vk'},
+      {n:'Reunião de Kickoff', status:'shipped', due:null, doneAt:1787939442042, assignee:'Diogo Lerison', id:'86ak5e3vk', url:'https://app.clickup.com/t/86ak5e3vk'},
       {n:'Elaboração da TAP', status:'shipped', due:null, doneAt:1787612709710, assignee:'Diogo Lerison', id:'86ak5e3u8', url:'https://app.clickup.com/t/86ak5e3u8'},
       {n:'Definição de Stakeholders', status:'shipped', due:null, doneAt:1787666155949, assignee:'Diogo Lerison', id:'86ak5e3zq', url:'https://app.clickup.com/t/86ak5e3zq'}
     ]
@@ -950,11 +950,13 @@ const ROADMAP_DONE_STATUSES = ['concluído','fechado'];
 
 // Tarefas da lista "Wagner" · ClickUp (https://app.clickup.com/3080406/v/b/li/901326954601)
 const WAGNER_TASKS = [
-  {id:'86ak0ykuq', name:'Criar alarme de alerta amarelo, no dia do vencimento', status:'concluído', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0ykuq'},
-  {id:'86ak0ykhj', name:'Alarmar com atrasado somente quando passar a data de conclusão', status:'concluído', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0ykhj'},
-  {id:'86ak0yjnn', name:'Melhoria do painel de metas', status:'concluído', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0yjnn'},
+  {id:'86ak851vd', name:'Abrir GMUD para desligar o servidor do Znuny em 1/09', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ak851vd'},
+  {id:'86ak851en', name:'Storware: planejamento QTS x Clientes x datas', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak851en'},
+  {id:'86ak0ykuq', name:'Criar alarme de alerta amarelo, no dia do vencimento', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0ykuq', doneAt:1788006011973},
+  {id:'86ak0ykhj', name:'Alarmar com atrasado somente quando passar a data de conclusão', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0ykhj', doneAt:1788005969881},
+  {id:'86ak0yjnn', name:'Melhoria do painel de metas', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0yjnn', doneAt:1788006011973},
   {id:'86ak0vchx', name:'Automatizar no escritório de Projetos o envio da TEP assinada pelo cliente para início do faturamento', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0vchx'},
-  {id:'86ak0v91j', name:'Criar painel de tarefas para todos os times da diretoria (OnePage)', status:'concluído', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0v91j'},
+  {id:'86ak0v91j', name:'Criar painel de tarefas para todos os times da diretoria (OnePage)', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0v91j', doneAt:1788005988119},
   {id:'86ajhv42w', name:'Replanejamento da migração com abertura do projeto de Desmobilização 2.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ajhv42w', doneAt:1784128185933},
   {id:'86ajdufj9', name:'Redefinir o painel de projetos nos moldes do CC', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ajdufj9', doneAt:1784128255901},
   {id:'86aj74xpa', name:'Finalização do projeto da GIMBA no sistema', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj74xpa', doneAt:1784128003113},
@@ -1277,7 +1279,13 @@ const LEONARDO_TASKS = [
   {id:'86ajr1uxp', name:'Criação da página da Engenharia no SharePoint', status:'bloqueada', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1uxp'},
   {id:'86ajr1ukv', name:'Painel automático de capacity', status:'bloqueada', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1ukv'},
   {id:'86aea9jaw', name:'Planejar atualização do OpenStack (por módulo)', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86aea9jaw'},
-  {id:'86aea8x8b', name:'Resolver MongoDB versão 8.2', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86aea8x8b'}
+  {id:'86aea8x8b', name:'Resolver MongoDB versão 8.2', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86aea8x8b'},
+  {id:'86ak0g6zn', name:'Não consigo criar banco de dados MariaDB, erro de cota mesmo aumentando', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak0g6zn'},
+  {id:'86ak0fqm1', name:'Ajustar descrição da Console para criação de Flavors de Banco de Dados', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ak0fqm1'},
+  {id:'86ak0ffwt', name:'Roadmap de atualização das versões das aplicações do PaaS (ex: MariaDB)', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak0ffwt'},
+  {id:'86ak00hcn', name:'Atualizar as imagens de SO (Linux e Windows) no BCP', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak00hcn'},
+  {id:'86ajzzn6x', name:'Atualizar o motor do Kubernetes de Magnum para Rancher', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajzzn6x'},
+  {id:'86ajjnbmx', name:'Flavors - abas vazias', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajjnbmx'}
 ];
 
 function fmtDate(ms){
