@@ -742,7 +742,7 @@
 
 <script>
 // ================= DADOS =================
-const LAST_SYNC_UTC = "2026-08-30T19:18:35.000000+00:00";
+const LAST_SYNC_UTC = "2026-09-01T19:46:36.000000+00:00";
 
 const WAGNER_METAS = [
  {
@@ -759,7 +759,7 @@ const WAGNER_METAS = [
   fases: [
    {
     n: 'Fase 1 - Iniciação',
-    status: 'in progress',
+    status: 'shipped',
     assignee: 'Diogo Lerison',
     due: null,
     id: 'soprema-f1',
@@ -781,7 +781,7 @@ const WAGNER_METAS = [
     ]
    },
    {
-    n: 'Fase 3 - Execução',
+    n: 'Fase 3 - Execução técnica',
     status: 'backlog',
     assignee: 'Diogo Lerison',
     due: null,
@@ -793,7 +793,8 @@ const WAGNER_METAS = [
       {n:'Instalar Endpoint nos servidor', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5e7cy', url:'https://app.clickup.com/t/86ak5e7cy'},
       {n:'Configurar Jobs de backup', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5e7f4', url:'https://app.clickup.com/t/86ak5e7f4'},
       {n:'Backup Gerenciado', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5e6re', url:'https://app.clickup.com/t/86ak5e6re'},
-      {n:'Monitoramento do backup', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5ygpj', url:'https://app.clickup.com/t/86ak5ygpj'}
+      {n:'Monitoramento do backup', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5ygpj', url:'https://app.clickup.com/t/86ak5ygpj'},
+      {n:'API de report de ferramenta para o cliente', status:'backlog', due:null, id:'86ak8quyy', url:'https://app.clickup.com/t/86ak8quyy'}
     ]
    },
    {
@@ -852,17 +853,18 @@ const WAGNER_METAS = [
    },
    {
     n: 'Fase 2 - Planejamento',
-    status: 'backlog',
+    status: 'in progress',
     assignee: 'Diogo Lerison',
     due: null,
     id: 'pleion-f2',
     ativ: [
-      {n:'Realizar cronograma', status:'backlog', due:null, assignee:'Diogo Lerison', id:'86ak5ex8z', url:'https://app.clickup.com/t/86ak5ex8z'},
-      {n:'Estimar recursos e tempo de execução', status:'backlog', due:null, assignee:'Diogo Lerison', id:'86ak5exe1', url:'https://app.clickup.com/t/86ak5exe1'}
+      {n:'Realizar cronograma', status:'in progress', due:null, assignee:'Diogo Lerison', id:'86ak5ex8z', url:'https://app.clickup.com/t/86ak5ex8z'},
+      {n:'Estimar recursos e tempo de execução', status:'in progress', due:null, assignee:'Diogo Lerison', id:'86ak5exe1', url:'https://app.clickup.com/t/86ak5exe1'},
+      {n:'Licenças', status:'in review', due:null, assignee:'Diogo Lerison', id:'86ak8q3ur', url:'https://app.clickup.com/t/86ak8q3ur'}
     ]
    },
    {
-    n: 'Fase 3 - Execução',
+    n: 'Fase 3 - Execução técnica',
     status: 'backlog',
     assignee: 'Diogo Lerison',
     due: null,
@@ -871,19 +873,22 @@ const WAGNER_METAS = [
       {n:'Criação do Projeto', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5ewpn', url:'https://app.clickup.com/t/86ak5ewpn'},
       {n:'Criação do dominio', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5ewkr', url:'https://app.clickup.com/t/86ak5ewkr'},
       {n:'Infraestrutura (Gerenciado)', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5ewf8', url:'https://app.clickup.com/t/86ak5ewf8'},
-      {n:'Mover POC para Projeto em produção', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5ewx4', url:'https://app.clickup.com/t/86ak5ewx4'},
-      {n:'Configurar repositorio', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5ey5a', url:'https://app.clickup.com/t/86ak5ey5a'},
+      {n:'Definir estratégia de migração', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5ewx4', url:'https://app.clickup.com/t/86ak5ewx4'},
       {n:'Configurar Jobs de backup', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5ey7n', url:'https://app.clickup.com/t/86ak5ey7n'},
       {n:'BC-Backup (Gerenciado)', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5exvf', url:'https://app.clickup.com/t/86ak5exvf'},
-      {n:'Firewall (Gerenciado)', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5z7v9', url:'https://app.clickup.com/t/86ak5z7v9'},
-      {n:'Criação de firewall', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5z8tg', url:'https://app.clickup.com/t/86ak5z8tg'},
+      {n:'Firewall (Gerenciado)', status:'backlog', due:null, id:'86ak5z7v9', url:'https://app.clickup.com/t/86ak5z7v9'},
+      {n:'Criação de firewall', status:'backlog', due:null, id:'86ak5z8tg', url:'https://app.clickup.com/t/86ak5z8tg'},
+      {n:'Configuração inicial do FW', status:'backlog', due:null, id:'86ak5z8ze', url:'https://app.clickup.com/t/86ak5z8ze'},
       {n:'Servidor', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5z83a', url:'https://app.clickup.com/t/86ak5z83a'},
-      {n:'Configuração', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5z8ze', url:'https://app.clickup.com/t/86ak5z8ze'},
-      {n:'1 VM', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5zcrb', url:'https://app.clickup.com/t/86ak5zcrb'}
+      {n:'1 VM', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5zcrb', url:'https://app.clickup.com/t/86ak5zcrb'},
+      {n:'Configuração de VPN client to site', status:'backlog', due:null, id:'86ak8pn7r', url:'https://app.clickup.com/t/86ak8pn7r'},
+      {n:'Configuração de VPN site to site', status:'backlog', due:null, id:'86ak8pmr5', url:'https://app.clickup.com/t/86ak8pmr5'},
+      {n:'Criação da Rede', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak8peu5', url:'https://app.clickup.com/t/86ak8peu5'},
+      {n:'Levantamento de usuários (cliente)', status:'backlog', due:null, assignee:'Diogo Lerison', id:'86ak8pfdz', url:'https://app.clickup.com/t/86ak8pfdz'}
     ]
    },
    {
-    n: 'Fase 4 - Monitoramento e controle',
+    n: 'Fase 4 - Controle',
     status: 'backlog',
     assignee: 'Diogo Lerison',
     due: null,
@@ -904,7 +909,9 @@ const WAGNER_METAS = [
       {n:'Elaboração da TEP', status:'backlog', due:null, assignee:'Diogo Lerison', id:'86ak5eyy7', url:'https://app.clickup.com/t/86ak5eyy7'},
       {n:'Assinatura da TEP', status:'backlog', due:null, assignee:'Diogo Lerison', id:'86ak5ez40', url:'https://app.clickup.com/t/86ak5ez40'},
       {n:'Realizar contato de encerramento', status:'backlog', due:null, assignee:'Diogo Lerison', id:'86ak5ez0e', url:'https://app.clickup.com/t/86ak5ez0e'},
-      {n:'Documentação técnica final', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5ez25', url:'https://app.clickup.com/t/86ak5ez25'}
+      {n:'Documentação técnica final', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5ez25', url:'https://app.clickup.com/t/86ak5ez25'},
+      {n:'Documentação técnica', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak8rgfd', url:'https://app.clickup.com/t/86ak8rgfd'},
+      {n:'Registro de documentação', status:'backlog', due:null, assignee:'Diogo Lerison', id:'86ak8prta', url:'https://app.clickup.com/t/86ak8prta'}
     ]
    }
   ]
@@ -950,7 +957,7 @@ const ROADMAP_DONE_STATUSES = ['concluído','fechado'];
 
 // Tarefas da lista "Wagner" · ClickUp (https://app.clickup.com/3080406/v/b/li/901326954601)
 const WAGNER_TASKS = [
-  {id:'86ak851vd', name:'Abrir GMUD para desligar o servidor do Znuny em 1/09', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ak851vd'},
+  {id:'86ak851vd', name:'Abrir GMUD para desligar o servidor do Znuny em 1/09', status:'concluído', assignees:[], url:'https://app.clickup.com/t/86ak851vd'},
   {id:'86ak851en', name:'Storware: planejamento QTS x Clientes x datas', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak851en'},
   {id:'86ak0ykuq', name:'Criar alarme de alerta amarelo, no dia do vencimento', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0ykuq', doneAt:1788006011973},
   {id:'86ak0ykhj', name:'Alarmar com atrasado somente quando passar a data de conclusão', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0ykhj', doneAt:1788005969881},
@@ -1257,18 +1264,15 @@ const RODNEY_TASKS = [
 ];
 
 const LEONARDO_TASKS = [
-  {id:'86ak33ugq', name:'Centralizar nossos projetos no GIT corporativo', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak33ugq'},
+  {id:'86ak33ugq', name:'Centralizar nossos projetos no GIT corporativo', status:'aguardando retorno', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak33ugq'},
   {id:'86ak0t950', name:'Apresentação do BOM', status:'concluído', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak0t950'},
   {id:'86ak0h5ya', name:'Roadmap de Engenharia para o time Comercial (visão de negócio)', status:'em andamento', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak0h5ya'},
-  {id:'86ak00qcy', name:'Investigação: imagens Linux exigindo keypair para mudar senha', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak00qcy'},
-  {id:'86ak00q7q', name:'Grupo de Servidores', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak00q7q'},
   {id:'86ajzq08d', name:'Connectway', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86ajzq08d'},
-  {id:'86ajzdryz', name:'Cliente cobrando atualização da versão do MariaDB 12.3.2', status:'planejamento', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajzdryz'},
   {id:'86ajvyfac', name:'Auditoria dentro do BCP (quem, o quê e como fez)', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajvyfac'},
   {id:'86ajvx0jp', name:'Reformular controller do Veeam para remover do Proxmox', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajvx0jp'},
   {id:'86ajrg26r', name:'Dell', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajrg26r'},
   {id:'86ajrg219', name:'Lenovo', status:'aguardando retorno', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajrg219'},
-  {id:'86ajrfy36', name:'Avaliação de novos fornecedores de hardware', status:'em andamento', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajrfy36'},
+  {id:'86ajrfy36', name:'Avaliação de novos fornecedores de hardware', status:'concluído', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajrfy36'},
   {id:'86ajr1wkz', name:'Módulo de Kubernetes (eliminar Magnum)', status:'planejamento', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1wkz'},
   {id:'86ajr1wkw', name:'Firewall como serviço (FWaaS)', status:'planejamento', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1wkw'},
   {id:'86ajr1wkv', name:'Menu de automação no Skyline (subir/agendar máquinas)', status:'aguardando retorno', assignees:['Leonardo Gonçalez','Bruno Queiroz'], url:'https://app.clickup.com/t/86ajr1wkv'},
@@ -1279,13 +1283,7 @@ const LEONARDO_TASKS = [
   {id:'86ajr1uxp', name:'Criação da página da Engenharia no SharePoint', status:'bloqueada', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1uxp'},
   {id:'86ajr1ukv', name:'Painel automático de capacity', status:'bloqueada', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1ukv'},
   {id:'86aea9jaw', name:'Planejar atualização do OpenStack (por módulo)', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86aea9jaw'},
-  {id:'86aea8x8b', name:'Resolver MongoDB versão 8.2', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86aea8x8b'},
-  {id:'86ak0g6zn', name:'Não consigo criar banco de dados MariaDB, erro de cota mesmo aumentando', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak0g6zn'},
-  {id:'86ak0fqm1', name:'Ajustar descrição da Console para criação de Flavors de Banco de Dados', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ak0fqm1'},
-  {id:'86ak0ffwt', name:'Roadmap de atualização das versões das aplicações do PaaS (ex: MariaDB)', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak0ffwt'},
-  {id:'86ak00hcn', name:'Atualizar as imagens de SO (Linux e Windows) no BCP', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak00hcn'},
-  {id:'86ajzzn6x', name:'Atualizar o motor do Kubernetes de Magnum para Rancher', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajzzn6x'},
-  {id:'86ajjnbmx', name:'Flavors - abas vazias', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajjnbmx'}
+  {id:'86aea8x8b', name:'Resolver MongoDB versão 8.2', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86aea8x8b'}
 ];
 
 function fmtDate(ms){
