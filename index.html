@@ -539,6 +539,9 @@
     50% { opacity:.35; transform:scale(1.3); }
   }
   .board-card .bc-name{font-family:var(--body); font-size:12.5px; color:var(--text); line-height:1.42; margin-bottom:9px;}
+  .board-card .bc-due{display:inline-flex; align-items:center; gap:4px; font-family:var(--mono); font-size:9.5px; font-weight:700; letter-spacing:.03em; text-transform:uppercase; margin-bottom:6px;}
+  .board-card .bc-due.overdue{color:var(--red);}
+  .board-card .bc-due.today{color:var(--amber);}
   .board-card .bc-foot{display:flex; align-items:center; justify-content:space-between; gap:8px;}
   .board-card .bc-avatars{display:flex;}
   .board-card .bc-av{
@@ -742,7 +745,7 @@
 
 <script>
 // ================= DADOS =================
-const LAST_SYNC_UTC = "2026-09-01T19:46:36.000000+00:00";
+const LAST_SYNC_UTC = "2026-09-02T11:46:25.000000+00:00";
 
 const WAGNER_METAS = [
  {
@@ -957,70 +960,66 @@ const ROADMAP_DONE_STATUSES = ['concluído','fechado'];
 
 // Tarefas da lista "Wagner" · ClickUp (https://app.clickup.com/3080406/v/b/li/901326954601)
 const WAGNER_TASKS = [
-  {id:'86ak851vd', name:'Abrir GMUD para desligar o servidor do Znuny em 1/09', status:'concluído', assignees:[], url:'https://app.clickup.com/t/86ak851vd'},
-  {id:'86ak851en', name:'Storware: planejamento QTS x Clientes x datas', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak851en'},
-  {id:'86ak0ykuq', name:'Criar alarme de alerta amarelo, no dia do vencimento', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0ykuq', doneAt:1788006011973},
-  {id:'86ak0ykhj', name:'Alarmar com atrasado somente quando passar a data de conclusão', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0ykhj', doneAt:1788005969881},
-  {id:'86ak0yjnn', name:'Melhoria do painel de metas', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0yjnn', doneAt:1788006011973},
-  {id:'86ak0vchx', name:'Automatizar no escritório de Projetos o envio da TEP assinada pelo cliente para início do faturamento', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0vchx'},
-  {id:'86ak0v91j', name:'Criar painel de tarefas para todos os times da diretoria (OnePage)', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ak0v91j', doneAt:1788005988119},
-  {id:'86ajhv42w', name:'Replanejamento da migração com abertura do projeto de Desmobilização 2.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ajhv42w', doneAt:1784128185933},
-  {id:'86ajdufj9', name:'Redefinir o painel de projetos nos moldes do CC', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ajdufj9', doneAt:1784128255901},
-  {id:'86aj74xpa', name:'Finalização do projeto da GIMBA no sistema', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj74xpa', doneAt:1784128003113},
-  {id:'86aj74bfu', name:'Deleção de domínio', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj74bfu'},
-  {id:'86aj7461w', name:'Mudança de IP da BMC para liberar IP', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj7461w', doneAt:1786540831332},
-  {id:'86aj73tvf', name:'Controle sendo o mesmo core do CC (projetos.binario.cloud)', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73tvf'},
-  {id:'86aj73tv0', name:'Desativação da 2.0 fisicamente', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73tv0'},
-  {id:'86aj73tut', name:'Migração 2>3: reduzir e chegar a ≤100 VMs de clientes com comprovação', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73tut', doneAt:1784127886561},
-  {id:'86aj73tua', name:'Consolidação da Governança', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73tua'},
-  {id:'86aj73ttz', name:'Sanitização 3.0 (contínuo)', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73ttz'},
-  {id:'86aj73tth', name:'Sanitização 2.0 (contínuo)', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73tth'},
-  {id:'86aj73try', name:'Projeto Observabilidade', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73try', doneAt:1786540574869},
-  {id:'86aj73trc', name:'Projeto ClaudIA', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj73trc', doneAt:1784128135170},
-  {id:'86aj3t57d', name:'Planejamento modificações Alerj', status:'em andamento', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86aj3t57d'},
-  {id:'86ahf5dbz', name:'Novo planejamento de Ondas para Migração BCP', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5dbz', doneAt:1784128079225},
-  {id:'86ahf5dby', name:'Fechar projeto DISMAC', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5dby', doneAt:1781125683729},
-  {id:'86ahf5dbn', name:'Alinhar apresentação com o Bruno', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5dbn', doneAt:1781125683729},
-  {id:'86ahf5dba', name:'Limpar 2.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5dba', doneAt:1782239952032},
-  {id:'86ahf5db1', name:'Capacity 3.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5db1', doneAt:1784128299271},
-  {id:'86ahf5daf', name:'Capacity 2.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahf5daf', doneAt:1784128305278},
-  {id:'86ahd7jn3', name:'Reunião com cada líder/par para entendimento da área', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahd7jn3', doneAt:1782240066498},
-  {id:'86ahd7hkq', name:'Dash único com todas as visões de projetos internos', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahd7hkq', doneAt:1781125683729},
-  {id:'86ahc8yjj', name:'08/05 - Continuação da limpeza de VMs', status:'fechado', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahc8yjj', doneAt:1781125683729},
-  {id:'86ahbt0ud', name:'07/05 - Atualização do relatório e desligamento de VMs', status:'fechado', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahbt0ud', doneAt:1781125683729},
-  {id:'86ahar8k5', name:'Status migração 2>3', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahar8k5', doneAt:1784128095240},
-  {id:'86ahar8a7', name:'Validação dos modelos no ClickUp', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahar8a7', doneAt:1782240074492},
-  {id:'86ahar860', name:'Criação do relatório de fechamento tático', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahar860', doneAt:1781722897592},
-  {id:'86ahar7zw', name:'Processo da área', status:'revisando', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahar7zw'},
-  {id:'86ahar7wh', name:'Plano de 100 dias', status:'revisando', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ahar7wh'},
-  {id:'86ah462pk', name:'Limpeza - BCOS 2.0', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ah462pk', doneAt:1784128119928},
-  {id:'86ah436mx', name:'Execução da limpeza - Services', status:'fechado', assignees:['João Alves'], url:'https://app.clickup.com/t/86ah436mx', doneAt:1784128119928},
-  {id:'86ah4368f', name:'Lista de máquinas recebidas da Engenharia', status:'fechado', assignees:[], url:'https://app.clickup.com/t/86ah4368f', doneAt:1781125683729},
-  {id:'86ah435z8', name:'Limpeza das VMs em Default - Services', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ah435z8', doneAt:1784128119928},
-  {id:'86ah435by', name:'Limpeza dos projetos internos', status:'fechado', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ah435by', doneAt:1784128119928}
+  {id:'86ak851vd', name:'Abrir GMUD para desligar o servidor do Znuny em 1/09', status:'concluído', assignees:[], due:null, url:'https://app.clickup.com/t/86ak851vd'},
+  {id:'86ak851en', name:'Storware planejamento QTSxClientesxdatas', status:'concluído', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ak851en'},
+  {id:'86ak0vchx', name:'Automatizar no escritório de Projetos o envio da TEP assinada pelo cliente para início do faturamento', status:'concluído', assignees:['Wagner Bento Felix'], due:1788591600000, url:'https://app.clickup.com/t/86ak0vchx'},
+  {id:'86ajhv42w', name:'Replanejamento da migração com abertura do projeto de Desmobilização 2.0', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ajhv42w', doneAt:1784128185933},
+  {id:'86ajdufj9', name:'Redefinir o painel de projetos nos moldes do CC', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ajdufj9', doneAt:1784128255901},
+  {id:'86aj74xpa', name:'Finalização do projeto da GIMBA no sistema', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86aj74xpa', doneAt:1784128003113},
+  {id:'86aj74bfu', name:'Deleção de domínio', status:'fechado', assignees:['Wagner Bento Felix'], due:1796108400000, url:'https://app.clickup.com/t/86aj74bfu', doneAt:1788292872918},
+  {id:'86aj7461w', name:'Mudança de IP da BMC para liberar IP', status:'fechado', assignees:['Wagner Bento Felix'], due:1784358000000, url:'https://app.clickup.com/t/86aj7461w', doneAt:1786540831332},
+  {id:'86aj73tvf', name:'Controle sendo o mesmo core do CC (projetos.binario.cloud)', status:'revisando', assignees:['Wagner Bento Felix'], due:1790751600000, url:'https://app.clickup.com/t/86aj73tvf'},
+  {id:'86aj73tv0', name:'Desativação da 2.0 fisicamente', status:'em andamento', assignees:['Wagner Bento Felix'], due:1796108400000, url:'https://app.clickup.com/t/86aj73tv0'},
+  {id:'86aj73tut', name:'Migração 2>3: reduzir e chegar a ≤100 VMs de clientes com comprovação', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86aj73tut', doneAt:1784127886561},
+  {id:'86aj73tua', name:'Consolidação da Governança', status:'em andamento', assignees:['Wagner Bento Felix'], due:1798700400000, url:'https://app.clickup.com/t/86aj73tua'},
+  {id:'86aj73ttz', name:'Sanitização 3.0 (contínuo)', status:'em andamento', assignees:['Wagner Bento Felix'], due:1798700400000, url:'https://app.clickup.com/t/86aj73ttz'},
+  {id:'86aj73tth', name:'Sanitização 2.0 (contínuo)', status:'em andamento', assignees:['Wagner Bento Felix'], due:1798700400000, url:'https://app.clickup.com/t/86aj73tth'},
+  {id:'86aj73try', name:'Projeto Observabilidade', status:'fechado', assignees:['Wagner Bento Felix'], due:1785481200000, url:'https://app.clickup.com/t/86aj73try', doneAt:1786540574869},
+  {id:'86aj73trc', name:'Projeto ClaudIA', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86aj73trc', doneAt:1784128135170},
+  {id:'86aj3t57d', name:'Planejamento modificações Alerj', status:'em andamento', assignees:['Wagner Bento Felix'], due:1790751600000, url:'https://app.clickup.com/t/86aj3t57d'},
+  {id:'86ahf5dbz', name:'Novo planejamento de Ondas para Migração BCP', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahf5dbz', doneAt:1784128079225},
+  {id:'86ahf5dby', name:'Fechar projeto DISMAC', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahf5dby', doneAt:1781125683729},
+  {id:'86ahf5dbn', name:'Alinhar apresentação com o Bruno', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahf5dbn', doneAt:1781125683729},
+  {id:'86ahf5dba', name:'Limpar 2.0', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahf5dba', doneAt:1782239952032},
+  {id:'86ahf5db1', name:'Capacity 3.0', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahf5db1', doneAt:1784128299271},
+  {id:'86ahf5daf', name:'Capacity 2.0', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahf5daf', doneAt:1784128305278},
+  {id:'86ahd7jn3', name:'Reunião com cada líder/par para entendimento da área', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahd7jn3', doneAt:1782240066498},
+  {id:'86ahd7hkq', name:'Dash único com todas as visões de projetos internos', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahd7hkq', doneAt:1781125683729},
+  {id:'86ahc8yjj', name:'08/05 - Continuação da limpeza de VMs', status:'fechado', assignees:['João Alves'], due:null, url:'https://app.clickup.com/t/86ahc8yjj', doneAt:1781125683729},
+  {id:'86ahbt0ud', name:'07/05 - Atualização do relatório e desligamento de VMs', status:'fechado', assignees:['João Alves'], due:1778137200000, url:'https://app.clickup.com/t/86ahbt0ud', doneAt:1781125683729},
+  {id:'86ahar8k5', name:'Status migração 2>3', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahar8k5', doneAt:1784128095240},
+  {id:'86ahar8a7', name:'Validação dos modelos no ClickUp', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahar8a7', doneAt:1782240074492},
+  {id:'86ahar860', name:'Criação do relatório de fechamento tático', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahar860', doneAt:1781722897592},
+  {id:'86ahar7zw', name:'Processo da área', status:'revisando', assignees:['Wagner Bento Felix'], due:1790751600000, url:'https://app.clickup.com/t/86ahar7zw'},
+  {id:'86ahar7wh', name:'Plano de 100 dias', status:'revisando', assignees:['Wagner Bento Felix'], due:1790751600000, url:'https://app.clickup.com/t/86ahar7wh'},
+  {id:'86ah462pk', name:'Limpeza - BCOS 2.0', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ah462pk', doneAt:1784128119928},
+  {id:'86ah436mx', name:'Execução da limpeza - Services', status:'fechado', assignees:['João Alves'], due:null, url:'https://app.clickup.com/t/86ah436mx', doneAt:1784128119928},
+  {id:'86ah4368f', name:'Lista de máquinas recebidas da Engenharia', status:'fechado', assignees:[], due:null, url:'https://app.clickup.com/t/86ah4368f', doneAt:1781125683729},
+  {id:'86ah435z8', name:'Limpeza das VMs em Default - Services', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ah435z8', doneAt:1784128119928},
+  {id:'86ah435by', name:'Limpeza dos projetos internos', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ah435by', doneAt:1784128119928}
 ];
 
 const BRUNO_TASKS = [
-  {id:'86ak5pat9', name:'Analise para deleção dos Dominios sem Vms 2.0', status:'aberto', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ak5pat9'},
-  {id:'86ak52c7n', name:'Regularização Pós Migração - Gimba', status:'aberto', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ak52c7n'},
+  {id:'86ak5pat9', name:'Analise para deleção dos Dominios sem Vms 2.0', status:'aberto', assignees:['Bruno Queiroz'], due:1787900400000, url:'https://app.clickup.com/t/86ak5pat9'},
+  {id:'86ak52c7n', name:'Regularização Pós Migração - Gimba', status:'aberto', assignees:['Bruno Queiroz'], due:1788591600000, url:'https://app.clickup.com/t/86ak52c7n'},
   {id:'86ajzvbmq', name:'Add metadados de monitoração em todos os servidores', status:'planejamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ajzvbmq'},
   {id:'86ajzvbh2', name:'Ajustar ícones dos servidores (metadados)', status:'planejamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ajzvbh2'},
   {id:'86ajzvb9z', name:'Migrar SQLs para flavor correto', status:'planejamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ajzvb9z'},
-  {id:'86ajj6hdn', name:'Passagem UOL - Engenharia', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ajj6hdn'},
-  {id:'86ajj6fb2', name:'Passagem Cannect - DevOps', status:'em andamento', assignees:['Bruno Queiroz','Gustavo Camargo'], url:'https://app.clickup.com/t/86ajj6fb2'},
+  {id:'86ajj6hdn', name:'Passagem UOL - Engenharia', status:'em andamento', assignees:['Bruno Queiroz'], due:1790751600000, url:'https://app.clickup.com/t/86ajj6hdn'},
+  {id:'86ajj6fb2', name:'Passagem Cannect - DevOps', status:'em andamento', assignees:['Bruno Queiroz','Gustavo Camargo'], due:1787295600000, url:'https://app.clickup.com/t/86ajj6fb2'},
   {id:'86aj74a6m', name:'Migrar as Bancos ORACLE para Baremetal', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aj74a6m'},
-  {id:'86aj73kd8', name:'Viabilizar produtos BC Automation e BC Ops & Governance', status:'bloqueada', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aj73kd8'},
+  {id:'86aj73kd8', name:'Viabilizar produtos BC Automation e BC Ops & Governance', status:'bloqueada', assignees:['Bruno Queiroz'], due:1785999600000, url:'https://app.clickup.com/t/86aj73kd8'},
   {id:'86aj73kd6', name:'Cancelar os 2 links da operação (Redundância) - agora L2L', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aj73kd6'},
   {id:'86aj73kd3', name:'Validar LB - ficará no FW ou voltaremos para o BCP', status:'revisando', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aj73kd3'},
   {id:'86aj73kd1', name:'Ativar o link Algar', status:'aguardando retorno', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aj73kd1'},
-  {id:'86aj73kcy', name:'Refinamento da Gimba', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aj73kcy'},
-  {id:'86aj73kcq', name:'Automatização do processo da Gimba para redução', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aj73kcq'},
-  {id:'86ahjxj34', name:'Validação dos PaaS na plataforma', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ahjxj34'},
-  {id:'86ah9y7by', name:'Processo de atualização do certificado (revisão de periodicidade)', status:'aguardando retorno', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ah9y7by'},
-  {id:'86aeprcpk', name:'FW', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aeprcpk'},
-  {id:'86aeprcdh', name:'DevOps', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aeprcdh'},
-  {id:'86aeprc0q', name:'Servidores VM', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aeprc0q'},
-  {id:'86aeprbx4', name:'Backup/DR', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aeprbx4'},
+  {id:'86aj73kcy', name:'Refinamento da Gimba', status:'em andamento', assignees:['Bruno Queiroz'], due:1785481200000, url:'https://app.clickup.com/t/86aj73kcy'},
+  {id:'86aj73kcq', name:'Automatização do processo da Gimba para redução', status:'em andamento', assignees:['Bruno Queiroz'], due:1790751600000, url:'https://app.clickup.com/t/86aj73kcq'},
+  {id:'86ahjxj34', name:'Validação dos PaaS na plataforma', status:'em andamento', assignees:['Bruno Queiroz'], due:1780038000000, url:'https://app.clickup.com/t/86ahjxj34'},
+  {id:'86ah9y7by', name:'Processo de atualização do certificado (revisão de periodicidade)', status:'aguardando retorno', assignees:['Bruno Queiroz'], due:1780470000000, url:'https://app.clickup.com/t/86ah9y7by'},
+  {id:'86aeprcpk', name:'FW', status:'em andamento', assignees:['Bruno Queiroz'], due:1770361200000, url:'https://app.clickup.com/t/86aeprcpk'},
+  {id:'86aeprcdh', name:'DevOps', status:'em andamento', assignees:['Bruno Queiroz'], due:1770966000000, url:'https://app.clickup.com/t/86aeprcdh'},
+  {id:'86aeprc0q', name:'Servidores VM', status:'em andamento', assignees:['Bruno Queiroz'], due:1769410800000, url:'https://app.clickup.com/t/86aeprc0q'},
+  {id:'86aeprbx4', name:'Backup/DR', status:'em andamento', assignees:['Bruno Queiroz'], due:1769756400000, url:'https://app.clickup.com/t/86aeprbx4'},
   {id:'86ae2pb6v', name:'Sustentação', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ae2pb6v'},
   {id:'86ae2pb4x', name:'Monitoração', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ae2pb4x'},
   {id:'86ae2pb3h', name:'Backup', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ae2pb3h'},
@@ -1045,13 +1044,13 @@ const BRUNO_TASKS = [
   {id:'86acgfbyf', name:'Escopo de Backup', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86acgfbyf'},
   {id:'86acgf9cj', name:'Coleta de dados do FW automatizada', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86acgf9cj'},
   {id:'86acgf97f', name:'Coleta de dados do Backup automatizada', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86acgf97f'},
-  {id:'86ac6u9cp', name:'Plano de documentação para Clientes Gerenciados', status:'planejamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ac6u9cp'},
-  {id:'86aba9ak9', name:'Controle de projetos de melhorias e inovações da área', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aba9ak9'},
-  {id:'86aba8mgv', name:'Montar e entender atuação nos ambientes Cloud Privada', status:'planejamento', assignees:['Bruno Queiroz','Gustavo Camargo'], url:'https://app.clickup.com/t/86aba8mgv'},
-  {id:'86aba7nnn', name:'Mapeamento e documentação do onboarding', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aba7nnn'},
-  {id:'86aba0vj8', name:'Criação de POPs (67)', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aba0vj8'},
-  {id:'86ab9yy57', name:'Elaborar escopo de serviço Gerenciado (IaaS, Backup, FW, AntiVirus)', status:'planejamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ab9yy57'},
-  {id:'86ab9ygu5', name:'Criar checklist de processos rotineiros para clientes Gerenciados', status:'planejamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ab9ygu5'}
+  {id:'86ac6u9cp', name:'Plano de documentação para Clientes Gerenciados', status:'planejamento', assignees:['Bruno Queiroz'], due:1761634800000, url:'https://app.clickup.com/t/86ac6u9cp'},
+  {id:'86aba9ak9', name:'Controle de projetos de melhorias e inovações da área', status:'em andamento', assignees:['Bruno Queiroz'], due:1759302000000, url:'https://app.clickup.com/t/86aba9ak9'},
+  {id:'86aba8mgv', name:'Montar e entender atuação nos ambientes Cloud Privada', status:'planejamento', assignees:['Bruno Queiroz','Gustavo Camargo'], due:1759215600000, url:'https://app.clickup.com/t/86aba8mgv'},
+  {id:'86aba7nnn', name:'Mapeamento e documentação do onboarding', status:'em andamento', assignees:['Bruno Queiroz'], due:1759215600000, url:'https://app.clickup.com/t/86aba7nnn'},
+  {id:'86aba0vj8', name:'Criação de POPs (67)', status:'em andamento', assignees:['Bruno Queiroz'], due:1764313200000, url:'https://app.clickup.com/t/86aba0vj8'},
+  {id:'86ab9yy57', name:'Elaborar escopo de serviço Gerenciado (IaaS, Backup, FW, AntiVirus)', status:'planejamento', assignees:['Bruno Queiroz'], due:1760079600000, url:'https://app.clickup.com/t/86ab9yy57'},
+  {id:'86ab9ygu5', name:'Criar checklist de processos rotineiros para clientes Gerenciados', status:'planejamento', assignees:['Bruno Queiroz'], due:1761894000000, url:'https://app.clickup.com/t/86ab9ygu5'}
 ];
 
 const JOAO_TASKS = [
@@ -1223,8 +1222,8 @@ const JOAO_TASKS = [
 ];
 
 const GUSTAVO_TASKS = [
-  {id:'86ak6hayd', name:'Resolução Dismac SAP', status:'em andamento', assignees:['Gustavo Camargo','Bruno Queiroz'], url:'https://app.clickup.com/t/86ak6hayd'},
-  {id:'86ak6cw7r', name:'DR Coriolis', status:'aberto', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ak6cw7r'},
+  {id:'86ak6hayd', name:'Resolução Dismac SAP', status:'em andamento', assignees:['Gustavo Camargo','Bruno Queiroz'], due:1787900400000, url:'https://app.clickup.com/t/86ak6hayd'},
+  {id:'86ak6cw7r', name:'DR Coriolis', status:'aberto', assignees:['Gustavo Camargo'], due:1788505200000, url:'https://app.clickup.com/t/86ak6cw7r'},
   {id:'86ak2tamx', name:'Inventário NetBox para Observabilidade', status:'aberto', assignees:['Gustavo Camargo','Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak2tamx'},
   {id:'86ajzxx85', name:'Chamar HostFiber e Algar para viabilidade em Gimba Ipiranga', status:'aberto', assignees:['Rafael Alves','Bruno Queiroz','Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajzxx85'},
   {id:'86ajzxpea', name:'Definição de regras para utilização de imagem de clientes', status:'aberto', assignees:['Leonardo Gonçalez','Bruno Queiroz','Gustavo Camargo'], url:'https://app.clickup.com/t/86ajzxpea'},
@@ -1235,38 +1234,38 @@ const GUSTAVO_TASKS = [
   {id:'86ajzthyu', name:'Problems', status:'aberto', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ajzthyu'},
   {id:'86ajzthw7', name:'Área book', status:'revisando', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajzthw7'},
   {id:'86ajzthv9', name:'Saúde Cliente', status:'em andamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajzthv9'},
-  {id:'86ajr1pud', name:'Validação dos tenants ociosos de backup', status:'em andamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajr1pud'},
-  {id:'86ajr1pu9', name:'Validação módulos CC v2', status:'em andamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajr1pu9'},
+  {id:'86ajr1pud', name:'Validação dos tenants ociosos de backup', status:'em andamento', assignees:['Gustavo Camargo'], due:1786690800000, url:'https://app.clickup.com/t/86ajr1pud'},
+  {id:'86ajr1pu9', name:'Validação módulos CC v2', status:'em andamento', assignees:['Gustavo Camargo'], due:1787295600000, url:'https://app.clickup.com/t/86ajr1pu9'},
   {id:'86ajjja87', name:'Definição de compliance sobre licenciamento', status:'aberto', assignees:['Rafael Alves'], url:'https://app.clickup.com/t/86ajjja87'},
   {id:'86ajj4tv4', name:'3.0', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ajj4tv4'},
   {id:'86ajj4tuj', name:'Storware', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ajj4tuj'},
   {id:'86ajj4tre', name:'Backup', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ajj4tre'},
   {id:'86ajdudvy', name:'Atender os chamados através do CC', status:'planejamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajdudvy'},
   {id:'86aj74vnr', name:'Painel Grafana do CEPH (acompanhar os 3 clusters)', status:'impedimento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86aj74vnr'},
-  {id:'86aj3t2up', name:'Evacuação de Nodes 2.0 para liberar capacidade', status:'em andamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86aj3t2up'},
+  {id:'86aj3t2up', name:'Evacuação de Nodes 2.0 para liberar capacidade', status:'em andamento', assignees:['Gustavo Camargo'], due:1781852400000, url:'https://app.clickup.com/t/86aj3t2up'},
   {id:'86ahb0awe', name:'Revisitação de Clientes', status:'em andamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ahb0awe'},
-  {id:'86ahb06bq', name:'Anti-vírus Gimba', status:'planejamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ahb06bq'},
-  {id:'86ah11e76', name:'Automação Op. Gimba', status:'em andamento', assignees:['Gustavo Camargo','Bruno Queiroz'], url:'https://app.clickup.com/t/86ah11e76'},
-  {id:'86ae2v1uc', name:'Gestão de Clientes', status:'em andamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ae2v1uc'}
+  {id:'86ahb06bq', name:'Anti-vírus Gimba', status:'planejamento', assignees:['Gustavo Camargo'], due:1780038000000, url:'https://app.clickup.com/t/86ahb06bq'},
+  {id:'86ah11e76', name:'Automação Op. Gimba', status:'em andamento', assignees:['Gustavo Camargo','Bruno Queiroz'], due:1780038000000, url:'https://app.clickup.com/t/86ah11e76'},
+  {id:'86ae2v1uc', name:'Gestão de Clientes', status:'em andamento', assignees:['Gustavo Camargo'], due:1777618800000, url:'https://app.clickup.com/t/86ae2v1uc'}
 ];
 
 const RODNEY_TASKS = [
-  {id:'86ajvu86k', name:'Montar ambiente com usuário e senha para demonstração para cliente (billing, bc-backup, monitoração, marketplace, MFA, calculadora, perfis)', status:'impedimento', assignees:['Rodney Botelho'], url:'https://app.clickup.com/t/86ajvu86k'},
-  {id:'86ajj3tdm', name:'Criar processo de renovação de serviço gerenciado', status:'impedimento', assignees:['Rodney Botelho','Rafael Alves'], url:'https://app.clickup.com/t/86ajj3tdm'},
+  {id:'86ajvu86k', name:'Montar ambiente com usuário e senha para demonstração para cliente (billing, bc-backup, monitoração, marketplace, MFA, calculadora, perfis)', status:'impedimento', assignees:['Rodney Botelho'], due:1788073200000, url:'https://app.clickup.com/t/86ajvu86k'},
+  {id:'86ajj3tdm', name:'Criar processo de renovação de serviço gerenciado', status:'impedimento', assignees:['Rodney Botelho','Rafael Alves'], due:1785481200000, url:'https://app.clickup.com/t/86ajj3tdm'},
   {id:'86aj3w2uk', name:'Apresentação Técnica do Storware', status:'impedimento', assignees:['Rodney Botelho','Bruno Queiroz'], url:'https://app.clickup.com/t/86aj3w2uk'},
   {id:'86aj30q9k', name:'Homologar Pré-Vendas para ISO 9001', status:'rejeitada', assignees:['Rodney Botelho'], url:'https://app.clickup.com/t/86aj30q9k'},
-  {id:'86aj30ptn', name:'Montar apresentação / Proposta BCP como nuvem Privada', status:'em andamento', assignees:['Rodney Botelho'], url:'https://app.clickup.com/t/86aj30ptn'},
-  {id:'86aj30p6w', name:'Criar Assistente de Pré-Vendas sofIA', status:'em andamento', assignees:['Rodney Botelho'], url:'https://app.clickup.com/t/86aj30p6w'},
-  {id:'86aexma93', name:'Laboratório de Coriolis para criação de cenários de migrações', status:'rejeitada', assignees:[], url:'https://app.clickup.com/t/86aexma93'},
-  {id:'86aexj1mp', name:'Apresentação Processo de Migração Binário Cloud', status:'impedimento', assignees:['Rodney Botelho'], url:'https://app.clickup.com/t/86aexj1mp'},
-  {id:'86aex10jn', name:'Criar diagramas de arquitetura para cada serviço da Binário Cloud', status:'rejeitada', assignees:['Rodney Botelho'], url:'https://app.clickup.com/t/86aex10jn'},
-  {id:'86aepfuaw', name:'Sessões mão na massa com o Comercial - apresentação do BCP', status:'concluído', assignees:['Rodney Botelho'], url:'https://app.clickup.com/t/86aepfuaw'}
+  {id:'86aj30ptn', name:'Montar apresentação / Proposta BCP como nuvem Privada', status:'em andamento', assignees:['Rodney Botelho'], due:1787900400000, url:'https://app.clickup.com/t/86aj30ptn'},
+  {id:'86aj30p6w', name:'Criar Assistente de Pré-Vendas sofIA', status:'em andamento', assignees:['Rodney Botelho'], due:1793430000000, url:'https://app.clickup.com/t/86aj30p6w'},
+  {id:'86aexma93', name:'Laboratório de Coriolis para criação de cenários de migrações', status:'rejeitada', assignees:[], due:1773990000000, url:'https://app.clickup.com/t/86aexma93'},
+  {id:'86aexj1mp', name:'Apresentação Processo de Migração Binário Cloud', status:'impedimento', assignees:['Rodney Botelho'], due:1775286000000, url:'https://app.clickup.com/t/86aexj1mp'},
+  {id:'86aex10jn', name:'Criar diagramas de arquitetura para cada serviço da Binário Cloud', status:'rejeitada', assignees:['Rodney Botelho'], due:1772175600000, url:'https://app.clickup.com/t/86aex10jn'},
+  {id:'86aepfuaw', name:'Sessões mão na massa com o Comercial - apresentação do BCP', status:'concluído', assignees:['Rodney Botelho'], due:1777878000000, url:'https://app.clickup.com/t/86aepfuaw'}
 ];
 
 const LEONARDO_TASKS = [
-  {id:'86ak33ugq', name:'Centralizar nossos projetos no GIT corporativo', status:'aguardando retorno', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak33ugq'},
-  {id:'86ak0t950', name:'Apresentação do BOM', status:'concluído', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak0t950'},
-  {id:'86ak0h5ya', name:'Roadmap de Engenharia para o time Comercial (visão de negócio)', status:'em andamento', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak0h5ya'},
+  {id:'86ak33ugq', name:'Centralizar nossos projetos no GIT corporativo', status:'aguardando retorno', assignees:['Leonardo Gonçalez'], due:1787986800000, url:'https://app.clickup.com/t/86ak33ugq'},
+  {id:'86ak0t950', name:'Apresentação do BOM', status:'concluído', assignees:['Leonardo Gonçalez'], due:1786690800000, url:'https://app.clickup.com/t/86ak0t950'},
+  {id:'86ak0h5ya', name:'Roadmap de Engenharia para o time Comercial (visão de negócio)', status:'em andamento', assignees:['Leonardo Gonçalez'], due:1787036400000, url:'https://app.clickup.com/t/86ak0h5ya'},
   {id:'86ajzq08d', name:'Connectway', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86ajzq08d'},
   {id:'86ajvyfac', name:'Auditoria dentro do BCP (quem, o quê e como fez)', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajvyfac'},
   {id:'86ajvx0jp', name:'Reformular controller do Veeam para remover do Proxmox', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajvx0jp'},
@@ -1622,9 +1621,16 @@ function renderBoard(project){
       <div class="board-col-body">
         ${tasks.length ? tasks.map(t=>{
           const recent = isRecentlyDone(t);
+          let dueBadge = '';
+          if(t.due && !ROADMAP_DONE_STATUSES.includes(t.status)){
+            const hoje = startOfDay(Date.now());
+            const dia = startOfDay(t.due);
+            if(dia < hoje) dueBadge = `<div class="bc-due overdue">⚠ Atrasada · ${fmtDate(t.due)}</div>`;
+            else if(dia === hoje) dueBadge = `<div class="bc-due today">● Vence hoje</div>`;
+          }
           return `
           <div class="board-card${recent ? ' just-done' : ''}">
-            ${recent ? `<div class="done-badge"><span class="dot"></span>Concluída ${daysAgo(t.doneAt)}</div>` : ''}
+            ${recent ? `<div class="done-badge"><span class="dot"></span>Concluída ${daysAgo(t.doneAt)}</div>` : dueBadge}
             <div class="bc-name">${t.name}</div>
             <div class="bc-foot">
               <div class="bc-avatars">
