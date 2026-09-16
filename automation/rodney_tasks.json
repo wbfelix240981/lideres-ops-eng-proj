@@ -1,0 +1,100 @@
+[
+ {
+  "id": "86ajvu86k",
+  "name": "Montar ambiente com usuário e senha para demonstração para cliente (billing, bc-backup, monitoração, marketplace, MFA, calculadora, perfis)",
+  "status": "impedimento",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1788073200000,
+  "url": "https://app.clickup.com/t/86ajvu86k"
+ },
+ {
+  "id": "86ajj3tdm",
+  "name": "Criar processo de renovação de serviço gerenciado",
+  "status": "impedimento",
+  "assignees": [
+   "Rodney Botelho",
+   "Rafael Alves"
+  ],
+  "due": 1785481200000,
+  "url": "https://app.clickup.com/t/86ajj3tdm"
+ },
+ {
+  "id": "86aj3w2uk",
+  "name": "Apresentação Técnica do Storware",
+  "status": "impedimento",
+  "assignees": [
+   "Rodney Botelho",
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86aj3w2uk"
+ },
+ {
+  "id": "86aj30q9k",
+  "name": "Homologar Pré-Vendas para ISO 9001",
+  "status": "rejeitada",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "url": "https://app.clickup.com/t/86aj30q9k"
+ },
+ {
+  "id": "86aj30ptn",
+  "name": "Montar apresentação / Proposta BCP como nuvem Privada",
+  "status": "em andamento",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1787900400000,
+  "url": "https://app.clickup.com/t/86aj30ptn"
+ },
+ {
+  "id": "86aj30p6w",
+  "name": "Criar Assistente de Pré-Vendas sofIA",
+  "status": "em andamento",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1793430000000,
+  "url": "https://app.clickup.com/t/86aj30p6w"
+ },
+ {
+  "id": "86aexma93",
+  "name": "Laboratório de Coriolis para criação de cenários de migrações",
+  "status": "rejeitada",
+  "assignees": [],
+  "due": 1773990000000,
+  "url": "https://app.clickup.com/t/86aexma93"
+ },
+ {
+  "id": "86aexj1mp",
+  "name": "Apresentação Processo de Migração Binário Cloud",
+  "status": "impedimento",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1775286000000,
+  "url": "https://app.clickup.com/t/86aexj1mp"
+ },
+ {
+  "id": "86aex10jn",
+  "name": "Criar diagramas de arquitetura para cada serviço da Binário Cloud",
+  "status": "rejeitada",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1772175600000,
+  "url": "https://app.clickup.com/t/86aex10jn"
+ },
+ {
+  "id": "86aepfuaw",
+  "name": "Sessões mão na massa com o Comercial - apresentação do BCP",
+  "status": "concluído",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1777878000000,
+  "url": "https://app.clickup.com/t/86aepfuaw"
+ }
+]
