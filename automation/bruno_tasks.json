@@ -2,9 +2,10 @@
  {
   "id": "86akjyw7m",
   "name": "Migração de Bloco de IPs 2.0",
-  "status": "aberto",
+  "status": "aguardando retorno",
   "assignees": [
-   "Bruno Queiroz"
+   "Bruno Queiroz",
+   "Wagner Bento Felix"
   ],
   "due": 1797318000000,
   "url": "https://app.clickup.com/t/86akjyw7m"
@@ -12,43 +13,36 @@
  {
   "id": "86ak5pat9",
   "name": "Analise para deleção dos Dominios sem Vms 2.0",
-  "status": "aberto",
+  "status": "fechado",
   "assignees": [
    "Bruno Queiroz"
   ],
   "due": 1787900400000,
-  "url": "https://app.clickup.com/t/86ak5pat9"
- },
- {
-  "id": "86ak52c7n",
-  "name": "REgularização Pós Migração - Gimba",
-  "status": "aberto",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1788591600000,
-  "url": "https://app.clickup.com/t/86ak52c7n"
+  "url": "https://app.clickup.com/t/86ak5pat9",
+  "doneAt": 1789587304896
  },
  {
   "id": "86ajj6hdn",
   "name": "Passagem UOL - Engenharia",
-  "status": "em andamento",
+  "status": "fechado",
   "assignees": [
    "Bruno Queiroz"
   ],
   "due": 1790751600000,
-  "url": "https://app.clickup.com/t/86ajj6hdn"
+  "url": "https://app.clickup.com/t/86ajj6hdn",
+  "doneAt": 1789586867846
  },
  {
   "id": "86ajj6fb2",
   "name": "Passagem Cannect - DevOps",
-  "status": "em andamento",
+  "status": "fechado",
   "assignees": [
    "Bruno Queiroz",
    "Gustavo Camargo"
   ],
   "due": 1787295600000,
-  "url": "https://app.clickup.com/t/86ajj6fb2"
+  "url": "https://app.clickup.com/t/86ajj6fb2",
+  "doneAt": 1789586328514
  },
  {
   "id": "86aj73kd8",
@@ -103,7 +97,7 @@
  {
   "id": "86ahjxj34",
   "name": "Validação dos PaaS na plataforma ",
-  "status": "em andamento",
+  "status": "revisando",
   "assignees": [
    "Bruno Queiroz"
   ],
@@ -365,7 +359,7 @@
  {
   "id": "86ac6u9cp",
   "name": "Plano de documentação para Clientes Gerenciados",
-  "status": "planejamento",
+  "status": "em andamento",
   "assignees": [
    "Bruno Queiroz"
   ],
@@ -563,7 +557,7 @@
  {
   "id": "86aba7nnn",
   "name": "Mapeamento e documentação do onboarding",
-  "status": "em andamento",
+  "status": "planejamento",
   "assignees": [
    "Bruno Queiroz"
   ],

@@ -1,5 +1,15 @@
 [
  {
+  "id": "86akk0g54",
+  "name": "Se apresentar para Cannect",
+  "status": "aberto",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1790319600000,
+  "url": "https://app.clickup.com/t/86akk0g54"
+ },
+ {
   "id": "86ak6hayd",
   "name": "Resolução Dismac SAP",
   "status": "impedimento",
@@ -558,7 +568,7 @@
   ],
   "due": 1757919600000,
   "url": "https://app.clickup.com/t/86abpw0wv",
-  "doneAt": 1781125649752
+  "doneAt": 1789584484498
  },
  {
   "id": "86abmqnen",
@@ -592,7 +602,7 @@
   ],
   "due": 1757660400000,
   "url": "https://app.clickup.com/t/86abh3g55",
-  "doneAt": 1781125649752
+  "doneAt": 1789584476707
  },
  {
   "id": "86abh2wg5",

@@ -1,15 +1,36 @@
 [
  {
+  "id": "86akjzbhn",
+  "name": "adicionar status em atraso em todos os paineis",
+  "status": "aberto",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1789714800000,
+  "url": "https://app.clickup.com/t/86akjzbhn"
+ },
+ {
+  "id": "86akjzb27",
+  "name": "adicionar alerta nos paineis informando sem data de conclusão",
+  "status": "aberto",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1789714800000,
+  "url": "https://app.clickup.com/t/86akjzb27"
+ },
+ {
   "id": "86ak851vd",
   "name": "Abrir GMUD para desligar o servidor do Znuny em 1/09",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [],
-  "url": "https://app.clickup.com/t/86ak851vd"
+  "url": "https://app.clickup.com/t/86ak851vd",
+  "doneAt": 1789584210550
  },
  {
   "id": "86ak851en",
   "name": "Storware planejamento QTSxClientesxdatas",
-  "status": "concluído",
+  "status": "revisando",
   "assignees": [
    "Wagner Bento Felix"
   ],
@@ -29,12 +50,13 @@
  {
   "id": "86ak0vchx",
   "name": "Automatizar dentro do escritório de Projetos o processo de Após a finalização do projeto, faremos o envio manual da TEP devidamente assinada pelo cliente, para que vocês possam dar início ao faturamento do projeto.",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [
    "Wagner Bento Felix"
   ],
   "due": 1788591600000,
-  "url": "https://app.clickup.com/t/86ak0vchx"
+  "url": "https://app.clickup.com/t/86ak0vchx",
+  "doneAt": 1789584244511
  },
  {
   "id": "86ak0v91j",
@@ -102,22 +124,12 @@
  {
   "id": "86aj73tvf",
   "name": "Controle sendo o mesmo core do CC (projetos.binario.cloud)",
-  "status": "revisando",
+  "status": "em andamento",
   "assignees": [
    "Wagner Bento Felix"
   ],
   "due": 1790751600000,
   "url": "https://app.clickup.com/t/86aj73tvf"
- },
- {
-  "id": "86aj73tv0",
-  "name": "Desativação da 2.0 fisicamente",
-  "status": "em andamento",
-  "assignees": [
-   "Wagner Bento Felix"
-  ],
-  "due": 1796108400000,
-  "url": "https://app.clickup.com/t/86aj73tv0"
  },
  {
   "id": "86aj73tut",
@@ -131,7 +143,7 @@
  },
  {
   "id": "86aj73tua",
-  "name": "Consolidação da Governança ( não vejo algo evoluindo)",
+  "name": "Consolidação da Governança",
   "status": "em andamento",
   "assignees": [
    "Wagner Bento Felix"
@@ -179,17 +191,6 @@
   ],
   "url": "https://app.clickup.com/t/86aj73trc",
   "doneAt": 1784128135170
- },
- {
-  "id": "86aj3t57d",
-  "name": "Planejamento modificações Alerj",
-  "status": "em andamento",
-  "assignees": [
-   "Wagner Bento Felix",
-   "Gustavo Camargo"
-  ],
-  "due": 1790751600000,
-  "url": "https://app.clickup.com/t/86aj3t57d"
  },
  {
   "id": "86ahf5dbz",
