@@ -19,217 +19,40 @@
     "status": "shipped",
     "assignee": "Diogo Lerison",
     "due": null,
-    "id": "soprema-f1",
-    "ativ": [
-     {
-      "n": "Reunião de Kickoff",
-      "status": "shipped",
-      "due": null,
-      "doneAt": 1787939442042,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5e3vk",
-      "url": "https://app.clickup.com/t/86ak5e3vk"
-     },
-     {
-      "n": "Elaboração da TAP",
-      "status": "shipped",
-      "due": null,
-      "doneAt": 1787612709710,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5e3u8",
-      "url": "https://app.clickup.com/t/86ak5e3u8"
-     },
-     {
-      "n": "Definição de Stakeholders",
-      "status": "shipped",
-      "due": null,
-      "doneAt": 1787666155949,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5e3zq",
-      "url": "https://app.clickup.com/t/86ak5e3zq"
-     }
-    ]
+    "id": "86ak5e344",
+    "ativ": []
    },
    {
     "n": "Fase 2 - Planejamento",
     "status": "shipped",
     "assignee": "Diogo Lerison",
     "due": null,
-    "id": "soprema-f2",
-    "ativ": [
-     {
-      "n": "Realizar cronograma",
-      "status": "shipped",
-      "due": null,
-      "doneAt": 1788541071756,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5e436",
-      "url": "https://app.clickup.com/t/86ak5e436"
-     },
-     {
-      "n": "Estimar recursos e tempo de execução",
-      "status": "shipped",
-      "due": null,
-      "doneAt": 1788541071756,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5exf2",
-      "url": "https://app.clickup.com/t/86ak5exf2"
-     }
-    ]
+    "id": "86ak5e34w",
+    "ativ": []
    },
    {
-    "n": "Fase 3 - Execução técnica",
-    "status": "backlog",
-    "assignee": "Diogo Lerison",
+    "n": "Fase 3 - Soprema - Execução técnica",
+    "status": "in progress",
+    "assignee": "José Maria Ferreira da Silva",
     "due": null,
-    "id": "soprema-f3",
-    "ativ": [
-     {
-      "n": "Definição de servidor para instalar o VBR",
-      "status": "shipped",
-      "due": 1788246000000,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5e6z0",
-      "url": "https://app.clickup.com/t/86ak5e6z0"
-     },
-     {
-      "n": "Instalação do VBR",
-      "status": "in progress",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5e70q",
-      "url": "https://app.clickup.com/t/86ak5e70q"
-     },
-     {
-      "n": "Configurar repositório (8Tb)",
-      "status": "backlog",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5e78d",
-      "url": "https://app.clickup.com/t/86ak5e78d"
-     },
-     {
-      "n": "Instalar Endpoint nos servidor",
-      "status": "backlog",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5e7cy",
-      "url": "https://app.clickup.com/t/86ak5e7cy"
-     },
-     {
-      "n": "Configurar Jobs de backup",
-      "status": "backlog",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5e7f4",
-      "url": "https://app.clickup.com/t/86ak5e7f4"
-     },
-     {
-      "n": "Backup Gerenciado",
-      "status": "in progress",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5e6re",
-      "url": "https://app.clickup.com/t/86ak5e6re"
-     },
-     {
-      "n": "Monitoramento do backup",
-      "status": "backlog",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5ygpj",
-      "url": "https://app.clickup.com/t/86ak5ygpj"
-     },
-     {
-      "n": "API de report de ferramenta para o cliente",
-      "status": "backlog",
-      "due": null,
-      "id": "86ak8quyy",
-      "url": "https://app.clickup.com/t/86ak8quyy"
-     }
-    ]
+    "id": "86ak5e38y",
+    "ativ": []
    },
    {
     "n": "Fase 4 - Monitoramento e controle",
     "status": "backlog",
     "assignee": "Diogo Lerison",
     "due": null,
-    "id": "soprema-f4",
-    "ativ": [
-     {
-      "n": "Validação de backup e restore",
-      "status": "backlog",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5e7jr",
-      "url": "https://app.clickup.com/t/86ak5e7jr"
-     },
-     {
-      "n": "Validar entregas do Projeto",
-      "status": "backlog",
-      "due": null,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5e7pz",
-      "url": "https://app.clickup.com/t/86ak5e7pz"
-     },
-     {
-      "n": "Acompanhamento do cronograma e status report",
-      "status": "backlog",
-      "due": null,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5e7tq",
-      "url": "https://app.clickup.com/t/86ak5e7tq"
-     }
-    ]
+    "id": "86ak5e3at",
+    "ativ": []
    },
    {
     "n": "Fase 5 - Encerramento",
     "status": "backlog",
     "assignee": "Diogo Lerison",
     "due": null,
-    "id": "soprema-f5",
-    "ativ": [
-     {
-      "n": "Elaboração da TEP",
-      "status": "backlog",
-      "due": null,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5ebre",
-      "url": "https://app.clickup.com/t/86ak5ebre"
-     },
-     {
-      "n": "Assinatura da TEP",
-      "status": "backlog",
-      "due": null,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5ec3z",
-      "url": "https://app.clickup.com/t/86ak5ec3z"
-     },
-     {
-      "n": "Realizar contato de encerramento",
-      "status": "backlog",
-      "due": null,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5ebup",
-      "url": "https://app.clickup.com/t/86ak5ebup"
-     },
-     {
-      "n": "Documentação técnica final",
-      "status": "backlog",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5ebyb",
-      "url": "https://app.clickup.com/t/86ak5ebyb"
-     },
-     {
-      "n": "Documentação técnica",
-      "status": "backlog",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5ec77",
-      "url": "https://app.clickup.com/t/86ak5ec77"
-     }
-    ]
+    "id": "86ak5e3dx",
+    "ativ": []
    }
   ]
  },
@@ -253,302 +76,40 @@
     "status": "shipped",
     "assignee": "Diogo Lerison",
     "due": null,
-    "id": "pleion-f1",
-    "ativ": [
-     {
-      "n": "Reunião de kickoff",
-      "status": "shipped",
-      "due": null,
-      "doneAt": 1787836009075,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5ew22",
-      "url": "https://app.clickup.com/t/86ak5ew22"
-     },
-     {
-      "n": "Elaboração da TAP",
-      "status": "shipped",
-      "due": null,
-      "doneAt": 1787612789378,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5ew0r",
-      "url": "https://app.clickup.com/t/86ak5ew0r"
-     },
-     {
-      "n": "Elaboração da TAP (revisão)",
-      "status": "shipped",
-      "due": null,
-      "doneAt": 1787836004313,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5yy47",
-      "url": "https://app.clickup.com/t/86ak5yy47"
-     },
-     {
-      "n": "Definição de Stakeholders",
-      "status": "shipped",
-      "due": null,
-      "doneAt": 1787836004313,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5ew6y",
-      "url": "https://app.clickup.com/t/86ak5ew6y"
-     },
-     {
-      "n": "Assinatura da TAP",
-      "status": "shipped",
-      "due": null,
-      "doneAt": 1787836004313,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5ew9h",
-      "url": "https://app.clickup.com/t/86ak5ew9h"
-     }
-    ]
+    "id": "86ak5ev74",
+    "ativ": []
    },
    {
     "n": "Fase 2 - Planejamento",
-    "status": "in progress",
+    "status": "shipped",
     "assignee": "Diogo Lerison",
     "due": null,
-    "id": "pleion-f2",
-    "ativ": [
-     {
-      "n": "Realizar cronograma",
-      "status": "shipped",
-      "due": null,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5ex8z",
-      "url": "https://app.clickup.com/t/86ak5ex8z"
-     },
-     {
-      "n": "Estimar recursos e tempo de execução",
-      "status": "shipped",
-      "due": null,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5exe1",
-      "url": "https://app.clickup.com/t/86ak5exe1"
-     },
-     {
-      "n": "Licenças",
-      "status": "in review",
-      "due": null,
-      "assignee": "Diogo Lerison",
-      "id": "86ak8q3ur",
-      "url": "https://app.clickup.com/t/86ak8q3ur"
-     }
-    ]
+    "id": "86ak5eva7",
+    "ativ": []
    },
    {
-    "n": "Fase 3 - Execução técnica",
-    "status": "backlog",
-    "assignee": "Diogo Lerison",
+    "n": "Fase 3 - Pleion - Execução técnica",
+    "status": "in progress",
+    "assignee": "José Maria Ferreira da Silva",
     "due": null,
-    "id": "pleion-f3",
-    "ativ": [
-     {
-      "n": "Criação do Projeto",
-      "status": "shipped",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5ewpn",
-      "url": "https://app.clickup.com/t/86ak5ewpn"
-     },
-     {
-      "n": "Criação do dominio",
-      "status": "shipped",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5ewkr",
-      "url": "https://app.clickup.com/t/86ak5ewkr"
-     },
-     {
-      "n": "Infraestrutura (Gerenciado)",
-      "status": "in progress",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5ewf8",
-      "url": "https://app.clickup.com/t/86ak5ewf8"
-     },
-     {
-      "n": "Definir estratégia de migração",
-      "status": "in progress",
-      "due": 1788418800000,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5ewx4",
-      "url": "https://app.clickup.com/t/86ak5ewx4"
-     },
-     {
-      "n": "Configurar Jobs de backup",
-      "status": "backlog",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5ey7n",
-      "url": "https://app.clickup.com/t/86ak5ey7n"
-     },
-     {
-      "n": "BC-Backup (Gerenciado)",
-      "status": "backlog",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5exvf",
-      "url": "https://app.clickup.com/t/86ak5exvf"
-     },
-     {
-      "n": "Firewall (Gerenciado)",
-      "status": "in progress",
-      "due": null,
-      "id": "86ak5z7v9",
-      "url": "https://app.clickup.com/t/86ak5z7v9"
-     },
-     {
-      "n": "Criação de firewall",
-      "status": "backlog",
-      "due": null,
-      "id": "86ak5z8tg",
-      "url": "https://app.clickup.com/t/86ak5z8tg"
-     },
-     {
-      "n": "Configuração inicial do FW",
-      "status": "backlog",
-      "due": null,
-      "id": "86ak5z8ze",
-      "url": "https://app.clickup.com/t/86ak5z8ze"
-     },
-     {
-      "n": "Servidor",
-      "status": "in progress",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5z83a",
-      "url": "https://app.clickup.com/t/86ak5z83a"
-     },
-     {
-      "n": "1 VM",
-      "status": "backlog",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5zcrb",
-      "url": "https://app.clickup.com/t/86ak5zcrb"
-     },
-     {
-      "n": "Configuração de VPN client to site",
-      "status": "backlog",
-      "due": null,
-      "id": "86ak8pn7r",
-      "url": "https://app.clickup.com/t/86ak8pn7r"
-     },
-     {
-      "n": "Configuração de VPN site to site",
-      "status": "backlog",
-      "due": null,
-      "id": "86ak8pmr5",
-      "url": "https://app.clickup.com/t/86ak8pmr5"
-     },
-     {
-      "n": "Criação da Rede",
-      "status": "in progress",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak8peu5",
-      "url": "https://app.clickup.com/t/86ak8peu5"
-     },
-     {
-      "n": "Levantamento de usuários (cliente)",
-      "status": "shipped",
-      "due": null,
-      "assignee": "Diogo Lerison",
-      "id": "86ak8pfdz",
-      "url": "https://app.clickup.com/t/86ak8pfdz"
-     }
-    ]
+    "id": "86ak5evkm",
+    "ativ": []
    },
    {
     "n": "Fase 4 - Controle",
-    "status": "backlog",
+    "status": "in progress",
     "assignee": "Diogo Lerison",
     "due": null,
-    "id": "pleion-f4",
-    "ativ": [
-     {
-      "n": "Validar entregas do projeto",
-      "status": "in progress",
-      "due": null,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5eykw",
-      "url": "https://app.clickup.com/t/86ak5eykw"
-     },
-     {
-      "n": "Monitoramento",
-      "status": "backlog",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5z856",
-      "url": "https://app.clickup.com/t/86ak5z856"
-     },
-     {
-      "n": "Configurar monitoramento",
-      "status": "backlog",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5zh01",
-      "url": "https://app.clickup.com/t/86ak5zh01"
-     }
-    ]
+    "id": "86ak5evqw",
+    "ativ": []
    },
    {
     "n": "Fase 5 - Encerramento",
     "status": "backlog",
     "assignee": "Diogo Lerison",
     "due": null,
-    "id": "pleion-f5",
-    "ativ": [
-     {
-      "n": "Elaboração da TEP",
-      "status": "backlog",
-      "due": null,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5eyy7",
-      "url": "https://app.clickup.com/t/86ak5eyy7"
-     },
-     {
-      "n": "Assinatura da TEP",
-      "status": "backlog",
-      "due": null,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5ez40",
-      "url": "https://app.clickup.com/t/86ak5ez40"
-     },
-     {
-      "n": "Realizar contato de encerramento",
-      "status": "backlog",
-      "due": null,
-      "assignee": "Diogo Lerison",
-      "id": "86ak5ez0e",
-      "url": "https://app.clickup.com/t/86ak5ez0e"
-     },
-     {
-      "n": "Documentação técnica final",
-      "status": "backlog",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak5ez25",
-      "url": "https://app.clickup.com/t/86ak5ez25"
-     },
-     {
-      "n": "Documentação técnica",
-      "status": "backlog",
-      "due": null,
-      "assignee": "José Maria Ferreira da Silva",
-      "id": "86ak8rgfd",
-      "url": "https://app.clickup.com/t/86ak8rgfd"
-     },
-     {
-      "n": "Registro de documentação",
-      "status": "shipped",
-      "due": null,
-      "doneAt": 1788988330204,
-      "assignee": "Diogo Lerison",
-      "id": "86ak8prta",
-      "url": "https://app.clickup.com/t/86ak8prta"
-     }
-    ]
+    "id": "86ak5evuv",
+    "ativ": []
    }
   ]
  }
