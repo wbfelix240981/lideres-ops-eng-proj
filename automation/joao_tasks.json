@@ -1,0 +1,1460 @@
+[
+ {
+  "id": "86ajzma7r",
+  "name": "Painel - ENG",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ajzma7r"
+ },
+ {
+  "id": "86ajzm9mv",
+  "name": "Validação de módulos",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ajzm9mv"
+ },
+ {
+  "id": "86ajzm94f",
+  "name": "Integração do Frontend",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ajzm94f"
+ },
+ {
+  "id": "86ajzm934",
+  "name": "Integração do Backend",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ajzm934"
+ },
+ {
+  "id": "86ajzm6gy",
+  "name": "AI Command Center V2",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ajzm6gy"
+ },
+ {
+  "id": "86ajw4rq5",
+  "name": "Canal externo (site Net e Cloud)",
+  "status": "aberto",
+  "assignees": [
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86ajw4rq5"
+ },
+ {
+  "id": "86ajw49pf",
+  "name": "Fechamento LGPD (finalizando 2026)",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ajw49pf"
+ },
+ {
+  "id": "86ajw430v",
+  "name": "Desenvolver treinamento de LGPD no onboarding",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ajw430v"
+ },
+ {
+  "id": "86ajj4fff",
+  "name": "Status",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ajj4fff"
+ },
+ {
+  "id": "86ajj4e3p",
+  "name": "Envio de comunicados",
+  "status": "aguardando retorno",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ajj4e3p"
+ },
+ {
+  "id": "86ajj4dvw",
+  "name": "Sala de Crise",
+  "status": "aguardando retorno",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ajj4dvw"
+ },
+ {
+  "id": "86ajcyweb",
+  "name": "Backend",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ajcyweb"
+ },
+ {
+  "id": "86ajcywcv",
+  "name": "Frontend",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ajcywcv"
+ },
+ {
+  "id": "86ajcyw9x",
+  "name": "Shield",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ajcyw9x"
+ },
+ {
+  "id": "86aj5bxuh",
+  "name": "O filtro padrão deve ser ATIVOS",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86aj5bxuh"
+ },
+ {
+  "id": "86aj512k4",
+  "name": "Implantação em servidores",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86aj512k4"
+ },
+ {
+  "id": "86aj512gm",
+  "name": "Implantação em computadores",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86aj512gm"
+ },
+ {
+  "id": "86aj34p42",
+  "name": "Desenho de possível arquitetura",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86aj34p42"
+ },
+ {
+  "id": "86aj2rxe1",
+  "name": "Adicionar coluna de Fila (múltipla seleção)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86aj2rxe1"
+ },
+ {
+  "id": "86aj08hdd",
+  "name": "RCA",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86aj08hdd"
+ },
+ {
+  "id": "86aj08hd7",
+  "name": "Post Mortem",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86aj08hd7"
+ },
+ {
+  "id": "86aj08hd2",
+  "name": "Timeline",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86aj08hd2"
+ },
+ {
+  "id": "86aj08hcg",
+  "name": "Criação de sala no Teams",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86aj08hcg"
+ },
+ {
+  "id": "86aj08hc6",
+  "name": "Acionamento",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86aj08hc6"
+ },
+ {
+  "id": "86aj08hbz",
+  "name": "Processo",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86aj08hbz"
+ },
+ {
+  "id": "86aj08hbr",
+  "name": "Chamado",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86aj08hbr"
+ },
+ {
+  "id": "86aj08h51",
+  "name": "Área de comunicado virar gestão de alto impacto",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86aj08h51"
+ },
+ {
+  "id": "86ahzxhpd",
+  "name": "Ao cancelar GMUD, adicionar campo com motivo do cancelamento",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahzxhpd"
+ },
+ {
+  "id": "86ahzw1bm",
+  "name": "Mover comando para undercloud",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahzw1bm"
+ },
+ {
+  "id": "86ahzvd6r",
+  "name": "Status Page pública de serviços",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ahzvd6r"
+ },
+ {
+  "id": "86ahzvd6n",
+  "name": "Redes - integrar dados do Zabbix da equipe de redes",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ahzvd6n"
+ },
+ {
+  "id": "86ahzvd6j",
+  "name": "OpenStack - status do projeto de Observabilidade",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ahzvd6j"
+ },
+ {
+  "id": "86ahzvd6e",
+  "name": "Status de serviço (vermelho/amarelo/verde)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahzvd6e"
+ },
+ {
+  "id": "86ahzvd64",
+  "name": "Melhoria contínua",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ahzvd64"
+ },
+ {
+  "id": "86ahzvd5x",
+  "name": "Registro em Problemas",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ahzvd5x"
+ },
+ {
+  "id": "86ahzvd5v",
+  "name": "Post Mortem",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ahzvd5v"
+ },
+ {
+  "id": "86ahzvd5m",
+  "name": "Age e registra (restart/altera config/escala&failover/testar)",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ahzvd5m"
+ },
+ {
+  "id": "86ahzvd5g",
+  "name": "Cruzar contexto (Zabbix/Logs K8s/Downdetector/Tickets/Arquitetura/Prometheus/Redes/Grafana)",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ahzvd5g"
+ },
+ {
+  "id": "86ahzvcat",
+  "name": "SRE AI Operator",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahzvcat"
+ },
+ {
+  "id": "86ahzvb0v",
+  "name": "Roadmap - Command Center",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahzvb0v"
+ },
+ {
+  "id": "86ahzv1xv",
+  "name": "Integração com a ClaudIA para resolução de chamados",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahzv1xv"
+ },
+ {
+  "id": "86ahzv1u5",
+  "name": "Definição de perfil Analista CCOE - quais módulos utilizará",
+  "status": "aberto",
+  "assignees": [
+   "João Alves",
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86ahzv1u5"
+ },
+ {
+  "id": "86ahzpajg",
+  "name": "Ao apertar F5, voltar para a mesma página",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahzpajg"
+ },
+ {
+  "id": "86ahzm1up",
+  "name": "KPI Visão Geral",
+  "status": "revisando",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahzm1up"
+ },
+ {
+  "id": "86ahzkpcy",
+  "name": "Campo de adicionar arquivo",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahzkpcy"
+ },
+ {
+  "id": "86ahzkmbr",
+  "name": "Adicionar campo de e-mail do responsável pela resolução",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ahzkmbr"
+ },
+ {
+  "id": "86ahzkkwe",
+  "name": "Alterar o Owner para 'Aberto por'",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ahzkkwe"
+ },
+ {
+  "id": "86ahzk8zu",
+  "name": "Configuração",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahzk8zu"
+ },
+ {
+  "id": "86ahzk8mr",
+  "name": "Passagem de turno",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahzk8mr"
+ },
+ {
+  "id": "86ahzk8e7",
+  "name": "Alto impacto (crise)",
+  "status": "revisando",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahzk8e7"
+ },
+ {
+  "id": "86ahzk8bx",
+  "name": "Backup",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahzk8bx"
+ },
+ {
+  "id": "86ahzk7za",
+  "name": "Problems",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahzk7za"
+ },
+ {
+  "id": "86ahzk7bj",
+  "name": "GMUD",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahzk7bj"
+ },
+ {
+  "id": "86ahzk78v",
+  "name": "Tickets",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahzk78v"
+ },
+ {
+  "id": "86ahzk725",
+  "name": "Clientes",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahzk725"
+ },
+ {
+  "id": "86ahzk65m",
+  "name": "Saúde do Cliente",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahzk65m"
+ },
+ {
+  "id": "86ahzhfpq",
+  "name": "Cockpit",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahzhfpq"
+ },
+ {
+  "id": "86ahwdzje",
+  "name": "Trazer bcAPI por cliente - consumo anual e variação (correlação churn)",
+  "status": "aguardando retorno",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahwdzje"
+ },
+ {
+  "id": "86ahwdrgv",
+  "name": "Área de Book",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahwdrgv"
+ },
+ {
+  "id": "86ahwdr7w",
+  "name": "Status Cloud (monitoramento)",
+  "status": "aguardando retorno",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahwdr7w"
+ },
+ {
+  "id": "86ahwd56r",
+  "name": "Filtro de tipo de chamado (dúvida/solicitação/incidente)",
+  "status": "aguardando retorno",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahwd56r"
+ },
+ {
+  "id": "86ahw3f0y",
+  "name": "EDR",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahw3f0y"
+ },
+ {
+  "id": "86ahw19pb",
+  "name": "Puxar BC-API e fatura de cliente (variação 5% saúde do cliente)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahw19pb"
+ },
+ {
+  "id": "86ahw18qk",
+  "name": "Página de clientes: mudar para gerenciado/não gerenciado",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahw18qk"
+ },
+ {
+  "id": "86ahw17f7",
+  "name": "Padronizar todo idioma em pt-br",
+  "status": "aguardando retorno",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahw17f7"
+ },
+ {
+  "id": "86ahw15jt",
+  "name": "Métricas de inventário BC-automation",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahw15jt"
+ },
+ {
+  "id": "86ahw0pa4",
+  "name": "Testar GMUD Teams",
+  "status": "revisando",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahw0pa4"
+ },
+ {
+  "id": "86ahw0p9x",
+  "name": "Adicionar somente book gerenciados",
+  "status": "aguardando retorno",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahw0p9x"
+ },
+ {
+  "id": "86ahw0p9t",
+  "name": "Remover em GMUD Sistema/CIs",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahw0p9t"
+ },
+ {
+  "id": "86ahw0p9n",
+  "name": "Adicionar todos os clientes em painel de risco",
+  "status": "aguardando retorno",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahw0p9n"
+ },
+ {
+  "id": "86ahv45zy",
+  "name": "Geral",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahv45zy"
+ },
+ {
+  "id": "86ahug2mx",
+  "name": "AI Command Center",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahug2mx"
+ },
+ {
+  "id": "86ahb15bp",
+  "name": "Net",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahb15bp"
+ },
+ {
+  "id": "86ahb15ad",
+  "name": "Cloud",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahb15ad"
+ },
+ {
+  "id": "86ahb1523",
+  "name": "Grupo",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahb1523"
+ },
+ {
+  "id": "86aharm3t",
+  "name": "Não aprovado",
+  "status": "impedimento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86aharm3t"
+ },
+ {
+  "id": "86ah4657t",
+  "name": "Jornada - ISO 27001",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ah4657t"
+ },
+ {
+  "id": "86ah448qe",
+  "name": "Firewall e EDR - Net e Cloud",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ah448qe"
+ },
+ {
+  "id": "86ah43yu3",
+  "name": "Adequação à LGPD",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ah43yu3"
+ },
+ {
+  "id": "86ag5pjfp",
+  "name": "Pílula: Canal oficial do DPO (Net e Cloud)",
+  "status": "aberto",
+  "assignees": [
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86ag5pjfp"
+ },
+ {
+  "id": "86ae0trz2",
+  "name": "Implantação",
+  "status": "aguardando retorno",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ae0trz2"
+ },
+ {
+  "id": "86ae0tq6e",
+  "name": "Firewall",
+  "status": "impedimento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ae0tq6e"
+ },
+ {
+  "id": "86adhthxj",
+  "name": "O lobo em pele de cordeiro",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86adhthxj"
+ },
+ {
+  "id": "86adhthww",
+  "name": "Tudo começou com um PDF",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86adhthww"
+ },
+ {
+  "id": "86adhthwk",
+  "name": "Freio existe para o carro correr mais",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86adhthwk"
+ },
+ {
+  "id": "86adhthw6",
+  "name": "Hacker hackeia pessoas, não PC",
+  "status": "aberto",
+  "assignees": [
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86adhthw6"
+ },
+ {
+  "id": "86adhthvp",
+  "name": "Você é o Firewall Humano",
+  "status": "aberto",
+  "assignees": [
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86adhthvp"
+ },
+ {
+  "id": "86adhthv6",
+  "name": "Viu algo estranho? Grite (para a TI)",
+  "status": "aberto",
+  "assignees": [
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86adhthv6"
+ },
+ {
+  "id": "86adhthuk",
+  "name": "Você não precisa ser Deus (Admin)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86adhthuk"
+ },
+ {
+  "id": "86adhthtq",
+  "name": "Lixeira não é cofre",
+  "status": "aberto",
+  "assignees": [
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86adhthtq"
+ },
+ {
+  "id": "86adhtht6",
+  "name": "Quem tem um, não tem nenhum",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86adhtht6"
+ },
+ {
+  "id": "86adhthrv",
+  "name": "Baixaki? Melhor não.",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86adhthrv"
+ },
+ {
+  "id": "86adhthrk",
+  "name": "Uma senha para dominar a todas",
+  "status": "aberto",
+  "assignees": [
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86adhthrk"
+ },
+ {
+  "id": "86adhthr3",
+  "name": "Seu guarda-costas digital",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86adhthr3"
+ },
+ {
+  "id": "86adhthqh",
+  "name": "O túnel blindado da sua conexão",
+  "status": "aberto",
+  "assignees": [
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86adhthqh"
+ },
+ {
+  "id": "86adhthpy",
+  "name": "O Pen Drive achado não é presente",
+  "status": "aberto",
+  "assignees": [
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86adhthpy"
+ },
+ {
+  "id": "86adhthp9",
+  "name": "Reiniciar o PC não é frescura",
+  "status": "aberto",
+  "assignees": [
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86adhthp9"
+ },
+ {
+  "id": "86adhthne",
+  "name": "O Wi-Fi do café pode custar caro",
+  "status": "aberto",
+  "assignees": [
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86adhthne"
+ },
+ {
+  "id": "86adhthmu",
+  "name": "Seu celular, dados da empresa?",
+  "status": "aberto",
+  "assignees": [
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86adhthmu"
+ },
+ {
+  "id": "86adhthm8",
+  "name": "O que aparece atrás de você?",
+  "status": "em andamento",
+  "assignees": [
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86adhthm8"
+ },
+ {
+  "id": "86acugmz2",
+  "name": "Workshop 3 - O fator humano na segurança",
+  "status": "aberto",
+  "assignees": [
+   "João Alves",
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86acugmz2"
+ },
+ {
+  "id": "86acqqp85",
+  "name": "17.3 Processo empresarial para relatar incidentes (CIS)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqqp85"
+ },
+ {
+  "id": "86acqqn54",
+  "name": "17. Resposta a Incidentes (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqqn54"
+ },
+ {
+  "id": "86acqqhmc",
+  "name": "15.1 Inventário de provedores de serviços (CIS)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqqhmc"
+ },
+ {
+  "id": "86acqqhdj",
+  "name": "15. Controle de Acesso Remoto (CIS)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqqhdj"
+ },
+ {
+  "id": "86acqqg55",
+  "name": "14.8 Treinar sobre redes inseguras (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqqg55"
+ },
+ {
+  "id": "86acqqfr3",
+  "name": "14.7 Treinar sobre ativos sem atualização de segurança (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqqfr3"
+ },
+ {
+  "id": "86acqqffh",
+  "name": "14.6 Treinar a reconhecer e relatar incidentes (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqqffh"
+ },
+ {
+  "id": "86acqqf89",
+  "name": "14.5 Treinar sobre exposição não intencional de dados (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqqf89"
+ },
+ {
+  "id": "86acqqeye",
+  "name": "14.4 Treinar melhores práticas de tratamento de dados (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqqeye"
+ },
+ {
+  "id": "86acqq8n9",
+  "name": "14.3 Treinar melhores práticas de autenticação (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqq8n9"
+ },
+ {
+  "id": "86acqq8e9",
+  "name": "14.2 Treinar a reconhecer engenharia social (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqq8e9"
+ },
+ {
+  "id": "86acqq7zv",
+  "name": "14.1 Programa de conscientização sobre segurança (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqq7zv"
+ },
+ {
+  "id": "86acqq7mv",
+  "name": "14. Treinamento de Segurança (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqq7mv"
+ },
+ {
+  "id": "86acqq6mg",
+  "name": "12.1 Infraestrutura de rede atualizada (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqq6mg"
+ },
+ {
+  "id": "86acqq5wb",
+  "name": "12. Segurança de Rede (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqq5wb"
+ },
+ {
+  "id": "86acqq4wp",
+  "name": "11.4 Instância isolada de dados de recuperação (CIS)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqq4wp"
+ },
+ {
+  "id": "86acqq4hq",
+  "name": "11.3 Proteger dados de recuperação (CIS)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqq4hq"
+ },
+ {
+  "id": "86acqq3wr",
+  "name": "11.1 Processo de recuperação de dados (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqq3wr"
+ },
+ {
+  "id": "86acqq31r",
+  "name": "11. Testes de Segurança (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqq31r"
+ },
+ {
+  "id": "86acqq2gd",
+  "name": "10.3 Desativar autorun/autoplay em mídia removível (CIS)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqq2gd"
+ },
+ {
+  "id": "86acqq29j",
+  "name": "10.2 Atualizações automáticas de antimalware (CIS)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqq29j"
+ },
+ {
+  "id": "86acqq24p",
+  "name": "10.1 Implantar software antimalware (CIS)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqq24p"
+ },
+ {
+  "id": "86acqq1y8",
+  "name": "10. Backups (CIS)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqq1y8"
+ },
+ {
+  "id": "86acqq1fk",
+  "name": "9.2 Serviços de filtragem de DNS (CIS)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqq1fk"
+ },
+ {
+  "id": "86acqq1av",
+  "name": "9.1 Uso somente de navegadores/clientes de e-mail suportados (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqq1av"
+ },
+ {
+  "id": "86acqq15k",
+  "name": "9. Limitação de Portas/Serviços (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqq15k"
+ },
+ {
+  "id": "86acqm0xk",
+  "name": "8.3 Armazenamento adequado de log de auditoria (CIS)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqm0xk"
+ },
+ {
+  "id": "86acqm0t7",
+  "name": "8.2 Coletar Logs de Auditoria (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqm0t7"
+ },
+ {
+  "id": "86acqm0pd",
+  "name": "8.1 Processo de gerenciamento de logs de auditoria (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqm0pd"
+ },
+ {
+  "id": "86acqm0h6",
+  "name": "8. Defesa contra Malware (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqm0h6"
+ },
+ {
+  "id": "86acqkmxn",
+  "name": "7.4 Gerenciamento automatizado de patches de aplicativos (CIS)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqkmxn"
+ },
+ {
+  "id": "86acqkmqg",
+  "name": "7.3 Gerenciamento automatizado de patches do SO (CIS)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqkmqg"
+ },
+ {
+  "id": "86acqkmne",
+  "name": "7.2 Processo de remediação (CIS)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqkmne"
+ },
+ {
+  "id": "86acqkkun",
+  "name": "7. Auditoria e Logs (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqkkun"
+ },
+ {
+  "id": "86acqkeb2",
+  "name": "6.4 Exigir MFA para acesso remoto à rede (CIS)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqkeb2"
+ },
+ {
+  "id": "86acqke5x",
+  "name": "6.3 Exigir MFA para aplicações externas (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqke5x"
+ },
+ {
+  "id": "86acqkdnc",
+  "name": "6. Manutenção de Sistemas (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqkdnc"
+ },
+ {
+  "id": "86acqk153",
+  "name": "4.4 Firewall em servidores (CIS)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqk153"
+ },
+ {
+  "id": "86acqk11c",
+  "name": "4.3 Bloqueio automático de sessão (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqk11c"
+ },
+ {
+  "id": "86acqk0p4",
+  "name": "4. Controle de Permissões (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqk0p4"
+ },
+ {
+  "id": "86acqjzvc",
+  "name": "3.5 Descarte de dados com segurança (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqjzvc"
+ },
+ {
+  "id": "86acqjzar",
+  "name": "3.1 Processo de gerenciamento de dados (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqjzar"
+ },
+ {
+  "id": "86acqjz2u",
+  "name": "3. Gerenciamento de Vulnerabilidades (CIS)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86acqjz2u"
+ },
+ {
+  "id": "86abxr65r",
+  "name": "Envio de e-mail com Política de IA pelo Comitê",
+  "status": "aberto",
+  "assignees": [
+   "João Alves",
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86abxr65r"
+ },
+ {
+  "id": "86abxr62f",
+  "name": "Política de Uso de IA",
+  "status": "aberto",
+  "assignees": [
+   "João Alves",
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86abxr62f"
+ },
+ {
+  "id": "86abxr5yk",
+  "name": "Política de Contratação de Fornecedor (critérios de homologação)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves",
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86abxr5yk"
+ },
+ {
+  "id": "86abxr5vj",
+  "name": "Divulgação da Política de Descarte para o Comitê",
+  "status": "aberto",
+  "assignees": [
+   "João Alves",
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86abxr5vj"
+ },
+ {
+  "id": "86abxr5rd",
+  "name": "Revisão da Política de Descarte de Dados",
+  "status": "aberto",
+  "assignees": [
+   "João Alves",
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86abxr5rd"
+ },
+ {
+  "id": "86abxr5gd",
+  "name": "Envio de e-mail - Política de Gestão de Incidentes pelo Comitê",
+  "status": "aberto",
+  "assignees": [
+   "João Alves",
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86abxr5gd"
+ },
+ {
+  "id": "86abxr5ch",
+  "name": "Validação da Política de Gestão de Incidentes pelo Comitê",
+  "status": "aberto",
+  "assignees": [
+   "João Alves",
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86abxr5ch"
+ },
+ {
+  "id": "86abxr5ah",
+  "name": "Envio de e-mail - Política de Gestão de Incidentes (2ª rodada)",
+  "status": "aberto",
+  "assignees": [
+   "João Alves",
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86abxr5ah"
+ },
+ {
+  "id": "86abxr4em",
+  "name": "Validação da Política de Segurança da Informação pelo Comitê",
+  "status": "aberto",
+  "assignees": [
+   "João Alves",
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86abxr4em"
+ },
+ {
+  "id": "86abxqw5h",
+  "name": "Elaboração da Instrução de Governança do Comitê de Cibersegurança",
+  "status": "revisando",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86abxqw5h"
+ },
+ {
+  "id": "86abxqq3m",
+  "name": "Ações de conscientização semanal",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves",
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86abxqq3m"
+ },
+ {
+  "id": "86abxqpyv",
+  "name": "Treinamento inicial (LGPD e Segurança da Informação)",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves",
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86abxqpyv"
+ },
+ {
+  "id": "86abxqnqv",
+  "name": "Divulgação do canal DPO (externo e interno)",
+  "status": "em andamento",
+  "assignees": [
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86abxqnqv"
+ },
+ {
+  "id": "86abxqmqd",
+  "name": "Comitê de Cibersegurança",
+  "status": "revisando",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86abxqmqd"
+ },
+ {
+  "id": "86abxqkxw",
+  "name": "Capacitação e ações de conscientização",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86abxqkxw"
+ },
+ {
+  "id": "86abxqk9b",
+  "name": "Canal DPO",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86abxqk9b"
+ },
+ {
+  "id": "86abxqju8",
+  "name": "Políticas",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves",
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86abxqju8"
+ },
+ {
+  "id": "86abxqeun",
+  "name": "Validação final do inventário de dados [Comitê]",
+  "status": "aberto",
+  "assignees": [
+   "João Alves",
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86abxqeun"
+ },
+ {
+  "id": "86abxqek5",
+  "name": "Envio do inventário para o Comitê",
+  "status": "em andamento",
+  "assignees": [
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86abxqek5"
+ },
+ {
+  "id": "86abxqe81",
+  "name": "Avaliação de governança dos templates preenchidos",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves",
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86abxqe81"
+ },
+ {
+  "id": "86abxq99v",
+  "name": "Inventário de Dados",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves",
+   "Lucas de Lima Batista"
+  ],
+  "url": "https://app.clickup.com/t/86abxq99v"
+ }
+]
