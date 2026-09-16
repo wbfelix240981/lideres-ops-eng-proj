@@ -745,177 +745,120 @@
 
 <script>
 // ================= DADOS =================
-const LAST_SYNC_UTC = "2026-09-15T17:24:56.000000+00:00";
+const LAST_SYNC_UTC = "2026-09-16T14:26:00.655011+00:00";
 
 const WAGNER_METAS = [
  {
-  num: 1,
-  id: 'cliente-soprema',
-  status: 'in progress',
-  due: null,
-  name: 'Migração e onboarding — SOPREMA LTDA',
-  short: 'SOPREMA LTDA',
-  assignee: 'Wagner Felix',
-  tags: ['cliente', 'migração'],
-  detail: 'Checklist de onboarding e migração do cliente SOPREMA LTDA — dados sincronizados da lista real do ClickUp (projeto Soprema).',
-  sourceUrl: 'https://app.clickup.com/3080406/v/li/901328281164',
-  fases: [
+  "num": 1,
+  "id": "cliente-soprema",
+  "status": "in progress",
+  "due": null,
+  "name": "Migração e onboarding — SOPREMA LTDA",
+  "short": "SOPREMA LTDA",
+  "assignee": "Wagner Felix",
+  "tags": [
+   "cliente",
+   "migração"
+  ],
+  "detail": "Checklist de onboarding e migração do cliente SOPREMA LTDA — dados sincronizados da lista real do ClickUp (projeto Soprema).",
+  "sourceUrl": "https://app.clickup.com/3080406/v/li/901328281164",
+  "fases": [
    {
-    n: 'Fase 1 - Iniciação',
-    status: 'shipped',
-    assignee: 'Diogo Lerison',
-    due: null,
-    id: 'soprema-f1',
-    ativ: [
-      {n:'Reunião de Kickoff', status:'shipped', due:null, doneAt:1787939442042, assignee:'Diogo Lerison', id:'86ak5e3vk', url:'https://app.clickup.com/t/86ak5e3vk'},
-      {n:'Elaboração da TAP', status:'shipped', due:null, doneAt:1787612709710, assignee:'Diogo Lerison', id:'86ak5e3u8', url:'https://app.clickup.com/t/86ak5e3u8'},
-      {n:'Definição de Stakeholders', status:'shipped', due:null, doneAt:1787666155949, assignee:'Diogo Lerison', id:'86ak5e3zq', url:'https://app.clickup.com/t/86ak5e3zq'}
-    ]
+    "n": "Fase 1 - Iniciação",
+    "status": "shipped",
+    "assignee": "Diogo Lerison",
+    "due": null,
+    "id": "86ak5e344",
+    "ativ": []
    },
    {
-    n: 'Fase 2 - Planejamento',
-    status: 'shipped',
-    assignee: 'Diogo Lerison',
-    due: null,
-    id: 'soprema-f2',
-    ativ: [
-      {n:'Realizar cronograma', status:'shipped', due:null, doneAt:1788541071756, assignee:'Diogo Lerison', id:'86ak5e436', url:'https://app.clickup.com/t/86ak5e436'},
-      {n:'Estimar recursos e tempo de execução', status:'shipped', due:null, doneAt:1788541071756, assignee:'Diogo Lerison', id:'86ak5exf2', url:'https://app.clickup.com/t/86ak5exf2'}
-    ]
+    "n": "Fase 2 - Planejamento",
+    "status": "shipped",
+    "assignee": "Diogo Lerison",
+    "due": null,
+    "id": "86ak5e34w",
+    "ativ": []
    },
    {
-    n: 'Fase 3 - Execução técnica',
-    status: 'backlog',
-    assignee: 'Diogo Lerison',
-    due: null,
-    id: 'soprema-f3',
-    ativ: [
-      {n:'Definição de servidor para instalar o VBR', status:'shipped', due:1788246000000, assignee:'José Maria Ferreira da Silva', id:'86ak5e6z0', url:'https://app.clickup.com/t/86ak5e6z0'},
-      {n:'Instalação do VBR', status:'in progress', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5e70q', url:'https://app.clickup.com/t/86ak5e70q'},
-      {n:'Configurar repositório (8Tb)', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5e78d', url:'https://app.clickup.com/t/86ak5e78d'},
-      {n:'Instalar Endpoint nos servidor', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5e7cy', url:'https://app.clickup.com/t/86ak5e7cy'},
-      {n:'Configurar Jobs de backup', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5e7f4', url:'https://app.clickup.com/t/86ak5e7f4'},
-      {n:'Backup Gerenciado', status:'in progress', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5e6re', url:'https://app.clickup.com/t/86ak5e6re'},
-      {n:'Monitoramento do backup', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5ygpj', url:'https://app.clickup.com/t/86ak5ygpj'},
-      {n:'API de report de ferramenta para o cliente', status:'backlog', due:null, id:'86ak8quyy', url:'https://app.clickup.com/t/86ak8quyy'}
-    ]
+    "n": "Fase 3 - Soprema - Execução técnica",
+    "status": "in progress",
+    "assignee": "José Maria Ferreira da Silva",
+    "due": null,
+    "id": "86ak5e38y",
+    "ativ": []
    },
    {
-    n: 'Fase 4 - Monitoramento e controle',
-    status: 'backlog',
-    assignee: 'Diogo Lerison',
-    due: null,
-    id: 'soprema-f4',
-    ativ: [
-      {n:'Validação de backup e restore', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5e7jr', url:'https://app.clickup.com/t/86ak5e7jr'},
-      {n:'Validar entregas do Projeto', status:'backlog', due:null, assignee:'Diogo Lerison', id:'86ak5e7pz', url:'https://app.clickup.com/t/86ak5e7pz'},
-      {n:'Acompanhamento do cronograma e status report', status:'backlog', due:null, assignee:'Diogo Lerison', id:'86ak5e7tq', url:'https://app.clickup.com/t/86ak5e7tq'}
-    ]
+    "n": "Fase 4 - Monitoramento e controle",
+    "status": "backlog",
+    "assignee": "Diogo Lerison",
+    "due": null,
+    "id": "86ak5e3at",
+    "ativ": []
    },
    {
-    n: 'Fase 5 - Encerramento',
-    status: 'backlog',
-    assignee: 'Diogo Lerison',
-    due: null,
-    id: 'soprema-f5',
-    ativ: [
-      {n:'Elaboração da TEP', status:'backlog', due:null, assignee:'Diogo Lerison', id:'86ak5ebre', url:'https://app.clickup.com/t/86ak5ebre'},
-      {n:'Assinatura da TEP', status:'backlog', due:null, assignee:'Diogo Lerison', id:'86ak5ec3z', url:'https://app.clickup.com/t/86ak5ec3z'},
-      {n:'Realizar contato de encerramento', status:'backlog', due:null, assignee:'Diogo Lerison', id:'86ak5ebup', url:'https://app.clickup.com/t/86ak5ebup'},
-      {n:'Documentação técnica final', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5ebyb', url:'https://app.clickup.com/t/86ak5ebyb'},
-      {n:'Documentação técnica', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5ec77', url:'https://app.clickup.com/t/86ak5ec77'}
-    ]
+    "n": "Fase 5 - Encerramento",
+    "status": "backlog",
+    "assignee": "Diogo Lerison",
+    "due": null,
+    "id": "86ak5e3dx",
+    "ativ": []
    }
   ]
  },
  {
-  num: 2,
-  id: 'cliente-pleion',
-  status: 'in progress',
-  due: null,
-  name: 'Migração e onboarding — Pleion Indústria e Comércio de Plásticos LTDA.',
-  short: 'Pleion LTDA',
-  assignee: 'Wagner Felix',
-  tags: ['cliente', 'migração'],
-  detail: 'Checklist de onboarding e migração do cliente Pleion Indústria e Comércio de Plásticos LTDA. — dados sincronizados da lista real do ClickUp (projeto Pleion).',
-  sourceUrl: 'https://app.clickup.com/3080406/v/li/901328281869',
-  fases: [
+  "num": 2,
+  "id": "cliente-pleion",
+  "status": "in progress",
+  "due": null,
+  "name": "Migração e onboarding — Pleion Indústria e Comércio de Plásticos LTDA.",
+  "short": "Pleion LTDA",
+  "assignee": "Wagner Felix",
+  "tags": [
+   "cliente",
+   "migração"
+  ],
+  "detail": "Checklist de onboarding e migração do cliente Pleion Indústria e Comércio de Plásticos LTDA. — dados sincronizados da lista real do ClickUp (projeto Pleion).",
+  "sourceUrl": "https://app.clickup.com/3080406/v/li/901328281869",
+  "fases": [
    {
-    n: 'Fase 1 - Iniciação',
-    status: 'shipped',
-    assignee: 'Diogo Lerison',
-    due: null,
-    id: 'pleion-f1',
-    ativ: [
-      {n:'Reunião de kickoff', status:'shipped', due:null, doneAt:1787836009075, assignee:'Diogo Lerison', id:'86ak5ew22', url:'https://app.clickup.com/t/86ak5ew22'},
-      {n:'Elaboração da TAP', status:'shipped', due:null, doneAt:1787612789378, assignee:'Diogo Lerison', id:'86ak5ew0r', url:'https://app.clickup.com/t/86ak5ew0r'},
-      {n:'Elaboração da TAP (revisão)', status:'shipped', due:null, doneAt:1787836004313, assignee:'Diogo Lerison', id:'86ak5yy47', url:'https://app.clickup.com/t/86ak5yy47'},
-      {n:'Definição de Stakeholders', status:'shipped', due:null, doneAt:1787836004313, assignee:'Diogo Lerison', id:'86ak5ew6y', url:'https://app.clickup.com/t/86ak5ew6y'},
-      {n:'Assinatura da TAP', status:'shipped', due:null, doneAt:1787836004313, assignee:'Diogo Lerison', id:'86ak5ew9h', url:'https://app.clickup.com/t/86ak5ew9h'}
-    ]
+    "n": "Fase 1 - Iniciação",
+    "status": "shipped",
+    "assignee": "Diogo Lerison",
+    "due": null,
+    "id": "86ak5ev74",
+    "ativ": []
    },
    {
-    n: 'Fase 2 - Planejamento',
-    status: 'in progress',
-    assignee: 'Diogo Lerison',
-    due: null,
-    id: 'pleion-f2',
-    ativ: [
-      {n:'Realizar cronograma', status:'shipped', due:null, assignee:'Diogo Lerison', id:'86ak5ex8z', url:'https://app.clickup.com/t/86ak5ex8z'},
-      {n:'Estimar recursos e tempo de execução', status:'shipped', due:null, assignee:'Diogo Lerison', id:'86ak5exe1', url:'https://app.clickup.com/t/86ak5exe1'},
-      {n:'Licenças', status:'in review', due:null, assignee:'Diogo Lerison', id:'86ak8q3ur', url:'https://app.clickup.com/t/86ak8q3ur'}
-    ]
+    "n": "Fase 2 - Planejamento",
+    "status": "shipped",
+    "assignee": "Diogo Lerison",
+    "due": null,
+    "id": "86ak5eva7",
+    "ativ": []
    },
    {
-    n: 'Fase 3 - Execução técnica',
-    status: 'backlog',
-    assignee: 'Diogo Lerison',
-    due: null,
-    id: 'pleion-f3',
-    ativ: [
-      {n:'Criação do Projeto', status:'shipped', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5ewpn', url:'https://app.clickup.com/t/86ak5ewpn'},
-      {n:'Criação do dominio', status:'shipped', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5ewkr', url:'https://app.clickup.com/t/86ak5ewkr'},
-      {n:'Infraestrutura (Gerenciado)', status:'in progress', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5ewf8', url:'https://app.clickup.com/t/86ak5ewf8'},
-      {n:'Definir estratégia de migração', status:'in progress', due:1788418800000, assignee:'José Maria Ferreira da Silva', id:'86ak5ewx4', url:'https://app.clickup.com/t/86ak5ewx4'},
-      {n:'Configurar Jobs de backup', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5ey7n', url:'https://app.clickup.com/t/86ak5ey7n'},
-      {n:'BC-Backup (Gerenciado)', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5exvf', url:'https://app.clickup.com/t/86ak5exvf'},
-      {n:'Firewall (Gerenciado)', status:'in progress', due:null, id:'86ak5z7v9', url:'https://app.clickup.com/t/86ak5z7v9'},
-      {n:'Criação de firewall', status:'backlog', due:null, id:'86ak5z8tg', url:'https://app.clickup.com/t/86ak5z8tg'},
-      {n:'Configuração inicial do FW', status:'backlog', due:null, id:'86ak5z8ze', url:'https://app.clickup.com/t/86ak5z8ze'},
-      {n:'Servidor', status:'in progress', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5z83a', url:'https://app.clickup.com/t/86ak5z83a'},
-      {n:'1 VM', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5zcrb', url:'https://app.clickup.com/t/86ak5zcrb'},
-      {n:'Configuração de VPN client to site', status:'backlog', due:null, id:'86ak8pn7r', url:'https://app.clickup.com/t/86ak8pn7r'},
-      {n:'Configuração de VPN site to site', status:'backlog', due:null, id:'86ak8pmr5', url:'https://app.clickup.com/t/86ak8pmr5'},
-      {n:'Criação da Rede', status:'in progress', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak8peu5', url:'https://app.clickup.com/t/86ak8peu5'},
-      {n:'Levantamento de usuários (cliente)', status:'shipped', due:null, assignee:'Diogo Lerison', id:'86ak8pfdz', url:'https://app.clickup.com/t/86ak8pfdz'}
-    ]
+    "n": "Fase 3 - Pleion - Execução técnica",
+    "status": "in progress",
+    "assignee": "José Maria Ferreira da Silva",
+    "due": null,
+    "id": "86ak5evkm",
+    "ativ": []
    },
    {
-    n: 'Fase 4 - Controle',
-    status: 'backlog',
-    assignee: 'Diogo Lerison',
-    due: null,
-    id: 'pleion-f4',
-    ativ: [
-      {n:'Validar entregas do projeto', status:'in progress', due:null, assignee:'Diogo Lerison', id:'86ak5eykw', url:'https://app.clickup.com/t/86ak5eykw'},
-      {n:'Monitoramento', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5z856', url:'https://app.clickup.com/t/86ak5z856'},
-      {n:'Configurar monitoramento', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5zh01', url:'https://app.clickup.com/t/86ak5zh01'}
-    ]
+    "n": "Fase 4 - Controle",
+    "status": "in progress",
+    "assignee": "Diogo Lerison",
+    "due": null,
+    "id": "86ak5evqw",
+    "ativ": []
    },
    {
-    n: 'Fase 5 - Encerramento',
-    status: 'backlog',
-    assignee: 'Diogo Lerison',
-    due: null,
-    id: 'pleion-f5',
-    ativ: [
-      {n:'Elaboração da TEP', status:'backlog', due:null, assignee:'Diogo Lerison', id:'86ak5eyy7', url:'https://app.clickup.com/t/86ak5eyy7'},
-      {n:'Assinatura da TEP', status:'backlog', due:null, assignee:'Diogo Lerison', id:'86ak5ez40', url:'https://app.clickup.com/t/86ak5ez40'},
-      {n:'Realizar contato de encerramento', status:'backlog', due:null, assignee:'Diogo Lerison', id:'86ak5ez0e', url:'https://app.clickup.com/t/86ak5ez0e'},
-      {n:'Documentação técnica final', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak5ez25', url:'https://app.clickup.com/t/86ak5ez25'},
-      {n:'Documentação técnica', status:'backlog', due:null, assignee:'José Maria Ferreira da Silva', id:'86ak8rgfd', url:'https://app.clickup.com/t/86ak8rgfd'},
-      {n:'Registro de documentação', status:'shipped', due:null, doneAt:1788988330204, assignee:'Diogo Lerison', id:'86ak8prta', url:'https://app.clickup.com/t/86ak8prta'}
-    ]
+    "n": "Fase 5 - Encerramento",
+    "status": "backlog",
+    "assignee": "Diogo Lerison",
+    "due": null,
+    "id": "86ak5evuv",
+    "ativ": []
    }
   ]
  }
@@ -960,329 +903,2251 @@ const ROADMAP_DONE_STATUSES = ['concluído','fechado'];
 
 // Tarefas da lista "Wagner" · ClickUp (https://app.clickup.com/3080406/v/b/li/901326954601)
 const WAGNER_TASKS = [
-  {id:'86ak851vd', name:'Abrir GMUD para desligar o servidor do Znuny em 1/09', status:'concluído', assignees:[], due:null, url:'https://app.clickup.com/t/86ak851vd'},
-  {id:'86ak851en', name:'Storware planejamento QTSxClientesxdatas', status:'concluído', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ak851en'},
-  {id:'86ak0vchx', name:'Automatizar no escritório de Projetos o envio da TEP assinada pelo cliente para início do faturamento', status:'concluído', assignees:['Wagner Bento Felix'], due:1788591600000, url:'https://app.clickup.com/t/86ak0vchx'},
-  {id:'86ajhv42w', name:'Replanejamento da migração com abertura do projeto de Desmobilização 2.0', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ajhv42w', doneAt:1784128185933},
-  {id:'86ajdufj9', name:'Redefinir o painel de projetos nos moldes do CC', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ajdufj9', doneAt:1784128255901},
-  {id:'86aj74xpa', name:'Finalização do projeto da GIMBA no sistema', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86aj74xpa', doneAt:1784128003113},
-  {id:'86aj74bfu', name:'Deleção de domínio', status:'fechado', assignees:['Wagner Bento Felix'], due:1796108400000, url:'https://app.clickup.com/t/86aj74bfu', doneAt:1788292872918},
-  {id:'86aj7461w', name:'Mudança de IP da BMC para liberar IP', status:'fechado', assignees:['Wagner Bento Felix'], due:1784358000000, url:'https://app.clickup.com/t/86aj7461w', doneAt:1786540831332},
-  {id:'86aj73tvf', name:'Controle sendo o mesmo core do CC (projetos.binario.cloud)', status:'revisando', assignees:['Wagner Bento Felix'], due:1790751600000, url:'https://app.clickup.com/t/86aj73tvf'},
-  {id:'86aj73tv0', name:'Desativação da 2.0 fisicamente', status:'em andamento', assignees:['Wagner Bento Felix'], due:1796108400000, url:'https://app.clickup.com/t/86aj73tv0'},
-  {id:'86aj73tut', name:'Migração 2>3: reduzir e chegar a ≤100 VMs de clientes com comprovação', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86aj73tut', doneAt:1784127886561},
-  {id:'86aj73tua', name:'Consolidação da Governança', status:'em andamento', assignees:['Wagner Bento Felix'], due:1798700400000, url:'https://app.clickup.com/t/86aj73tua'},
-  {id:'86aj73ttz', name:'Sanitização 3.0 (contínuo)', status:'em andamento', assignees:['Wagner Bento Felix'], due:1798700400000, url:'https://app.clickup.com/t/86aj73ttz'},
-  {id:'86aj73tth', name:'Sanitização 2.0 (contínuo)', status:'em andamento', assignees:['Wagner Bento Felix'], due:1798700400000, url:'https://app.clickup.com/t/86aj73tth'},
-  {id:'86aj73try', name:'Projeto Observabilidade', status:'fechado', assignees:['Wagner Bento Felix'], due:1785481200000, url:'https://app.clickup.com/t/86aj73try', doneAt:1786540574869},
-  {id:'86aj73trc', name:'Projeto ClaudIA', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86aj73trc', doneAt:1784128135170},
-  {id:'86aj3t57d', name:'Planejamento modificações Alerj', status:'em andamento', assignees:['Wagner Bento Felix'], due:1790751600000, url:'https://app.clickup.com/t/86aj3t57d'},
-  {id:'86ahf5dbz', name:'Novo planejamento de Ondas para Migração BCP', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahf5dbz', doneAt:1784128079225},
-  {id:'86ahf5dby', name:'Fechar projeto DISMAC', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahf5dby', doneAt:1781125683729},
-  {id:'86ahf5dbn', name:'Alinhar apresentação com o Bruno', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahf5dbn', doneAt:1781125683729},
-  {id:'86ahf5dba', name:'Limpar 2.0', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahf5dba', doneAt:1782239952032},
-  {id:'86ahf5db1', name:'Capacity 3.0', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahf5db1', doneAt:1784128299271},
-  {id:'86ahf5daf', name:'Capacity 2.0', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahf5daf', doneAt:1784128305278},
-  {id:'86ahd7jn3', name:'Reunião com cada líder/par para entendimento da área', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahd7jn3', doneAt:1782240066498},
-  {id:'86ahd7hkq', name:'Dash único com todas as visões de projetos internos', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahd7hkq', doneAt:1781125683729},
-  {id:'86ahc8yjj', name:'08/05 - Continuação da limpeza de VMs', status:'fechado', assignees:['João Alves'], due:null, url:'https://app.clickup.com/t/86ahc8yjj', doneAt:1781125683729},
-  {id:'86ahbt0ud', name:'07/05 - Atualização do relatório e desligamento de VMs', status:'fechado', assignees:['João Alves'], due:1778137200000, url:'https://app.clickup.com/t/86ahbt0ud', doneAt:1781125683729},
-  {id:'86ahar8k5', name:'Status migração 2>3', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahar8k5', doneAt:1784128095240},
-  {id:'86ahar8a7', name:'Validação dos modelos no ClickUp', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahar8a7', doneAt:1782240074492},
-  {id:'86ahar860', name:'Criação do relatório de fechamento tático', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ahar860', doneAt:1781722897592},
-  {id:'86ahar7zw', name:'Processo da área', status:'revisando', assignees:['Wagner Bento Felix'], due:1790751600000, url:'https://app.clickup.com/t/86ahar7zw'},
-  {id:'86ahar7wh', name:'Plano de 100 dias', status:'revisando', assignees:['Wagner Bento Felix'], due:1790751600000, url:'https://app.clickup.com/t/86ahar7wh'},
-  {id:'86ah462pk', name:'Limpeza - BCOS 2.0', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ah462pk', doneAt:1784128119928},
-  {id:'86ah436mx', name:'Execução da limpeza - Services', status:'fechado', assignees:['João Alves'], due:null, url:'https://app.clickup.com/t/86ah436mx', doneAt:1784128119928},
-  {id:'86ah4368f', name:'Lista de máquinas recebidas da Engenharia', status:'fechado', assignees:[], due:null, url:'https://app.clickup.com/t/86ah4368f', doneAt:1781125683729},
-  {id:'86ah435z8', name:'Limpeza das VMs em Default - Services', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ah435z8', doneAt:1784128119928},
-  {id:'86ah435by', name:'Limpeza dos projetos internos', status:'fechado', assignees:['Wagner Bento Felix'], due:null, url:'https://app.clickup.com/t/86ah435by', doneAt:1784128119928}
+ {
+  "id": "86ak851vd",
+  "name": "Abrir GMUD para desligar o servidor do Znuny em 1/09",
+  "status": "concluído",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ak851vd"
+ },
+ {
+  "id": "86ak851en",
+  "name": "Storware planejamento QTSxClientesxdatas",
+  "status": "concluído",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "url": "https://app.clickup.com/t/86ak851en"
+ },
+ {
+  "id": "86ak0yjnn",
+  "name": "melhoria do painel de metas",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1787036400000,
+  "url": "https://app.clickup.com/t/86ak0yjnn",
+  "doneAt": 1788006011973
+ },
+ {
+  "id": "86ak0vchx",
+  "name": "Automatizar dentro do escritório de Projetos o processo de Após a finalização do projeto, faremos o envio manual da TEP devidamente assinada pelo cliente, para que vocês possam dar início ao faturamento do projeto.",
+  "status": "concluído",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1788591600000,
+  "url": "https://app.clickup.com/t/86ak0vchx"
+ },
+ {
+  "id": "86ak0v91j",
+  "name": "Criar painel de tarefas para todos os temos da minha diretoria, OnePage",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1787036400000,
+  "url": "https://app.clickup.com/t/86ak0v91j",
+  "doneAt": 1788005988119
+ },
+ {
+  "id": "86ajhv42w",
+  "name": "Replanejamento da migração com abertura do projeto de Desmobilização 2.0",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "url": "https://app.clickup.com/t/86ajhv42w",
+  "doneAt": 1784128185933
+ },
+ {
+  "id": "86ajdufj9",
+  "name": "Redefinir o painell de projetos nos moldes do CC",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "url": "https://app.clickup.com/t/86ajdufj9",
+  "doneAt": 1784128255901
+ },
+ {
+  "id": "86aj74xpa",
+  "name": "Finalizaçõ o projeto da GIMBA no sistema",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "url": "https://app.clickup.com/t/86aj74xpa",
+  "doneAt": 1784128003113
+ },
+ {
+  "id": "86aj74bfu",
+  "name": "Deleção de dominio",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1796108400000,
+  "url": "https://app.clickup.com/t/86aj74bfu",
+  "doneAt": 1788292872918
+ },
+ {
+  "id": "86aj7461w",
+  "name": "mudança de IP da BMC para liberar IP",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1784358000000,
+  "url": "https://app.clickup.com/t/86aj7461w",
+  "doneAt": 1786540831332
+ },
+ {
+  "id": "86aj73tvf",
+  "name": "Controle sendo o mesmo core do CC (projetos.binario.cloud)",
+  "status": "revisando",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1790751600000,
+  "url": "https://app.clickup.com/t/86aj73tvf"
+ },
+ {
+  "id": "86aj73tv0",
+  "name": "Desativação da 2.0 fisicamente",
+  "status": "em andamento",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1796108400000,
+  "url": "https://app.clickup.com/t/86aj73tv0"
+ },
+ {
+  "id": "86aj73tut",
+  "name": "Migração 2>3 temos que reduzir e chegar a <=100 VMS de clientes e ter a comprovação",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "url": "https://app.clickup.com/t/86aj73tut",
+  "doneAt": 1784127886561
+ },
+ {
+  "id": "86aj73tua",
+  "name": "Consolidação da Governança ( não vejo algo evoluindo)",
+  "status": "em andamento",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1798700400000,
+  "url": "https://app.clickup.com/t/86aj73tua"
+ },
+ {
+  "id": "86aj73ttz",
+  "name": "Sanitização 3.0 (contínuo)",
+  "status": "em andamento",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1798700400000,
+  "url": "https://app.clickup.com/t/86aj73ttz"
+ },
+ {
+  "id": "86aj73tth",
+  "name": "Sanitização 2.0 (contínuo)",
+  "status": "em andamento",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1798700400000,
+  "url": "https://app.clickup.com/t/86aj73tth"
+ },
+ {
+  "id": "86aj73try",
+  "name": "Projeto Observabilidade (não vejo nada de produtivo)",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1785481200000,
+  "url": "https://app.clickup.com/t/86aj73try",
+  "doneAt": 1786540574869
+ },
+ {
+  "id": "86aj73trc",
+  "name": "Projeto claudIA (ja esta minimamente utilizável?)",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "url": "https://app.clickup.com/t/86aj73trc",
+  "doneAt": 1784128135170
+ },
+ {
+  "id": "86aj3t57d",
+  "name": "Planejamento modificações Alerj",
+  "status": "em andamento",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1790751600000,
+  "url": "https://app.clickup.com/t/86aj3t57d"
+ },
+ {
+  "id": "86ahf5dbz",
+  "name": "Novo planejamento de Ondas para Migração BCP",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "url": "https://app.clickup.com/t/86ahf5dbz",
+  "doneAt": 1784128079225
+ },
+ {
+  "id": "86ahf5dby",
+  "name": "Fechar projeto DISMAC",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "url": "https://app.clickup.com/t/86ahf5dby",
+  "doneAt": 1781125683729
+ },
+ {
+  "id": "86ahf5dbn",
+  "name": "Alinhar apresentação com o Bruno... pois será amanhã a apresentação.",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "url": "https://app.clickup.com/t/86ahf5dbn",
+  "doneAt": 1781125683729
+ },
+ {
+  "id": "86ahf5dba",
+  "name": "Limpar 2.0",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "url": "https://app.clickup.com/t/86ahf5dba",
+  "doneAt": 1782239952032
+ },
+ {
+  "id": "86ahf5db1",
+  "name": "Capacity 3.0",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "url": "https://app.clickup.com/t/86ahf5db1",
+  "doneAt": 1784128299271
+ },
+ {
+  "id": "86ahf5daf",
+  "name": "Capacity 2.0",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "url": "https://app.clickup.com/t/86ahf5daf",
+  "doneAt": 1784128305278
+ },
+ {
+  "id": "86ahd7jn3",
+  "name": "Reunião com cada lider/par para entendeimento da area",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "url": "https://app.clickup.com/t/86ahd7jn3",
+  "doneAt": 1782240066498
+ },
+ {
+  "id": "86ahd7hkq",
+  "name": "Dash unico com todas as visões de projetos internos",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "url": "https://app.clickup.com/t/86ahd7hkq",
+  "doneAt": 1781125683729
+ },
+ {
+  "id": "86ahar8k5",
+  "name": "status migração 2>3",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "url": "https://app.clickup.com/t/86ahar8k5",
+  "doneAt": 1784128095240
+ },
+ {
+  "id": "86ahar8a7",
+  "name": "validação dos modelos no clickup",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "url": "https://app.clickup.com/t/86ahar8a7",
+  "doneAt": 1782240074492
+ },
+ {
+  "id": "86ahar860",
+  "name": "Criação do relatório de fechamento tatico",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "url": "https://app.clickup.com/t/86ahar860",
+  "doneAt": 1781722897592
+ },
+ {
+  "id": "86ahar7zw",
+  "name": "Processo da area",
+  "status": "revisando",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1790751600000,
+  "url": "https://app.clickup.com/t/86ahar7zw"
+ },
+ {
+  "id": "86ahar7wh",
+  "name": "Plano de 100 dias",
+  "status": "revisando",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1790751600000,
+  "url": "https://app.clickup.com/t/86ahar7wh"
+ },
+ {
+  "id": "86ah462pk",
+  "name": "Limpeza - BCOS 2.0",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "url": "https://app.clickup.com/t/86ah462pk",
+  "doneAt": 1784128119928
+ }
 ];
 
 const BRUNO_TASKS = [
-  {id:'86ak5pat9', name:'Analise para deleção dos Dominios sem Vms 2.0', status:'aberto', assignees:['Bruno Queiroz'], due:1787900400000, url:'https://app.clickup.com/t/86ak5pat9'},
-  {id:'86ak52c7n', name:'Regularização Pós Migração - Gimba', status:'aberto', assignees:['Bruno Queiroz'], due:1788591600000, url:'https://app.clickup.com/t/86ak52c7n'},
-  {id:'86ajzvbmq', name:'Add metadados de monitoração em todos os servidores', status:'planejamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ajzvbmq'},
-  {id:'86ajzvbh2', name:'Ajustar ícones dos servidores (metadados)', status:'planejamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ajzvbh2'},
-  {id:'86ajzvb9z', name:'Migrar SQLs para flavor correto', status:'planejamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86ajzvb9z'},
-  {id:'86ajj6hdn', name:'Passagem UOL - Engenharia', status:'em andamento', assignees:['Bruno Queiroz'], due:1790751600000, url:'https://app.clickup.com/t/86ajj6hdn'},
-  {id:'86ajj6fb2', name:'Passagem Cannect - DevOps', status:'em andamento', assignees:['Bruno Queiroz','Gustavo Camargo'], due:1787295600000, url:'https://app.clickup.com/t/86ajj6fb2'},
-  {id:'86aj74a6m', name:'Migrar as Bancos ORACLE para Baremetal', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aj74a6m'},
-  {id:'86aj73kd8', name:'Viabilizar produtos BC Automation e BC Ops & Governance', status:'bloqueada', assignees:['Bruno Queiroz'], due:1785999600000, url:'https://app.clickup.com/t/86aj73kd8'},
-  {id:'86aj73kd6', name:'Cancelar os 2 links da operação (Redundância) - agora L2L', status:'em andamento', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aj73kd6'},
-  {id:'86aj73kd3', name:'Validar LB - ficará no FW ou voltaremos para o BCP', status:'revisando', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aj73kd3'},
-  {id:'86aj73kd1', name:'Ativar o link Algar', status:'concluído', assignees:['Bruno Queiroz'], url:'https://app.clickup.com/t/86aj73kd1'},
-  {id:'86aj73kcy', name:'Refinamento da Gimba', status:'em andamento', assignees:['Bruno Queiroz'], due:1785481200000, url:'https://app.clickup.com/t/86aj73kcy'},
-  {id:'86aj73kcq', name:'Automatização do processo da Gimba para redução', status:'em andamento', assignees:['Bruno Queiroz'], due:1790751600000, url:'https://app.clickup.com/t/86aj73kcq'},
-  {id:'86ahjxj34', name:'Validação dos PaaS na plataforma', status:'em andamento', assignees:['Bruno Queiroz'], due:1780038000000, url:'https://app.clickup.com/t/86ahjxj34'},
-  {id:'86ah9y7by', name:'Processo de atualização do certificado (revisão de periodicidade)', status:'aguardando retorno', assignees:['Bruno Queiroz'], due:1780470000000, url:'https://app.clickup.com/t/86ah9y7by'},
-  {id:'86aeprcpk', name:'FW', status:'em andamento', assignees:['Bruno Queiroz'], due:1770361200000, url:'https://app.clickup.com/t/86aeprcpk'},
-  {id:'86aeprcdh', name:'DevOps', status:'em andamento', assignees:['Bruno Queiroz'], due:1770966000000, url:'https://app.clickup.com/t/86aeprcdh'},
-  {id:'86aeprc0q', name:'Servidores VM', status:'em andamento', assignees:['Bruno Queiroz'], due:1769410800000, url:'https://app.clickup.com/t/86aeprc0q'},
-  {id:'86aeprbx4', name:'Backup/DR', status:'em andamento', assignees:['Bruno Queiroz'], due:1769756400000, url:'https://app.clickup.com/t/86aeprbx4'},
-  {id:'86ae2pb6v', name:'Sustentação', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ae2pb6v'},
-  {id:'86ae2pb4x', name:'Monitoração', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ae2pb4x'},
-  {id:'86ae2pb3h', name:'Backup', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ae2pb3h'},
-  {id:'86ae2pb14', name:'FW', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86ae2pb14'},
-  {id:'86ad14k53', name:'Check Ambiente de DR', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ad14k53'},
-  {id:'86ad14k3c', name:'Check Ambiente de Backup', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86ad14k3c'},
-  {id:'86ad14jz7', name:'Check Cloud 3.0', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86ad14jz7'},
-  {id:'86ad14jwa', name:'Check Cloud 2.0', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86ad14jwa'},
-  {id:'86achadte', name:'Plataforma', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86achadte'},
-  {id:'86achadhj', name:'Backup', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86achadhj'},
-  {id:'86achadf7', name:'FW', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86achadf7'},
-  {id:'86achade8', name:'Monitoração', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86achade8'},
-  {id:'86achad9v', name:'Documentação recorrente com automação', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86achad9v'},
-  {id:'86acgfe12', name:'Escopo Monitoração', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86acgfe12'},
-  {id:'86acgfdnc', name:'Escopo Redes', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86acgfdnc'},
-  {id:'86acgfdhj', name:'Escopo S.O Linux', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86acgfdhj'},
-  {id:'86acgfder', name:'Escopo S.O Windows', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86acgfder'},
-  {id:'86acgfd9x', name:'Escopo K8s - DevOps', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86acgfd9x'},
-  {id:'86acgfch6', name:'Escopo Openstack', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86acgfch6'},
-  {id:'86acgfcf6', name:'Escopo do BCOS', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86acgfcf6'},
-  {id:'86acgfc0u', name:'Escopo de FW', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86acgfc0u'},
-  {id:'86acgfbyf', name:'Escopo de Backup', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86acgfbyf'},
-  {id:'86acgf9cj', name:'Coleta de dados do FW automatizada', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86acgf9cj'},
-  {id:'86acgf97f', name:'Coleta de dados do Backup automatizada', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86acgf97f'},
-  {id:'86ac6u9cp', name:'Plano de documentação para Clientes Gerenciados', status:'planejamento', assignees:['Bruno Queiroz'], due:1761634800000, url:'https://app.clickup.com/t/86ac6u9cp'},
-  {id:'86aba9ak9', name:'Controle de projetos de melhorias e inovações da área', status:'em andamento', assignees:['Bruno Queiroz'], due:1759302000000, url:'https://app.clickup.com/t/86aba9ak9'},
-  {id:'86aba8mgv', name:'Montar e entender atuação nos ambientes Cloud Privada', status:'planejamento', assignees:['Bruno Queiroz','Gustavo Camargo'], due:1759215600000, url:'https://app.clickup.com/t/86aba8mgv'},
-  {id:'86aba7nnn', name:'Mapeamento e documentação do onboarding', status:'em andamento', assignees:['Bruno Queiroz'], due:1759215600000, url:'https://app.clickup.com/t/86aba7nnn'},
-  {id:'86aba0vj8', name:'Criação de POPs (67)', status:'em andamento', assignees:['Bruno Queiroz'], due:1764313200000, url:'https://app.clickup.com/t/86aba0vj8'},
-  {id:'86ab9yy57', name:'Elaborar escopo de serviço Gerenciado (IaaS, Backup, FW, AntiVirus)', status:'planejamento', assignees:['Bruno Queiroz'], due:1760079600000, url:'https://app.clickup.com/t/86ab9yy57'},
-  {id:'86ab9ygu5', name:'Criar checklist de processos rotineiros para clientes Gerenciados', status:'planejamento', assignees:['Bruno Queiroz'], due:1761894000000, url:'https://app.clickup.com/t/86ab9ygu5'}
+ {
+  "id": "86ak5pat9",
+  "name": "Analise para deleção dos Dominios sem Vms 2.0",
+  "status": "aberto",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1787900400000,
+  "url": "https://app.clickup.com/t/86ak5pat9"
+ },
+ {
+  "id": "86ak52c7n",
+  "name": "REgularização Pós Migração - Gimba",
+  "status": "aberto",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1788591600000,
+  "url": "https://app.clickup.com/t/86ak52c7n"
+ },
+ {
+  "id": "86ajj6hdn",
+  "name": "Passagem UOL - Engenharia",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1790751600000,
+  "url": "https://app.clickup.com/t/86ajj6hdn"
+ },
+ {
+  "id": "86ajj6fb2",
+  "name": "Passagem Cannect - DevOps",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz",
+   "Gustavo Camargo"
+  ],
+  "due": 1787295600000,
+  "url": "https://app.clickup.com/t/86ajj6fb2"
+ },
+ {
+  "id": "86aj73kd8",
+  "name": "Viabilizar seu cara para andar com os produtos BC Automation (produto igual ao da SkyOne) e BC Ops & Governance",
+  "status": "bloqueada",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1785999600000,
+  "url": "https://app.clickup.com/t/86aj73kd8"
+ },
+ {
+  "id": "86aj73kcy",
+  "name": "Refinamento da GImba",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1785481200000,
+  "url": "https://app.clickup.com/t/86aj73kcy"
+ },
+ {
+  "id": "86aj73kcw",
+  "name": "projeto de Observabilidade",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86aj73kcw",
+  "doneAt": 1786557138152
+ },
+ {
+  "id": "86aj73kcq",
+  "name": "Automatização do processo da Gimba para redução",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1790751600000,
+  "url": "https://app.clickup.com/t/86aj73kcq"
+ },
+ {
+  "id": "86aj73kcm",
+  "name": "redução do Cleber",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86aj73kcm",
+  "doneAt": 1784140489501
+ },
+ {
+  "id": "86ahjxj34",
+  "name": "Validação dos PaaS na plataforma ",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1780038000000,
+  "url": "https://app.clickup.com/t/86ahjxj34"
+ },
+ {
+  "id": "86ahjxj2y",
+  "name": "RCA da APTU",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1779433200000,
+  "url": "https://app.clickup.com/t/86ahjxj2y",
+  "doneAt": 1781726243306
+ },
+ {
+  "id": "86ahjxj2p",
+  "name": "data de feedback para time de redes.. quando?",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86ahjxj2p",
+  "doneAt": 1781721605858
+ },
+ {
+  "id": "86ahjxj2g",
+  "name": "delete da GIMBA na 3.0",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86ahjxj2g",
+  "doneAt": 1781721593529
+ },
+ {
+  "id": "86ahjxj2e",
+  "name": "processo de delete de VMs via BC automation",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86ahjxj2e",
+  "doneAt": 1781721593529
+ },
+ {
+  "id": "86ahjxj2d",
+  "name": "validar o relatório de inventário da 2.0 e 3.0 com os ajustes (vms sem proejtos, tem que bater com o s números de ENG)",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1779346800000,
+  "url": "https://app.clickup.com/t/86ahjxj2d",
+  "doneAt": 1781721593529
+ },
+ {
+  "id": "86ahjxj29",
+  "name": "acesso para o Wagner",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86ahjxj29",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86ahjxj21",
+  "name": "compra de passagem",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86ahjxj21",
+  "doneAt": 1781721593529
+ },
+ {
+  "id": "86ahjxj1r",
+  "name": "apresentação BC automation + Migration nas frentes de IA (olha nossa apresentação)",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1779778800000,
+  "url": "https://app.clickup.com/t/86ahjxj1r",
+  "doneAt": 1781721593529
+ },
+ {
+  "id": "86aharwyg",
+  "name": "Projeto de backup Stoware",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86aharwyg",
+  "doneAt": 1781721593529
+ },
+ {
+  "id": "86aharvnj",
+  "name": "L2L Gimba",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86aharvnj",
+  "doneAt": 1781721593529
+ },
+ {
+  "id": "86aharv2f",
+  "name": "Treinamento de Redes com a  QoS",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86aharv2f",
+  "doneAt": 1781721593529
+ },
+ {
+  "id": "86ahar6mw",
+  "name": "Tarefas que era executadas pela QOS que agora precisam ser feitas pela area de REde, atividades levantadas pelo Leo da ENG",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86ahar6mw",
+  "doneAt": 1781721593529
+ },
+ {
+  "id": "86ah9y7by",
+  "name": "processo de atualização do certificado. 3 em 3 meses? Pra que? O Tipo de certificado é o correto?",
+  "status": "aguardando retorno",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1780470000000,
+  "url": "https://app.clickup.com/t/86ah9y7by"
+ },
+ {
+  "id": "86ah9y5ga",
+  "name": "Passagem de bastão - Projeto Jornada para a Nuvem Fibrion 29/04",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz",
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86ah9y5ga",
+  "doneAt": 1784140506439
+ },
+ {
+  "id": "86ah9y5g6",
+  "name": "Passagem de bastão - Projeto Jornada para a Solutika 27/04",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz",
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86ah9y5g6",
+  "doneAt": 1784140506439
+ },
+ {
+  "id": "86ah9y5g2",
+  "name": "Passagem de bastão - Projeto Jornada para a Nuvem Rocie 28/04",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz",
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86ah9y5g2",
+  "doneAt": 1784140506439
+ },
+ {
+  "id": "86ah1gx70",
+  "name": "Definir segunda região para Backup",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86ah1gx70",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86aepywg4",
+  "name": "Ativação do BareMetal ORACLE Gimba na 3.0",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1777186800000,
+  "url": "https://app.clickup.com/t/86aepywg4",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86aepyfef",
+  "name": "Desativar o ambiente SellBetti (DKNY + DentalUNI)",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86aepyfef",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86adxyvqr",
+  "name": "Planejamento férias 2026 para o time",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1767078000000,
+  "url": "https://app.clickup.com/t/86adxyvqr",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86adbxq5j",
+  "name": "Exclusão de ambientes antigos e Migrados",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1765782000000,
+  "url": "https://app.clickup.com/t/86adbxq5j",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86acppxar",
+  "name": "Licença - SQL Server e Oracle na Cloud",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1762498800000,
+  "url": "https://app.clickup.com/t/86acppxar",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86acpnu0e",
+  "name": "POC - Salsa",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1760684400000,
+  "url": "https://app.clickup.com/t/86acpnu0e",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86acbdgyk",
+  "name": "Problema de comunicação de rede Nós win3 e 5 2.0",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1759906800000,
+  "url": "https://app.clickup.com/t/86acbdgyk",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86ac6u9cp",
+  "name": "Plano de documentação para Clientes Gerenciados",
+  "status": "planejamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1761634800000,
+  "url": "https://app.clickup.com/t/86ac6u9cp"
+ },
+ {
+  "id": "86ac1wy71",
+  "name": "Planilha de skill, para analise de performance",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1758870000000,
+  "url": "https://app.clickup.com/t/86ac1wy71",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86ac0bhv8",
+  "name": "Nova divisão de equipes e responsabilidades",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1758870000000,
+  "url": "https://app.clickup.com/t/86ac0bhv8",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86ac0bebz",
+  "name": "Novo modelo de Daily",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1761807600000,
+  "url": "https://app.clickup.com/t/86ac0bebz",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86abur8g3",
+  "name": "Alteração VLAN 1Team - VLAN 1220",
+  "status": "fechado",
+  "assignees": [
+   "Raphael Fogaça",
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86abur8g3",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86abnqrr1",
+  "name": "Revisão proposta backup da Igreja",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1759474800000,
+  "url": "https://app.clickup.com/t/86abnqrr1",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86aba9bnf",
+  "name": "Ajuste anual contrato PJ's",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1759993200000,
+  "url": "https://app.clickup.com/t/86aba9bnf",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86aba9bcz",
+  "name": "Ajuste anual contrato Higo",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1758265200000,
+  "url": "https://app.clickup.com/t/86aba9bcz",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86aba9avp",
+  "name": "Ferias pendentes Ale",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz",
+   "Raphael Fogaça"
+  ],
+  "due": 1758524400000,
+  "url": "https://app.clickup.com/t/86aba9avp",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86aba9ak9",
+  "name": "Controle de projetos de melhorias e inovações da área",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1759302000000,
+  "url": "https://app.clickup.com/t/86aba9ak9"
+ },
+ {
+  "id": "86aba8mgv",
+  "name": "Montar e entender como iremos atuar nos ambiente Cloud PRIVADA",
+  "status": "planejamento",
+  "assignees": [
+   "Bruno Queiroz",
+   "Gustavo Camargo"
+  ],
+  "due": 1759215600000,
+  "url": "https://app.clickup.com/t/86aba8mgv"
+ },
+ {
+  "id": "86aba8mc7",
+  "name": "PO Projeto GIMBA",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1765782000000,
+  "url": "https://app.clickup.com/t/86aba8mc7",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86aba8k1z",
+  "name": "Migração de Object Storage BCOS 2.0 para BCOS 3.0",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz",
+   "Lucas Federissis de Souza"
+  ],
+  "due": 1764486000000,
+  "url": "https://app.clickup.com/t/86aba8k1z",
+  "doneAt": 1782500494542
+ },
+ {
+  "id": "86aba8hd3",
+  "name": "Distribuição de atividades para o time (fator foco)",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1758870000000,
+  "url": "https://app.clickup.com/t/86aba8hd3",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86aba87p2",
+  "name": "Levantamento ferramenta de CMDB para apresentar",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1760943600000,
+  "url": "https://app.clickup.com/t/86aba87p2",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86aba7ptp",
+  "name": "Assumir quais atividades do Fogaça (desafoga-lo)",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1758265200000,
+  "url": "https://app.clickup.com/t/86aba7ptp",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86aba7pgw",
+  "name": "Suporte ao comercial com reunião de entendimento doBCOS",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1758870000000,
+  "url": "https://app.clickup.com/t/86aba7pgw",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86aba7p2u",
+  "name": "Backup com ou sem imutabilidade",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1758870000000,
+  "url": "https://app.clickup.com/t/86aba7p2u",
+  "doneAt": 1781125715437
+ },
+ {
+  "id": "86aba7nnn",
+  "name": "Mapeamento e documentação do onboarding",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1759215600000,
+  "url": "https://app.clickup.com/t/86aba7nnn"
+ },
+ {
+  "id": "86aba7n72",
+  "name": "Plano de 100 dias + escrito",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1758610800000,
+  "url": "https://app.clickup.com/t/86aba7n72",
+  "doneAt": 1781125715437
+ }
 ];
 
 const JOAO_TASKS = [
-  {id:'86ajzma7r', name:'Painel - ENG', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86ajzma7r'},
-  {id:'86ajzm9mv', name:'Validação de módulos', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86ajzm9mv'},
-  {id:'86ajzm94f', name:'Integração do Frontend', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ajzm94f'},
-  {id:'86ajzm934', name:'Integração do Backend', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86ajzm934'},
-  {id:'86ajzm6gy', name:'AI Command Center V2', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ajzm6gy'},
-  {id:'86ajw4rq5', name:'Canal externo (site Net e Cloud)', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86ajw4rq5'},
-  {id:'86ajw49pf', name:'Fechamento LGPD (finalizando 2026)', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ajw49pf'},
-  {id:'86ajw430v', name:'Desenvolver treinamento de LGPD no onboarding', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ajw430v'},
-  {id:'86ajj4fff', name:'Status', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ajj4fff'},
-  {id:'86ajj4e3p', name:'Envio de comunicados', status:'aguardando retorno', assignees:['João Alves'], url:'https://app.clickup.com/t/86ajj4e3p'},
-  {id:'86ajj4dvw', name:'Sala de Crise', status:'aguardando retorno', assignees:['João Alves'], url:'https://app.clickup.com/t/86ajj4dvw'},
-  {id:'86ajcyweb', name:'Backend', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ajcyweb'},
-  {id:'86ajcywcv', name:'Frontend', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ajcywcv'},
-  {id:'86ajcyw9x', name:'Shield', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ajcyw9x'},
-  {id:'86aj5bxuh', name:'O filtro padrão deve ser ATIVOS', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86aj5bxuh'},
-  {id:'86aj512k4', name:'Implantação em servidores', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86aj512k4'},
-  {id:'86aj512gm', name:'Implantação em computadores', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86aj512gm'},
-  {id:'86aj34p42', name:'Desenho de possível arquitetura', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86aj34p42'},
-  {id:'86aj2rxe1', name:'Adicionar coluna de Fila (múltipla seleção)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86aj2rxe1'},
-  {id:'86aj08hdd', name:'RCA', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86aj08hdd'},
-  {id:'86aj08hd7', name:'Post Mortem', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86aj08hd7'},
-  {id:'86aj08hd2', name:'Timeline', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86aj08hd2'},
-  {id:'86aj08hcg', name:'Criação de sala no Teams', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86aj08hcg'},
-  {id:'86aj08hc6', name:'Acionamento', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86aj08hc6'},
-  {id:'86aj08hbz', name:'Processo', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86aj08hbz'},
-  {id:'86aj08hbr', name:'Chamado', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86aj08hbr'},
-  {id:'86aj08h51', name:'Área de comunicado virar gestão de alto impacto', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86aj08h51'},
-  {id:'86ahzxhpd', name:'Ao cancelar GMUD, adicionar campo com motivo do cancelamento', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzxhpd'},
-  {id:'86ahzw1bm', name:'Mover comando para undercloud', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzw1bm'},
-  {id:'86ahzvd6r', name:'Status Page pública de serviços', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86ahzvd6r'},
-  {id:'86ahzvd6n', name:'Redes - integrar dados do Zabbix da equipe de redes', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ahzvd6n'},
-  {id:'86ahzvd6j', name:'OpenStack - status do projeto de Observabilidade', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ahzvd6j'},
-  {id:'86ahzvd6e', name:'Status de serviço (vermelho/amarelo/verde)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzvd6e'},
-  {id:'86ahzvd64', name:'Melhoria contínua', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86ahzvd64'},
-  {id:'86ahzvd5x', name:'Registro em Problemas', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86ahzvd5x'},
-  {id:'86ahzvd5v', name:'Post Mortem', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86ahzvd5v'},
-  {id:'86ahzvd5m', name:'Age e registra (restart/altera config/escala&failover/testar)', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86ahzvd5m'},
-  {id:'86ahzvd5g', name:'Cruzar contexto (Zabbix/Logs K8s/Downdetector/Tickets/Arquitetura/Prometheus/Redes/Grafana)', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86ahzvd5g'},
-  {id:'86ahzvcat', name:'SRE AI Operator', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzvcat'},
-  {id:'86ahzvb0v', name:'Roadmap - Command Center', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzvb0v'},
-  {id:'86ahzv1xv', name:'Integração com a ClaudIA para resolução de chamados', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzv1xv'},
-  {id:'86ahzv1u5', name:'Definição de perfil Analista CCOE - quais módulos utilizará', status:'aberto', assignees:['João Alves','Gustavo Camargo'], url:'https://app.clickup.com/t/86ahzv1u5'},
-  {id:'86ahzpajg', name:'Ao apertar F5, voltar para a mesma página', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzpajg'},
-  {id:'86ahzm1up', name:'KPI Visão Geral', status:'revisando', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzm1up'},
-  {id:'86ahzkpcy', name:'Campo de adicionar arquivo', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzkpcy'},
-  {id:'86ahzkmbr', name:'Adicionar campo de e-mail do responsável pela resolução', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ahzkmbr'},
-  {id:'86ahzkkwe', name:'Alterar o Owner para \'Aberto por\'', status:'aberto', assignees:[], url:'https://app.clickup.com/t/86ahzkkwe'},
-  {id:'86ahzk8zu', name:'Configuração', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzk8zu'},
-  {id:'86ahzk8mr', name:'Passagem de turno', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzk8mr'},
-  {id:'86ahzk8e7', name:'Alto impacto (crise)', status:'revisando', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzk8e7'},
-  {id:'86ahzk8bx', name:'Backup', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzk8bx'},
-  {id:'86ahzk7za', name:'Problems', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzk7za'},
-  {id:'86ahzk7bj', name:'GMUD', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzk7bj'},
-  {id:'86ahzk78v', name:'Tickets', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzk78v'},
-  {id:'86ahzk725', name:'Clientes', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzk725'},
-  {id:'86ahzk65m', name:'Saúde do Cliente', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzk65m'},
-  {id:'86ahzhfpq', name:'Cockpit', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahzhfpq'},
-  {id:'86ahwdzje', name:'Trazer bcAPI por cliente - consumo anual e variação (correlação churn)', status:'aguardando retorno', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahwdzje'},
-  {id:'86ahwdrgv', name:'Área de Book', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahwdrgv'},
-  {id:'86ahwdr7w', name:'Status Cloud (monitoramento)', status:'aguardando retorno', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahwdr7w'},
-  {id:'86ahwd56r', name:'Filtro de tipo de chamado (dúvida/solicitação/incidente)', status:'aguardando retorno', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahwd56r'},
-  {id:'86ahw3f0y', name:'EDR', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahw3f0y'},
-  {id:'86ahw19pb', name:'Puxar BC-API e fatura de cliente (variação 5% saúde do cliente)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahw19pb'},
-  {id:'86ahw18qk', name:'Página de clientes: mudar para gerenciado/não gerenciado', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahw18qk'},
-  {id:'86ahw17f7', name:'Padronizar todo idioma em pt-br', status:'aguardando retorno', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahw17f7'},
-  {id:'86ahw15jt', name:'Métricas de inventário BC-automation', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahw15jt'},
-  {id:'86ahw0pa4', name:'Testar GMUD Teams', status:'revisando', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahw0pa4'},
-  {id:'86ahw0p9x', name:'Adicionar somente book gerenciados', status:'aguardando retorno', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahw0p9x'},
-  {id:'86ahw0p9t', name:'Remover em GMUD Sistema/CIs', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahw0p9t'},
-  {id:'86ahw0p9n', name:'Adicionar todos os clientes em painel de risco', status:'aguardando retorno', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahw0p9n'},
-  {id:'86ahv45zy', name:'Geral', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahv45zy'},
-  {id:'86ahug2mx', name:'AI Command Center', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahug2mx'},
-  {id:'86ahb15bp', name:'Net', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahb15bp'},
-  {id:'86ahb15ad', name:'Cloud', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahb15ad'},
-  {id:'86ahb1523', name:'Grupo', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86ahb1523'},
-  {id:'86aharm3t', name:'Não aprovado', status:'impedimento', assignees:['João Alves'], url:'https://app.clickup.com/t/86aharm3t'},
-  {id:'86ah4657t', name:'Jornada - ISO 27001', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ah4657t'},
-  {id:'86ah448qe', name:'Firewall e EDR - Net e Cloud', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ah448qe'},
-  {id:'86ah43yu3', name:'Adequação à LGPD', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ah43yu3'},
-  {id:'86ag5pjfp', name:'Pílula: Canal oficial do DPO (Net e Cloud)', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86ag5pjfp'},
-  {id:'86ae0trz2', name:'Implantação', status:'aguardando retorno', assignees:['João Alves'], url:'https://app.clickup.com/t/86ae0trz2'},
-  {id:'86ae0tq6e', name:'Firewall', status:'impedimento', assignees:['João Alves'], url:'https://app.clickup.com/t/86ae0tq6e'},
-  {id:'86adhthxj', name:'O lobo em pele de cordeiro', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86adhthxj'},
-  {id:'86adhthww', name:'Tudo começou com um PDF', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86adhthww'},
-  {id:'86adhthwk', name:'Freio existe para o carro correr mais', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86adhthwk'},
-  {id:'86adhthw6', name:'Hacker hackeia pessoas, não PC', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthw6'},
-  {id:'86adhthvp', name:'Você é o Firewall Humano', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthvp'},
-  {id:'86adhthv6', name:'Viu algo estranho? Grite (para a TI)', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthv6'},
-  {id:'86adhthuk', name:'Você não precisa ser Deus (Admin)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86adhthuk'},
-  {id:'86adhthtq', name:'Lixeira não é cofre', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthtq'},
-  {id:'86adhtht6', name:'Quem tem um, não tem nenhum', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86adhtht6'},
-  {id:'86adhthrv', name:'Baixaki? Melhor não.', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86adhthrv'},
-  {id:'86adhthrk', name:'Uma senha para dominar a todas', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthrk'},
-  {id:'86adhthr3', name:'Seu guarda-costas digital', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86adhthr3'},
-  {id:'86adhthqh', name:'O túnel blindado da sua conexão', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthqh'},
-  {id:'86adhthpy', name:'O Pen Drive achado não é presente', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthpy'},
-  {id:'86adhthp9', name:'Reiniciar o PC não é frescura', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthp9'},
-  {id:'86adhthne', name:'O Wi-Fi do café pode custar caro', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthne'},
-  {id:'86adhthmu', name:'Seu celular, dados da empresa?', status:'aberto', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthmu'},
-  {id:'86adhthm8', name:'O que aparece atrás de você?', status:'em andamento', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86adhthm8'},
-  {id:'86acugmz2', name:'Workshop 3 - O fator humano na segurança', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86acugmz2'},
-  {id:'86acqqp85', name:'17.3 Processo empresarial para relatar incidentes (CIS)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqqp85'},
-  {id:'86acqqn54', name:'17. Resposta a Incidentes (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqqn54'},
-  {id:'86acqqhmc', name:'15.1 Inventário de provedores de serviços (CIS)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqqhmc'},
-  {id:'86acqqhdj', name:'15. Controle de Acesso Remoto (CIS)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqqhdj'},
-  {id:'86acqqg55', name:'14.8 Treinar sobre redes inseguras (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqqg55'},
-  {id:'86acqqfr3', name:'14.7 Treinar sobre ativos sem atualização de segurança (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqqfr3'},
-  {id:'86acqqffh', name:'14.6 Treinar a reconhecer e relatar incidentes (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqqffh'},
-  {id:'86acqqf89', name:'14.5 Treinar sobre exposição não intencional de dados (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqqf89'},
-  {id:'86acqqeye', name:'14.4 Treinar melhores práticas de tratamento de dados (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqqeye'},
-  {id:'86acqq8n9', name:'14.3 Treinar melhores práticas de autenticação (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqq8n9'},
-  {id:'86acqq8e9', name:'14.2 Treinar a reconhecer engenharia social (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqq8e9'},
-  {id:'86acqq7zv', name:'14.1 Programa de conscientização sobre segurança (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqq7zv'},
-  {id:'86acqq7mv', name:'14. Treinamento de Segurança (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqq7mv'},
-  {id:'86acqq6mg', name:'12.1 Infraestrutura de rede atualizada (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqq6mg'},
-  {id:'86acqq5wb', name:'12. Segurança de Rede (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqq5wb'},
-  {id:'86acqq4wp', name:'11.4 Instância isolada de dados de recuperação (CIS)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqq4wp'},
-  {id:'86acqq4hq', name:'11.3 Proteger dados de recuperação (CIS)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqq4hq'},
-  {id:'86acqq3wr', name:'11.1 Processo de recuperação de dados (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqq3wr'},
-  {id:'86acqq31r', name:'11. Testes de Segurança (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqq31r'},
-  {id:'86acqq2gd', name:'10.3 Desativar autorun/autoplay em mídia removível (CIS)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqq2gd'},
-  {id:'86acqq29j', name:'10.2 Atualizações automáticas de antimalware (CIS)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqq29j'},
-  {id:'86acqq24p', name:'10.1 Implantar software antimalware (CIS)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqq24p'},
-  {id:'86acqq1y8', name:'10. Backups (CIS)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqq1y8'},
-  {id:'86acqq1fk', name:'9.2 Serviços de filtragem de DNS (CIS)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqq1fk'},
-  {id:'86acqq1av', name:'9.1 Uso somente de navegadores/clientes de e-mail suportados (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqq1av'},
-  {id:'86acqq15k', name:'9. Limitação de Portas/Serviços (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqq15k'},
-  {id:'86acqm0xk', name:'8.3 Armazenamento adequado de log de auditoria (CIS)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqm0xk'},
-  {id:'86acqm0t7', name:'8.2 Coletar Logs de Auditoria (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqm0t7'},
-  {id:'86acqm0pd', name:'8.1 Processo de gerenciamento de logs de auditoria (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqm0pd'},
-  {id:'86acqm0h6', name:'8. Defesa contra Malware (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqm0h6'},
-  {id:'86acqkmxn', name:'7.4 Gerenciamento automatizado de patches de aplicativos (CIS)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqkmxn'},
-  {id:'86acqkmqg', name:'7.3 Gerenciamento automatizado de patches do SO (CIS)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqkmqg'},
-  {id:'86acqkmne', name:'7.2 Processo de remediação (CIS)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqkmne'},
-  {id:'86acqkkun', name:'7. Auditoria e Logs (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqkkun'},
-  {id:'86acqkeb2', name:'6.4 Exigir MFA para acesso remoto à rede (CIS)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqkeb2'},
-  {id:'86acqke5x', name:'6.3 Exigir MFA para aplicações externas (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqke5x'},
-  {id:'86acqkdnc', name:'6. Manutenção de Sistemas (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqkdnc'},
-  {id:'86acqk153', name:'4.4 Firewall em servidores (CIS)', status:'aberto', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqk153'},
-  {id:'86acqk11c', name:'4.3 Bloqueio automático de sessão (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqk11c'},
-  {id:'86acqk0p4', name:'4. Controle de Permissões (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqk0p4'},
-  {id:'86acqjzvc', name:'3.5 Descarte de dados com segurança (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqjzvc'},
-  {id:'86acqjzar', name:'3.1 Processo de gerenciamento de dados (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqjzar'},
-  {id:'86acqjz2u', name:'3. Gerenciamento de Vulnerabilidades (CIS)', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86acqjz2u'},
-  {id:'86abxr65r', name:'Envio de e-mail com Política de IA pelo Comitê', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr65r'},
-  {id:'86abxr62f', name:'Política de Uso de IA', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr62f'},
-  {id:'86abxr5yk', name:'Política de Contratação de Fornecedor (critérios de homologação)', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr5yk'},
-  {id:'86abxr5vj', name:'Divulgação da Política de Descarte para o Comitê', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr5vj'},
-  {id:'86abxr5rd', name:'Revisão da Política de Descarte de Dados', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr5rd'},
-  {id:'86abxr5gd', name:'Envio de e-mail - Política de Gestão de Incidentes pelo Comitê', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr5gd'},
-  {id:'86abxr5ch', name:'Validação da Política de Gestão de Incidentes pelo Comitê', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr5ch'},
-  {id:'86abxr5ah', name:'Envio de e-mail - Política de Gestão de Incidentes (2ª rodada)', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr5ah'},
-  {id:'86abxr4em', name:'Validação da Política de Segurança da Informação pelo Comitê', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxr4em'},
-  {id:'86abxqw5h', name:'Elaboração da Instrução de Governança do Comitê de Cibersegurança', status:'revisando', assignees:['João Alves'], url:'https://app.clickup.com/t/86abxqw5h'},
-  {id:'86abxqq3m', name:'Ações de conscientização semanal', status:'em andamento', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqq3m'},
-  {id:'86abxqpyv', name:'Treinamento inicial (LGPD e Segurança da Informação)', status:'em andamento', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqpyv'},
-  {id:'86abxqnqv', name:'Divulgação do canal DPO (externo e interno)', status:'em andamento', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqnqv'},
-  {id:'86abxqmqd', name:'Comitê de Cibersegurança', status:'revisando', assignees:['João Alves'], url:'https://app.clickup.com/t/86abxqmqd'},
-  {id:'86abxqkxw', name:'Capacitação e ações de conscientização', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86abxqkxw'},
-  {id:'86abxqk9b', name:'Canal DPO', status:'em andamento', assignees:['João Alves'], url:'https://app.clickup.com/t/86abxqk9b'},
-  {id:'86abxqju8', name:'Políticas', status:'em andamento', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqju8'},
-  {id:'86abxqeun', name:'Validação final do inventário de dados [Comitê]', status:'aberto', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqeun'},
-  {id:'86abxqek5', name:'Envio do inventário para o Comitê', status:'em andamento', assignees:['Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqek5'},
-  {id:'86abxqe81', name:'Avaliação de governança dos templates preenchidos', status:'em andamento', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxqe81'},
-  {id:'86abxq99v', name:'Inventário de Dados', status:'em andamento', assignees:['João Alves','Lucas de Lima Batista'], url:'https://app.clickup.com/t/86abxq99v'}
+ {
+  "id": "86ajzma7r",
+  "name": "Painel - ENG",
+  "status": "aberto",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ajzma7r"
+ },
+ {
+  "id": "86ajzm6gy",
+  "name": "AI Command Center V2",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ajzm6gy"
+ },
+ {
+  "id": "86ajcyw9x",
+  "name": "Shield",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ajcyw9x"
+ },
+ {
+  "id": "86ahug2mx",
+  "name": "AI Command Center",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ahug2mx"
+ },
+ {
+  "id": "86ah4657t",
+  "name": "Jornada - ISO 27001",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ah4657t"
+ },
+ {
+  "id": "86ah448qe",
+  "name": "Firewall e EDR - Net e Cloud",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ah448qe"
+ },
+ {
+  "id": "86ah43yu3",
+  "name": "Adequação a LGPD",
+  "status": "em andamento",
+  "assignees": [
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ah43yu3"
+ }
 ];
 
 const GUSTAVO_TASKS = [
-  {id:'86ak6hayd', name:'Resolução Dismac SAP', status:'impedimento', assignees:['Gustavo Camargo','Bruno Queiroz'], due:1787900400000, url:'https://app.clickup.com/t/86ak6hayd'},
-  {id:'86ak6cw7r', name:'DR Coriolis', status:'fechado', assignees:['Gustavo Camargo'], due:1788505200000, url:'https://app.clickup.com/t/86ak6cw7r', doneAt:1789483996093},
-  {id:'86ak2tamx', name:'Inventário NetBox para Observabilidade', status:'aberto', assignees:['Gustavo Camargo','Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ak2tamx'},
-  {id:'86ajzxpea', name:'Definição de regras para utilização de imagem de clientes', status:'aberto', assignees:['Leonardo Gonçalez','Bruno Queiroz','Gustavo Camargo'], url:'https://app.clickup.com/t/86ajzxpea'},
-  {id:'86ajztj4g', name:'Passagem de turno', status:'revisando', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajztj4g'},
-  {id:'86ajztj3z', name:'Status de Serviço', status:'aberto', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajztj3z'},
-  {id:'86ajztj2h', name:'Alto impacto', status:'revisando', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajztj2h'},
-  {id:'86ajztj15', name:'Backup', status:'planejamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajztj15'},
-  {id:'86ajzthyu', name:'Problems', status:'aberto', assignees:['Wagner Bento Felix'], url:'https://app.clickup.com/t/86ajzthyu'},
-  {id:'86ajzthw7', name:'Área book', status:'revisando', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajzthw7'},
-  {id:'86ajzthv9', name:'Saúde Cliente', status:'em andamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajzthv9'},
-  {id:'86ajr1pud', name:'Validação dos tenants ociosos de backup', status:'em andamento', assignees:['Gustavo Camargo'], due:1786690800000, url:'https://app.clickup.com/t/86ajr1pud'},
-  {id:'86ajr1pu9', name:'Validação módulos CC v2', status:'em andamento', assignees:['Gustavo Camargo'], due:1787295600000, url:'https://app.clickup.com/t/86ajr1pu9'},
-  {id:'86ajj4tv4', name:'3.0', status:'fechado', assignees:[], url:'https://app.clickup.com/t/86ajj4tv4', doneAt:1789483899863},
-  {id:'86ajj4tuj', name:'Storware', status:'impedimento', assignees:[], url:'https://app.clickup.com/t/86ajj4tuj'},
-  {id:'86ajj4tre', name:'Backup', status:'impedimento', assignees:[], url:'https://app.clickup.com/t/86ajj4tre'},
-  {id:'86ajdudvy', name:'Atender os chamados através do CC', status:'fechado', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ajdudvy', doneAt:1789477088020},
-  {id:'86aj74vnr', name:'Painel Grafana do CEPH (acompanhar os 3 clusters)', status:'impedimento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86aj74vnr'},
-  {id:'86aj3t2up', name:'Evacuação de Nodes 2.0 para liberar capacidade', status:'em andamento', assignees:['Gustavo Camargo'], due:1781852400000, url:'https://app.clickup.com/t/86aj3t2up'},
-  {id:'86ahb0awe', name:'Revisitação de Clientes', status:'em andamento', assignees:['Gustavo Camargo'], url:'https://app.clickup.com/t/86ahb0awe'},
-  {id:'86ahb06bq', name:'Anti-vírus Gimba', status:'planejamento', assignees:['Gustavo Camargo'], due:1780038000000, url:'https://app.clickup.com/t/86ahb06bq'},
-  {id:'86ah11e76', name:'Automação Op. Gimba', status:'em andamento', assignees:['Gustavo Camargo','Bruno Queiroz'], due:1780038000000, url:'https://app.clickup.com/t/86ah11e76'},
-  {id:'86ae2v1uc', name:'Gestão de Clientes', status:'em andamento', assignees:['Gustavo Camargo'], due:1777618800000, url:'https://app.clickup.com/t/86ae2v1uc'}
+ {
+  "id": "86ak6hayd",
+  "name": "Resolução Dismac SAP",
+  "status": "impedimento",
+  "assignees": [
+   "Gustavo Camargo",
+   "Bruno Queiroz"
+  ],
+  "due": 1787900400000,
+  "url": "https://app.clickup.com/t/86ak6hayd"
+ },
+ {
+  "id": "86ak2tamx",
+  "name": "Inventário NetBox para Observabilidade",
+  "status": "aberto",
+  "assignees": [
+   "Gustavo Camargo",
+   "Leonardo Gomes Jorge Gonçalez",
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86ak2tamx"
+ },
+ {
+  "id": "86ak251ww",
+  "name": "Abrir vaga de Subs do Bruno Misao",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1787036400000,
+  "url": "https://app.clickup.com/t/86ak251ww",
+  "doneAt": 1787142646035
+ },
+ {
+  "id": "86ajzxpea",
+  "name": "Definição de regras para utilização de imagem de clientes",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez",
+   "Bruno Queiroz",
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86ajzxpea"
+ },
+ {
+  "id": "86ajr1pud",
+  "name": "validação dos teeents ociosos de backup",
+  "status": "em andamento",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1786690800000,
+  "url": "https://app.clickup.com/t/86ajr1pud"
+ },
+ {
+  "id": "86ajr1pu9",
+  "name": "validação módulos ccv2",
+  "status": "em andamento",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1787295600000,
+  "url": "https://app.clickup.com/t/86ajr1pu9"
+ },
+ {
+  "id": "86ajr1pu2",
+  "name": "validação Painel de monitoração",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1pu2",
+  "doneAt": 1786540396522
+ },
+ {
+  "id": "86ajdudvy",
+  "name": "Atender os chamado atraves do CC",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86ajdudvy",
+  "doneAt": 1789477088020
+ },
+ {
+  "id": "86aj76vkk",
+  "name": "Validar RACI UOL",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86aj76vkk",
+  "doneAt": 1782911138990
+ },
+ {
+  "id": "86aj76r7y",
+  "name": "Fechar a validação dos 3 primeiros e principais modeluos do cc",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86aj76r7y",
+  "doneAt": 1782911143219
+ },
+ {
+  "id": "86aj74vqe",
+  "name": "Existe a possiblidade de enviarmos só o Leo para o Panama ou ele precisa de 2 pessoas, por uma questão de serem complementares, lembrado que vou enviar o Bruno e não o Justino... avise-o",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86aj74vqe",
+  "doneAt": 1782911146309
+ },
+ {
+  "id": "86aj74vpu",
+  "name": "vc ja terminou de validar os 3 modelos principais que é nosso foco da primeira entrega do CC, ja podemos utilizar esses módulos com tudo que ele se propõe a fazer?",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1783062000000,
+  "url": "https://app.clickup.com/t/86aj74vpu",
+  "doneAt": 1786539654524
+ },
+ {
+  "id": "86aj74vp7",
+  "name": "Olhar para o modeluo de backup e dedigniar uma pessoa para resolver todos os Jobs que nunca rodaram e estão la a mais de 60 dias sem rodar... fazer rodar ou deletar. (vou acompanhar pois tenho acesso ao painel)",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1783062000000,
+  "url": "https://app.clickup.com/t/86aj74vp7",
+  "doneAt": 1786538792122
+ },
+ {
+  "id": "86aj74vnr",
+  "name": "Painel Grafa do CEPH... temos 3 CEPH.... os 3 vc precisa olhar",
+  "status": "impedimento",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86aj74vnr"
+ },
+ {
+  "id": "86aj74vmu",
+  "name": "claudIA precisa me mostrar funcionando... estou demitindo o Augusto e depois o Ecard... esse projeto é teu como fator de sucesso (quiser ajuda do João o chame)",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1783321200000,
+  "url": "https://app.clickup.com/t/86aj74vmu",
+  "doneAt": 1784128917981
+ },
+ {
+  "id": "86aj74vhk",
+  "name": "Liberar os módulos para todos o time e fazerem utilizar:",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1783062000000,
+  "url": "https://app.clickup.com/t/86aj74vhk",
+  "doneAt": 1782935856402
+ },
+ {
+  "id": "86aj74vgy",
+  "name": "utilizar o Passagem de turno do CC para todos os turnos",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1783062000000,
+  "url": "https://app.clickup.com/t/86aj74vgy",
+  "doneAt": 1786539660959
+ },
+ {
+  "id": "86aj74vgd",
+  "name": "lista de atividades da equipe da madrugada",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1786518000000,
+  "url": "https://app.clickup.com/t/86aj74vgd",
+  "doneAt": 1787163278498
+ },
+ {
+  "id": "86aj3uda1",
+  "name": "Arrumar node07 Panamá",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1783062000000,
+  "url": "https://app.clickup.com/t/86aj3uda1",
+  "doneAt": 1784128905562
+ },
+ {
+  "id": "86aj3tfxx",
+  "name": "Assumir infraestrutura grupo binario",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1784271600000,
+  "url": "https://app.clickup.com/t/86aj3tfxx",
+  "doneAt": 1787762097449
+ },
+ {
+  "id": "86aj3tdhf",
+  "name": "Antivirus Grupo Raízes",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86aj3tdhf",
+  "doneAt": 1784128948689
+ },
+ {
+  "id": "86aj3t8kv",
+  "name": "ClaudIA",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1783321200000,
+  "url": "https://app.clickup.com/t/86aj3t8kv",
+  "doneAt": 1782927784450
+ },
+ {
+  "id": "86aj3t2up",
+  "name": "Evacuação de Nodes 2.0 para liberar capcidade",
+  "status": "em andamento",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1781852400000,
+  "url": "https://app.clickup.com/t/86aj3t2up"
+ },
+ {
+  "id": "86ahku596",
+  "name": "Atualização Veeam Licença Panama/BC",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1780210800000,
+  "url": "https://app.clickup.com/t/86ahku596",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86ahkkxzm",
+  "name": "AI Operations",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1780038000000,
+  "url": "https://app.clickup.com/t/86ahkkxzm",
+  "doneAt": 1782933016280
+ },
+ {
+  "id": "86ahkkxt5",
+  "name": "OpenClaw Gimba",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1779778800000,
+  "url": "https://app.clickup.com/t/86ahkkxt5",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86ahkkxnb",
+  "name": "Caderno de Teste ClaudIA",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1779433200000,
+  "url": "https://app.clickup.com/t/86ahkkxnb",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86ahb06bq",
+  "name": "Anti-virus Gimba",
+  "status": "planejamento",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1780038000000,
+  "url": "https://app.clickup.com/t/86ahb06bq"
+ },
+ {
+  "id": "86ah11e76",
+  "name": "Automação Op. Gimba",
+  "status": "em andamento",
+  "assignees": [
+   "Gustavo Camargo",
+   "Bruno Queiroz"
+  ],
+  "due": 1780038000000,
+  "url": "https://app.clickup.com/t/86ah11e76"
+ },
+ {
+  "id": "86agwynhz",
+  "name": "Cases para Prévendas",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1776409200000,
+  "url": "https://app.clickup.com/t/86agwynhz",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86agkud48",
+  "name": "Frigorifico BB revisar",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1775199600000,
+  "url": "https://app.clickup.com/t/86agkud48",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86agea6c0",
+  "name": "Definição do T2R",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1775199600000,
+  "url": "https://app.clickup.com/t/86agea6c0",
+  "doneAt": 1784733530174
+ },
+ {
+  "id": "86agd7b60",
+  "name": "Evacuação Node 04",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1775545200000,
+  "url": "https://app.clickup.com/t/86agd7b60",
+  "doneAt": 1782912340731
+ },
+ {
+  "id": "86agd7b5p",
+  "name": "Evacuação Node 02",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1775545200000,
+  "url": "https://app.clickup.com/t/86agd7b5p",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86ag8fxte",
+  "name": "Clientes com BKP e nuvem pública",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1773990000000,
+  "url": "https://app.clickup.com/t/86ag8fxte",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86afrfb70",
+  "name": "Desmobilização EVEO",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1775804400000,
+  "url": "https://app.clickup.com/t/86afrfb70",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86afaap15",
+  "name": "Levantamento de Risco 2.0",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1770966000000,
+  "url": "https://app.clickup.com/t/86afaap15",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86af2q3q1",
+  "name": "PO Claudia",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1770361200000,
+  "url": "https://app.clickup.com/t/86af2q3q1",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86aewp1cx",
+  "name": "Verificar presencial do time e planilhar",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1770361200000,
+  "url": "https://app.clickup.com/t/86aewp1cx",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86aevcvnb",
+  "name": "Pessoas - Definir segunda trilha de cada um",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1770361200000,
+  "url": "https://app.clickup.com/t/86aevcvnb",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86aepe8zu",
+  "name": "Evacuação NODE3 2.0",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1772175600000,
+  "url": "https://app.clickup.com/t/86aepe8zu",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86aepe5t3",
+  "name": "Evacuação SRV-WIN5 2.0",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1772175600000,
+  "url": "https://app.clickup.com/t/86aepe5t3",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86ae2v1uc",
+  "name": "Gestão de Clientes",
+  "status": "em andamento",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1777618800000,
+  "url": "https://app.clickup.com/t/86ae2v1uc"
+ },
+ {
+  "id": "86adxz0ag",
+  "name": "Planejamento de férias 2026 + Saldo sobreçalente",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1767078000000,
+  "url": "https://app.clickup.com/t/86adxz0ag",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86ad94255",
+  "name": "Planejameno de atividades de validação de FW para clientes gerenciados de FW",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1766127600000,
+  "url": "https://app.clickup.com/t/86ad94255",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86ac9m4b9",
+  "name": "Serviço de Gerenciamento - Backup (Thomas Jefferson)",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1760684400000,
+  "url": "https://app.clickup.com/t/86ac9m4b9",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86ac21f0q",
+  "name": "Validar métrica que CX esta coletando dos cliente gerenciados",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1758870000000,
+  "url": "https://app.clickup.com/t/86ac21f0q",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86ac1wxn1",
+  "name": "Planila de Skill para analise de performance",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1761030000000,
+  "url": "https://app.clickup.com/t/86ac1wxn1",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86ac1e6ph",
+  "name": "Trocar o nome de Judite para claudia no goto",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1758870000000,
+  "url": "https://app.clickup.com/t/86ac1e6ph",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86ac1by4q",
+  "name": "Testar IA GOTO para eliminar atendentes humanos",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1759215600000,
+  "url": "https://app.clickup.com/t/86ac1by4q",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86abvn9a7",
+  "name": "Campos para IA Goto preencher",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1758265200000,
+  "url": "https://app.clickup.com/t/86abvn9a7",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86abpw0wv",
+  "name": "Levantamento de custo EVEO 2° Região",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1757919600000,
+  "url": "https://app.clickup.com/t/86abpw0wv",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86abmqnen",
+  "name": "Resolução de Mudanças ISH",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo",
+   "Bruno Queiroz"
+  ],
+  "due": 1759474800000,
+  "url": "https://app.clickup.com/t/86abmqnen",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86abmb8zx",
+  "name": "Prompts dos 4 botões para analise do Engenheiro de IA (GUI)",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1758265200000,
+  "url": "https://app.clickup.com/t/86abmb8zx",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86abh3g55",
+  "name": "Renomear no Znuny  Lembrete de Pendente para GMUD (staus)",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1757660400000,
+  "url": "https://app.clickup.com/t/86abh3g55",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86abh2wg5",
+  "name": "Criar acesso ao portal do cliente do Znuny para o cliente ISH",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1759474800000,
+  "url": "https://app.clickup.com/t/86abh2wg5",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86aba8nyt",
+  "name": "Montar e entender como iremos atuar nos ambiente Privados",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo",
+   "Bruno Queiroz"
+  ],
+  "due": 1759215600000,
+  "url": "https://app.clickup.com/t/86aba8nyt",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86aba1kr8",
+  "name": "Garantir que o fechamento do ticket envie uma mensagem automática para o cliente.",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1758006000000,
+  "url": "https://app.clickup.com/t/86aba1kr8",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86aba1h9x",
+  "name": "Resolução dos servidores pernetas - NVME (3.0) WIN5 (2.0)",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1758265200000,
+  "url": "https://app.clickup.com/t/86aba1h9x",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86aba0xer",
+  "name": "Quitar Banco de Horas do time",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1758265200000,
+  "url": "https://app.clickup.com/t/86aba0xer",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86aba0qwa",
+  "name": "Processos rotineiros / Criar - checklist para clientes Gerenciados",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1758870000000,
+  "url": "https://app.clickup.com/t/86aba0qwa",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86aba0gf6",
+  "name": "Aprovação de escala do time",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1760598000000,
+  "url": "https://app.clickup.com/t/86aba0gf6",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86aba09z0",
+  "name": "Abrir vaga de N1 para Noturno.",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1759388400000,
+  "url": "https://app.clickup.com/t/86aba09z0",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86aba04hb",
+  "name": "Iniciar a visão de relatório somente incidentes",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo",
+   "Bruno Queiroz"
+  ],
+  "due": 1765522800000,
+  "url": "https://app.clickup.com/t/86aba04hb",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86aba02k3",
+  "name": "Testar comunicação de crise e GMUD via Clickup",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo",
+   "João Alves"
+  ],
+  "due": 1758610800000,
+  "url": "https://app.clickup.com/t/86aba02k3",
+  "doneAt": 1781125649752
+ },
+ {
+  "id": "86ab9zzmj",
+  "name": "Elaborar escopo de serviço Gerenciado para Iaas, Backup, FW, AntiVirus (Cloud 100% Full)",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo",
+   "Bruno Queiroz"
+  ],
+  "due": 1759215600000,
+  "url": "https://app.clickup.com/t/86ab9zzmj",
+  "doneAt": 1781125649752
+ }
 ];
 
 const RODNEY_TASKS = [
-  {id:'86ajvu86k', name:'Montar ambiente com usuário e senha para demonstração para cliente (billing, bc-backup, monitoração, marketplace, MFA, calculadora, perfis)', status:'impedimento', assignees:['Rodney Botelho'], due:1788073200000, url:'https://app.clickup.com/t/86ajvu86k'},
-  {id:'86ajj3tdm', name:'Criar processo de renovação de serviço gerenciado', status:'impedimento', assignees:['Rodney Botelho','Rafael Alves'], due:1785481200000, url:'https://app.clickup.com/t/86ajj3tdm'},
-  {id:'86aj3w2uk', name:'Apresentação Técnica do Storware', status:'impedimento', assignees:['Rodney Botelho','Bruno Queiroz'], url:'https://app.clickup.com/t/86aj3w2uk'},
-  {id:'86aj30q9k', name:'Homologar Pré-Vendas para ISO 9001', status:'rejeitada', assignees:['Rodney Botelho'], url:'https://app.clickup.com/t/86aj30q9k'},
-  {id:'86aj30ptn', name:'Montar apresentação / Proposta BCP como nuvem Privada', status:'em andamento', assignees:['Rodney Botelho'], due:1787900400000, url:'https://app.clickup.com/t/86aj30ptn'},
-  {id:'86aj30p6w', name:'Criar Assistente de Pré-Vendas sofIA', status:'em andamento', assignees:['Rodney Botelho'], due:1793430000000, url:'https://app.clickup.com/t/86aj30p6w'},
-  {id:'86aexma93', name:'Laboratório de Coriolis para criação de cenários de migrações', status:'rejeitada', assignees:[], due:1773990000000, url:'https://app.clickup.com/t/86aexma93'},
-  {id:'86aexj1mp', name:'Apresentação Processo de Migração Binário Cloud', status:'impedimento', assignees:['Rodney Botelho'], due:1775286000000, url:'https://app.clickup.com/t/86aexj1mp'},
-  {id:'86aex10jn', name:'Criar diagramas de arquitetura para cada serviço da Binário Cloud', status:'rejeitada', assignees:['Rodney Botelho'], due:1772175600000, url:'https://app.clickup.com/t/86aex10jn'},
-  {id:'86aepfuaw', name:'Sessões mão na massa com o Comercial - apresentação do BCP', status:'concluído', assignees:['Rodney Botelho'], due:1777878000000, url:'https://app.clickup.com/t/86aepfuaw'}
+ {
+  "id": "86ajvu86k",
+  "name": "Montar ambiente com usuário e senha para demonstração para cliente com tudo 100% funcionando (billing, bc-backup, monitoração,  marketplace, MFA, calculadora, perfil de acesso(admin, financeiro, operador), com maquinas criadas, com dados para demonstrar.",
+  "status": "impedimento",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1788073200000,
+  "url": "https://app.clickup.com/t/86ajvu86k"
+ },
+ {
+  "id": "86ajj3tdm",
+  "name": "Criar processo  de renovação de serviço gerenciado",
+  "status": "impedimento",
+  "assignees": [
+   "Rodney Botelho",
+   "Rafael Alves"
+  ],
+  "due": 1785481200000,
+  "url": "https://app.clickup.com/t/86ajj3tdm"
+ },
+ {
+  "id": "86ajgemrt",
+  "name": "POC WL BTech",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1785222000000,
+  "url": "https://app.clickup.com/t/86ajgemrt",
+  "doneAt": 1785879488743
+ },
+ {
+  "id": "86aj3w2uk",
+  "name": "Apresentação Técnica do Storware",
+  "status": "impedimento",
+  "assignees": [
+   "Rodney Botelho",
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86aj3w2uk"
+ },
+ {
+  "id": "86aj30q9k",
+  "name": "Homologar Pre-Vendas para ISO 9001",
+  "status": "rejeitada",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "url": "https://app.clickup.com/t/86aj30q9k"
+ },
+ {
+  "id": "86aj30ptn",
+  "name": "Montar apresentação / Proposta BCP como nuvem Privada",
+  "status": "em andamento",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1787900400000,
+  "url": "https://app.clickup.com/t/86aj30ptn"
+ },
+ {
+  "id": "86aj30pjy",
+  "name": "Montar apresentação / proposta do White Label",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1785135600000,
+  "url": "https://app.clickup.com/t/86aj30pjy",
+  "doneAt": 1785879494079
+ },
+ {
+  "id": "86aj30p6w",
+  "name": "Criar Assistente de Pré-Vendas sofIA",
+  "status": "em andamento",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1793430000000,
+  "url": "https://app.clickup.com/t/86aj30p6w"
+ },
+ {
+  "id": "86aj30nrz",
+  "name": "Criar estrutura das documentações e videos baseados no menu",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "url": "https://app.clickup.com/t/86aj30nrz",
+  "doneAt": 1784146208945
+ },
+ {
+  "id": "86aj30n7g",
+  "name": "Ajustar apresentação Tática e adicionar SLA das propostas",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "url": "https://app.clickup.com/t/86aj30n7g",
+  "doneAt": 1784146176764
+ },
+ {
+  "id": "86agcw1hy",
+  "name": "Treinamento sobre 1º Apresentação Institucional Binario Cloud",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1774681200000,
+  "url": "https://app.clickup.com/t/86agcw1hy",
+  "doneAt": 1786561893367
+ },
+ {
+  "id": "86aexma93",
+  "name": "Laboratório de Coriolis para criação de cenários de migrações.",
+  "status": "rejeitada",
+  "assignees": [],
+  "due": 1773990000000,
+  "url": "https://app.clickup.com/t/86aexma93"
+ },
+ {
+  "id": "86aexj1mp",
+  "name": "Apresentação Processo de Migração Binario Cloud",
+  "status": "impedimento",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1775286000000,
+  "url": "https://app.clickup.com/t/86aexj1mp"
+ },
+ {
+  "id": "86aex55hj",
+  "name": "Pre-Requisito e Cenários para Construção de POC",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1769756400000,
+  "url": "https://app.clickup.com/t/86aex55hj",
+  "doneAt": 1781125666907
+ },
+ {
+  "id": "86aex18fe",
+  "name": "Marcar visita Odata (DC)",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1785740400000,
+  "url": "https://app.clickup.com/t/86aex18fe",
+  "doneAt": 1785879491614
+ },
+ {
+  "id": "86aex1542",
+  "name": "Apresentação por Setor (Estratégia Comercial)",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1773990000000,
+  "url": "https://app.clickup.com/t/86aex1542",
+  "doneAt": 1782412227206
+ },
+ {
+  "id": "86aex14fe",
+  "name": "Apresentação do novo Portfolio binario cloud",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1770966000000,
+  "url": "https://app.clickup.com/t/86aex14fe",
+  "doneAt": 1782411921046
+ },
+ {
+  "id": "86aex13rv",
+  "name": "Treinamento Comercial",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1770966000000,
+  "url": "https://app.clickup.com/t/86aex13rv",
+  "doneAt": 1782412009724
+ },
+ {
+  "id": "86aex10jn",
+  "name": "Criar os diagramas de arquitetura para cada serviço da Binario Cloud",
+  "status": "rejeitada",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1772175600000,
+  "url": "https://app.clickup.com/t/86aex10jn"
+ },
+ {
+  "id": "86aepfuwc",
+  "name": "Validar caderno de Teste",
+  "status": "fechado",
+  "assignees": [
+   "Allan David dos Santos Alves"
+  ],
+  "due": 1777878000000,
+  "url": "https://app.clickup.com/t/86aepfuwc",
+  "doneAt": 1784146095102
+ },
+ {
+  "id": "86aepfuaw",
+  "name": "Sessões mão na massa com o Comercial apresentação do BCP",
+  "status": "concluído",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1777878000000,
+  "url": "https://app.clickup.com/t/86aepfuaw"
+ },
+ {
+  "id": "86aepftv6",
+  "name": "Transformar Allan e Vitória em especialista de BCP",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1785481200000,
+  "url": "https://app.clickup.com/t/86aepftv6",
+  "doneAt": 1782411784650
+ },
+ {
+  "id": "86ae58pm6",
+  "name": "Template de Levantamento Técnico (assessment)",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1769151600000,
+  "url": "https://app.clickup.com/t/86ae58pm6",
+  "doneAt": 1781125666907
+ },
+ {
+  "id": "86ae58ma1",
+  "name": "Checklist padrão das informações técnicas necessárias para elaboração de propostas.",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1769151600000,
+  "url": "https://app.clickup.com/t/86ae58ma1",
+  "doneAt": 1782411965581
+ },
+ {
+  "id": "86ae55bjr",
+  "name": "Cronograma de trabalho presencial (time)",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1767942000000,
+  "url": "https://app.clickup.com/t/86ae55bjr",
+  "doneAt": 1781125666907
+ },
+ {
+  "id": "86ae55bbd",
+  "name": "Refazer visão clickup",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1767337200000,
+  "url": "https://app.clickup.com/t/86ae55bbd",
+  "doneAt": 1781125666907
+ },
+ {
+  "id": "86ae55ar2",
+  "name": "Plano de 100dias",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1768028400000,
+  "url": "https://app.clickup.com/t/86ae55ar2",
+  "doneAt": 1781125666907
+ }
 ];
 
 const LEONARDO_TASKS = [
-  {id:'86ak33ugq', name:'Centralizar nossos projetos no GIT corporativo', status:'aguardando retorno', assignees:['Leonardo Gonçalez'], due:1787986800000, url:'https://app.clickup.com/t/86ak33ugq'},
-  {id:'86ak0t950', name:'Apresentação do BOM', status:'concluído', assignees:['Leonardo Gonçalez'], due:1786690800000, url:'https://app.clickup.com/t/86ak0t950'},
-  {id:'86ak0h5ya', name:'Roadmap de Engenharia para o time Comercial (visão de negócio)', status:'em andamento', assignees:['Leonardo Gonçalez'], due:1787036400000, url:'https://app.clickup.com/t/86ak0h5ya'},
-  {id:'86ajzq08d', name:'Connectway', status:'em andamento', assignees:[], url:'https://app.clickup.com/t/86ajzq08d'},
-  {id:'86ajvyfac', name:'Auditoria dentro do BCP (quem, o quê e como fez)', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajvyfac'},
-  {id:'86ajvx0jp', name:'Reformular controller do Veeam para remover do Proxmox', status:'em andamento', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajvx0jp'},
-  {id:'86ajrg26r', name:'Dell', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajrg26r'},
-  {id:'86ajrg219', name:'Lenovo', status:'aguardando retorno', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajrg219'},
-  {id:'86ajrfy36', name:'Avaliação de novos fornecedores de hardware', status:'concluído', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajrfy36'},
-  {id:'86ajr1wkz', name:'Módulo de Kubernetes (eliminar Magnum)', status:'planejamento', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1wkz'},
-  {id:'86ajr1wkw', name:'Firewall como serviço (FWaaS)', status:'planejamento', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1wkw'},
-  {id:'86ajr1wkv', name:'Menu de automação no Skyline (subir/agendar máquinas)', status:'aguardando retorno', assignees:['Leonardo Gonçalez','Bruno Queiroz'], url:'https://app.clickup.com/t/86ajr1wkv'},
-  {id:'86ajr1wkt', name:'Functions como serviço', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1wkt'},
-  {id:'86ajr1wkq', name:'Reformular controle de acesso - clientes', status:'em andamento', assignees:['Leonardo Gonçalez','João Alves'], url:'https://app.clickup.com/t/86ajr1wkq'},
-  {id:'86ajr1v9q', name:'Projeto atualização BCP Alerj', status:'em andamento', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1v9q'},
-  {id:'86ajr1v4w', name:'Projeto segunda região UOL', status:'em andamento', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1v4w'},
-  {id:'86ajr1uxp', name:'Criação da página da Engenharia no SharePoint', status:'bloqueada', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1uxp'},
-  {id:'86ajr1ukv', name:'Painel automático de capacity', status:'bloqueada', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86ajr1ukv'},
-  {id:'86aea9jaw', name:'Planejar atualização do OpenStack (por módulo)', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86aea9jaw'},
-  {id:'86aea8x8b', name:'Resolver MongoDB versão 8.2', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86aea8x8b'},
-  {id:'86akj76vd', name:'Estudo das policies', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86akj76vd'},
-  {id:'86akj76gw', name:'Reformular controle de acesso - funcionários', status:'aberto', assignees:['Leonardo Gonçalez'], url:'https://app.clickup.com/t/86akj76gw'}
+ {
+  "id": "86akj76gw",
+  "name": "Reformular controle de acesso - funcionários",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86akj76gw"
+ },
+ {
+  "id": "86ak33ugq",
+  "name": "Centralizar nossos projeto no GIT corporativo",
+  "status": "aguardando retorno",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1787986800000,
+  "url": "https://app.clickup.com/t/86ak33ugq"
+ },
+ {
+  "id": "86ak0t9un",
+  "name": "defesa tecninca com dados e fatos e olhando o pipe do comercial e o crescimento vegetativo(baseado em dados atuai)",
+  "status": "fechado",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1787122800000,
+  "url": "https://app.clickup.com/t/86ak0t9un",
+  "doneAt": 1787161324285
+ },
+ {
+  "id": "86ak0t950",
+  "name": "Apresentação do BOM",
+  "status": "concluído",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1786690800000,
+  "url": "https://app.clickup.com/t/86ak0t950"
+ },
+ {
+  "id": "86ak0t8qe",
+  "name": "Material  de 2 Slides ou mais, para apresentçaõ ao time de CSE",
+  "status": "fechado",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1786950000000,
+  "url": "https://app.clickup.com/t/86ak0t8qe",
+  "doneAt": 1787060083425
+ },
+ {
+  "id": "86ak0h5ya",
+  "name": "RoadMap de ENG para apresentar ao time Comercial, visão de negócio",
+  "status": "em andamento",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1787036400000,
+  "url": "https://app.clickup.com/t/86ak0h5ya"
+ },
+ {
+  "id": "86ajwevzf",
+  "name": "Apresentar a Arquitetura de Segurança da Nossa Nuvem Publica (Muitos clientes questionam sobre)",
+  "status": "fechado",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajwevzf",
+  "doneAt": 1786541706344
+ },
+ {
+  "id": "86ajvyfac",
+  "name": "Auditoria dentro do BCP (quem, o que e como fez)",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajvyfac"
+ },
+ {
+  "id": "86ajvx0jp",
+  "name": "Reformular o controller do veeam para remover do proxmox",
+  "status": "em andamento",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1793343600000,
+  "url": "https://app.clickup.com/t/86ajvx0jp"
+ },
+ {
+  "id": "86ajrfy36",
+  "name": "Avaliação de novos Fornecedores para HW",
+  "status": "concluído",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajrfy36"
+ },
+ {
+  "id": "86ajr1wkz",
+  "name": "Módulo de  kubernetrs (eliminar Magnum)",
+  "status": "planejamento",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1798700400000,
+  "url": "https://app.clickup.com/t/86ajr1wkz"
+ },
+ {
+  "id": "86ajr1wkw",
+  "name": "Firewall como serviço, desengavetar sua sugestão de 2 anos atrás) FWaaS",
+  "status": "planejamento",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1801378800000,
+  "url": "https://app.clickup.com/t/86ajr1wkw"
+ },
+ {
+  "id": "86ajr1wkv",
+  "name": "Criar menu de automação no skyline (acho um diferencial legal para o cliente( subir máquina, schedular desligue de máquinas, agendar ações que nosso módulo de automação ajuda))",
+  "status": "aguardando retorno",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez",
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1wkv"
+ },
+ {
+  "id": "86ajr1wkt",
+  "name": "Functions como serviço (falamos bem rápido ontem)",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1wkt"
+ },
+ {
+  "id": "86ajr1wkq",
+  "name": "Reformular controle de acesso - clientes",
+  "status": "em andamento",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1790146800000,
+  "url": "https://app.clickup.com/t/86ajr1wkq"
+ },
+ {
+  "id": "86ajr1wg3",
+  "name": "tirar o nome SRE da time de Eng",
+  "status": "fechado",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1wg3",
+  "doneAt": 1786542900884
+ },
+ {
+  "id": "86ajr1w0u",
+  "name": "Sobre Aviso (quem, quando escalonamento)",
+  "status": "fechado",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1w0u",
+  "doneAt": 1786541974434
+ },
+ {
+  "id": "86ajr1v9q",
+  "name": "Projeto atualização BCP Alerj",
+  "status": "em andamento",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1790319600000,
+  "url": "https://app.clickup.com/t/86ajr1v9q"
+ },
+ {
+  "id": "86ajr1v4w",
+  "name": "Projeto segunda região UOL",
+  "status": "em andamento",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1v4w"
+ },
+ {
+  "id": "86ajr1uxp",
+  "name": "Criação da Pagina da Eng no SharePoint",
+  "status": "bloqueada",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1uxp"
+ },
+ {
+  "id": "86ajr1ukv",
+  "name": "Painel automatico de capacity",
+  "status": "bloqueada",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1ukv"
+ },
+ {
+  "id": "86ajr1uh2",
+  "name": "Controle férias",
+  "status": "fechado",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1uh2",
+  "doneAt": 1786541613438
+ },
+ {
+  "id": "86aja10qx",
+  "name": "Erro na Criação de Share",
+  "status": "fechado",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86aja10qx",
+  "doneAt": 1786542724168
+ },
+ {
+  "id": "86aj5r3za",
+  "name": "Problema no LB da 3.0 ... não funciona",
+  "status": "fechado",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86aj5r3za",
+  "doneAt": 1786564834859
+ },
+ {
+  "id": "86ahpyh97",
+  "name": "Solução de archive/discos não performaticos Ex. S3 para competir com o mercados",
+  "status": "fechado",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ahpyh97",
+  "doneAt": 1785432778097
+ },
+ {
+  "id": "86aea9jaw",
+  "name": "Planejar - Atualização do OpenStack (por módulo)",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86aea9jaw"
+ },
+ {
+  "id": "86aea8x8b",
+  "name": "Resolver - MongoDB versão 8.2",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86aea8x8b"
+ }
 ];
 
 function fmtDate(ms){
