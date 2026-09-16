@@ -1,0 +1,435 @@
+[
+ {
+  "id": "86ak5pat9",
+  "name": "Analise para deleção dos Dominios sem Vms 2.0",
+  "status": "aberto",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1787900400000,
+  "url": "https://app.clickup.com/t/86ak5pat9"
+ },
+ {
+  "id": "86ak52c7n",
+  "name": "Regularização Pós Migração - Gimba",
+  "status": "aberto",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1788591600000,
+  "url": "https://app.clickup.com/t/86ak52c7n"
+ },
+ {
+  "id": "86ajzvbmq",
+  "name": "Add metadados de monitoração em todos os servidores",
+  "status": "planejamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86ajzvbmq"
+ },
+ {
+  "id": "86ajzvbh2",
+  "name": "Ajustar ícones dos servidores (metadados)",
+  "status": "planejamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86ajzvbh2"
+ },
+ {
+  "id": "86ajzvb9z",
+  "name": "Migrar SQLs para flavor correto",
+  "status": "planejamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86ajzvb9z"
+ },
+ {
+  "id": "86ajj6hdn",
+  "name": "Passagem UOL - Engenharia",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1790751600000,
+  "url": "https://app.clickup.com/t/86ajj6hdn"
+ },
+ {
+  "id": "86ajj6fb2",
+  "name": "Passagem Cannect - DevOps",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz",
+   "Gustavo Camargo"
+  ],
+  "due": 1787295600000,
+  "url": "https://app.clickup.com/t/86ajj6fb2"
+ },
+ {
+  "id": "86aj74a6m",
+  "name": "Migrar as Bancos ORACLE para Baremetal",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86aj74a6m"
+ },
+ {
+  "id": "86aj73kd8",
+  "name": "Viabilizar produtos BC Automation e BC Ops & Governance",
+  "status": "bloqueada",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1785999600000,
+  "url": "https://app.clickup.com/t/86aj73kd8"
+ },
+ {
+  "id": "86aj73kd6",
+  "name": "Cancelar os 2 links da operação (Redundância) - agora L2L",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86aj73kd6"
+ },
+ {
+  "id": "86aj73kd3",
+  "name": "Validar LB - ficará no FW ou voltaremos para o BCP",
+  "status": "revisando",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86aj73kd3"
+ },
+ {
+  "id": "86aj73kd1",
+  "name": "Ativar o link Algar",
+  "status": "concluído",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86aj73kd1"
+ },
+ {
+  "id": "86aj73kcy",
+  "name": "Refinamento da Gimba",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1785481200000,
+  "url": "https://app.clickup.com/t/86aj73kcy"
+ },
+ {
+  "id": "86aj73kcq",
+  "name": "Automatização do processo da Gimba para redução",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1790751600000,
+  "url": "https://app.clickup.com/t/86aj73kcq"
+ },
+ {
+  "id": "86ahjxj34",
+  "name": "Validação dos PaaS na plataforma",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1780038000000,
+  "url": "https://app.clickup.com/t/86ahjxj34"
+ },
+ {
+  "id": "86ah9y7by",
+  "name": "Processo de atualização do certificado (revisão de periodicidade)",
+  "status": "aguardando retorno",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1780470000000,
+  "url": "https://app.clickup.com/t/86ah9y7by"
+ },
+ {
+  "id": "86aeprcpk",
+  "name": "FW",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1770361200000,
+  "url": "https://app.clickup.com/t/86aeprcpk"
+ },
+ {
+  "id": "86aeprcdh",
+  "name": "DevOps",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1770966000000,
+  "url": "https://app.clickup.com/t/86aeprcdh"
+ },
+ {
+  "id": "86aeprc0q",
+  "name": "Servidores VM",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1769410800000,
+  "url": "https://app.clickup.com/t/86aeprc0q"
+ },
+ {
+  "id": "86aeprbx4",
+  "name": "Backup/DR",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1769756400000,
+  "url": "https://app.clickup.com/t/86aeprbx4"
+ },
+ {
+  "id": "86ae2pb6v",
+  "name": "Sustentação",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ae2pb6v"
+ },
+ {
+  "id": "86ae2pb4x",
+  "name": "Monitoração",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ae2pb4x"
+ },
+ {
+  "id": "86ae2pb3h",
+  "name": "Backup",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ae2pb3h"
+ },
+ {
+  "id": "86ae2pb14",
+  "name": "FW",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ae2pb14"
+ },
+ {
+  "id": "86ad14k53",
+  "name": "Check Ambiente de DR",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ad14k53"
+ },
+ {
+  "id": "86ad14k3c",
+  "name": "Check Ambiente de Backup",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ad14k3c"
+ },
+ {
+  "id": "86ad14jz7",
+  "name": "Check Cloud 3.0",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ad14jz7"
+ },
+ {
+  "id": "86ad14jwa",
+  "name": "Check Cloud 2.0",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ad14jwa"
+ },
+ {
+  "id": "86achadte",
+  "name": "Plataforma",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86achadte"
+ },
+ {
+  "id": "86achadhj",
+  "name": "Backup",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86achadhj"
+ },
+ {
+  "id": "86achadf7",
+  "name": "FW",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86achadf7"
+ },
+ {
+  "id": "86achade8",
+  "name": "Monitoração",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86achade8"
+ },
+ {
+  "id": "86achad9v",
+  "name": "Documentação recorrente com automação",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86achad9v"
+ },
+ {
+  "id": "86acgfe12",
+  "name": "Escopo Monitoração",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86acgfe12"
+ },
+ {
+  "id": "86acgfdnc",
+  "name": "Escopo Redes",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86acgfdnc"
+ },
+ {
+  "id": "86acgfdhj",
+  "name": "Escopo S.O Linux",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86acgfdhj"
+ },
+ {
+  "id": "86acgfder",
+  "name": "Escopo S.O Windows",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86acgfder"
+ },
+ {
+  "id": "86acgfd9x",
+  "name": "Escopo K8s - DevOps",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86acgfd9x"
+ },
+ {
+  "id": "86acgfch6",
+  "name": "Escopo Openstack",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86acgfch6"
+ },
+ {
+  "id": "86acgfcf6",
+  "name": "Escopo do BCOS",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86acgfcf6"
+ },
+ {
+  "id": "86acgfc0u",
+  "name": "Escopo de FW",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86acgfc0u"
+ },
+ {
+  "id": "86acgfbyf",
+  "name": "Escopo de Backup",
+  "status": "aberto",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86acgfbyf"
+ },
+ {
+  "id": "86acgf9cj",
+  "name": "Coleta de dados do FW automatizada",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86acgf9cj"
+ },
+ {
+  "id": "86acgf97f",
+  "name": "Coleta de dados do Backup automatizada",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86acgf97f"
+ },
+ {
+  "id": "86ac6u9cp",
+  "name": "Plano de documentação para Clientes Gerenciados",
+  "status": "planejamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1761634800000,
+  "url": "https://app.clickup.com/t/86ac6u9cp"
+ },
+ {
+  "id": "86aba9ak9",
+  "name": "Controle de projetos de melhorias e inovações da área",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1759302000000,
+  "url": "https://app.clickup.com/t/86aba9ak9"
+ },
+ {
+  "id": "86aba8mgv",
+  "name": "Montar e entender atuação nos ambientes Cloud Privada",
+  "status": "planejamento",
+  "assignees": [
+   "Bruno Queiroz",
+   "Gustavo Camargo"
+  ],
+  "due": 1759215600000,
+  "url": "https://app.clickup.com/t/86aba8mgv"
+ },
+ {
+  "id": "86aba7nnn",
+  "name": "Mapeamento e documentação do onboarding",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1759215600000,
+  "url": "https://app.clickup.com/t/86aba7nnn"
+ },
+ {
+  "id": "86aba0vj8",
+  "name": "Criação de POPs (67)",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1764313200000,
+  "url": "https://app.clickup.com/t/86aba0vj8"
+ },
+ {
+  "id": "86ab9yy57",
+  "name": "Elaborar escopo de serviço Gerenciado (IaaS, Backup, FW, AntiVirus)",
+  "status": "planejamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1760079600000,
+  "url": "https://app.clickup.com/t/86ab9yy57"
+ },
+ {
+  "id": "86ab9ygu5",
+  "name": "Criar checklist de processos rotineiros para clientes Gerenciados",
+  "status": "planejamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1761894000000,
+  "url": "https://app.clickup.com/t/86ab9ygu5"
+ }
+]
