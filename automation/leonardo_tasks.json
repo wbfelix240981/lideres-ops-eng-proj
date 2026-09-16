@@ -1,0 +1,203 @@
+[
+ {
+  "id": "86ak33ugq",
+  "name": "Centralizar nossos projetos no GIT corporativo",
+  "status": "aguardando retorno",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "due": 1787986800000,
+  "url": "https://app.clickup.com/t/86ak33ugq"
+ },
+ {
+  "id": "86ak0t950",
+  "name": "Apresentação do BOM",
+  "status": "concluído",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "due": 1786690800000,
+  "url": "https://app.clickup.com/t/86ak0t950"
+ },
+ {
+  "id": "86ak0h5ya",
+  "name": "Roadmap de Engenharia para o time Comercial (visão de negócio)",
+  "status": "em andamento",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "due": 1787036400000,
+  "url": "https://app.clickup.com/t/86ak0h5ya"
+ },
+ {
+  "id": "86ajzq08d",
+  "name": "Connectway",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ajzq08d"
+ },
+ {
+  "id": "86ajvyfac",
+  "name": "Auditoria dentro do BCP (quem, o quê e como fez)",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajvyfac"
+ },
+ {
+  "id": "86ajvx0jp",
+  "name": "Reformular controller do Veeam para remover do Proxmox",
+  "status": "em andamento",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajvx0jp"
+ },
+ {
+  "id": "86ajrg26r",
+  "name": "Dell",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajrg26r"
+ },
+ {
+  "id": "86ajrg219",
+  "name": "Lenovo",
+  "status": "aguardando retorno",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajrg219"
+ },
+ {
+  "id": "86ajrfy36",
+  "name": "Avaliação de novos fornecedores de hardware",
+  "status": "concluído",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajrfy36"
+ },
+ {
+  "id": "86ajr1wkz",
+  "name": "Módulo de Kubernetes (eliminar Magnum)",
+  "status": "planejamento",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1wkz"
+ },
+ {
+  "id": "86ajr1wkw",
+  "name": "Firewall como serviço (FWaaS)",
+  "status": "planejamento",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1wkw"
+ },
+ {
+  "id": "86ajr1wkv",
+  "name": "Menu de automação no Skyline (subir/agendar máquinas)",
+  "status": "aguardando retorno",
+  "assignees": [
+   "Leonardo Gonçalez",
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1wkv"
+ },
+ {
+  "id": "86ajr1wkt",
+  "name": "Functions como serviço",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1wkt"
+ },
+ {
+  "id": "86ajr1wkq",
+  "name": "Reformular controle de acesso - clientes",
+  "status": "em andamento",
+  "assignees": [
+   "Leonardo Gonçalez",
+   "João Alves"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1wkq"
+ },
+ {
+  "id": "86ajr1v9q",
+  "name": "Projeto atualização BCP Alerj",
+  "status": "em andamento",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1v9q"
+ },
+ {
+  "id": "86ajr1v4w",
+  "name": "Projeto segunda região UOL",
+  "status": "em andamento",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1v4w"
+ },
+ {
+  "id": "86ajr1uxp",
+  "name": "Criação da página da Engenharia no SharePoint",
+  "status": "bloqueada",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1uxp"
+ },
+ {
+  "id": "86ajr1ukv",
+  "name": "Painel automático de capacity",
+  "status": "bloqueada",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1ukv"
+ },
+ {
+  "id": "86aea9jaw",
+  "name": "Planejar atualização do OpenStack (por módulo)",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86aea9jaw"
+ },
+ {
+  "id": "86aea8x8b",
+  "name": "Resolver MongoDB versão 8.2",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86aea8x8b"
+ },
+ {
+  "id": "86akj76vd",
+  "name": "Estudo das policies",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86akj76vd"
+ },
+ {
+  "id": "86akj76gw",
+  "name": "Reformular controle de acesso - funcionários",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86akj76gw"
+ }
+]
