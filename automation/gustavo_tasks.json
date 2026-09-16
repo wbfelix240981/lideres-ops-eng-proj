@@ -1,0 +1,219 @@
+[
+ {
+  "id": "86ak6hayd",
+  "name": "Resolução Dismac SAP",
+  "status": "impedimento",
+  "assignees": [
+   "Gustavo Camargo",
+   "Bruno Queiroz"
+  ],
+  "due": 1787900400000,
+  "url": "https://app.clickup.com/t/86ak6hayd"
+ },
+ {
+  "id": "86ak6cw7r",
+  "name": "DR Coriolis",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1788505200000,
+  "url": "https://app.clickup.com/t/86ak6cw7r",
+  "doneAt": 1789483996093
+ },
+ {
+  "id": "86ak2tamx",
+  "name": "Inventário NetBox para Observabilidade",
+  "status": "aberto",
+  "assignees": [
+   "Gustavo Camargo",
+   "Leonardo Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ak2tamx"
+ },
+ {
+  "id": "86ajzxpea",
+  "name": "Definição de regras para utilização de imagem de clientes",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gonçalez",
+   "Bruno Queiroz",
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86ajzxpea"
+ },
+ {
+  "id": "86ajztj4g",
+  "name": "Passagem de turno",
+  "status": "revisando",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86ajztj4g"
+ },
+ {
+  "id": "86ajztj3z",
+  "name": "Status de Serviço",
+  "status": "aberto",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86ajztj3z"
+ },
+ {
+  "id": "86ajztj2h",
+  "name": "Alto impacto",
+  "status": "revisando",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86ajztj2h"
+ },
+ {
+  "id": "86ajztj15",
+  "name": "Backup",
+  "status": "planejamento",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86ajztj15"
+ },
+ {
+  "id": "86ajzthyu",
+  "name": "Problems",
+  "status": "aberto",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "url": "https://app.clickup.com/t/86ajzthyu"
+ },
+ {
+  "id": "86ajzthw7",
+  "name": "Área book",
+  "status": "revisando",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86ajzthw7"
+ },
+ {
+  "id": "86ajzthv9",
+  "name": "Saúde Cliente",
+  "status": "em andamento",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86ajzthv9"
+ },
+ {
+  "id": "86ajr1pud",
+  "name": "Validação dos tenants ociosos de backup",
+  "status": "em andamento",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1786690800000,
+  "url": "https://app.clickup.com/t/86ajr1pud"
+ },
+ {
+  "id": "86ajr1pu9",
+  "name": "Validação módulos CC v2",
+  "status": "em andamento",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1787295600000,
+  "url": "https://app.clickup.com/t/86ajr1pu9"
+ },
+ {
+  "id": "86ajj4tv4",
+  "name": "3.0",
+  "status": "fechado",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ajj4tv4",
+  "doneAt": 1789483899863
+ },
+ {
+  "id": "86ajj4tuj",
+  "name": "Storware",
+  "status": "impedimento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ajj4tuj"
+ },
+ {
+  "id": "86ajj4tre",
+  "name": "Backup",
+  "status": "impedimento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/86ajj4tre"
+ },
+ {
+  "id": "86ajdudvy",
+  "name": "Atender os chamados através do CC",
+  "status": "fechado",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86ajdudvy",
+  "doneAt": 1789477088020
+ },
+ {
+  "id": "86aj74vnr",
+  "name": "Painel Grafana do CEPH (acompanhar os 3 clusters)",
+  "status": "impedimento",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86aj74vnr"
+ },
+ {
+  "id": "86aj3t2up",
+  "name": "Evacuação de Nodes 2.0 para liberar capacidade",
+  "status": "em andamento",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1781852400000,
+  "url": "https://app.clickup.com/t/86aj3t2up"
+ },
+ {
+  "id": "86ahb0awe",
+  "name": "Revisitação de Clientes",
+  "status": "em andamento",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "url": "https://app.clickup.com/t/86ahb0awe"
+ },
+ {
+  "id": "86ahb06bq",
+  "name": "Anti-vírus Gimba",
+  "status": "planejamento",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1780038000000,
+  "url": "https://app.clickup.com/t/86ahb06bq"
+ },
+ {
+  "id": "86ah11e76",
+  "name": "Automação Op. Gimba",
+  "status": "em andamento",
+  "assignees": [
+   "Gustavo Camargo",
+   "Bruno Queiroz"
+  ],
+  "due": 1780038000000,
+  "url": "https://app.clickup.com/t/86ah11e76"
+ },
+ {
+  "id": "86ae2v1uc",
+  "name": "Gestão de Clientes",
+  "status": "em andamento",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1777618800000,
+  "url": "https://app.clickup.com/t/86ae2v1uc"
+ }
+]
