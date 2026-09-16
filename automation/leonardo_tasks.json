@@ -32,12 +32,13 @@
  {
   "id": "86ak0t950",
   "name": "Apresentação do BOM",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
   "due": 1786690800000,
-  "url": "https://app.clickup.com/t/86ak0t950"
+  "url": "https://app.clickup.com/t/86ak0t950",
+  "doneAt": 1789582108659
  },
  {
   "id": "86ak0t8qe",
@@ -92,11 +93,12 @@
  {
   "id": "86ajrfy36",
   "name": "Avaliação de novos Fornecedores para HW",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
-  "url": "https://app.clickup.com/t/86ajrfy36"
+  "url": "https://app.clickup.com/t/86ajrfy36",
+  "doneAt": 1789582102432
  },
  {
   "id": "86ajr1wkz",

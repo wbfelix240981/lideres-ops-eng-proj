@@ -1,5 +1,15 @@
 [
  {
+  "id": "86akjyw7m",
+  "name": "Migração de Bloco de IPs 2.0",
+  "status": "aberto",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1797318000000,
+  "url": "https://app.clickup.com/t/86akjyw7m"
+ },
+ {
   "id": "86ak5pat9",
   "name": "Analise para deleção dos Dominios sem Vms 2.0",
   "status": "aberto",
