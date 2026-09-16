@@ -944,7 +944,7 @@ function buildChips(){
     el.className = 'chip'+(key===activeStatus?' active':'');
     el.textContent = label;
     el.dataset.key = key;
-    el.onclick = ()=>{ activeStatus = key; [...chipsEl.children].forEach(c=>c.classList.toggle('active', c===el)); renderMetas(); };
+    el.onclick = ()=>{ activeStatus = key; [...chipsEl.children].forEach(c=>c.classList.toggle('active', c===el)); renderMetas(); const proj = PROJECTS[activeTab]; if(proj && proj.tasks && proj.tasks.length) renderBoard(proj); };
     chipsEl.appendChild(el);
   });
 }
@@ -1103,12 +1103,37 @@ function daysAgo(ts){
   return `há ${d} dias`;
 }
 
+// Mapeia o vocabulário dos chips de filtro (usado nas metas) para os status reais do quadro Kanban
+const BOARD_FILTER_MAP = {
+  'backlog': ['aberto'],
+  'in planning': ['planejamento'],
+  'in progress': ['em andamento'],
+  'in test': [],
+  'in review': ['revisando','aguardando retorno'],
+  'blocked': ['bloqueada','impedimento','rejeitada'],
+  'shipped': ROADMAP_DONE_STATUSES,
+};
+
 function renderBoard(project){
   const board = document.getElementById('roadmapBoard');
   board.innerHTML = '';
 
   // Concluído e Fechado contam juntos no índice, então também aparecem juntos aqui, numa coluna só.
-  const statusKeys = Object.keys(ROADMAP_STATUS_META).filter(k => k !== 'fechado');
+  let statusKeys = Object.keys(ROADMAP_STATUS_META).filter(k => k !== 'fechado');
+
+  // Se um filtro (chip) estiver ativo, mostra só as colunas compatíveis com ele
+  if(activeStatus && activeStatus !== 'all'){
+    const permitido = BOARD_FILTER_MAP[activeStatus] || [];
+    statusKeys = statusKeys.filter(k=>{
+      const matchStatuses = k === 'concluído' ? ROADMAP_DONE_STATUSES : [k];
+      return matchStatuses.some(s=>permitido.includes(s));
+    });
+  }
+
+  if(statusKeys.length === 0){
+    board.innerHTML = '<div class="board-empty" style="padding:20px;">Nenhuma tarefa com esse status no quadro.</div>';
+    return;
+  }
 
   statusKeys.forEach(statusKey=>{
     const meta = ROADMAP_STATUS_META[statusKey];
