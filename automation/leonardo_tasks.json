@@ -258,10 +258,11 @@
  {
   "id": "86aea8x8b",
   "name": "Resolver - MongoDB versão 8.2",
-  "status": "aberto",
+  "status": "planejamento",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
+  "due": 1790838000000,
   "url": "https://app.clickup.com/t/86aea8x8b"
  }
 ]
