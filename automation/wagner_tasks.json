@@ -1,31 +1,95 @@
 [
  {
+  "id": "86akjzbhn",
+  "name": "adicionar status em atraso em todos os paineis",
+  "status": "aberto",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1789714800000,
+  "url": "https://app.clickup.com/t/86akjzbhn"
+ },
+ {
+  "id": "86akjzb27",
+  "name": "adicionar alerta nos paineis informando sem data de conclusão",
+  "status": "aberto",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1789714800000,
+  "url": "https://app.clickup.com/t/86akjzb27"
+ },
+ {
   "id": "86ak851vd",
   "name": "Abrir GMUD para desligar o servidor do Znuny em 1/09",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [],
-  "due": null,
-  "url": "https://app.clickup.com/t/86ak851vd"
+  "url": "https://app.clickup.com/t/86ak851vd",
+  "doneAt": 1789584210550
  },
  {
   "id": "86ak851en",
   "name": "Storware planejamento QTSxClientesxdatas",
-  "status": "concluído",
+  "status": "revisando",
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ak851en"
  },
  {
+  "id": "86ak0ykuq",
+  "name": "Criar alarme de alerta amarelo, no dia do vencimento",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1787122800000,
+  "url": "https://app.clickup.com/t/86ak0ykuq",
+  "doneAt": 1788006011973
+ },
+ {
+  "id": "86ak0ykhj",
+  "name": "alarmar com atrasado somente quando passar a data de conclusão",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1787036400000,
+  "url": "https://app.clickup.com/t/86ak0ykhj",
+  "doneAt": 1788005969881
+ },
+ {
+  "id": "86ak0yjnn",
+  "name": "melhoria do painel de metas",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1787036400000,
+  "url": "https://app.clickup.com/t/86ak0yjnn",
+  "doneAt": 1788006011973
+ },
+ {
   "id": "86ak0vchx",
-  "name": "Automatizar no escritório de Projetos o envio da TEP assinada pelo cliente para início do faturamento",
-  "status": "concluído",
+  "name": "Automatizar dentro do escritório de Projetos o processo de Após a finalização do projeto, faremos o envio manual da TEP devidamente assinada pelo cliente, para que vocês possam dar início ao faturamento do projeto.",
+  "status": "fechado",
   "assignees": [
    "Wagner Bento Felix"
   ],
   "due": 1788591600000,
-  "url": "https://app.clickup.com/t/86ak0vchx"
+  "url": "https://app.clickup.com/t/86ak0vchx",
+  "doneAt": 1789584244511
+ },
+ {
+  "id": "86ak0v91j",
+  "name": "Criar painel de tarefas para todos os temos da minha diretoria, OnePage",
+  "status": "fechado",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1787036400000,
+  "url": "https://app.clickup.com/t/86ak0v91j",
+  "doneAt": 1788005988119
  },
  {
   "id": "86ajhv42w",
@@ -34,35 +98,32 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ajhv42w",
   "doneAt": 1784128185933
  },
  {
   "id": "86ajdufj9",
-  "name": "Redefinir o painel de projetos nos moldes do CC",
+  "name": "Redefinir o painell de projetos nos moldes do CC",
   "status": "fechado",
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ajdufj9",
   "doneAt": 1784128255901
  },
  {
   "id": "86aj74xpa",
-  "name": "Finalização do projeto da GIMBA no sistema",
+  "name": "Finalizaçõ o projeto da GIMBA no sistema",
   "status": "fechado",
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86aj74xpa",
   "doneAt": 1784128003113
  },
  {
   "id": "86aj74bfu",
-  "name": "Deleção de domínio",
+  "name": "Deleção de dominio",
   "status": "fechado",
   "assignees": [
    "Wagner Bento Felix"
@@ -73,7 +134,7 @@
  },
  {
   "id": "86aj7461w",
-  "name": "Mudança de IP da BMC para liberar IP",
+  "name": "mudança de IP da BMC para liberar IP",
   "status": "fechado",
   "assignees": [
    "Wagner Bento Felix"
@@ -85,7 +146,7 @@
  {
   "id": "86aj73tvf",
   "name": "Controle sendo o mesmo core do CC (projetos.binario.cloud)",
-  "status": "revisando",
+  "status": "em andamento",
   "assignees": [
    "Wagner Bento Felix"
   ],
@@ -93,23 +154,12 @@
   "url": "https://app.clickup.com/t/86aj73tvf"
  },
  {
-  "id": "86aj73tv0",
-  "name": "Desativação da 2.0 fisicamente",
-  "status": "em andamento",
-  "assignees": [
-   "Wagner Bento Felix"
-  ],
-  "due": 1796108400000,
-  "url": "https://app.clickup.com/t/86aj73tv0"
- },
- {
   "id": "86aj73tut",
-  "name": "Migração 2>3: reduzir e chegar a ≤100 VMs de clientes com comprovação",
+  "name": "Migração 2>3 temos que reduzir e chegar a <=100 VMS de clientes e ter a comprovação",
   "status": "fechado",
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86aj73tut",
   "doneAt": 1784127886561
  },
@@ -145,7 +195,7 @@
  },
  {
   "id": "86aj73try",
-  "name": "Projeto Observabilidade",
+  "name": "Projeto Observabilidade (não vejo nada de produtivo)",
   "status": "fechado",
   "assignees": [
    "Wagner Bento Felix"
@@ -156,24 +206,13 @@
  },
  {
   "id": "86aj73trc",
-  "name": "Projeto ClaudIA",
+  "name": "Projeto claudIA (ja esta minimamente utilizável?)",
   "status": "fechado",
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86aj73trc",
   "doneAt": 1784128135170
- },
- {
-  "id": "86aj3t57d",
-  "name": "Planejamento modificações Alerj",
-  "status": "em andamento",
-  "assignees": [
-   "Wagner Bento Felix"
-  ],
-  "due": 1790751600000,
-  "url": "https://app.clickup.com/t/86aj3t57d"
  },
  {
   "id": "86ahf5dbz",
@@ -182,7 +221,6 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ahf5dbz",
   "doneAt": 1784128079225
  },
@@ -193,18 +231,16 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ahf5dby",
   "doneAt": 1781125683729
  },
  {
   "id": "86ahf5dbn",
-  "name": "Alinhar apresentação com o Bruno",
+  "name": "Alinhar apresentação com o Bruno... pois será amanhã a apresentação.",
   "status": "fechado",
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ahf5dbn",
   "doneAt": 1781125683729
  },
@@ -215,7 +251,6 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ahf5dba",
   "doneAt": 1782239952032
  },
@@ -226,7 +261,6 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ahf5db1",
   "doneAt": 1784128299271
  },
@@ -237,46 +271,42 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ahf5daf",
   "doneAt": 1784128305278
  },
  {
   "id": "86ahd7jn3",
-  "name": "Reunião com cada líder/par para entendimento da área",
+  "name": "Reunião com cada lider/par para entendeimento da area",
   "status": "fechado",
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ahd7jn3",
   "doneAt": 1782240066498
  },
  {
   "id": "86ahd7hkq",
-  "name": "Dash único com todas as visões de projetos internos",
+  "name": "Dash unico com todas as visões de projetos internos",
   "status": "fechado",
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ahd7hkq",
   "doneAt": 1781125683729
  },
  {
   "id": "86ahc8yjj",
-  "name": "08/05 - Continuação da limpeza de VMs",
+  "name": "08/05/2026 - Continuação da limpeza de VMs",
   "status": "fechado",
   "assignees": [
    "João Alves"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ahc8yjj",
   "doneAt": 1781125683729
  },
  {
   "id": "86ahbt0ud",
-  "name": "07/05 - Atualização do relatório e desligamento de VMs",
+  "name": "07/05/2026 - Atualizamos o relatório e desligamos algumas VMs",
   "status": "fechado",
   "assignees": [
    "João Alves"
@@ -287,40 +317,37 @@
  },
  {
   "id": "86ahar8k5",
-  "name": "Status migração 2>3",
+  "name": "status migração 2>3",
   "status": "fechado",
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ahar8k5",
   "doneAt": 1784128095240
  },
  {
   "id": "86ahar8a7",
-  "name": "Validação dos modelos no ClickUp",
+  "name": "validação dos modelos no clickup",
   "status": "fechado",
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ahar8a7",
   "doneAt": 1782240074492
  },
  {
   "id": "86ahar860",
-  "name": "Criação do relatório de fechamento tático",
+  "name": "Criação do relatório de fechamento tatico",
   "status": "fechado",
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ahar860",
   "doneAt": 1781722897592
  },
  {
   "id": "86ahar7zw",
-  "name": "Processo da área",
+  "name": "Processo da area",
   "status": "revisando",
   "assignees": [
    "Wagner Bento Felix"
@@ -345,7 +372,6 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ah462pk",
   "doneAt": 1784128119928
  },
@@ -356,7 +382,6 @@
   "assignees": [
    "João Alves"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ah436mx",
   "doneAt": 1784128119928
  },
@@ -365,7 +390,6 @@
   "name": "Lista de máquinas recebidas da Engenharia",
   "status": "fechado",
   "assignees": [],
-  "due": null,
   "url": "https://app.clickup.com/t/86ah4368f",
   "doneAt": 1781125683729
  },
@@ -376,7 +400,6 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ah435z8",
   "doneAt": 1784128119928
  },
@@ -387,7 +410,6 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ah435by",
   "doneAt": 1784128119928
  }
