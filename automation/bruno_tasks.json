@@ -1,25 +1,23 @@
 [
  {
-  "id": "86akjyw7m",
-  "name": "Migração de Bloco de IPs 2.0",
-  "status": "aguardando retorno",
-  "assignees": [
-   "Bruno Queiroz",
-   "Wagner Bento Felix"
-  ],
-  "due": 1797318000000,
-  "url": "https://app.clickup.com/t/86akjyw7m"
- },
- {
   "id": "86ak5pat9",
   "name": "Analise para deleção dos Dominios sem Vms 2.0",
-  "status": "fechado",
+  "status": "aberto",
   "assignees": [
    "Bruno Queiroz"
   ],
   "due": 1787900400000,
-  "url": "https://app.clickup.com/t/86ak5pat9",
-  "doneAt": 1789587304896
+  "url": "https://app.clickup.com/t/86ak5pat9"
+ },
+ {
+  "id": "86ak52c7n",
+  "name": "Regularização Pós Migração - Gimba",
+  "status": "aberto",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1788591600000,
+  "url": "https://app.clickup.com/t/86ak52c7n"
  },
  {
   "id": "86ajzvbmq",
@@ -32,7 +30,7 @@
  },
  {
   "id": "86ajzvbh2",
-  "name": "Ajustar ícones dos servidores ( metadados )",
+  "name": "Ajustar ícones dos servidores (metadados)",
   "status": "planejamento",
   "assignees": [
    "Bruno Queiroz"
@@ -44,127 +42,43 @@
   "name": "Migrar SQLs para flavor correto",
   "status": "planejamento",
   "assignees": [
-   "Bruno Queiroz",
-   "Gustavo Camargo"
+   "Bruno Queiroz"
   ],
   "url": "https://app.clickup.com/t/86ajzvb9z"
  },
  {
   "id": "86ajj6hdn",
   "name": "Passagem UOL - Engenharia",
-  "status": "fechado",
+  "status": "em andamento",
   "assignees": [
    "Bruno Queiroz"
   ],
   "due": 1790751600000,
-  "url": "https://app.clickup.com/t/86ajj6hdn",
-  "doneAt": 1789586867846
+  "url": "https://app.clickup.com/t/86ajj6hdn"
  },
  {
   "id": "86ajj6fb2",
   "name": "Passagem Cannect - DevOps",
-  "status": "fechado",
+  "status": "em andamento",
   "assignees": [
    "Bruno Queiroz",
    "Gustavo Camargo"
   ],
   "due": 1787295600000,
-  "url": "https://app.clickup.com/t/86ajj6fb2",
-  "doneAt": 1789586328514
- },
- {
-  "id": "86ajj4xx8",
-  "name": "Painel v3 - Add Alarmística",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ajj4xx8",
-  "doneAt": 1786557138152
- },
- {
-  "id": "86ajj4xk2",
-  "name": "Painel v2 - Monitoração com novas fontes de dados",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ajj4xk2",
-  "doneAt": 1786557138152
- },
- {
-  "id": "86ajj4vvw",
-  "name": "Alarmística",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ajj4vvw",
-  "doneAt": 1786557138152
- },
- {
-  "id": "86ajj4vrj",
-  "name": "Integração Nuvem privada",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ajj4vrj",
-  "doneAt": 1786557138152
- },
- {
-  "id": "86ajj4vkr",
-  "name": "Integração Ceph 3.0",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ajj4vkr",
-  "doneAt": 1785879572341
- },
- {
-  "id": "86ajj4vh8",
-  "name": "Integração Ceph Backup",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ajj4vh8",
-  "doneAt": 1786557138152
- },
- {
-  "id": "86ajj4vf5",
-  "name": "Integração Ceph 2.0",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ajj4vf5",
-  "doneAt": 1786557138152
- },
- {
-  "id": "86ajj4vcv",
-  "name": "Integração Prometheus 2.0",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ajj4vcv",
-  "doneAt": 1785879572341
- },
- {
-  "id": "86ajj4v2t",
-  "name": "Integração Zabbix",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ajj4v2t",
-  "doneAt": 1785879572341
- },
- {
-  "id": "86ajj4uvm",
-  "name": "MVP - Painel CCOE",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ajj4uvm",
-  "doneAt": 1786557138152
+  "url": "https://app.clickup.com/t/86ajj6fb2"
  },
  {
   "id": "86aj74a6m",
   "name": "Migrar as Bancos ORACLE para Baremetal",
   "status": "em andamento",
   "assignees": [
-   "Bruno Queiroz",
-   "Gustavo Camargo"
+   "Bruno Queiroz"
   ],
   "url": "https://app.clickup.com/t/86aj74a6m"
  },
  {
   "id": "86aj73kd8",
-  "name": "Viabilizar seu cara para andar com os produtos BC Automation (produto igual ao da SkyOne) e BC Ops & Governance",
+  "name": "Viabilizar produtos BC Automation e BC Ops & Governance",
   "status": "bloqueada",
   "assignees": [
    "Bruno Queiroz"
@@ -173,18 +87,8 @@
   "url": "https://app.clickup.com/t/86aj73kd8"
  },
  {
-  "id": "86aj73kd7",
-  "name": "Tempo para deleção no ambiente 2.0 ( 7 dias) ?",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86aj73kd7",
-  "doneAt": 1785879572341
- },
- {
   "id": "86aj73kd6",
-  "name": "cancelar os 2 links da operação que eram Redundância e agora temos os L2L",
+  "name": "Cancelar os 2 links da operação (Redundância) - agora L2L",
   "status": "em andamento",
   "assignees": [
    "Bruno Queiroz"
@@ -193,17 +97,16 @@
  },
  {
   "id": "86aj73kd3",
-  "name": "validar LB se ficara no FW ou voltaremos para o BCP",
+  "name": "Validar LB - ficará no FW ou voltaremos para o BCP",
   "status": "revisando",
   "assignees": [
-   "Bruno Queiroz",
-   "Wagner Bento Felix"
+   "Bruno Queiroz"
   ],
   "url": "https://app.clickup.com/t/86aj73kd3"
  },
  {
   "id": "86aj73kd1",
-  "name": "ativar o link algar",
+  "name": "Ativar o link Algar",
   "status": "concluído",
   "assignees": [
    "Bruno Queiroz"
@@ -211,34 +114,14 @@
   "url": "https://app.clickup.com/t/86aj73kd1"
  },
  {
-  "id": "86aj73kd0",
-  "name": "O que ficou pendente?",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86aj73kd0",
-  "doneAt": 1786557154031
- },
- {
   "id": "86aj73kcy",
-  "name": "Refinamento da GImba",
+  "name": "Refinamento da Gimba",
   "status": "em andamento",
   "assignees": [
    "Bruno Queiroz"
   ],
   "due": 1785481200000,
   "url": "https://app.clickup.com/t/86aj73kcy"
- },
- {
-  "id": "86aj73kcw",
-  "name": "projeto de Observabilidade",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86aj73kcw",
-  "doneAt": 1786557138152
  },
  {
   "id": "86aj73kcq",
@@ -251,19 +134,9 @@
   "url": "https://app.clickup.com/t/86aj73kcq"
  },
  {
-  "id": "86aj73kcm",
-  "name": "redução do Cleber",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86aj73kcm",
-  "doneAt": 1784140489501
- },
- {
   "id": "86ahjxj34",
-  "name": "Validação dos PaaS na plataforma ",
-  "status": "revisando",
+  "name": "Validação dos PaaS na plataforma",
+  "status": "em andamento",
   "assignees": [
    "Bruno Queiroz"
   ],
@@ -271,237 +144,14 @@
   "url": "https://app.clickup.com/t/86ahjxj34"
  },
  {
-  "id": "86ahjxj2y",
-  "name": "RCA da APTU",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1779433200000,
-  "url": "https://app.clickup.com/t/86ahjxj2y",
-  "doneAt": 1781726243306
- },
- {
-  "id": "86ahjxj2p",
-  "name": "data de feedback para time de redes.. quando?",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86ahjxj2p",
-  "doneAt": 1781721605858
- },
- {
-  "id": "86ahjxj2g",
-  "name": "delete da GIMBA na 3.0",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86ahjxj2g",
-  "doneAt": 1781721593529
- },
- {
-  "id": "86ahjxj2e",
-  "name": "processo de delete de VMs via BC automation",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86ahjxj2e",
-  "doneAt": 1781721593529
- },
- {
-  "id": "86ahjxj2d",
-  "name": "validar o relatório de inventário da 2.0 e 3.0 com os ajustes (vms sem proejtos, tem que bater com o s números de ENG)",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1779346800000,
-  "url": "https://app.clickup.com/t/86ahjxj2d",
-  "doneAt": 1781721593529
- },
- {
-  "id": "86ahjxj29",
-  "name": "acesso para o Wagner",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86ahjxj29",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ahjxj21",
-  "name": "compra de passagem",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86ahjxj21",
-  "doneAt": 1781721593529
- },
- {
-  "id": "86ahjxj1r",
-  "name": "apresentação BC automation + Migration nas frentes de IA (olha nossa apresentação)",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1779778800000,
-  "url": "https://app.clickup.com/t/86ahjxj1r",
-  "doneAt": 1781721593529
- },
- {
-  "id": "86aharwyg",
-  "name": "Projeto de backup Stoware",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86aharwyg",
-  "doneAt": 1781721593529
- },
- {
-  "id": "86aharvnj",
-  "name": "L2L Gimba",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86aharvnj",
-  "doneAt": 1781721593529
- },
- {
-  "id": "86aharv2f",
-  "name": "Treinamento de Redes com a  QoS",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86aharv2f",
-  "doneAt": 1781721593529
- },
- {
-  "id": "86ahar6mw",
-  "name": "Tarefas que era executadas pela QOS que agora precisam ser feitas pela area de REde, atividades levantadas pelo Leo da ENG",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86ahar6mw",
-  "doneAt": 1781721593529
- },
- {
   "id": "86ah9y7by",
-  "name": "processo de atualização do certificado. 3 em 3 meses? Pra que? O Tipo de certificado é o correto?",
+  "name": "Processo de atualização do certificado (revisão de periodicidade)",
   "status": "aguardando retorno",
   "assignees": [
    "Bruno Queiroz"
   ],
   "due": 1780470000000,
   "url": "https://app.clickup.com/t/86ah9y7by"
- },
- {
-  "id": "86ah9y5ga",
-  "name": "Passagem de bastão - Projeto Jornada para a Nuvem Fibrion 29/04",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz",
-   "Gustavo Camargo"
-  ],
-  "url": "https://app.clickup.com/t/86ah9y5ga",
-  "doneAt": 1784140506439
- },
- {
-  "id": "86ah9y5g6",
-  "name": "Passagem de bastão - Projeto Jornada para a Solutika 27/04",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz",
-   "Gustavo Camargo"
-  ],
-  "url": "https://app.clickup.com/t/86ah9y5g6",
-  "doneAt": 1784140506439
- },
- {
-  "id": "86ah9y5g2",
-  "name": "Passagem de bastão - Projeto Jornada para a Nuvem Rocie 28/04",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz",
-   "Gustavo Camargo"
-  ],
-  "url": "https://app.clickup.com/t/86ah9y5g2",
-  "doneAt": 1784140506439
- },
- {
-  "id": "86ah1gx70",
-  "name": "Definir segunda região para Backup",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86ah1gx70",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86agxkwpx",
-  "name": "aberto chamado com a veeam - Erro Veeam vs Repositorio Object Storage",
-  "status": "fechado",
-  "assignees": [
-   "Lucas Federissis de Souza"
-  ],
-  "url": "https://app.clickup.com/t/86agxkwpx",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86agkuhvh",
-  "name": "Coleta de Dados da Cloud 3.0",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86agkuhvh",
-  "doneAt": 1786556921239
- },
- {
-  "id": "86agkuhrf",
-  "name": "Coletada de Dados da Cloud 2.0",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86agkuhrf",
-  "doneAt": 1786556918308
- },
- {
-  "id": "86aeq11ju",
-  "name": "Confirmar qual ambiente é DKNY e DentaUNI",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86aeq11ju",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86aepywg4",
-  "name": "Ativação do BareMetal ORACLE Gimba na 3.0",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1777186800000,
-  "url": "https://app.clickup.com/t/86aepywg4",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86aepyfef",
-  "name": "Desativar o ambiente SellBetti (DKNY + DentalUNI)",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86aepyfef",
-  "doneAt": 1781125715437
  },
  {
   "id": "86aeprcpk",
@@ -544,33 +194,6 @@
   "url": "https://app.clickup.com/t/86aeprbx4"
  },
  {
-  "id": "86aepr560",
-  "name": "Nova divisão após promoção do Fogaça",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1770361200000,
-  "url": "https://app.clickup.com/t/86aepr560",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86aepr4qx",
-  "name": "Comunicar o time",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86aepr4qx",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86aepr4ht",
-  "name": "Criar nova divisão",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86aepr4ht",
-  "doneAt": 1781125715437
- },
- {
   "id": "86ae2pb6v",
   "name": "Sustentação",
   "status": "aberto",
@@ -599,1094 +222,136 @@
   "url": "https://app.clickup.com/t/86ae2pb14"
  },
  {
-  "id": "86ae2ny7z",
-  "name": "Cleber",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1767078000000,
-  "url": "https://app.clickup.com/t/86ae2ny7z",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ae2ny7e",
-  "name": "Ferreira",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1767078000000,
-  "url": "https://app.clickup.com/t/86ae2ny7e",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ae2nxmn",
-  "name": "Lucas",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1767078000000,
-  "url": "https://app.clickup.com/t/86ae2nxmn",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ae2nwze",
-  "name": "Marcelo",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1766991600000,
-  "url": "https://app.clickup.com/t/86ae2nwze",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ae2nwx8",
-  "name": "Forgaça",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1766991600000,
-  "url": "https://app.clickup.com/t/86ae2nwx8",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ae2nww4",
-  "name": "Rafal Alves Lima",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1766991600000,
-  "url": "https://app.clickup.com/t/86ae2nww4",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ae2nwt6",
-  "name": "Alexandre",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ae2nwt6",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ae2nwmg",
-  "name": "Validação de cada profissional no 1:1",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ae2nwmg",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ae2nwbg",
-  "name": "Criação de nova destribuição",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ae2nwbg",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ae2nw3y",
-  "name": "Distribuição de atividades para o time (fator foco)",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1767596400000,
-  "url": "https://app.clickup.com/t/86ae2nw3y",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ae2n9yq",
-  "name": "Reunião Engenharia",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ae2n9yq",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adz8gn2",
-  "name": "Centralização de solicitações de exclusão de ambiente",
-  "status": "fechado",
-  "assignees": [
-   "Raphael Fogaça"
-  ],
-  "due": 1765868400000,
-  "url": "https://app.clickup.com/t/86adz8gn2",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adxyvqr",
-  "name": "Planejamento férias 2026 para o time",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1767078000000,
-  "url": "https://app.clickup.com/t/86adxyvqr",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adg0rap",
-  "name": "Plano de contingência",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adg0rap",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adg0mfe",
-  "name": "Levantamento Clientes SQL Server",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adg0mfe",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adg0m8r",
-  "name": "Levantamento Clientes Oracle",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adg0m8r",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adg0m01",
-  "name": "Validar como está configurado na UnderCloud",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adg0m01",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfwq8d",
-  "name": "Antigos",
-  "status": "fechado",
-  "assignees": [
-   "Raphael Fogaça"
-  ],
-  "due": 1767164400000,
-  "url": "https://app.clickup.com/t/86adfwq8d",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfwq77",
-  "name": "Migrados",
-  "status": "fechado",
-  "assignees": [
-   "Raphael Fogaça"
-  ],
-  "due": 1766646000000,
-  "url": "https://app.clickup.com/t/86adfwq77",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvpaq",
-  "name": "LEBON PRODUTOS QUIMICOS FARMACEUTICOS LTDA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvpaq",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvpac",
-  "name": "PLATLOG IMPORTACAO, LOGISTICA E DISTRIBUICAO LTDA (REFRIO)",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvpac",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvpa0",
-  "name": "COASA CONTABILIDADE LTDA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvpa0",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp9q",
-  "name": "PEDREIRA UM VALEMIX - P1 PARTICIPACOES LTDA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp9q",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp9e",
-  "name": "SHOEBIZ COMERCIO DE CALCADOS LTDA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp9e",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp94",
-  "name": "RK PARTNERS ASSESSORIA FINANCEIRA LTDA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp94",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp8t",
-  "name": "RACCONNECT - G C DA SILVA SOLUCOES EM TI - JX COMERCIAL IMPORTACAO E EXP...",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp8t",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp81",
-  "name": "OUROPAK COMERCIO DE EMBALAGENS LTDA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp81",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp7h",
-  "name": "NOVODENTE S/A",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp7h",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp72",
-  "name": "NAUTIKA - INDUSTRIA BRASILEIRA DE INFLAVEIS NAUTIKA LTDA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp72",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp6f",
-  "name": "FORCE-LINE INDUSTRIA E COMERCIO DE COMPONENTES ELETRONICOS LTDA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp6f",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp68",
-  "name": "FIT GESTAO E TECNOLOGIA LTDA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp68",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp5t",
-  "name": "EDUDATA INFORMATICA S/S LTDA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp5t",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp5d",
-  "name": "DIGITAL WORK COMPUTER SERVICE COMERCIAL EIRELI.",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp5d",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp4z",
-  "name": "CORUMBA CONCESSOES S.A.",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp4z",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp4h",
-  "name": "CONSELHO CULTURAL THOMAS JEFFERSON",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp4h",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp3r",
-  "name": "CASCATINHA COUNTRY CLUB",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp3r",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp2p",
-  "name": "CARTEILLONE DO BRASIL LTDA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp2p",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp1x",
-  "name": "CARLSONS PRODUTOS INDUSTRIAIS LTDA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp1x",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp16",
-  "name": "ASSEGUROU CORRETORA DE SEGUROS LTDA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp16",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp0j",
-  "name": "ALL TRUST SERVICOS E CONSULTORIA LTDA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp0j",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp08",
-  "name": "VIA CAPITALIZACAO S/A - APLUB",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp08",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvp00",
-  "name": "RBSXSOFT CORPORATION INFORMATICA LTDA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvp00",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvnzm",
-  "name": "PROMOFARMA - ORGANIZACAO FARMACEUTICA NAKANO LTDA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvnzm",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvnz7",
-  "name": "PROTECTA - COPLATEX INDUSTRIA E COMERCIO DE TECIDOS S.A",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvnz7",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvnyt",
-  "name": "BESIMPLE - CLEBER DE LUCA 27716851837",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvnyt",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvny9",
-  "name": "BEST SMART NEGOCIO E TECNOLOGIA LTDA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvny9",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvnxq",
-  "name": "WITEC - IT SOLUTIONS SERVICOS DE INFORMATICA LTDA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvnxq",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvnx5",
-  "name": "TRUCK PARTICIPACOES LTDA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvnx5",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adfvnwj",
-  "name": "FERNANDES E OTA ADVOGADOS ASSOCIADOS",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adfvnwj",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adf2rf1",
-  "name": "Formalizar com RH e Contratos",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86adf2rf1",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adbxrvf",
-  "name": "Mostrar relatório de ganho de capacidade na plataforma... tinhamos x VMs agora temos y",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86adbxrvf",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adbxrv8",
-  "name": "Excluir ambientes",
-  "status": "fechado",
-  "assignees": [
-   "Raphael Fogaça"
-  ],
-  "url": "https://app.clickup.com/t/86adbxrv8",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adbxruv",
-  "name": "Mensurar quantitativamente clientes e VMs e Ips externos",
-  "status": "fechado",
-  "assignees": [
-   "Raphael Fogaça"
-  ],
-  "url": "https://app.clickup.com/t/86adbxruv",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adbxruh",
-  "name": "Mapear os ambientes",
-  "status": "fechado",
-  "assignees": [
-   "Raphael Fogaça"
-  ],
-  "url": "https://app.clickup.com/t/86adbxruh",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86adbxq5j",
-  "name": "Exclusão de ambientes antigos e Migrados",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1765782000000,
-  "url": "https://app.clickup.com/t/86adbxq5j",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ad7vfym",
-  "name": "PROMOFARMA",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ad7vfym",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ad7vfy7",
-  "name": "FLOW TI",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ad7vfy7",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ad7vfxu",
-  "name": "ENGENHARIA BINÁRIO (Projeto de SRE)",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ad7vfxu",
-  "doneAt": 1782500490031
- },
- {
-  "id": "86ad7vfxd",
-  "name": "PINUS BRASIL",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ad7vfxd",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ad7vfx1",
-  "name": "IT ZERO",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ad7vfx1",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ad7vfwn",
-  "name": "SUGOI",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ad7vfwn",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ad7vfw0",
-  "name": "GALÍCIA EDUCAÇÃO",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ad7vfw0",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ad7vfuv",
-  "name": "SUGOI",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ad7vfuv",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ad7vfuh",
-  "name": "ENGENHARIA BINÁRIO (Projeto Admin da Binário)",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ad7vfuh",
-  "doneAt": 1782500487626
- },
- {
-  "id": "86ad7vfua",
-  "name": "ANALYTICA ENSINO",
-  "status": "fechado",
-  "assignees": [
-   "Brunno Leonardo Borges Lopes"
-  ],
-  "url": "https://app.clickup.com/t/86ad7vfua",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ad7vft3",
-  "name": "SUGOI",
-  "status": "fechado",
-  "assignees": [
-   "Brunno Leonardo Borges Lopes"
-  ],
-  "url": "https://app.clickup.com/t/86ad7vft3",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ad7vfrp",
-  "name": "SPSP-Teste",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ad7vfrp",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ad7vfrb",
-  "name": "SPSP",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ad7vfrb",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ad7vfqu",
-  "name": "ZANTHUS",
-  "status": "fechado",
-  "assignees": [
-   "Brunno Leonardo Borges Lopes",
-   "Lucas Federissis de Souza"
-  ],
-  "url": "https://app.clickup.com/t/86ad7vfqu",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ad7vfqd",
-  "name": "AUTOMALOGICA",
-  "status": "fechado",
-  "assignees": [
-   "Lucas Federissis de Souza"
-  ],
-  "url": "https://app.clickup.com/t/86ad7vfqd",
-  "doneAt": 1781125715437
- },
- {
   "id": "86ad14k53",
   "name": "Check Ambiente de DR",
-  "status": "fechado",
+  "status": "aberto",
   "assignees": [],
-  "url": "https://app.clickup.com/t/86ad14k53",
-  "doneAt": 1789583755329
+  "url": "https://app.clickup.com/t/86ad14k53"
  },
  {
   "id": "86ad14k3c",
   "name": "Check Ambiente de Backup",
-  "status": "fechado",
+  "status": "em andamento",
   "assignees": [],
-  "url": "https://app.clickup.com/t/86ad14k3c",
-  "doneAt": 1789583755329
+  "url": "https://app.clickup.com/t/86ad14k3c"
  },
  {
   "id": "86ad14jz7",
   "name": "Check Cloud 3.0",
-  "status": "fechado",
+  "status": "em andamento",
   "assignees": [],
-  "url": "https://app.clickup.com/t/86ad14jz7",
-  "doneAt": 1789583755329
+  "url": "https://app.clickup.com/t/86ad14jz7"
  },
  {
   "id": "86ad14jwa",
   "name": "Check Cloud 2.0",
-  "status": "fechado",
+  "status": "em andamento",
   "assignees": [],
-  "url": "https://app.clickup.com/t/86ad14jwa",
-  "doneAt": 1789583755329
- },
- {
-  "id": "86ad14jue",
-  "name": "Check VPNs",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ad14jue",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ad14fcw",
-  "name": "Atualização - Necessária após algumas atividades em conjunto",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1762239600000,
-  "url": "https://app.clickup.com/t/86ad14fcw",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ad14d50",
-  "name": "Apoio Pré-vendas - Proposta Comercial",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ad14d50",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acw3wza",
-  "name": "Check VPN ClickUp",
-  "status": "fechado",
-  "assignees": [
-   "Raphael Fogaça"
-  ],
-  "due": 1761894000000,
-  "url": "https://app.clickup.com/t/86acw3wza",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acrk9jq",
-  "name": "Alinhamento com o Forgaça",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86acrk9jq",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acrk0w1",
-  "name": "Formalizar com o Ale",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86acrk0w1",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acrfbth",
-  "name": "Deploy SalsaOmni",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86acrfbth",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acrfbkv",
-  "name": "Rancher",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86acrfbkv",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acrfbgh",
-  "name": "Storage Class",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86acrfbgh",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acppxar",
-  "name": "Licença - SQL Server e Oracle na Cloud",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1762498800000,
-  "url": "https://app.clickup.com/t/86acppxar",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acpp56d",
-  "name": "FW - VPN",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86acpp56d",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acpp50d",
-  "name": "k8s",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86acpp50d",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acpp4wn",
-  "name": "Registry",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86acpp4wn",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acpp4ux",
-  "name": "Banco de dados",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86acpp4ux",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acpp4p2",
-  "name": "Ambiente 3.0 - Criado",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86acpp4p2",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acpnu0e",
-  "name": "POC - Salsa",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1760684400000,
-  "url": "https://app.clickup.com/t/86acpnu0e",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acpm0jp",
-  "name": "Reunião cliente",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1761116400000,
-  "url": "https://app.clickup.com/t/86acpm0jp",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acpm0fc",
-  "name": "Reunião interna",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1761030000000,
-  "url": "https://app.clickup.com/t/86acpm0fc",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acpkxrm",
-  "name": "Reunião técnica de dúvidas",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1761116400000,
-  "url": "https://app.clickup.com/t/86acpkxrm",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acpkxek",
-  "name": "Reunião para apresentar oferta",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1761289200000,
-  "url": "https://app.clickup.com/t/86acpkxek",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acpkx8y",
-  "name": "Apoio na Connect - AWS - CI/CD",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86acpkx8y",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acpkwhu",
-  "name": "Apoio na Globo",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86acpkwhu",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acpkwer",
-  "name": "Informações para Oferta de VMWare",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1761116400000,
-  "url": "https://app.clickup.com/t/86acpkwer",
-  "doneAt": 1781125715437
+  "url": "https://app.clickup.com/t/86ad14jwa"
  },
  {
   "id": "86achadte",
   "name": "Plataforma",
-  "status": "revisando",
+  "status": "aberto",
   "assignees": [],
   "url": "https://app.clickup.com/t/86achadte"
  },
  {
   "id": "86achadhj",
   "name": "Backup",
-  "status": "revisando",
+  "status": "em andamento",
   "assignees": [],
   "url": "https://app.clickup.com/t/86achadhj"
  },
  {
   "id": "86achadf7",
   "name": "FW",
-  "status": "revisando",
+  "status": "aberto",
   "assignees": [],
   "url": "https://app.clickup.com/t/86achadf7"
  },
  {
   "id": "86achade8",
   "name": "Monitoração",
-  "status": "revisando",
+  "status": "em andamento",
   "assignees": [],
   "url": "https://app.clickup.com/t/86achade8"
  },
  {
   "id": "86achad9v",
   "name": "Documentação recorrente com automação",
-  "status": "revisando",
+  "status": "em andamento",
   "assignees": [],
   "url": "https://app.clickup.com/t/86achad9v"
  },
  {
-  "id": "86acha737",
-  "name": "Alinhamento Rafael",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1760425200000,
-  "url": "https://app.clickup.com/t/86acha737",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acha37w",
-  "name": "Revisão da planilha",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1760511600000,
-  "url": "https://app.clickup.com/t/86acha37w",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acha31r",
-  "name": "Consolidar dados na planilha",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1760079600000,
-  "url": "https://app.clickup.com/t/86acha31r",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acha2d1",
-  "name": "Levantamento de dados com todos do time",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1759906800000,
-  "url": "https://app.clickup.com/t/86acha2d1",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ach9zzp",
-  "name": "Consolidação do material e definição de prazos",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1760511600000,
-  "url": "https://app.clickup.com/t/86ach9zzp",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ach9zq2",
-  "name": "Ações a longo prazo",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1760511600000,
-  "url": "https://app.clickup.com/t/86ach9zq2",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ach9zm7",
-  "name": "Ações a médio prazo",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1760079600000,
-  "url": "https://app.clickup.com/t/86ach9zm7",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ach9zgt",
-  "name": "Ações a curto prazo",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1759906800000,
-  "url": "https://app.clickup.com/t/86ach9zgt",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ach9zah",
-  "name": "Mapeamento da reestruturação da Equipe",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1759474800000,
-  "url": "https://app.clickup.com/t/86ach9zah",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ach9mfx",
-  "name": "Analise dos pontos forte e a se desenvolver do time",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1757919600000,
-  "url": "https://app.clickup.com/t/86ach9mfx",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ach9k1d",
-  "name": "1:1 com Time",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1756450800000,
-  "url": "https://app.clickup.com/t/86ach9k1d",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ach9gxp",
-  "name": "Entendimento de como funciona a operação",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1757574000000,
-  "url": "https://app.clickup.com/t/86ach9gxp",
-  "doneAt": 1781125715437
- },
- {
   "id": "86acgfe12",
   "name": "Escopo Monitoração",
-  "status": "fechado",
+  "status": "aberto",
   "assignees": [],
-  "url": "https://app.clickup.com/t/86acgfe12",
-  "doneAt": 1789583755329
+  "url": "https://app.clickup.com/t/86acgfe12"
  },
  {
   "id": "86acgfdnc",
   "name": "Escopo Redes",
-  "status": "fechado",
+  "status": "aberto",
   "assignees": [],
-  "url": "https://app.clickup.com/t/86acgfdnc",
-  "doneAt": 1789583755329
+  "url": "https://app.clickup.com/t/86acgfdnc"
  },
  {
   "id": "86acgfdhj",
   "name": "Escopo S.O Linux",
-  "status": "fechado",
+  "status": "aberto",
   "assignees": [],
-  "url": "https://app.clickup.com/t/86acgfdhj",
-  "doneAt": 1789583755329
+  "url": "https://app.clickup.com/t/86acgfdhj"
  },
  {
   "id": "86acgfder",
   "name": "Escopo S.O Windows",
-  "status": "fechado",
+  "status": "aberto",
   "assignees": [],
-  "url": "https://app.clickup.com/t/86acgfder",
-  "doneAt": 1789583755329
+  "url": "https://app.clickup.com/t/86acgfder"
  },
  {
   "id": "86acgfd9x",
   "name": "Escopo K8s - DevOps",
-  "status": "fechado",
+  "status": "aberto",
   "assignees": [],
-  "url": "https://app.clickup.com/t/86acgfd9x",
-  "doneAt": 1789583755329
+  "url": "https://app.clickup.com/t/86acgfd9x"
  },
  {
   "id": "86acgfch6",
   "name": "Escopo Openstack",
-  "status": "fechado",
+  "status": "aberto",
   "assignees": [],
-  "url": "https://app.clickup.com/t/86acgfch6",
-  "doneAt": 1789583755329
+  "url": "https://app.clickup.com/t/86acgfch6"
  },
  {
   "id": "86acgfcf6",
   "name": "Escopo do BCOS",
-  "status": "fechado",
+  "status": "aberto",
   "assignees": [],
-  "url": "https://app.clickup.com/t/86acgfcf6",
-  "doneAt": 1789583755329
+  "url": "https://app.clickup.com/t/86acgfcf6"
  },
  {
   "id": "86acgfc0u",
   "name": "Escopo de FW",
-  "status": "fechado",
+  "status": "em andamento",
   "assignees": [],
-  "url": "https://app.clickup.com/t/86acgfc0u",
-  "doneAt": 1789583755329
+  "url": "https://app.clickup.com/t/86acgfc0u"
  },
  {
   "id": "86acgfbyf",
   "name": "Escopo de Backup",
-  "status": "fechado",
+  "status": "aberto",
   "assignees": [],
-  "url": "https://app.clickup.com/t/86acgfbyf",
-  "doneAt": 1789583755329
- },
- {
-  "id": "86acgfbbh",
-  "name": "Ajuste por desempenho em 2026",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86acgfbbh",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acgfbaq",
-  "name": "Proposta de mudança de area com analise de resultado",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86acgfbaq",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acgf9qv",
-  "name": "Coletar dados para relatório de atividades do Clickup via API",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86acgf9qv",
-  "doneAt": 1786556914042
+  "url": "https://app.clickup.com/t/86acgfbyf"
  },
  {
   "id": "86acgf9cj",
   "name": "Coleta de dados do FW automatizada",
   "status": "em andamento",
   "assignees": [],
-  "due": 1790751600000,
   "url": "https://app.clickup.com/t/86acgf9cj"
  },
  {
@@ -1694,324 +359,17 @@
   "name": "Coleta de dados do Backup automatizada",
   "status": "em andamento",
   "assignees": [],
-  "due": 1790751600000,
   "url": "https://app.clickup.com/t/86acgf97f"
- },
- {
-  "id": "86acgf454",
-  "name": "Acesso Zabbix para coleta de dados via API",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86acgf454",
-  "doneAt": 1786556883072
- },
- {
-  "id": "86ace63zc",
-  "name": "Ajustes se necessários",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86ace63zc",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ace63r5",
-  "name": "Pegar feedback final do time",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86ace63r5",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ace63m5",
-  "name": "Pegar feedback parcial do time",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86ace63m5",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ace627r",
-  "name": "Reconfigurar clickup para reflitir na daily",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86ace627r",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ace61br",
-  "name": "Foi criado uma agenda semanal, de 2 horas",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86ace61br",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acbdjdf",
-  "name": "Quantas máquinas em produção?",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1759906800000,
-  "url": "https://app.clickup.com/t/86acbdjdf",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acbdhyd",
-  "name": "Quais clientes estão na Win3 e Win5",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1759906800000,
-  "url": "https://app.clickup.com/t/86acbdhyd",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86acbdgyk",
-  "name": "Problema de comunicação de rede Nós win3 e 5 2.0",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1759906800000,
-  "url": "https://app.clickup.com/t/86acbdgyk",
-  "doneAt": 1781125715437
  },
  {
   "id": "86ac6u9cp",
   "name": "Plano de documentação para Clientes Gerenciados",
-  "status": "em andamento",
+  "status": "planejamento",
   "assignees": [
    "Bruno Queiroz"
   ],
   "due": 1761634800000,
   "url": "https://app.clickup.com/t/86ac6u9cp"
- },
- {
-  "id": "86ac3dnm3",
-  "name": "Alinhamento com RH para melhor abordagem",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1760425200000,
-  "url": "https://app.clickup.com/t/86ac3dnm3",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ac3dneh",
-  "name": "Conversa com o Ale para possibilidades",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1760338800000,
-  "url": "https://app.clickup.com/t/86ac3dneh",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ac3djga",
-  "name": "PJ - Higo",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86ac3djga",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ac3djez",
-  "name": "PJ - Brunno Lopes",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86ac3djez",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ac3dj0m",
-  "name": "Reunião Andressa Sa e Barabara RH para tratar o caso",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86ac3dj0m",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ac3dhdy",
-  "name": "Resposta da Andressa Sa sobre o levantamento de contratos",
-  "status": "fechado",
-  "assignees": [],
-  "due": 1758870000000,
-  "url": "https://app.clickup.com/t/86ac3dhdy",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ac3dcxc",
-  "name": "Ajustes no processo ( 1 semana )",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86ac3dcxc",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ac3dc4x",
-  "name": "Novo horário da Daily - 09:00 até 09:30",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86ac3dc4x",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ac1wy71",
-  "name": "Planilha de skill, para analise de performance",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1758870000000,
-  "url": "https://app.clickup.com/t/86ac1wy71",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ac0bhv8",
-  "name": "Nova divisão de equipes e responsabilidades",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1758870000000,
-  "url": "https://app.clickup.com/t/86ac0bhv8",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86ac0bebz",
-  "name": "Novo modelo de Daily",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1761807600000,
-  "url": "https://app.clickup.com/t/86ac0bebz",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86abur8g3",
-  "name": "Alteração VLAN 1Team - VLAN 1220",
-  "status": "fechado",
-  "assignees": [
-   "Raphael Fogaça",
-   "Bruno Queiroz"
-  ],
-  "url": "https://app.clickup.com/t/86abur8g3",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86abnu7pa",
-  "name": "Agenda para entender como pre vendas faz",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1758524400000,
-  "url": "https://app.clickup.com/t/86abnu7pa",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86abnrz1p",
-  "name": "NetBox como solução",
-  "status": "fechado",
-  "assignees": [
-   "Cleber Almeida"
-  ],
-  "due": 1760943600000,
-  "url": "https://app.clickup.com/t/86abnrz1p",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86abnrema",
-  "name": "Discutir com Gustavo e falar sobre abertura de chamado de rotina",
-  "status": "fechado",
-  "assignees": [
-   "Gustavo Camargo",
-   "Raphael Fogaça"
-  ],
-  "due": 1757660400000,
-  "url": "https://app.clickup.com/t/86abnrema",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86abnqrr1",
-  "name": "Revisão proposta backup da Igreja",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1759474800000,
-  "url": "https://app.clickup.com/t/86abnqrr1",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86aba9bnf",
-  "name": "Ajuste anual contrato PJ's",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1759993200000,
-  "url": "https://app.clickup.com/t/86aba9bnf",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86aba9bfm",
-  "name": "Melhoria de remuneração Higo",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1759129200000,
-  "url": "https://app.clickup.com/t/86aba9bfm",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86aba9bcz",
-  "name": "Ajuste anual contrato Higo",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1758265200000,
-  "url": "https://app.clickup.com/t/86aba9bcz",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86aba9avp",
-  "name": "Ferias pendentes Ale",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz",
-   "Raphael Fogaça"
-  ],
-  "due": 1758524400000,
-  "url": "https://app.clickup.com/t/86aba9avp",
-  "doneAt": 1781125715437
  },
  {
   "id": "86aba9ak9",
@@ -2025,7 +383,7 @@
  },
  {
   "id": "86aba8mgv",
-  "name": "Montar e entender como iremos atuar nos ambiente Cloud PRIVADA",
+  "name": "Montar e entender atuação nos ambientes Cloud Privada",
   "status": "planejamento",
   "assignees": [
    "Bruno Queiroz",
@@ -2035,103 +393,14 @@
   "url": "https://app.clickup.com/t/86aba8mgv"
  },
  {
-  "id": "86aba8mc7",
-  "name": "PO Projeto GIMBA",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1765782000000,
-  "url": "https://app.clickup.com/t/86aba8mc7",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86aba8k1z",
-  "name": "Migração de Object Storage BCOS 2.0 para BCOS 3.0",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz",
-   "Lucas Federissis de Souza"
-  ],
-  "due": 1764486000000,
-  "url": "https://app.clickup.com/t/86aba8k1z",
-  "doneAt": 1782500494542
- },
- {
-  "id": "86aba8hd3",
-  "name": "Distribuição de atividades para o time (fator foco)",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1758870000000,
-  "url": "https://app.clickup.com/t/86aba8hd3",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86aba87p2",
-  "name": "Levantamento ferramenta de CMDB para apresentar",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1760943600000,
-  "url": "https://app.clickup.com/t/86aba87p2",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86aba7ptp",
-  "name": "Assumir quais atividades do Fogaça (desafoga-lo)",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1758265200000,
-  "url": "https://app.clickup.com/t/86aba7ptp",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86aba7pgw",
-  "name": "Suporte ao comercial com reunião de entendimento doBCOS",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1758870000000,
-  "url": "https://app.clickup.com/t/86aba7pgw",
-  "doneAt": 1781125715437
- },
- {
-  "id": "86aba7p2u",
-  "name": "Backup com ou sem imutabilidade",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1758870000000,
-  "url": "https://app.clickup.com/t/86aba7p2u",
-  "doneAt": 1781125715437
- },
- {
   "id": "86aba7nnn",
   "name": "Mapeamento e documentação do onboarding",
-  "status": "planejamento",
+  "status": "em andamento",
   "assignees": [
    "Bruno Queiroz"
   ],
   "due": 1759215600000,
   "url": "https://app.clickup.com/t/86aba7nnn"
- },
- {
-  "id": "86aba7n72",
-  "name": "Plano de 100 dias + escrito",
-  "status": "fechado",
-  "assignees": [
-   "Bruno Queiroz"
-  ],
-  "due": 1758610800000,
-  "url": "https://app.clickup.com/t/86aba7n72",
-  "doneAt": 1781125715437
  },
  {
   "id": "86aba0vj8",
@@ -2145,24 +414,22 @@
  },
  {
   "id": "86ab9yy57",
-  "name": "Elaborar escopo de serviço Gerenciado para Iaas, Backup, FW, AntiVirus (Cloud 100% Full)",
-  "status": "fechado",
+  "name": "Elaborar escopo de serviço Gerenciado (IaaS, Backup, FW, AntiVirus)",
+  "status": "planejamento",
   "assignees": [
    "Bruno Queiroz"
   ],
   "due": 1760079600000,
-  "url": "https://app.clickup.com/t/86ab9yy57",
-  "doneAt": 1789583755329
+  "url": "https://app.clickup.com/t/86ab9yy57"
  },
  {
   "id": "86ab9ygu5",
-  "name": "Processos rotineiros / Criar - checklist para clientes Gerenciados",
-  "status": "fechado",
+  "name": "Criar checklist de processos rotineiros para clientes Gerenciados",
+  "status": "planejamento",
   "assignees": [
    "Bruno Queiroz"
   ],
   "due": 1761894000000,
-  "url": "https://app.clickup.com/t/86ab9ygu5",
-  "doneAt": 1789583755329
+  "url": "https://app.clickup.com/t/86ab9ygu5"
  }
 ]
