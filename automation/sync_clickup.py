@@ -101,15 +101,29 @@ def api_get(path):
 
 
 def api_get_all_tasks(list_id, include_closed=True):
-    """Busca TODAS as tarefas de uma lista, paginando corretamente."""
+    """Busca TODAS as tarefas de uma lista, paginando corretamente.
+
+    Dois bugs corrigidos aqui depois de causarem perda/poluição de dados
+    reais em produção (ver sync_errors.log e o histórico do repositório):
+
+    1. 'subtasks=false' excluía da resposta qualquer tarefa que fosse
+       subtarefa de outra no ClickUp — isso fez a lista do João (cheia de
+       itens numerados tipo "14.1", "14.2" que são subtarefas) cair de 165
+       para 7 itens no primeiro run automático. Agora usamos subtasks=true.
+    2. A paginação usava resp.get('last_page', True), ou seja, parava na
+       primeira página sempre que o campo 'last_page' não vinha na resposta
+       (o que a API do ClickUp nem sempre envia). Agora a parada é baseada
+       no tamanho da página recebida (< PAGE_SIZE = última página).
+    """
     todas = []
     page = 0
     closed_param = "true" if include_closed else "false"
+    PAGE_SIZE = 100
     while True:
-        resp = api_get(f"/list/{list_id}/task?subtasks=false&include_closed={closed_param}&page={page}")
+        resp = api_get(f"/list/{list_id}/task?subtasks=true&include_closed={closed_param}&page={page}")
         pagina_tasks = resp.get("tasks", [])
         todas.extend(pagina_tasks)
-        if resp.get("last_page", True) or not pagina_tasks:
+        if len(pagina_tasks) < PAGE_SIZE:
             break
         page += 1
         if page > 20:  # trava de segurança contra loop infinito
@@ -136,11 +150,22 @@ def raw_status_label(task):
 
 # --- Quadros Kanban dos 6 líderes -------------------------------------------
 
+# Tarefas fechadas há mais tempo que isso não aparecem mais no quadro —
+# evita poluir o board com anos de histórico irrelevante (algumas listas,
+# como a do Bruno, têm 200+ tarefas fechadas antigas). Ajuste livremente.
+CLOSED_LOOKBACK_MS = 180 * 24 * 60 * 60 * 1000  # 180 dias
+
+
 def sync_leader_board(fname, list_id):
     tasks = api_get_all_tasks(list_id, include_closed=True)
+    agora = int(datetime.datetime.now(datetime.timezone.utc).timestamp() * 1000)
     out = []
     for t in tasks:
         raw_status = raw_status_label(t)
+        date_closed = t.get("date_closed")
+        # Fechada há mais de 180 dias: não entra no quadro (ruído histórico).
+        if date_closed and (agora - int(date_closed)) > CLOSED_LOOKBACK_MS:
+            continue
         entry = {
             "id": t["id"],
             "name": t["name"],
@@ -151,8 +176,8 @@ def sync_leader_board(fname, list_id):
         if due:
             entry["due"] = due
         entry["url"] = f"https://app.clickup.com/t/{t['id']}"
-        if t.get("date_closed"):
-            entry["doneAt"] = int(t["date_closed"])
+        if date_closed:
+            entry["doneAt"] = int(date_closed)
         out.append(entry)
 
     path = os.path.join(DIR, fname)
