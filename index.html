@@ -513,6 +513,16 @@
   }
   .board-col-head .bc-dot{width:8px; height:8px; border-radius:50%; flex:none; box-shadow:0 0 8px -1px currentColor;}
   .board-col-head .bc-count{margin-left:auto; background:var(--panel); color:var(--text-mute); border-radius:999px; padding:1px 8px; font-size:10.5px;}
+  .board-col-toggle{
+    display:flex; align-items:center; gap:6px; width:100%; margin:10px 0 4px; padding:9px 13px;
+    background:var(--panel-hi); border:1px dashed var(--border-hi); border-radius:10px; cursor:pointer;
+    font-family:var(--mono); font-size:11.5px; font-weight:600; color:var(--green); text-align:left;
+    transition:background .15s, border-color .15s;
+  }
+  .board-col-toggle:hover{background:var(--green-dim); border-color:var(--green);}
+  .board-col-toggle .toggle-chev{flex:none; transition:transform .2s ease;}
+  .board-col-toggle.open .toggle-chev{transform:rotate(90deg);}
+  .board-col-body.board-col-collapsed{display:none;}
   .board-col-body{padding:10px; display:flex; flex-direction:column; gap:9px;}
   .board-card{
     background:var(--panel-hi); border:1px solid var(--border); border-radius:11px;
@@ -3960,14 +3970,8 @@ function renderBoard(project){
 
     const col = document.createElement('div');
     col.className = 'board-col';
-    col.innerHTML = `
-      <div class="board-col-head">
-        <span class="bc-dot" style="background:${meta.color}"></span>
-        <span>${meta.label}</span>
-        <span class="bc-count">${tasks.length}</span>
-      </div>
-      <div class="board-col-body">
-        ${tasks.length ? tasks.map(t=>{
+    const isConcluido = statusKey === 'concluído';
+    const cardsHtml = tasks.length ? tasks.map(t=>{
           const recent = isRecentlyDone(t);
           let dueBadge = '';
           let dueClass = '';
@@ -3995,8 +3999,32 @@ function renderBoard(project){
               </a>
             </div>
           </div>`;
-        }).join('') : '<div class="board-empty">Sem itens</div>'}
-      </div>`;
+        }).join('') : '<div class="board-empty">Sem itens</div>';
+
+    col.innerHTML = `
+      <div class="board-col-head">
+        <span class="bc-dot" style="background:${meta.color}"></span>
+        <span>${meta.label}</span>
+        <span class="bc-count">${tasks.length}</span>
+      </div>
+      ${isConcluido && tasks.length ? `
+      <button class="board-col-toggle" type="button">
+        <svg class="toggle-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
+        Ver ${tasks.length} concluída${tasks.length>1?'s':''}
+      </button>
+      <div class="board-col-body board-col-collapsed">${cardsHtml}</div>`
+      : `<div class="board-col-body">${cardsHtml}</div>`}`;
+
+    if(isConcluido && tasks.length){
+      const toggleBtn = col.querySelector('.board-col-toggle');
+      const body = col.querySelector('.board-col-body');
+      toggleBtn.addEventListener('click', ()=>{
+        const collapsed = body.classList.toggle('board-col-collapsed');
+        toggleBtn.classList.toggle('open', !collapsed);
+        toggleBtn.lastChild.textContent = collapsed ? ` Ver ${tasks.length} concluída${tasks.length>1?'s':''}` : ` Ocultar concluída${tasks.length>1?'s':''}`;
+      });
+    }
+
     board.appendChild(col);
   });
 }
