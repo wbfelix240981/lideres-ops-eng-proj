@@ -40,24 +40,11 @@ LEADER_LISTS = {
     "rodney_tasks.json": "901323507381",
 }
 
-CLIENT_METAS = {
-    "cliente-soprema": {
-        "list_id": "901328281164",
-        "num": 1,
-        "name": "Migração e onboarding — SOPREMA LTDA",
-        "short": "SOPREMA LTDA",
-        "source_url": "https://app.clickup.com/3080406/v/li/901328281164",
-        "detail": "Checklist de onboarding e migração do cliente SOPREMA LTDA — dados sincronizados da lista real do ClickUp (projeto Soprema).",
-    },
-    "cliente-pleion": {
-        "list_id": "901328281869",
-        "num": 2,
-        "name": "Migração e onboarding — Pleion Indústria e Comércio de Plásticos LTDA.",
-        "short": "Pleion LTDA",
-        "source_url": "https://app.clickup.com/3080406/v/li/901328281869",
-        "detail": "Checklist de onboarding e migração do cliente Pleion Indústria e Comércio de Plásticos LTDA. — dados sincronizados da lista real do ClickUp (projeto Pleion).",
-    },
-}
+# Clientes de projeto (Soprema/Pleion) removidos da página de Projetos a
+# pedido do usuário. Deixe este dicionário vazio para que wagner_metas.json
+# permaneça sem cards de cliente. Para reativar algum, basta adicionar de
+# volta a entrada correspondente aqui.
+CLIENT_METAS = {}
 
 STATUS_MAP = {
     "fechado": "shipped",
