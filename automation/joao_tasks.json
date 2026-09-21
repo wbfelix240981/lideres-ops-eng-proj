@@ -30,30 +30,6 @@
   "url": "https://app.clickup.com/t/86ajzm934"
  },
  {
-  "id": "86ajzm904",
-  "name": "Configuração da VM (CC v2)",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ajzm904",
-  "doneAt": 1786538113595
- },
- {
-  "id": "86ajzm8vd",
-  "name": "Análise da correção de arquitetura legada x Integração com o CC v1",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ajzm8vd",
-  "doneAt": 1786538065346
- },
- {
-  "id": "86ajzm6tx",
-  "name": "Análise da ClaudIA - Arquitetura",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ajzm6tx",
-  "doneAt": 1786538063630
- },
- {
   "id": "86ajzm6gy",
   "name": "AI Command Center V2",
   "status": "em andamento",
@@ -61,14 +37,6 @@
    "João Alves"
   ],
   "url": "https://app.clickup.com/t/86ajzm6gy"
- },
- {
-  "id": "86ajw51aa",
-  "name": "Política de Arquisição, Instalação e Gerenciamento de Software",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ajw51aa",
-  "doneAt": 1785879594887
  },
  {
   "id": "86ajw4rq5",
@@ -88,7 +56,7 @@
  },
  {
   "id": "86ajw430v",
-  "name": "Desenvolver um treinamento de LGPD no onboarding",
+  "name": "Desenvolver treinamento de LGPD no onboarding",
   "status": "aberto",
   "assignees": [],
   "url": "https://app.clickup.com/t/86ajw430v"
@@ -119,16 +87,6 @@
   "url": "https://app.clickup.com/t/86ajj4dvw"
  },
  {
-  "id": "86ajj46h1",
-  "name": "UI-UX",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ajj46h1",
-  "doneAt": 1785879594887
- },
- {
   "id": "86ajcyweb",
   "name": "Backend",
   "status": "em andamento",
@@ -154,26 +112,6 @@
    "João Alves"
   ],
   "url": "https://app.clickup.com/t/86ajcyw9x"
- },
- {
-  "id": "86aj5byzx",
-  "name": "Ao selecionar qq grupo ele me indica quantos estão naquele perfil, mas não me fala quem... trazer quem faz parte do grupo:",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86aj5byzx",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86aj5bxwu",
-  "name": "Tirar o item faturamento dessa area e coloca na area de Saúde do cliente",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86aj5bxwu",
-  "doneAt": 1785879594887
  },
  {
   "id": "86aj5bxuh",
@@ -203,16 +141,6 @@
   "url": "https://app.clickup.com/t/86aj512gm"
  },
  {
-  "id": "86aj3trfn",
-  "name": "Fixar o período sempre no mês atual",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86aj3trfn",
-  "doneAt": 1785879594887
- },
- {
   "id": "86aj34p42",
   "name": "Desenho de possível arquitetura",
   "status": "em andamento",
@@ -222,33 +150,13 @@
   "url": "https://app.clickup.com/t/86aj34p42"
  },
  {
-  "id": "86aj34npe",
-  "name": "Reunião com Vini para conhecer a plataforma da ClaudIA",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86aj34npe",
-  "doneAt": 1785879594887
- },
- {
   "id": "86aj2rxe1",
-  "name": "Adicionar coluna de FIla caso eu selecione 2 ou mão para mostrar onde está",
+  "name": "Adicionar coluna de Fila (múltipla seleção)",
   "status": "aberto",
   "assignees": [
    "João Alves"
   ],
   "url": "https://app.clickup.com/t/86aj2rxe1"
- },
- {
-  "id": "86aj0wzp0",
-  "name": "Corrigir erro que impede o sistema de listar os jobs de backup de cada tenant",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86aj0wzp0",
-  "doneAt": 1785879594887
  },
  {
   "id": "86aj08hdd",
@@ -266,28 +174,28 @@
  },
  {
   "id": "86aj08hd2",
-  "name": "Time lime",
+  "name": "Timeline",
   "status": "aberto",
   "assignees": [],
   "url": "https://app.clickup.com/t/86aj08hd2"
  },
  {
   "id": "86aj08hcg",
-  "name": "Crição de sala no teans",
+  "name": "Criação de sala no Teams",
   "status": "aberto",
   "assignees": [],
   "url": "https://app.clickup.com/t/86aj08hcg"
  },
  {
   "id": "86aj08hc6",
-  "name": "acionamento",
+  "name": "Acionamento",
   "status": "aberto",
   "assignees": [],
   "url": "https://app.clickup.com/t/86aj08hc6"
  },
  {
   "id": "86aj08hbz",
-  "name": "processo",
+  "name": "Processo",
   "status": "aberto",
   "assignees": [],
   "url": "https://app.clickup.com/t/86aj08hbz"
@@ -303,7 +211,7 @@
  },
  {
   "id": "86aj08h51",
-  "name": "Area de comunicado virar gestão de alto impacto",
+  "name": "Área de comunicado virar gestão de alto impacto",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -311,18 +219,8 @@
   "url": "https://app.clickup.com/t/86aj08h51"
  },
  {
-  "id": "86ahzy0j2",
-  "name": "Criar VPN para acessar os dados",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahzy0j2",
-  "doneAt": 1785879594887
- },
- {
   "id": "86ahzxhpd",
-  "name": "Ao cancela a GMUD abrir um campo, para adicionar o motivo do canelamento",
+  "name": "Ao cancelar GMUD, adicionar campo com motivo do cancelamento",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -331,7 +229,7 @@
  },
  {
   "id": "86ahzw1bm",
-  "name": "Mover comand para undercloud",
+  "name": "Mover comando para undercloud",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -340,21 +238,21 @@
  },
  {
   "id": "86ahzvd6r",
-  "name": "Exemplo: Claude Status  Status - SaveinCloud Senior - Cloud Services Status Page Isso eu vou olocar disponível na WEB em nossa pagina para cliente saber como esta nossos serviços.",
+  "name": "Status Page pública de serviços",
   "status": "em andamento",
   "assignees": [],
   "url": "https://app.clickup.com/t/86ahzvd6r"
  },
  {
   "id": "86ahzvd6n",
-  "name": "Redes ( pegar do Zabbix da equipe de redes (antiga QOS)",
+  "name": "Redes - integrar dados do Zabbix da equipe de redes",
   "status": "aberto",
   "assignees": [],
   "url": "https://app.clickup.com/t/86ahzvd6n"
  },
  {
   "id": "86ahzvd6j",
-  "name": "( OpenStack / Pegar os status do projeto de Observabilidade do Bruno Lima Queiroz",
+  "name": "OpenStack - status do projeto de Observabilidade",
   "status": "aberto",
   "assignees": [],
   "url": "https://app.clickup.com/t/86ahzvd6j"
@@ -370,7 +268,7 @@
  },
  {
   "id": "86ahzvd64",
-  "name": "Melhoria continua",
+  "name": "Melhoria contínua",
   "status": "em andamento",
   "assignees": [],
   "url": "https://app.clickup.com/t/86ahzvd64"
@@ -391,21 +289,21 @@
  },
  {
   "id": "86ahzvd5m",
-  "name": "Age e Registra (restart / Altera Config / Escala&failOver / Testar)",
+  "name": "Age e registra (restart/altera config/escala&failover/testar)",
   "status": "em andamento",
   "assignees": [],
   "url": "https://app.clickup.com/t/86ahzvd5m"
  },
  {
   "id": "86ahzvd5g",
-  "name": "Cruzar contexto (Zabbix / Logs K8s / Downdetector / Ticketis / Arquitetura / Prometheus / Redes / Grafana)",
+  "name": "Cruzar contexto (Zabbix/Logs K8s/Downdetector/Tickets/Arquitetura/Prometheus/Redes/Grafana)",
   "status": "em andamento",
   "assignees": [],
   "url": "https://app.clickup.com/t/86ahzvd5g"
  },
  {
   "id": "86ahzvcat",
-  "name": "SRE AI Operator ",
+  "name": "SRE AI Operator",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -423,7 +321,7 @@
  },
  {
   "id": "86ahzv1xv",
-  "name": "Integração com a ClaudIA para resolução e chamados",
+  "name": "Integração com a ClaudIA para resolução de chamados",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -432,7 +330,7 @@
  },
  {
   "id": "86ahzv1u5",
-  "name": "Definição de perfil Analista  CCOE Atendente utilizará Quais módulos ?",
+  "name": "Definição de perfil Analista CCOE - quais módulos utilizará",
   "status": "aberto",
   "assignees": [
    "João Alves",
@@ -441,33 +339,13 @@
   "url": "https://app.clickup.com/t/86ahzv1u5"
  },
  {
-  "id": "86ahzuzcn",
-  "name": "Inverter os acessos, cada grupo será acessado por módulo",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahzuzcn",
-  "doneAt": 1785879594887
- },
- {
   "id": "86ahzpajg",
-  "name": "Ao apertar F5 voltar para a mesma pagina em que estava",
+  "name": "Ao apertar F5, voltar para a mesma página",
   "status": "aberto",
   "assignees": [
    "João Alves"
   ],
   "url": "https://app.clickup.com/t/86ahzpajg"
- },
- {
-  "id": "86ahzmgu7",
-  "name": "Ajustar métricas bugs",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahzmgu7",
-  "doneAt": 1785879594887
  },
  {
   "id": "86ahzm1up",
@@ -489,14 +367,14 @@
  },
  {
   "id": "86ahzkmbr",
-  "name": "Adicionar um campo de cadastro de e-mail para o Responsável pela resolução do problem",
+  "name": "Adicionar campo de e-mail do responsável pela resolução",
   "status": "aberto",
   "assignees": [],
   "url": "https://app.clickup.com/t/86ahzkmbr"
  },
  {
   "id": "86ahzkkwe",
-  "name": "Alterar o Owner para Aberto por",
+  "name": "Alterar o Owner para 'Aberto por'",
   "status": "aberto",
   "assignees": [],
   "url": "https://app.clickup.com/t/86ahzkkwe"
@@ -512,7 +390,7 @@
  },
  {
   "id": "86ahzk8mr",
-  "name": "Passagem de Turno",
+  "name": "Passagem de turno",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -521,7 +399,7 @@
  },
  {
   "id": "86ahzk8e7",
-  "name": "Alta Impacto (crise)",
+  "name": "Alto impacto (crise)",
   "status": "revisando",
   "assignees": [
    "João Alves"
@@ -592,75 +470,13 @@
   "url": "https://app.clickup.com/t/86ahzhfpq"
  },
  {
-  "id": "86ahy9qzk",
-  "name": "Reunião com a TrendAI",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "due": 1781074800000,
-  "url": "https://app.clickup.com/t/86ahy9qzk",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ahy9fg9",
-  "name": "Passagem de Turno / lousa digital",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "due": 1781074800000,
-  "url": "https://app.clickup.com/t/86ahy9fg9",
-  "doneAt": 1785879594887
- },
- {
   "id": "86ahwdzje",
-  "name": "Trazer o bcAPI por cliente o consumo do ano atual e anotar variação de 10% a mais ou a menos (correlação para churn)",
+  "name": "Trazer bcAPI por cliente - consumo anual e variação (correlação churn)",
   "status": "aguardando retorno",
   "assignees": [
    "João Alves"
   ],
   "url": "https://app.clickup.com/t/86ahwdzje"
- },
- {
-  "id": "86ahwdybj",
-  "name": "Trazer informação de Backup e Inventário do cliente",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahwdybj",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ahwdw43",
-  "name": "Problema esta Zerado.. importar do Znuny ou de alguma base",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahwdw43",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ahwdu6q",
-  "name": "lista de clientes deve ser todo que estão na lista de clientes.(vi muito lixo como ex: gmail.com",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahwdu6q",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ahwdt4n",
-  "name": "Não ter datas abertas e sim apenas botoes de meses.. pois o book é mês fechado",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahwdt4n",
-  "doneAt": 1785879594887
  },
  {
   "id": "86ahwdrgv",
@@ -673,7 +489,7 @@
  },
  {
   "id": "86ahwdr7w",
-  "name": "Status Cloud ( monitoramento)",
+  "name": "Status Cloud (monitoramento)",
   "status": "aguardando retorno",
   "assignees": [
    "João Alves"
@@ -681,113 +497,13 @@
   "url": "https://app.clickup.com/t/86ahwdr7w"
  },
  {
-  "id": "86ahwdndv",
-  "name": "Sistema Corporativos",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahwdndv",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ahwdnbb",
-  "name": "SecOps",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahwdnbb",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ahwdn4t",
-  "name": "GOTI",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahwdn4t",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ahwdn36",
-  "name": "DPO",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahwdn36",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ahwdmv7",
-  "name": "CCOE",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahwdmv7",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ahwdmtd",
-  "name": "CSE",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahwdmtd",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ahwdmqq",
-  "name": "No filtro de fila devemos só trazer as filas",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahwdmqq",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ahwdjv5",
-  "name": "Data inicio não pode ser maior que data fim",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahwdjv5",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ahwdb5g",
-  "name": "Veeam monitoramento",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahwdb5g",
-  "doneAt": 1785879594887
- },
- {
   "id": "86ahwd56r",
-  "name": "Filtro de tipo de chamado (duvida solicitação incidente)",
+  "name": "Filtro de tipo de chamado (dúvida/solicitação/incidente)",
   "status": "aguardando retorno",
   "assignees": [
    "João Alves"
   ],
   "url": "https://app.clickup.com/t/86ahwd56r"
- },
- {
-  "id": "86ahwd4m6",
-  "name": "Ajuste de data, data fim maior que data inicio",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahwd4m6",
-  "doneAt": 1785879594887
  },
  {
   "id": "86ahw3f0y",
@@ -800,7 +516,7 @@
  },
  {
   "id": "86ahw19pb",
-  "name": "Puxar BCAPI e fatura de cliente, variação de 5% saúde do cliente",
+  "name": "Puxar BC-API e fatura de cliente (variação 5% saúde do cliente)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -809,7 +525,7 @@
  },
  {
   "id": "86ahw18qk",
-  "name": "Na página de clientes gerenciados, mudar para gerenciado e não gerenciado",
+  "name": "Página de clientes: mudar para gerenciado/não gerenciado",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -818,7 +534,7 @@
  },
  {
   "id": "86ahw17f7",
-  "name": "Todo idioma em pt-br",
+  "name": "Padronizar todo idioma em pt-br",
   "status": "aguardando retorno",
   "assignees": [
    "João Alves"
@@ -826,18 +542,8 @@
   "url": "https://app.clickup.com/t/86ahw17f7"
  },
  {
-  "id": "86ahw17a2",
-  "name": "Integração Clickup",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahw17a2",
-  "doneAt": 1785879594887
- },
- {
   "id": "86ahw15jt",
-  "name": "Métricas de inventário bc-automation",
+  "name": "Métricas de inventário BC-automation",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -845,68 +551,8 @@
   "url": "https://app.clickup.com/t/86ahw15jt"
  },
  {
-  "id": "86ahw0ppf",
-  "name": "Validar métricas de SLA",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahw0ppf",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ahw0pan",
-  "name": "Ajustar Sync do banco, demorando para puxar",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahw0pan",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ahw0paj",
-  "name": "CSAT",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahw0paj",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ahw0pah",
-  "name": "GMUD no email quebrava a URL ",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahw0pah",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ahw0pad",
-  "name": "Alterar barra de SLA",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahw0pad",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ahw0paa",
-  "name": "Ajustar hora do banco - 3h",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahw0paa",
-  "doneAt": 1785879594887
- },
- {
   "id": "86ahw0pa4",
-  "name": "Testar GMUD teams",
+  "name": "Testar GMUD Teams",
   "status": "revisando",
   "assignees": [
    "João Alves"
@@ -914,18 +560,8 @@
   "url": "https://app.clickup.com/t/86ahw0pa4"
  },
  {
-  "id": "86ahw0pa3",
-  "name": "Quando mostrar 2 estouros por exemplo abrir quais são os tickets",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahw0pa3",
-  "doneAt": 1785879594887
- },
- {
   "id": "86ahw0p9x",
-  "name": "Adicionar só book gerenciados",
+  "name": "Adicionar somente book gerenciados",
   "status": "aguardando retorno",
   "assignees": [
    "João Alves"
@@ -934,7 +570,7 @@
  },
  {
   "id": "86ahw0p9t",
-  "name": "Remover em GMUD Sistema/CIS",
+  "name": "Remover em GMUD Sistema/CIs",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -949,26 +585,6 @@
    "João Alves"
   ],
   "url": "https://app.clickup.com/t/86ahw0p9n"
- },
- {
-  "id": "86ahw0p9g",
-  "name": "Métricas para disponibilidade/churn",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahw0p9g",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ahv46fd",
-  "name": "Envio automático de book por e-mail",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ahv46fd",
-  "doneAt": 1785879594887
  },
  {
   "id": "86ahv45zy",
@@ -1025,36 +641,6 @@
   "url": "https://app.clickup.com/t/86aharm3t"
  },
  {
-  "id": "86ah4k8r8",
-  "name": "Levantamento de escopo",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ah4k8r8",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ah4k8br",
-  "name": "Apresentação para Diretoria",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ah4k8br",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86ah4k80d",
-  "name": "Levantamento de custos",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86ah4k80d",
-  "doneAt": 1785879594887
- },
- {
   "id": "86ah4657t",
   "name": "Jornada - ISO 27001",
   "status": "em andamento",
@@ -1074,7 +660,7 @@
  },
  {
   "id": "86ah43yu3",
-  "name": "Adequação a LGPD",
+  "name": "Adequação à LGPD",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1083,7 +669,7 @@
  },
  {
   "id": "86ag5pjfp",
-  "name": "Pílula Canal oficial do DPO (Net e Cloud)",
+  "name": "Pílula: Canal oficial do DPO (Net e Cloud)",
   "status": "aberto",
   "assignees": [
    "Lucas de Lima Batista"
@@ -1100,16 +686,6 @@
   "url": "https://app.clickup.com/t/86ae0trz2"
  },
  {
-  "id": "86ae0tqyj",
-  "name": "Subir imagem",
-  "status": "fechado",
-  "assignees": [
-   "Augusto Rossi"
-  ],
-  "url": "https://app.clickup.com/t/86ae0tqyj",
-  "doneAt": 1785879594887
- },
- {
   "id": "86ae0tq6e",
   "name": "Firewall",
   "status": "impedimento",
@@ -1119,411 +695,170 @@
   "url": "https://app.clickup.com/t/86ae0tq6e"
  },
  {
-  "id": "86adp2ku6",
-  "name": "Definir o firewall que iremos utilizar",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "due": 1765522800000,
-  "url": "https://app.clickup.com/t/86adp2ku6",
-  "doneAt": 1785879594887
- },
- {
   "id": "86adhthxj",
-  "name": "🎭 O lobo em pele de cordeiro",
+  "name": "O lobo em pele de cordeiro",
   "status": "aberto",
   "assignees": [
    "João Alves"
   ],
-  "due": 1787209200000,
   "url": "https://app.clickup.com/t/86adhthxj"
  },
  {
   "id": "86adhthww",
-  "name": "💥 Tudo começou com um \"PDF\"",
+  "name": "Tudo começou com um PDF",
   "status": "aberto",
   "assignees": [
    "João Alves"
   ],
-  "due": 1786604400000,
   "url": "https://app.clickup.com/t/86adhthww"
  },
  {
   "id": "86adhthwk",
-  "name": "🚀 Freio existe para o carro correr mais",
+  "name": "Freio existe para o carro correr mais",
   "status": "aberto",
   "assignees": [
    "João Alves"
   ],
-  "due": 1785999600000,
   "url": "https://app.clickup.com/t/86adhthwk"
  },
  {
   "id": "86adhthw6",
-  "name": "🧠 Hacker hackeia pessoas, não PC",
+  "name": "Hacker hackeia pessoas, não PC",
   "status": "aberto",
   "assignees": [
    "Lucas de Lima Batista"
   ],
-  "due": 1785394800000,
   "url": "https://app.clickup.com/t/86adhthw6"
  },
  {
   "id": "86adhthvp",
-  "name": "🧱 Você é o Firewall Humano",
+  "name": "Você é o Firewall Humano",
   "status": "aberto",
   "assignees": [
    "Lucas de Lima Batista"
   ],
-  "due": 1784790000000,
   "url": "https://app.clickup.com/t/86adhthvp"
  },
  {
   "id": "86adhthv6",
-  "name": "🚨 Viu algo estranho? Grite (para a TI)",
+  "name": "Viu algo estranho? Grite (para a TI)",
   "status": "aberto",
   "assignees": [
    "Lucas de Lima Batista"
   ],
-  "due": 1784185200000,
   "url": "https://app.clickup.com/t/86adhthv6"
  },
  {
   "id": "86adhthuk",
-  "name": "👑 Você não precisa ser Deus (Admin)",
+  "name": "Você não precisa ser Deus (Admin)",
   "status": "aberto",
   "assignees": [
    "João Alves"
   ],
-  "due": 1783580400000,
   "url": "https://app.clickup.com/t/86adhthuk"
  },
  {
   "id": "86adhthtq",
-  "name": "🗑️ Lixeira não é cofre",
+  "name": "Lixeira não é cofre",
   "status": "aberto",
   "assignees": [
    "Lucas de Lima Batista"
   ],
-  "due": 1782975600000,
   "url": "https://app.clickup.com/t/86adhthtq"
  },
  {
   "id": "86adhtht6",
-  "name": "💾 Quem tem um, não tem nenhum",
+  "name": "Quem tem um, não tem nenhum",
   "status": "aberto",
   "assignees": [
    "João Alves"
   ],
-  "due": 1782370800000,
   "url": "https://app.clickup.com/t/86adhtht6"
  },
  {
   "id": "86adhthrv",
-  "name": "🚫 Baixaki? Melhor não.",
+  "name": "Baixaki? Melhor não.",
   "status": "aberto",
   "assignees": [
    "João Alves"
   ],
-  "due": 1781766000000,
   "url": "https://app.clickup.com/t/86adhthrv"
  },
  {
   "id": "86adhthrk",
-  "name": "🔑 Uma senha para dominar a todas",
+  "name": "Uma senha para dominar a todas",
   "status": "aberto",
   "assignees": [
    "Lucas de Lima Batista"
   ],
-  "due": 1781161200000,
   "url": "https://app.clickup.com/t/86adhthrk"
  },
  {
   "id": "86adhthr3",
-  "name": "🛡️ Seu guarda-costas digital",
+  "name": "Seu guarda-costas digital",
   "status": "aberto",
   "assignees": [
    "João Alves"
   ],
-  "due": 1780556400000,
   "url": "https://app.clickup.com/t/86adhthr3"
  },
  {
   "id": "86adhthqh",
-  "name": "🚇 O túnel blindado da sua conexão",
+  "name": "O túnel blindado da sua conexão",
   "status": "aberto",
   "assignees": [
    "Lucas de Lima Batista"
   ],
-  "due": 1779951600000,
   "url": "https://app.clickup.com/t/86adhthqh"
  },
  {
   "id": "86adhthpy",
-  "name": "💾 O Pen Drive achado não é presente",
+  "name": "O Pen Drive achado não é presente",
   "status": "aberto",
   "assignees": [
    "Lucas de Lima Batista"
   ],
-  "due": 1779346800000,
   "url": "https://app.clickup.com/t/86adhthpy"
  },
  {
   "id": "86adhthp9",
-  "name": "🔄 Reiniciar o PC não é frescura",
+  "name": "Reiniciar o PC não é frescura",
   "status": "aberto",
   "assignees": [
    "Lucas de Lima Batista"
   ],
-  "due": 1778742000000,
   "url": "https://app.clickup.com/t/86adhthp9"
  },
  {
   "id": "86adhthne",
-  "name": "☕ O Wi-Fi do café pode custar caro",
+  "name": "O Wi-Fi do café pode custar caro",
   "status": "aberto",
   "assignees": [
    "Lucas de Lima Batista"
   ],
-  "due": 1778137200000,
   "url": "https://app.clickup.com/t/86adhthne"
  },
  {
   "id": "86adhthmu",
-  "name": "📱 Seu celular, dados da empresa?",
+  "name": "Seu celular, dados da empresa?",
   "status": "aberto",
   "assignees": [
    "Lucas de Lima Batista"
   ],
-  "due": 1777532400000,
   "url": "https://app.clickup.com/t/86adhthmu"
  },
  {
   "id": "86adhthm8",
-  "name": "📹 O que aparece atrás de você?",
+  "name": "O que aparece atrás de você?",
   "status": "em andamento",
   "assignees": [
    "Lucas de Lima Batista"
   ],
-  "due": 1776927600000,
   "url": "https://app.clickup.com/t/86adhthm8"
  },
  {
-  "id": "86adhthk2",
-  "name": "🔓 Atalho da vitória: Windows + L",
-  "status": "fechado",
-  "assignees": [
-   "Lucas de Lima Batista"
-  ],
-  "due": 1775718000000,
-  "url": "https://app.clickup.com/t/86adhthk2",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86adhthjj",
-  "name": "🚪 Segurou a porta? O perigo entrou.",
-  "status": "fechado",
-  "assignees": [
-   "Lucas de Lima Batista"
-  ],
-  "due": 1775113200000,
-  "url": "https://app.clickup.com/t/86adhthjj",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86adhthj3",
-  "name": "🧹 Post-it com senha no monitor? Jamais!",
-  "status": "fechado",
-  "assignees": [
-   "Gabriel Gomes Silva"
-  ],
-  "due": 1774508400000,
-  "url": "https://app.clickup.com/t/86adhthj3",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86adhthhj",
-  "name": "🌐 O link está \"Público na Web\"?",
-  "status": "fechado",
-  "assignees": [
-   "Lucas de Lima Batista"
-  ],
-  "due": 1773903600000,
-  "url": "https://app.clickup.com/t/86adhthhj",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86adhthh2",
-  "name": "📸 O print é eterno (e perigoso)",
-  "status": "fechado",
-  "assignees": [
-   "Augusto Rossi"
-  ],
-  "due": 1773298800000,
-  "url": "https://app.clickup.com/t/86adhthh2",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86adhthgf",
-  "name": "💬 Zap da firma: Profissional ou Várzea?",
-  "status": "fechado",
-  "assignees": [
-   "Lucas de Lima Batista"
-  ],
-  "due": 1772694000000,
-  "url": "https://app.clickup.com/t/86adhthgf",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86adhthfx",
-  "name": "🦠 Cuidado com o anexo \"Boleto.pdf.exe\"",
-  "status": "fechado",
-  "assignees": [
-   "Lucas de Lima Batista"
-  ],
-  "due": 1772089200000,
-  "url": "https://app.clickup.com/t/86adhthfx",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86adhthey",
-  "name": "📱 O golpe tá aí, cai quem quer (no SMS)?",
-  "status": "fechado",
-  "assignees": [
-   "Augusto Rossi"
-  ],
-  "due": 1771484400000,
-  "url": "https://app.clickup.com/t/86adhthey",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86adhthe7",
-  "name": "🎣 O Príncipe Nigeriano mudou de tática",
-  "status": "fechado",
-  "assignees": [
-   "Lucas de Lima Batista"
-  ],
-  "due": 1770879600000,
-  "url": "https://app.clickup.com/t/86adhthe7",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86adhthdq",
-  "name": "🛡️ A segunda chave do seu castelo",
-  "status": "fechado",
-  "assignees": [
-   "Lucas de Lima Batista",
-   "Gabriel Gomes Silva"
-  ],
-  "due": 1770274800000,
-  "url": "https://app.clickup.com/t/86adhthdq",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86adhthd8",
-  "name": "🔐 \"123456\" não é senha, é convite.",
-  "status": "fechado",
-  "assignees": [
-   "Gabriel Gomes Silva"
-  ],
-  "due": 1769670000000,
-  "url": "https://app.clickup.com/t/86adhthd8",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86adhthcv",
-  "name": "📊 Sua planilha de clientes está segura?",
-  "status": "fechado",
-  "assignees": [
-   "Lucas de Lima Batista"
-  ],
-  "due": 1769065200000,
-  "url": "https://app.clickup.com/t/86adhthcv",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86adhthcb",
-  "name": "🙋 O cliente pediu os dados dele. E agora?",
-  "status": "fechado",
-  "assignees": [
-   "Lucas de Lima Batista"
-  ],
-  "due": 1768460400000,
-  "url": "https://app.clickup.com/t/86adhthcb",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86adhthbv",
-  "name": "⚖️ A LGPD é problema do Jurídico ou meu?",
-  "status": "fechado",
-  "assignees": [
-   "Gabriel Gomes Silva",
-   "Lucas de Lima Batista"
-  ],
-  "due": 1767855600000,
-  "url": "https://app.clickup.com/t/86adhthbv",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86adhthba",
-  "name": "📤 Posso passar essa planilha pro colega?",
-  "status": "fechado",
-  "assignees": [
-   "Lucas de Lima Batista"
-  ],
-  "due": 1768806000000,
-  "url": "https://app.clickup.com/t/86adhthba",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86adhthap",
-  "name": "📉 Menos é Mais (e mais seguro)",
-  "status": "fechado",
-  "assignees": [
-   "Gabriel Gomes Silva",
-   "Lucas de Lima Batista"
-  ],
-  "due": 1768201200000,
-  "url": "https://app.clickup.com/t/86adhthap",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86adhthab",
-  "name": "⚙️ Tratamento não é só \"mexer\" no dado",
-  "status": "fechado",
-  "assignees": [
-   "Lucas de Lima Batista"
-  ],
-  "due": 1766041200000,
-  "url": "https://app.clickup.com/t/86adhthab",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86adhth9u",
-  "name": "🚨 Saúde e Religião: Cuidado redobrado!",
-  "status": "fechado",
-  "assignees": [
-   "Lucas de Lima Batista"
-  ],
-  "due": 1765436400000,
-  "url": "https://app.clickup.com/t/86adhth9u",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86adhth99",
-  "name": "🆔 CPF é dado pessoal. A placa do carro também?",
-  "status": "fechado",
-  "assignees": [
-   "Lucas de Lima Batista"
-  ],
-  "due": 1764831600000,
-  "url": "https://app.clickup.com/t/86adhth99",
-  "doneAt": 1785879594887
- },
- {
   "id": "86acugmz2",
-  "name": "Workshop 3 - “O fator humano: como não ser o elo fraco da segurança”",
+  "name": "Workshop 3 - O fator humano na segurança",
   "status": "aberto",
   "assignees": [
    "João Alves",
@@ -1532,32 +867,8 @@
   "url": "https://app.clickup.com/t/86acugmz2"
  },
  {
-  "id": "86acugmry",
-  "name": "Workshop 2 - “Dia da Internet Segura”",
-  "status": "fechado",
-  "assignees": [
-   "João Alves",
-   "Lucas de Lima Batista"
-  ],
-  "due": 1770966000000,
-  "url": "https://app.clickup.com/t/86acugmry",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86acugmkr",
-  "name": "Workshop 1 - “Privacidade de Dados no Dia a Dia: O que a LGPD realmente muda para você”",
-  "status": "fechado",
-  "assignees": [
-   "João Alves",
-   "Lucas de Lima Batista"
-  ],
-  "due": 1763103600000,
-  "url": "https://app.clickup.com/t/86acugmkr",
-  "doneAt": 1785879594887
- },
- {
   "id": "86acqqp85",
-  "name": "17.3. Estabelecer e manter um processo empresarial para relatar incidentes",
+  "name": "17.3 Processo empresarial para relatar incidentes (CIS)",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -1565,28 +876,8 @@
   "url": "https://app.clickup.com/t/86acqqp85"
  },
  {
-  "id": "86acqqnvq",
-  "name": "17.2. Estabelecer e manter informações de contato para relatar incidentes de segurança",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqqnvq",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86acqqnj9",
-  "name": "17.1. Designar pessoal para gerenciar o tratamento de incidentes",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqqnj9",
-  "doneAt": 1785879594887
- },
- {
   "id": "86acqqn54",
-  "name": "17. Resposta a Incidentes",
+  "name": "17. Resposta a Incidentes (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1595,7 +886,7 @@
  },
  {
   "id": "86acqqhmc",
-  "name": "15.1. Estabelecer e manter um inventário de provedores de serviços",
+  "name": "15.1 Inventário de provedores de serviços (CIS)",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -1604,7 +895,7 @@
  },
  {
   "id": "86acqqhdj",
-  "name": "15. Controle de Acesso Remoto",
+  "name": "15. Controle de Acesso Remoto (CIS)",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -1613,7 +904,7 @@
  },
  {
   "id": "86acqqg55",
-  "name": "14.8. Treine a força de trabalho sobre os perigos de se conectar e transmitir dados corporativos por redes inseguras",
+  "name": "14.8 Treinar sobre redes inseguras (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1622,7 +913,7 @@
  },
  {
   "id": "86acqqfr3",
-  "name": "14.7. Treine a força de trabalho sobre como identificar e relatar se seus ativos corporativos estão sem atualizações de segurança",
+  "name": "14.7 Treinar sobre ativos sem atualização de segurança (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1631,7 +922,7 @@
  },
  {
   "id": "86acqqffh",
-  "name": "14.6. Treinar os membros da força de trabalho sobre como reconhecer e relatar incidentes de segurança",
+  "name": "14.6 Treinar a reconhecer e relatar incidentes (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1640,7 +931,7 @@
  },
  {
   "id": "86acqqf89",
-  "name": "14.5. Treinar os membros da força de trabalho sobre as causas da exposição não intencional de dados",
+  "name": "14.5 Treinar sobre exposição não intencional de dados (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1649,7 +940,7 @@
  },
  {
   "id": "86acqqeye",
-  "name": "14.4. Treinar a força de trabalho nas melhores práticas de tratamento de dados",
+  "name": "14.4 Treinar melhores práticas de tratamento de dados (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1658,7 +949,7 @@
  },
  {
   "id": "86acqq8n9",
-  "name": "14.3. Treinar os membros da força de trabalho sobre as melhores práticas de autenticação",
+  "name": "14.3 Treinar melhores práticas de autenticação (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1667,7 +958,7 @@
  },
  {
   "id": "86acqq8e9",
-  "name": "14.2. Treinar os membros da força de trabalho para reconhecer ataques de engenharia social",
+  "name": "14.2 Treinar a reconhecer engenharia social (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1676,7 +967,7 @@
  },
  {
   "id": "86acqq7zv",
-  "name": "14.1. Estabelecer e manter um programa de conscientização sobre segurança",
+  "name": "14.1 Programa de conscientização sobre segurança (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1685,7 +976,7 @@
  },
  {
   "id": "86acqq7mv",
-  "name": "14. Treinamento de Segurança",
+  "name": "14. Treinamento de Segurança (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1694,7 +985,7 @@
  },
  {
   "id": "86acqq6mg",
-  "name": "12.1. Garanta que a infraestrutura de rede esteja atualizada",
+  "name": "12.1 Infraestrutura de rede atualizada (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1703,7 +994,7 @@
  },
  {
   "id": "86acqq5wb",
-  "name": "12. Segurança de Rede",
+  "name": "12. Segurança de Rede (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1712,7 +1003,7 @@
  },
  {
   "id": "86acqq4wp",
-  "name": "11.4. Estabelecer e manter uma instância isolada de dados de recuperação",
+  "name": "11.4 Instância isolada de dados de recuperação (CIS)",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -1721,7 +1012,7 @@
  },
  {
   "id": "86acqq4hq",
-  "name": "11.3. Proteger dados de recuperação",
+  "name": "11.3 Proteger dados de recuperação (CIS)",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -1729,18 +1020,8 @@
   "url": "https://app.clickup.com/t/86acqq4hq"
  },
  {
-  "id": "86acqq472",
-  "name": "11.2. Executar backups automatizados",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqq472",
-  "doneAt": 1785879594887
- },
- {
   "id": "86acqq3wr",
-  "name": "11.1. Estabelecer e manter um processo de recuperação de dados",
+  "name": "11.1 Processo de recuperação de dados (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1749,7 +1030,7 @@
  },
  {
   "id": "86acqq31r",
-  "name": "11. Testes de Segurança",
+  "name": "11. Testes de Segurança (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1758,7 +1039,7 @@
  },
  {
   "id": "86acqq2gd",
-  "name": "10.3. Desativar execução automática e reprodução automática para mídia removível",
+  "name": "10.3 Desativar autorun/autoplay em mídia removível (CIS)",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -1767,7 +1048,7 @@
  },
  {
   "id": "86acqq29j",
-  "name": "10.2. Configurar atualizações automáticas de assinatura antimalware",
+  "name": "10.2 Atualizações automáticas de antimalware (CIS)",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -1776,7 +1057,7 @@
  },
  {
   "id": "86acqq24p",
-  "name": "10.1. Implantar e manter software antimalware",
+  "name": "10.1 Implantar software antimalware (CIS)",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -1785,7 +1066,7 @@
  },
  {
   "id": "86acqq1y8",
-  "name": "10. Backups",
+  "name": "10. Backups (CIS)",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -1794,7 +1075,7 @@
  },
  {
   "id": "86acqq1fk",
-  "name": "9.2. Usar serviços de filtragem de DNS",
+  "name": "9.2 Serviços de filtragem de DNS (CIS)",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -1803,7 +1084,7 @@
  },
  {
   "id": "86acqq1av",
-  "name": "9.1. Garanta o uso somente de navegadores e clientes de e-mail totalmente compatíveis",
+  "name": "9.1 Uso somente de navegadores/clientes de e-mail suportados (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1812,7 +1093,7 @@
  },
  {
   "id": "86acqq15k",
-  "name": "9. Limitação de Portas/Serviços",
+  "name": "9. Limitação de Portas/Serviços (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1821,7 +1102,7 @@
  },
  {
   "id": "86acqm0xk",
-  "name": "8.3. Garantir armazenamento adequado do log de auditoria",
+  "name": "8.3 Armazenamento adequado de log de auditoria (CIS)",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -1830,7 +1111,7 @@
  },
  {
   "id": "86acqm0t7",
-  "name": "8.2. Coletar Logs de Auditoria",
+  "name": "8.2 Coletar Logs de Auditoria (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1839,7 +1120,7 @@
  },
  {
   "id": "86acqm0pd",
-  "name": "8.1. Estabelecer e manter um processo de gerenciamento de logs de auditoria",
+  "name": "8.1 Processo de gerenciamento de logs de auditoria (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1848,7 +1129,7 @@
  },
  {
   "id": "86acqm0h6",
-  "name": "8. Defesa contra Malware",
+  "name": "8. Defesa contra Malware (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1857,7 +1138,7 @@
  },
  {
   "id": "86acqkmxn",
-  "name": "7.4. Executar gerenciamento automatizado de patches de aplicativos",
+  "name": "7.4 Gerenciamento automatizado de patches de aplicativos (CIS)",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -1866,7 +1147,7 @@
  },
  {
   "id": "86acqkmqg",
-  "name": "7.3. Executar gerenciamento automatizado de patches do sistema operacional\n",
+  "name": "7.3 Gerenciamento automatizado de patches do SO (CIS)",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -1875,7 +1156,7 @@
  },
  {
   "id": "86acqkmne",
-  "name": "7.2. Estabelecer e manter um processo de remediação",
+  "name": "7.2 Processo de remediação (CIS)",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -1883,18 +1164,8 @@
   "url": "https://app.clickup.com/t/86acqkmne"
  },
  {
-  "id": "86acqkm6g",
-  "name": "7.1. Estabelecer e manter um processo de gerenciamento de vulnerabilidades",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqkm6g",
-  "doneAt": 1785879594887
- },
- {
   "id": "86acqkkun",
-  "name": "7. Auditoria e Logs",
+  "name": "7. Auditoria e Logs (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1902,18 +1173,8 @@
   "url": "https://app.clickup.com/t/86acqkkun"
  },
  {
-  "id": "86acqkefb",
-  "name": "6.5. Exigir MFA para acesso administrativo",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqkefb",
-  "doneAt": 1785879594887
- },
- {
   "id": "86acqkeb2",
-  "name": "6.4. Exigir MFA para acesso remoto à rede",
+  "name": "6.4 Exigir MFA para acesso remoto à rede (CIS)",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -1922,7 +1183,7 @@
  },
  {
   "id": "86acqke5x",
-  "name": "6.3. Exigir MFA para aplicações expostas externamente",
+  "name": "6.3 Exigir MFA para aplicações externas (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1930,28 +1191,8 @@
   "url": "https://app.clickup.com/t/86acqke5x"
  },
  {
-  "id": "86acqke0u",
-  "name": "6.2. Estabelecer um processo de revogação de acesso",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqke0u",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86acqkdvz",
-  "name": "6.1. Estabelecer um processo de concessão de acesso",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqkdvz",
-  "doneAt": 1785879594887
- },
- {
   "id": "86acqkdnc",
-  "name": "6. Manutenção de Sistemas",
+  "name": "6. Manutenção de Sistemas (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -1959,88 +1200,8 @@
   "url": "https://app.clickup.com/t/86acqkdnc"
  },
  {
-  "id": "86acqk2gy",
-  "name": "5.4. Restringir privilégios de administrador a contas de administrador dedicadas",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqk2gy",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86acqk2d8",
-  "name": "5.3. Desativar contas inativas",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqk2d8",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86acqk2bn",
-  "name": "5.2. Use senhas exclusivas",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqk2bn",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86acqk28c",
-  "name": "5.1. Estabelecer e manter um inventário de contas",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqk28c",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86acqk234",
-  "name": "5. Configuração Segura",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqk234",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86acqk1hj",
-  "name": "4.7. Gerenciar contas padrão em ativos e softwares corporativos",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqk1hj",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86acqk1et",
-  "name": "4.6. Gerencie com segurança ativos e softwares corporativos",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqk1et",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86acqk1by",
-  "name": "4.5. Implementar e gerenciar um firewall em dispositivos de usuários finais",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqk1by",
-  "doneAt": 1785879594887
- },
- {
   "id": "86acqk153",
-  "name": "4.4. Implementar e gerenciar um firewall em Servidores",
+  "name": "4.4 Firewall em servidores (CIS)",
   "status": "aberto",
   "assignees": [
    "João Alves"
@@ -2049,7 +1210,7 @@
  },
  {
   "id": "86acqk11c",
-  "name": "4.3. Configurar bloqueio automático de sessão em ativos corporativos",
+  "name": "4.3 Bloqueio automático de sessão (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -2057,28 +1218,8 @@
   "url": "https://app.clickup.com/t/86acqk11c"
  },
  {
-  "id": "86acqk0wx",
-  "name": "4.2. Estabelecer e manter um processo de configuração seguro para infraestrutura de rede",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqk0wx",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86acqk0tu",
-  "name": "4.1. Estabelecer e manter um processo de configuração seguro",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqk0tu",
-  "doneAt": 1785879594887
- },
- {
   "id": "86acqk0p4",
-  "name": "4. Controle de Permissões",
+  "name": "4. Controle de Permissões (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -2086,18 +1227,8 @@
   "url": "https://app.clickup.com/t/86acqk0p4"
  },
  {
-  "id": "86acqjzyv",
-  "name": "3.6. Criptografar dados em dispositivos do usuário final",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqjzyv",
-  "doneAt": 1785879594887
- },
- {
   "id": "86acqjzvc",
-  "name": "3.5. Descarte de dados com segurança",
+  "name": "3.5 Descarte de dados com segurança (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -2105,38 +1236,8 @@
   "url": "https://app.clickup.com/t/86acqjzvc"
  },
  {
-  "id": "86acqjzrt",
-  "name": "3.4. Aplicar retenção de dados",
-  "status": "fechado",
-  "assignees": [
-   "Augusto Rossi"
-  ],
-  "url": "https://app.clickup.com/t/86acqjzrt",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86acqjzky",
-  "name": "3.3. Configurar listas de controle de acesso a dados",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqjzky",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86acqjzer",
-  "name": "3.2. Estabelecer e manter um inventário de dados",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqjzer",
-  "doneAt": 1785879594887
- },
- {
   "id": "86acqjzar",
-  "name": "3.1. Estabelecer e manter um processo de gerenciamento de dados",
+  "name": "3.1 Processo de gerenciamento de dados (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -2145,7 +1246,7 @@
  },
  {
   "id": "86acqjz2u",
-  "name": "3. Gerenciamento de Vulnerabilidades",
+  "name": "3. Gerenciamento de Vulnerabilidades (CIS)",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -2153,78 +1254,8 @@
   "url": "https://app.clickup.com/t/86acqjz2u"
  },
  {
-  "id": "86acqjtwy",
-  "name": "2.3. Endereço de software não autorizado",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqjtwy",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86acqjtrn",
-  "name": "2.2. Garantir que o software autorizado tenha suporte atual",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqjtrn",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86acqjtfe",
-  "name": "2.1. Estabelecer e manter um inventário de software",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqjtfe",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86acqjt5a",
-  "name": "2. Inventário de software",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqjt5a",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86acqjre1",
-  "name": "1.2. Endereço de ativos não autorizados",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqjre1",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86acqjr6e",
-  "name": "1.1. Estabelecer e manter um inventário detalhado de ativos empresariais",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqjr6e",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86acqjqed",
-  "name": "1. Inventário de ativos",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86acqjqed",
-  "doneAt": 1785879594887
- },
- {
   "id": "86abxr65r",
-  "name": "Envio de email com o arquivo da Política de AI pelo Comitê",
+  "name": "Envio de e-mail com Política de IA pelo Comitê",
   "status": "aberto",
   "assignees": [
    "João Alves",
@@ -2244,7 +1275,7 @@
  },
  {
   "id": "86abxr5yk",
-  "name": "Política Contratação Fornecedor (ou PR?) - com critérios de homologação",
+  "name": "Política de Contratação de Fornecedor (critérios de homologação)",
   "status": "aberto",
   "assignees": [
    "João Alves",
@@ -2254,7 +1285,7 @@
  },
  {
   "id": "86abxr5vj",
-  "name": "Divulgação do arquivo da Política de Descarte para Comitê",
+  "name": "Divulgação da Política de Descarte para o Comitê",
   "status": "aberto",
   "assignees": [
    "João Alves",
@@ -2273,19 +1304,8 @@
   "url": "https://app.clickup.com/t/86abxr5rd"
  },
  {
-  "id": "86abxr5kn",
-  "name": "Política de Descarte de Dados",
-  "status": "fechado",
-  "assignees": [
-   "João Alves",
-   "Lucas de Lima Batista"
-  ],
-  "url": "https://app.clickup.com/t/86abxr5kn",
-  "doneAt": 1785879594887
- },
- {
   "id": "86abxr5gd",
-  "name": "Envio de email com o arquivo da Política de Gestão de Incidentes pelo Comitê",
+  "name": "Envio de e-mail - Política de Gestão de Incidentes pelo Comitê",
   "status": "aberto",
   "assignees": [
    "João Alves",
@@ -2295,7 +1315,7 @@
  },
  {
   "id": "86abxr5ch",
-  "name": "Validação Política de Gestão de Incidentes  pelo Comitê",
+  "name": "Validação da Política de Gestão de Incidentes pelo Comitê",
   "status": "aberto",
   "assignees": [
    "João Alves",
@@ -2305,7 +1325,7 @@
  },
  {
   "id": "86abxr5ah",
-  "name": "Envio de email com o arquivo da Política de Gestão de Incidentes pelo Comitê",
+  "name": "Envio de e-mail - Política de Gestão de Incidentes (2ª rodada)",
   "status": "aberto",
   "assignees": [
    "João Alves",
@@ -2314,19 +1334,8 @@
   "url": "https://app.clickup.com/t/86abxr5ah"
  },
  {
-  "id": "86abxr50y",
-  "name": "Revisão Politica de Gestão de Incidentes de Cibersegurança",
-  "status": "fechado",
-  "assignees": [
-   "João Alves",
-   "Lucas de Lima Batista"
-  ],
-  "url": "https://app.clickup.com/t/86abxr50y",
-  "doneAt": 1785879594887
- },
- {
   "id": "86abxr4em",
-  "name": "Validação Política de Segurança da Informação  pelo Comitê (Arquivo Correto)",
+  "name": "Validação da Política de Segurança da Informação pelo Comitê",
   "status": "aberto",
   "assignees": [
    "João Alves",
@@ -2335,117 +1344,13 @@
   "url": "https://app.clickup.com/t/86abxr4em"
  },
  {
-  "id": "86abxr4b4",
-  "name": "Revisão da Política de Segurança da Informação",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86abxr4b4",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86abxr47z",
-  "name": "Revisão da PP no site da Binario Net e desenvolvimento área de PP no site da Cloud.",
-  "status": "fechado",
-  "assignees": [
-   "João Alves",
-   "Lucas de Lima Batista"
-  ],
-  "url": "https://app.clickup.com/t/86abxr47z",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86abxr0rx",
-  "name": "Validação Política de Privacidade pelo Comitê",
-  "status": "fechado",
-  "assignees": [
-   "João Alves",
-   "Lucas de Lima Batista"
-  ],
-  "url": "https://app.clickup.com/t/86abxr0rx",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86abxr0nd",
-  "name": "Envio da minuta para aprovação do Comitê",
-  "status": "fechado",
-  "assignees": [
-   "João Alves",
-   "Lucas de Lima Batista"
-  ],
-  "url": "https://app.clickup.com/t/86abxr0nd",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86abxr0hh",
-  "name": "Revisão Política Privacidade",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86abxr0hh",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86abxqwma",
-  "name": "Divulgação após aprovação do Comitê.",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "due": 1777964400000,
-  "url": "https://app.clickup.com/t/86abxqwma",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86abxqwab",
-  "name": "Validação jurídica da Instrução de governança do Comitê de Cibersegurança",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86abxqwab",
-  "doneAt": 1785879594887
- },
- {
   "id": "86abxqw5h",
-  "name": "Elaboração Instrução de Governança do Comitê de Cibersegurança",
+  "name": "Elaboração da Instrução de Governança do Comitê de Cibersegurança",
   "status": "revisando",
   "assignees": [
    "João Alves"
   ],
   "url": "https://app.clickup.com/t/86abxqw5h"
- },
- {
-  "id": "86abxqvyd",
-  "name": "Abertura de diretório específico para o Comitê",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86abxqvyd",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86abxqvv3",
-  "name": "Estruturação da governança inicial do Comitê (reuniões mensais, cadeiras fixas e convidadas)",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86abxqvv3",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86abxqvqx",
-  "name": "Implantação Comitê de Cibersegurança",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86abxqvqx",
-  "doneAt": 1785879594887
  },
  {
   "id": "86abxqq3m",
@@ -2459,7 +1364,7 @@
  },
  {
   "id": "86abxqpyv",
-  "name": "Treinamento Inicial (LGPD e Seg, Informação)",
+  "name": "Treinamento inicial (LGPD e Segurança da Informação)",
   "status": "em andamento",
   "assignees": [
    "João Alves",
@@ -2469,33 +1374,12 @@
  },
  {
   "id": "86abxqnqv",
-  "name": "Divulgação canal para o público externo pelo site e estruturação do canal de comunicação de DPO com formulário (público interno)",
+  "name": "Divulgação do canal DPO (externo e interno)",
   "status": "em andamento",
   "assignees": [
    "Lucas de Lima Batista"
   ],
   "url": "https://app.clickup.com/t/86abxqnqv"
- },
- {
-  "id": "86abxqnj0",
-  "name": "Estruturação dos gestores de recebimento de email desse canal",
-  "status": "fechado",
-  "assignees": [
-   "João Alves"
-  ],
-  "url": "https://app.clickup.com/t/86abxqnj0",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86abxqnfb",
-  "name": "Envio de email corporativo divulgando o canal internamente.",
-  "status": "fechado",
-  "assignees": [
-   "Lucas de Lima Batista"
-  ],
-  "due": 1764486000000,
-  "url": "https://app.clickup.com/t/86abxqnfb",
-  "doneAt": 1785879594887
  },
  {
   "id": "86abxqmqd",
@@ -2508,7 +1392,7 @@
  },
  {
   "id": "86abxqkxw",
-  "name": "Capacitação e Ações de Conscientização",
+  "name": "Capacitação e ações de conscientização",
   "status": "em andamento",
   "assignees": [
    "João Alves"
@@ -2542,149 +1426,26 @@
    "João Alves",
    "Lucas de Lima Batista"
   ],
-  "due": 1777532400000,
   "url": "https://app.clickup.com/t/86abxqeun"
  },
  {
   "id": "86abxqek5",
-  "name": "Envio do inventario para o Comitê",
+  "name": "Envio do inventário para o Comitê",
   "status": "em andamento",
   "assignees": [
    "Lucas de Lima Batista"
   ],
-  "due": 1774854000000,
   "url": "https://app.clickup.com/t/86abxqek5"
  },
  {
-  "id": "86abxqef1",
-  "name": "Avaliação DPO  dos templates básico preenchidos",
-  "status": "fechado",
-  "assignees": [
-   "João Alves",
-   "Lucas de Lima Batista"
-  ],
-  "url": "https://app.clickup.com/t/86abxqef1",
-  "doneAt": 1785879594887
- },
- {
   "id": "86abxqe81",
-  "name": "Avaliação governança dos templates básico preenchidos",
+  "name": "Avaliação de governança dos templates preenchidos",
   "status": "em andamento",
   "assignees": [
    "João Alves",
    "Lucas de Lima Batista"
   ],
   "url": "https://app.clickup.com/t/86abxqe81"
- },
- {
-  "id": "86abxqe4x",
-  "name": "Avaliação jurídica dos templates básico preenchidos",
-  "status": "fechado",
-  "assignees": [
-   "João Alves",
-   "Lucas de Lima Batista"
-  ],
-  "url": "https://app.clickup.com/t/86abxqe4x",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86abxqdzd",
-  "name": "Reunião semanal (40min) - Jur-Gov-DPO para alinhamento conformidade inventário de dados",
-  "status": "fechado",
-  "assignees": [
-   "João Alves",
-   "Lucas de Lima Batista"
-  ],
-  "url": "https://app.clickup.com/t/86abxqdzd",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86abxqdvh",
-  "name": "Ajustes finais dos templates",
-  "status": "fechado",
-  "assignees": [
-   "João Alves",
-   "Lucas de Lima Batista"
-  ],
-  "url": "https://app.clickup.com/t/86abxqdvh",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86abxqdp4",
-  "name": "Envio do template basico para as áreas para preenchimento (prazo 2 a 3 semanas)",
-  "status": "fechado",
-  "assignees": [
-   "João Alves",
-   "Lucas de Lima Batista"
-  ],
-  "url": "https://app.clickup.com/t/86abxqdp4",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86abxqbzc",
-  "name": "Conversa com a Liderança sobre a construção do Inventário ",
-  "status": "fechado",
-  "assignees": [
-   "João Alves",
-   "Lucas de Lima Batista"
-  ],
-  "url": "https://app.clickup.com/t/86abxqbzc",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86abxqbtc",
-  "name": "Envio de email corporativo informando sobre o preenchimento do inventário para os Data Ownerships",
-  "status": "fechado",
-  "assignees": [
-   "João Alves",
-   "Lucas de Lima Batista"
-  ],
-  "url": "https://app.clickup.com/t/86abxqbtc",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86abxqbjh",
-  "name": "Fase 1 - Avaliação do jurídico e preenchimento inicial do inventário de dados",
-  "status": "fechado",
-  "assignees": [
-   "João Alves",
-   "Lucas de Lima Batista"
-  ],
-  "url": "https://app.clickup.com/t/86abxqbjh",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86abxqbaz",
-  "name": "Fase 1 - Retorno do formulário preenchido pelas áreas",
-  "status": "fechado",
-  "assignees": [
-   "João Alves",
-   "Lucas de Lima Batista"
-  ],
-  "url": "https://app.clickup.com/t/86abxqbaz",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86abxqazj",
-  "name": "Fase 1 - Piloto (envio para áreas iniciais escolhidas)",
-  "status": "fechado",
-  "assignees": [
-   "João Alves",
-   "Lucas de Lima Batista"
-  ],
-  "url": "https://app.clickup.com/t/86abxqazj",
-  "doneAt": 1785879594887
- },
- {
-  "id": "86abxqant",
-  "name": "Construção do template basico para preenchimento das áreas",
-  "status": "fechado",
-  "assignees": [
-   "João Alves",
-   "Lucas de Lima Batista"
-  ],
-  "url": "https://app.clickup.com/t/86abxqant",
-  "doneAt": 1785879594887
  },
  {
   "id": "86abxq99v",
