@@ -1,7 +1,7 @@
 [
  {
   "id": "86ajvu86k",
-  "name": "Montar ambiente com usuário e senha para demonstração para cliente com tudo 100% funcionando (billing, bc-backup, monitoração,  marketplace, MFA, calculadora, perfil de acesso(admin, financeiro, operador), com maquinas criadas, com dados para demonstrar.",
+  "name": "Montar ambiente com usuário e senha para demonstração para cliente (billing, bc-backup, monitoração, marketplace, MFA, calculadora, perfis)",
   "status": "impedimento",
   "assignees": [
    "Rodney Botelho"
@@ -11,7 +11,7 @@
  },
  {
   "id": "86ajj3tdm",
-  "name": "Criar processo  de renovação de serviço gerenciado",
+  "name": "Criar processo de renovação de serviço gerenciado",
   "status": "impedimento",
   "assignees": [
    "Rodney Botelho",
@@ -19,17 +19,6 @@
   ],
   "due": 1785481200000,
   "url": "https://app.clickup.com/t/86ajj3tdm"
- },
- {
-  "id": "86ajgemrt",
-  "name": "POC WL BTech",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1785222000000,
-  "url": "https://app.clickup.com/t/86ajgemrt",
-  "doneAt": 1785879488743
  },
  {
   "id": "86aj3w2uk",
@@ -43,7 +32,7 @@
  },
  {
   "id": "86aj30q9k",
-  "name": "Homologar Pre-Vendas para ISO 9001",
+  "name": "Homologar Pré-Vendas para ISO 9001",
   "status": "rejeitada",
   "assignees": [
    "Rodney Botelho"
@@ -61,17 +50,6 @@
   "url": "https://app.clickup.com/t/86aj30ptn"
  },
  {
-  "id": "86aj30pjy",
-  "name": "Montar apresentação / proposta do White Label",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1785135600000,
-  "url": "https://app.clickup.com/t/86aj30pjy",
-  "doneAt": 1785879494079
- },
- {
   "id": "86aj30p6w",
   "name": "Criar Assistente de Pré-Vendas sofIA",
   "status": "em andamento",
@@ -82,122 +60,8 @@
   "url": "https://app.clickup.com/t/86aj30p6w"
  },
  {
-  "id": "86aj30nrz",
-  "name": "Criar estrutura das documentações e videos baseados no menu",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "url": "https://app.clickup.com/t/86aj30nrz",
-  "doneAt": 1784146208945
- },
- {
-  "id": "86aj30n7g",
-  "name": "Ajustar apresentação Tática e adicionar SLA das propostas",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "url": "https://app.clickup.com/t/86aj30n7g",
-  "doneAt": 1784146176764
- },
- {
-  "id": "86agcw1hy",
-  "name": "Treinamento sobre 1º Apresentação Institucional Binario Cloud",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1774681200000,
-  "url": "https://app.clickup.com/t/86agcw1hy",
-  "doneAt": 1786561893367
- },
- {
-  "id": "86af3bg8c",
-  "name": "Checklist padrão das informações técnicas necessárias para elaboração de propostas - FW",
-  "status": "fechado",
-  "assignees": [
-   "Allan David dos Santos Alves"
-  ],
-  "due": 1770966000000,
-  "url": "https://app.clickup.com/t/86af3bg8c",
-  "doneAt": 1782411965581
- },
- {
-  "id": "86af3bg3b",
-  "name": "Checklist padrão das informações técnicas necessárias para elaboração de propostas - Storage",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1770966000000,
-  "url": "https://app.clickup.com/t/86af3bg3b",
-  "doneAt": 1782411965581
- },
- {
-  "id": "86af3bfc3",
-  "name": "Checklist padrão das informações técnicas necessárias para elaboração de propostas - Container",
-  "status": "fechado",
-  "assignees": [
-   "Allan David dos Santos Alves"
-  ],
-  "due": 1770966000000,
-  "url": "https://app.clickup.com/t/86af3bfc3",
-  "doneAt": 1782411965581
- },
- {
-  "id": "86af3bf7u",
-  "name": "Checklist padrão das informações técnicas necessárias para elaboração de propostas - VM",
-  "status": "fechado",
-  "assignees": [
-   "Vitoria Machado"
-  ],
-  "due": 1770966000000,
-  "url": "https://app.clickup.com/t/86af3bf7u",
-  "doneAt": 1782411965581
- },
- {
-  "id": "86af3bd52",
-  "name": "Checklist padrão das informações técnicas necessárias para elaboração de propostas - Backup",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1770966000000,
-  "url": "https://app.clickup.com/t/86af3bd52",
-  "doneAt": 1781125666907
- },
- {
-  "id": "86af3bbaz",
-  "name": "Apresentação do Novo Portifolio",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "url": "https://app.clickup.com/t/86af3bbaz",
-  "doneAt": 1782412009724
- },
- {
-  "id": "86af3b9ty",
-  "name": "Apresentação de Papel e Responsabilidade",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86af3b9ty",
-  "doneAt": 1781125666907
- },
- {
-  "id": "86af3b79e",
-  "name": "Apresentação da Area de prevendas",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "url": "https://app.clickup.com/t/86af3b79e",
-  "doneAt": 1782412009724
- },
- {
   "id": "86aexma93",
-  "name": "Laboratório de Coriolis para criação de cenários de migrações.",
+  "name": "Laboratório de Coriolis para criação de cenários de migrações",
   "status": "rejeitada",
   "assignees": [],
   "due": 1773990000000,
@@ -205,7 +69,7 @@
  },
  {
   "id": "86aexj1mp",
-  "name": "Apresentação Processo de Migração Binario Cloud",
+  "name": "Apresentação Processo de Migração Binário Cloud",
   "status": "impedimento",
   "assignees": [
    "Rodney Botelho"
@@ -214,74 +78,8 @@
   "url": "https://app.clickup.com/t/86aexj1mp"
  },
  {
-  "id": "86aex55hj",
-  "name": "Pre-Requisito e Cenários para Construção de POC",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1769756400000,
-  "url": "https://app.clickup.com/t/86aex55hj",
-  "doneAt": 1781125666907
- },
- {
-  "id": "86aex1994",
-  "name": "Criação da Trilha de Desenvolvimento Especialista BCP",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1771311600000,
-  "url": "https://app.clickup.com/t/86aex1994",
-  "doneAt": 1782411784650
- },
- {
-  "id": "86aex18fe",
-  "name": "Marcar visita Odata (DC)",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1785740400000,
-  "url": "https://app.clickup.com/t/86aex18fe",
-  "doneAt": 1785879491614
- },
- {
-  "id": "86aex1542",
-  "name": "Apresentação por Setor (Estratégia Comercial)",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1773990000000,
-  "url": "https://app.clickup.com/t/86aex1542",
-  "doneAt": 1782412227206
- },
- {
-  "id": "86aex14fe",
-  "name": "Apresentação do novo Portfolio binario cloud",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1770966000000,
-  "url": "https://app.clickup.com/t/86aex14fe",
-  "doneAt": 1782411921046
- },
- {
-  "id": "86aex13rv",
-  "name": "Treinamento Comercial",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1770966000000,
-  "url": "https://app.clickup.com/t/86aex13rv",
-  "doneAt": 1782412009724
- },
- {
   "id": "86aex10jn",
-  "name": "Criar os diagramas de arquitetura para cada serviço da Binario Cloud",
+  "name": "Criar diagramas de arquitetura para cada serviço da Binário Cloud",
   "status": "rejeitada",
   "assignees": [
    "Rodney Botelho"
@@ -290,131 +88,13 @@
   "url": "https://app.clickup.com/t/86aex10jn"
  },
  {
-  "id": "86aewrcd3",
-  "name": "Solicitado para o Time de Engenharia os acessos as console e previlegio de construção de ambiente POC",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "url": "https://app.clickup.com/t/86aewrcd3",
-  "doneAt": 1785960821428
- },
- {
-  "id": "86aepfyqc",
-  "name": "Fazer doc de cada fucionalidade",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "url": "https://app.clickup.com/t/86aepfyqc",
-  "doneAt": 1781125666907
- },
- {
-  "id": "86aepfv4e",
-  "name": "Gravar Video demostrativos",
-  "status": "fechado",
-  "assignees": [
-   "Vitoria Machado"
-  ],
-  "due": 1772175600000,
-  "url": "https://app.clickup.com/t/86aepfv4e",
-  "doneAt": 1781633762785
- },
- {
-  "id": "86aepfv11",
-  "name": "Gerar relatório de GAP",
-  "status": "fechado",
-  "assignees": [
-   "Allan David dos Santos Alves"
-  ],
-  "url": "https://app.clickup.com/t/86aepfv11",
-  "doneAt": 1784146095102
- },
- {
-  "id": "86aepfuwc",
-  "name": "Validar caderno de Teste",
-  "status": "fechado",
-  "assignees": [
-   "Allan David dos Santos Alves"
-  ],
-  "due": 1777878000000,
-  "url": "https://app.clickup.com/t/86aepfuwc",
-  "doneAt": 1784146095102
- },
- {
   "id": "86aepfuaw",
-  "name": "Sessões mão na massa com o Comercial apresentação do BCP",
+  "name": "Sessões mão na massa com o Comercial - apresentação do BCP",
   "status": "concluído",
   "assignees": [
    "Rodney Botelho"
   ],
   "due": 1777878000000,
   "url": "https://app.clickup.com/t/86aepfuaw"
- },
- {
-  "id": "86aepftv6",
-  "name": "Transformar Allan e Vitória em especialista de BCP",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1785481200000,
-  "url": "https://app.clickup.com/t/86aepftv6",
-  "doneAt": 1782411784650
- },
- {
-  "id": "86ae58pm6",
-  "name": "Template de Levantamento Técnico (assessment)",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1769151600000,
-  "url": "https://app.clickup.com/t/86ae58pm6",
-  "doneAt": 1781125666907
- },
- {
-  "id": "86ae58ma1",
-  "name": "Checklist padrão das informações técnicas necessárias para elaboração de propostas.",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1769151600000,
-  "url": "https://app.clickup.com/t/86ae58ma1",
-  "doneAt": 1782411965581
- },
- {
-  "id": "86ae55bjr",
-  "name": "Cronograma de trabalho presencial (time)",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1767942000000,
-  "url": "https://app.clickup.com/t/86ae55bjr",
-  "doneAt": 1781125666907
- },
- {
-  "id": "86ae55bbd",
-  "name": "Refazer visão clickup",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1767337200000,
-  "url": "https://app.clickup.com/t/86ae55bbd",
-  "doneAt": 1781125666907
- },
- {
-  "id": "86ae55ar2",
-  "name": "Plano de 100dias",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1768028400000,
-  "url": "https://app.clickup.com/t/86ae55ar2",
-  "doneAt": 1781125666907
  }
 ]
