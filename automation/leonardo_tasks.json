@@ -1,5 +1,24 @@
 [
  {
+  "id": "86akj76vd",
+  "name": "Estudo das policies",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "due": 1792134000000,
+  "url": "https://app.clickup.com/t/86akj76vd"
+ },
+ {
+  "id": "86akj76gw",
+  "name": "Reformular controle de acesso - funcionários",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86akj76gw"
+ },
+ {
   "id": "86ak33ugq",
   "name": "Centralizar nossos projetos no GIT corporativo",
   "status": "aguardando retorno",
@@ -10,16 +29,6 @@
   "url": "https://app.clickup.com/t/86ak33ugq"
  },
  {
-  "id": "86ak0t950",
-  "name": "Apresentação do BOM",
-  "status": "concluído",
-  "assignees": [
-   "Leonardo Gonçalez"
-  ],
-  "due": 1786690800000,
-  "url": "https://app.clickup.com/t/86ak0t950"
- },
- {
   "id": "86ak0h5ya",
   "name": "Roadmap de Engenharia para o time Comercial (visão de negócio)",
   "status": "em andamento",
@@ -28,13 +37,6 @@
   ],
   "due": 1787036400000,
   "url": "https://app.clickup.com/t/86ak0h5ya"
- },
- {
-  "id": "86ajzq08d",
-  "name": "Connectway",
-  "status": "em andamento",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ajzq08d"
  },
  {
   "id": "86ajvyfac",
@@ -52,34 +54,8 @@
   "assignees": [
    "Leonardo Gonçalez"
   ],
+  "due": 1793343600000,
   "url": "https://app.clickup.com/t/86ajvx0jp"
- },
- {
-  "id": "86ajrg26r",
-  "name": "Dell",
-  "status": "aberto",
-  "assignees": [
-   "Leonardo Gonçalez"
-  ],
-  "url": "https://app.clickup.com/t/86ajrg26r"
- },
- {
-  "id": "86ajrg219",
-  "name": "Lenovo",
-  "status": "aguardando retorno",
-  "assignees": [
-   "Leonardo Gonçalez"
-  ],
-  "url": "https://app.clickup.com/t/86ajrg219"
- },
- {
-  "id": "86ajrfy36",
-  "name": "Avaliação de novos fornecedores de hardware",
-  "status": "concluído",
-  "assignees": [
-   "Leonardo Gonçalez"
-  ],
-  "url": "https://app.clickup.com/t/86ajrfy36"
  },
  {
   "id": "86ajr1wkz",
@@ -88,6 +64,7 @@
   "assignees": [
    "Leonardo Gonçalez"
   ],
+  "due": 1798700400000,
   "url": "https://app.clickup.com/t/86ajr1wkz"
  },
  {
@@ -97,6 +74,7 @@
   "assignees": [
    "Leonardo Gonçalez"
   ],
+  "due": 1801378800000,
   "url": "https://app.clickup.com/t/86ajr1wkw"
  },
  {
@@ -123,9 +101,9 @@
   "name": "Reformular controle de acesso - clientes",
   "status": "em andamento",
   "assignees": [
-   "Leonardo Gonçalez",
-   "João Alves"
+   "Leonardo Gonçalez"
   ],
+  "due": 1790146800000,
   "url": "https://app.clickup.com/t/86ajr1wkq"
  },
  {
@@ -135,6 +113,7 @@
   "assignees": [
    "Leonardo Gonçalez"
   ],
+  "due": 1790319600000,
   "url": "https://app.clickup.com/t/86ajr1v9q"
  },
  {
@@ -176,28 +155,29 @@
  {
   "id": "86aea8x8b",
   "name": "Resolver MongoDB versão 8.2",
-  "status": "aberto",
+  "status": "planejamento",
   "assignees": [
    "Leonardo Gonçalez"
   ],
+  "due": 1790838000000,
   "url": "https://app.clickup.com/t/86aea8x8b"
  },
  {
-  "id": "86akj76vd",
-  "name": "Estudo das policies",
-  "status": "aberto",
+  "id": "86ak0t950",
+  "name": "Apresentação do BOM",
+  "status": "concluído",
   "assignees": [
    "Leonardo Gonçalez"
   ],
-  "url": "https://app.clickup.com/t/86akj76vd"
+  "url": "https://app.clickup.com/t/86ak0t950"
  },
  {
-  "id": "86akj76gw",
-  "name": "Reformular controle de acesso - funcionários",
-  "status": "aberto",
+  "id": "86ajrfy36",
+  "name": "Avaliação de novos fornecedores de hardware",
+  "status": "concluído",
   "assignees": [
    "Leonardo Gonçalez"
   ],
-  "url": "https://app.clickup.com/t/86akj76gw"
+  "url": "https://app.clickup.com/t/86ajrfy36"
  }
 ]
