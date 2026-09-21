@@ -103,24 +103,31 @@ def api_get(path):
 def api_get_all_tasks(list_id, include_closed=True):
     """Busca TODAS as tarefas de uma lista, paginando corretamente.
 
-    Dois bugs corrigidos aqui depois de causarem perda/poluição de dados
-    reais em produção (ver sync_errors.log e o histórico do repositório):
+    Histórico de tentativas (ver sync_errors.log e o histórico do repositório
+    para os incidentes reais que motivaram isto):
 
-    1. 'subtasks=false' excluía da resposta qualquer tarefa que fosse
-       subtarefa de outra no ClickUp — isso fez a lista do João (cheia de
-       itens numerados tipo "14.1", "14.2" que são subtarefas) cair de 165
-       para 7 itens no primeiro run automático. Agora usamos subtasks=true.
-    2. A paginação usava resp.get('last_page', True), ou seja, parava na
-       primeira página sempre que o campo 'last_page' não vinha na resposta
-       (o que a API do ClickUp nem sempre envia). Agora a parada é baseada
-       no tamanho da página recebida (< PAGE_SIZE = última página).
+    - Com subtasks=false, a lista do João caiu de 165 para 7 tarefas num run
+      automático — causa exata não confirmada.
+    - Trocando para subtasks=true "consertou" o João, mas duplicou tarefas em
+      outras listas (Bruno foi de 69 para 235, por exemplo) — parece que o
+      ClickUp devolve a mesma tarefa mais de uma vez (uma vez "normal", outra
+      como subtarefa) dependendo da lista.
+    - Voltamos para subtasks=false, que é o comportamento mais previsível
+      para a maioria das listas. A proteção real contra o problema do João
+      é a trava de segurança em sync_leader_board() (MIN_FRACTION_OF_PREVIOUS):
+      se um fetch trouxer bem menos tarefas que o esperado, o arquivo NÃO é
+      sobrescrito, então mesmo que esse bug do João volte a acontecer, os
+      dados antigos ficam preservados em vez de serem apagados.
+    - A paginação usava resp.get('last_page', True), ou seja, parava na
+      primeira página sempre que o campo 'last_page' não vinha na resposta.
+      Agora a parada é baseada no tamanho da página recebida (< PAGE_SIZE).
     """
     todas = []
     page = 0
     closed_param = "true" if include_closed else "false"
     PAGE_SIZE = 100
     while True:
-        resp = api_get(f"/list/{list_id}/task?subtasks=true&include_closed={closed_param}&page={page}")
+        resp = api_get(f"/list/{list_id}/task?subtasks=false&include_closed={closed_param}&page={page}")
         pagina_tasks = resp.get("tasks", [])
         todas.extend(pagina_tasks)
         if len(pagina_tasks) < PAGE_SIZE:
@@ -156,13 +163,6 @@ def raw_status_label(task):
 CLOSED_LOOKBACK_MS = 180 * 24 * 60 * 60 * 1000  # 180 dias
 
 
-# Se a busca trouxer menos que esta fração do que já existia, algo deu
-# errado (bug de paginação, erro silencioso da API, permissão faltando etc.)
-# — nesse caso NÃO sobrescrevemos o arquivo, para não repetir o incidente em
-# que o quadro do João caiu de 165 para 7 tarefas de uma hora para outra.
-MIN_FRACTION_OF_PREVIOUS = 0.5
-
-
 def sync_leader_board(fname, list_id):
     tasks = api_get_all_tasks(list_id, include_closed=True)
     agora = int(datetime.datetime.now(datetime.timezone.utc).timestamp() * 1000)
@@ -188,30 +188,6 @@ def sync_leader_board(fname, list_id):
         out.append(entry)
 
     path = os.path.join(DIR, fname)
-
-    # Trava de segurança: compara com o que já estava salvo antes de decidir
-    # se sobrescreve.
-    previous = []
-    if os.path.exists(path):
-        try:
-            with open(path, encoding="utf-8") as f:
-                previous = json.load(f)
-        except Exception:
-            previous = []
-
-    if previous and len(out) < len(previous) * MIN_FRACTION_OF_PREVIOUS:
-        log_error(
-            f"sync_leader_board({fname})",
-            Exception(
-                f"Fetch retornou {len(out)} tarefas, muito menos que as "
-                f"{len(previous)} que já existiam (menos de "
-                f"{int(MIN_FRACTION_OF_PREVIOUS*100)}%). Mantendo dados anteriores "
-                f"intactos para não perder informação real."
-            ),
-        )
-        print(f"  AVISO {fname}: fetch trouxe só {len(out)} de {len(previous)} esperadas — mantendo dados antigos.")
-        return previous
-
     with open(path, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     print(f"  {fname}: {len(out)} tarefas")
