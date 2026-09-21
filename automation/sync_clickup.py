@@ -156,6 +156,13 @@ def raw_status_label(task):
 CLOSED_LOOKBACK_MS = 180 * 24 * 60 * 60 * 1000  # 180 dias
 
 
+# Se a busca trouxer menos que esta fração do que já existia, algo deu
+# errado (bug de paginação, erro silencioso da API, permissão faltando etc.)
+# — nesse caso NÃO sobrescrevemos o arquivo, para não repetir o incidente em
+# que o quadro do João caiu de 165 para 7 tarefas de uma hora para outra.
+MIN_FRACTION_OF_PREVIOUS = 0.5
+
+
 def sync_leader_board(fname, list_id):
     tasks = api_get_all_tasks(list_id, include_closed=True)
     agora = int(datetime.datetime.now(datetime.timezone.utc).timestamp() * 1000)
@@ -181,6 +188,30 @@ def sync_leader_board(fname, list_id):
         out.append(entry)
 
     path = os.path.join(DIR, fname)
+
+    # Trava de segurança: compara com o que já estava salvo antes de decidir
+    # se sobrescreve.
+    previous = []
+    if os.path.exists(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                previous = json.load(f)
+        except Exception:
+            previous = []
+
+    if previous and len(out) < len(previous) * MIN_FRACTION_OF_PREVIOUS:
+        log_error(
+            f"sync_leader_board({fname})",
+            Exception(
+                f"Fetch retornou {len(out)} tarefas, muito menos que as "
+                f"{len(previous)} que já existiam (menos de "
+                f"{int(MIN_FRACTION_OF_PREVIOUS*100)}%). Mantendo dados anteriores "
+                f"intactos para não perder informação real."
+            ),
+        )
+        print(f"  AVISO {fname}: fetch trouxe só {len(out)} de {len(previous)} esperadas — mantendo dados antigos.")
+        return previous
+
     with open(path, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     print(f"  {fname}: {len(out)} tarefas")
