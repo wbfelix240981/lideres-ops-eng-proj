@@ -31,13 +31,22 @@ DIR = os.path.dirname(os.path.abspath(__file__))
 ERROR_LOG_PATH = os.path.join(DIR, "sync_errors.log")
 
 # --- Mapeamento de listas do ClickUp ---------------------------------------
+# Cada lista pode precisar de um valor diferente para o parâmetro
+# "subtasks" da API do ClickUp — descobrimos isso na prática (ver
+# automation/sync_errors.log, entradas "DIAGNOSTICO", e o histórico do
+# repositório): a lista do João tem muitos itens que são tecnicamente
+# subtarefas no ClickUp (os controles numerados tipo "14.1", "14.2"), então
+# só aparecem por completo com subtasks=true. Já em outras listas (mais
+# "flat", sem essa hierarquia) subtasks=true faz o ClickUp devolver tarefas
+# duplicadas. Por isso o valor é configurado individualmente por lista, e
+# não como uma opção global.
 LEADER_LISTS = {
-    "wagner_tasks.json": "901326954601",
-    "bruno_tasks.json": "901318773612",
-    "leonardo_tasks.json": "901328009767",
-    "joao_tasks.json": "901326962545",
-    "gustavo_tasks.json": "901318774255",
-    "rodney_tasks.json": "901323507381",
+    "wagner_tasks.json": {"list_id": "901326954601", "subtasks": False},
+    "bruno_tasks.json": {"list_id": "901318773612", "subtasks": False},
+    "leonardo_tasks.json": {"list_id": "901328009767", "subtasks": False},
+    "joao_tasks.json": {"list_id": "901326962545", "subtasks": True},
+    "gustavo_tasks.json": {"list_id": "901318774255", "subtasks": False},
+    "rodney_tasks.json": {"list_id": "901323507381", "subtasks": False},
 }
 
 # Clientes de projeto (Soprema/Pleion) removidos da página de Projetos a
@@ -106,35 +115,23 @@ def api_get(path):
     raise RuntimeError(f"Falha ao buscar {url}: {last_err}")
 
 
-def api_get_all_tasks(list_id, include_closed=True):
+def api_get_all_tasks(list_id, include_closed=True, subtasks=False):
     """Busca TODAS as tarefas de uma lista, paginando corretamente.
 
-    Histórico de tentativas (ver sync_errors.log e o histórico do repositório
-    para os incidentes reais que motivaram isto):
-
-    - Com subtasks=false, a lista do João caiu de 165 para 7 tarefas num run
-      automático — causa exata não confirmada.
-    - Trocando para subtasks=true "consertou" o João, mas duplicou tarefas em
-      outras listas (Bruno foi de 69 para 235, por exemplo) — parece que o
-      ClickUp devolve a mesma tarefa mais de uma vez (uma vez "normal", outra
-      como subtarefa) dependendo da lista.
-    - Voltamos para subtasks=false, que é o comportamento mais previsível
-      para a maioria das listas. A proteção real contra o problema do João
-      é a trava de segurança em sync_leader_board() (MIN_FRACTION_OF_PREVIOUS):
-      se um fetch trouxer bem menos tarefas que o esperado, o arquivo NÃO é
-      sobrescrito, então mesmo que esse bug do João volte a acontecer, os
-      dados antigos ficam preservados em vez de serem apagados.
-    - A paginação usava resp.get('last_page', True), ou seja, parava na
-      primeira página sempre que o campo 'last_page' não vinha na resposta.
-      Agora a parada é baseada no tamanho da página recebida (< PAGE_SIZE).
+    O parâmetro "subtasks" precisa ser configurado por lista (ver
+    LEADER_LISTS) — diagnóstico real em automation/sync_errors.log mostrou
+    que a lista do João só devolve todos os itens com subtasks=true (ela tem
+    muitos itens que são tecnicamente subtarefas), enquanto outras listas
+    (mais "flat") duplicam tarefas quando subtasks=true é usado nelas.
     """
     todas = []
     page = 0
     closed_param = "true" if include_closed else "false"
+    subtasks_param = "true" if subtasks else "false"
     PAGE_SIZE = 100
     diag_pages = []
     while True:
-        resp = api_get(f"/list/{list_id}/task?subtasks=false&include_closed={closed_param}&page={page}")
+        resp = api_get(f"/list/{list_id}/task?subtasks={subtasks_param}&include_closed={closed_param}&page={page}")
         pagina_tasks = resp.get("tasks", [])
         diag_pages.append({
             "page": page,
@@ -153,7 +150,7 @@ def api_get_all_tasks(list_id, include_closed=True):
     ids = [t["id"] for t in todas]
     duplicados = len(ids) - len(set(ids))
     diag_msg = (
-        f"[DIAGNOSTICO] list_id={list_id} subtasks=false include_closed={closed_param} | "
+        f"[DIAGNOSTICO] list_id={list_id} subtasks={subtasks_param} include_closed={closed_param} | "
         f"paginas={diag_pages} | total_bruto={len(todas)} | ids_unicos={len(set(ids))} | duplicados={duplicados}"
     )
     print("  " + diag_msg)
@@ -197,8 +194,8 @@ def raw_status_label(task):
 CLOSED_LOOKBACK_MS = 180 * 24 * 60 * 60 * 1000  # 180 dias
 
 
-def sync_leader_board(fname, list_id):
-    tasks = api_get_all_tasks(list_id, include_closed=True)
+def sync_leader_board(fname, list_id, subtasks=False):
+    tasks = api_get_all_tasks(list_id, include_closed=True, subtasks=subtasks)
     agora = int(datetime.datetime.now(datetime.timezone.utc).timestamp() * 1000)
     out = []
     for t in tasks:
@@ -321,9 +318,9 @@ def sync_wagner_metas():
 
 def main():
     print("Sincronizando quadros dos líderes...")
-    for fname, list_id in LEADER_LISTS.items():
+    for fname, cfg in LEADER_LISTS.items():
         try:
-            sync_leader_board(fname, list_id)
+            sync_leader_board(fname, cfg["list_id"], subtasks=cfg.get("subtasks", False))
         except Exception as e:
             log_error(f"sync_leader_board({fname})", e)
             print(f"  ERRO em {fname}, mantendo dados anteriores.")
