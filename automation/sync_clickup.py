@@ -126,15 +126,43 @@ def api_get_all_tasks(list_id, include_closed=True):
     page = 0
     closed_param = "true" if include_closed else "false"
     PAGE_SIZE = 100
+    diag_pages = []
     while True:
         resp = api_get(f"/list/{list_id}/task?subtasks=false&include_closed={closed_param}&page={page}")
         pagina_tasks = resp.get("tasks", [])
+        diag_pages.append({
+            "page": page,
+            "qtd_retornada": len(pagina_tasks),
+            "last_page_field": resp.get("last_page", "AUSENTE"),
+        })
         todas.extend(pagina_tasks)
         if len(pagina_tasks) < PAGE_SIZE:
             break
         page += 1
         if page > 20:  # trava de segurança contra loop infinito
             break
+
+    # Diagnóstico: detecta duplicatas (mesma tarefa devolvida mais de uma vez
+    # dentro da mesma busca) para investigar o comportamento real da API.
+    ids = [t["id"] for t in todas]
+    duplicados = len(ids) - len(set(ids))
+    diag_msg = (
+        f"[DIAGNOSTICO] list_id={list_id} subtasks=false include_closed={closed_param} | "
+        f"paginas={diag_pages} | total_bruto={len(todas)} | ids_unicos={len(set(ids))} | duplicados={duplicados}"
+    )
+    print("  " + diag_msg)
+    log_error(f"diagnostico_paginacao({list_id})", Exception(diag_msg))
+
+    if duplicados:
+        # Remove duplicatas mantendo a primeira ocorrência de cada id.
+        vistos = set()
+        sem_dup = []
+        for t in todas:
+            if t["id"] not in vistos:
+                vistos.add(t["id"])
+                sem_dup.append(t)
+        todas = sem_dup
+
     return todas
 
 
