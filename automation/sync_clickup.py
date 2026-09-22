@@ -69,7 +69,13 @@ def log_error(contexto, exc):
     só as últimas 50 entradas para o arquivo não crescer indefinidamente."""
     import traceback
     ts = datetime.datetime.now(datetime.timezone.utc).isoformat()
-    entrada = f"[{ts}] {contexto}\n{traceback.format_exc()}\n{'-'*70}\n"
+    # traceback.format_exc() só funciona dentro de um "except" ativo — fora
+    # disso (como numa mensagem de diagnóstico) ele retorna "NoneType: None"
+    # e perde a mensagem de verdade. Por isso usamos str(exc) como conteúdo
+    # principal, com o traceback (se existir) como informação extra.
+    tb = traceback.format_exc()
+    detalhe = str(exc) if tb.strip() == "NoneType: None" else tb
+    entrada = f"[{ts}] {contexto}\n{detalhe}\n{'-'*70}\n"
     linhas_antigas = ""
     if os.path.exists(ERROR_LOG_PATH):
         with open(ERROR_LOG_PATH, encoding="utf-8") as f:
