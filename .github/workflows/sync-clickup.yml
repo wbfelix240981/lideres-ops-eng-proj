@@ -3,7 +3,7 @@ name: Sincronizar com ClickUp
 on:
   schedule:
     # De hora em hora
-    - cron: '0 * * * *'
+    - cron: '0 */3 * * *'
   workflow_dispatch: {}   # permite rodar manualmente pelo painel do GitHub
 
 permissions:
