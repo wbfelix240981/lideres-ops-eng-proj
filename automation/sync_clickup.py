@@ -40,11 +40,20 @@ ERROR_LOG_PATH = os.path.join(DIR, "sync_errors.log")
 # "flat", sem essa hierarquia) subtasks=true faz o ClickUp devolver tarefas
 # duplicadas. Por isso o valor é configurado individualmente por lista, e
 # não como uma opção global.
+# A lista do João (901326962545) é a única que nunca voltou certa em
+# nenhuma combinação testada: subtasks=false traz só 7 das 165 tarefas reais,
+# e subtasks=true traz 283 (praticamente o dobro do certo). Não conseguimos
+# entender a causa exata sem acesso direto para depurar a API ao vivo. Por
+# isso ela fica com subtasks=false (mais parecido com as outras listas) e
+# CONFIAMOS na trava de segurança abaixo (MIN_FRACTION_OF_PREVIOUS) para
+# simplesmente não sobrescrever o arquivo sempre que isso acontecer — ou
+# seja, o quadro do João não se atualiza sozinho até isso ser investigado
+# com mais calma, mas também não perde dados.
 LEADER_LISTS = {
     "wagner_tasks.json": {"list_id": "901326954601", "subtasks": False},
     "bruno_tasks.json": {"list_id": "901318773612", "subtasks": False},
     "leonardo_tasks.json": {"list_id": "901328009767", "subtasks": False},
-    "joao_tasks.json": {"list_id": "901326962545", "subtasks": True},
+    "joao_tasks.json": {"list_id": "901326962545", "subtasks": False},
     "gustavo_tasks.json": {"list_id": "901318774255", "subtasks": False},
     "rodney_tasks.json": {"list_id": "901323507381", "subtasks": False},
 }
@@ -194,6 +203,15 @@ def raw_status_label(task):
 CLOSED_LOOKBACK_MS = 180 * 24 * 60 * 60 * 1000  # 180 dias
 
 
+# Se a busca trouxer muito menos ou muito mais itens do que já existia,
+# provavelmente algo deu errado (bug de paginação/subtarefas, erro da API,
+# etc.) e o arquivo NÃO é sobrescrito — fica com os dados anteriores. Isso
+# evita repetir os dois incidentes reais que já aconteceram aqui: o quadro
+# do João caindo de 165 para 7 tarefas, e depois inchando para 283.
+MIN_FRACTION_OF_PREVIOUS = 0.5
+MAX_MULTIPLE_OF_PREVIOUS = 1.5
+
+
 def sync_leader_board(fname, list_id, subtasks=False):
     tasks = api_get_all_tasks(list_id, include_closed=True, subtasks=subtasks)
     agora = int(datetime.datetime.now(datetime.timezone.utc).timestamp() * 1000)
@@ -219,6 +237,32 @@ def sync_leader_board(fname, list_id, subtasks=False):
         out.append(entry)
 
     path = os.path.join(DIR, fname)
+
+    previous = []
+    if os.path.exists(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                previous = json.load(f)
+        except Exception:
+            previous = []
+
+    if previous:
+        muito_pouco = len(out) < len(previous) * MIN_FRACTION_OF_PREVIOUS
+        muito_mais = len(out) > len(previous) * MAX_MULTIPLE_OF_PREVIOUS
+        if muito_pouco or muito_mais:
+            motivo = "menos" if muito_pouco else "mais"
+            log_error(
+                f"sync_leader_board({fname})",
+                Exception(
+                    f"Fetch retornou {len(out)} tarefas, {motivo} do que era "
+                    f"esperado a partir das {len(previous)} que já existiam. "
+                    f"Mantendo dados anteriores intactos para não arriscar "
+                    f"perder ou duplicar informação real."
+                ),
+            )
+            print(f"  AVISO {fname}: fetch trouxe {len(out)} vs {len(previous)} esperadas — mantendo dados antigos.")
+            return previous
+
     with open(path, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     print(f"  {fname}: {len(out)} tarefas")
