@@ -1,15 +1,5 @@
 [
  {
-  "id": "86akj76vd",
-  "name": "Estudo das policies",
-  "status": "aberto",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "due": 1792134000000,
-  "url": "https://app.clickup.com/t/86akj76vd"
- },
- {
   "id": "86akj76gw",
   "name": "Reformular controle de acesso - funcionários",
   "status": "aberto",
@@ -27,6 +17,60 @@
   ],
   "due": 1787986800000,
   "url": "https://app.clickup.com/t/86ak33ugq"
+ },
+ {
+  "id": "86ak0t9un",
+  "name": "defesa tecninca com dados e fatos e olhando o pipe do comercial e o crescimento vegetativo(baseado em dados atuai)",
+  "status": "fechado",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1787122800000,
+  "url": "https://app.clickup.com/t/86ak0t9un",
+  "doneAt": 1787161324285
+ },
+ {
+  "id": "86ak0t950",
+  "name": "Apresentação do BOM",
+  "status": "fechado",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1786690800000,
+  "url": "https://app.clickup.com/t/86ak0t950",
+  "doneAt": 1789582108659
+ },
+ {
+  "id": "86ak0t8qe",
+  "name": "Material  de 2 Slides ou mais, para apresentçaõ ao time de CSE",
+  "status": "fechado",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1786950000000,
+  "url": "https://app.clickup.com/t/86ak0t8qe",
+  "doneAt": 1787060083425
+ },
+ {
+  "id": "86ak0h5ya",
+  "name": "RoadMap de ENG para apresentar ao time Comercial, visão de negócio",
+  "status": "fechado",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1787036400000,
+  "url": "https://app.clickup.com/t/86ak0h5ya",
+  "doneAt": 1790014865161
+ },
+ {
+  "id": "86ajwevzf",
+  "name": "Apresentar a Arquitetura de Segurança da Nossa Nuvem Publica (Muitos clientes questionam sobre)",
+  "status": "fechado",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajwevzf",
+  "doneAt": 1786541706344
  },
  {
   "id": "86ajvyfac",
@@ -48,8 +92,18 @@
   "url": "https://app.clickup.com/t/86ajvx0jp"
  },
  {
+  "id": "86ajrfy36",
+  "name": "Avaliação de novos Fornecedores para HW",
+  "status": "fechado",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajrfy36",
+  "doneAt": 1789582102432
+ },
+ {
   "id": "86ajr1wkz",
-  "name": "Módulo de kubernetrs (eliminar Magnum)",
+  "name": "Módulo de  kubernetrs (eliminar Magnum)",
   "status": "planejamento",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
@@ -59,7 +113,7 @@
  },
  {
   "id": "86ajr1wkw",
-  "name": "Firewall como serviço (FWaaS)",
+  "name": "Firewall como serviço, desengavetar sua sugestão de 2 anos atrás) FWaaS",
   "status": "planejamento",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
@@ -69,7 +123,7 @@
  },
  {
   "id": "86ajr1wkv",
-  "name": "Menu de automação no Skyline (subir/agendar máquinas)",
+  "name": "Criar menu de automação no skyline (acho um diferencial legal para o cliente( subir máquina, schedular desligue de máquinas, agendar ações que nosso módulo de automação ajuda))",
   "status": "aguardando retorno",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez",
@@ -79,165 +133,12 @@
  },
  {
   "id": "86ajr1wkt",
-  "name": "Functions como serviço",
+  "name": "Functions como serviço (falamos bem rápido ontem)",
   "status": "aberto",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
   "url": "https://app.clickup.com/t/86ajr1wkt"
- },
- {
-  "id": "86ajr1v9q",
-  "name": "Projeto atualização BCP Alerj",
-  "status": "em andamento",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "due": 1790319600000,
-  "url": "https://app.clickup.com/t/86ajr1v9q"
- },
- {
-  "id": "86ajr1v4w",
-  "name": "Projeto segunda região UOL",
-  "status": "em andamento",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "url": "https://app.clickup.com/t/86ajr1v4w"
- },
- {
-  "id": "86ajr1uxp",
-  "name": "Criação da Página da Eng no SharePoint",
-  "status": "bloqueada",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "url": "https://app.clickup.com/t/86ajr1uxp"
- },
- {
-  "id": "86ajr1ukv",
-  "name": "Painel automático de capacity",
-  "status": "bloqueada",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "url": "https://app.clickup.com/t/86ajr1ukv"
- },
- {
-  "id": "86aea9jaw",
-  "name": "Planejar atualização do OpenStack (por módulo)",
-  "status": "aberto",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "due": 1802070000000,
-  "url": "https://app.clickup.com/t/86aea9jaw"
- },
- {
-  "id": "86aea8x8b",
-  "name": "Resolver MongoDB versão 8.2",
-  "status": "em andamento",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "due": 1790838000000,
-  "url": "https://app.clickup.com/t/86aea8x8b"
- },
- {
-  "id": "86ak0t9un",
-  "name": "Defesa técnica com dados e olhando pipe comercial (crescimento vegetativo)",
-  "status": "fechado",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "url": "https://app.clickup.com/t/86ak0t9un",
-  "doneAt": 1787161324285
- },
- {
-  "id": "86ak0t950",
-  "name": "Apresentação do BOM",
-  "status": "fechado",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "url": "https://app.clickup.com/t/86ak0t950",
-  "doneAt": 1789582108659
- },
- {
-  "id": "86ak0t8qe",
-  "name": "Material de slides para apresentação ao time de CSE",
-  "status": "fechado",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "url": "https://app.clickup.com/t/86ak0t8qe",
-  "doneAt": 1787060083425
- },
- {
-  "id": "86ak0h5ya",
-  "name": "Roadmap de Engenharia para o time Comercial (visão de negócio)",
-  "status": "fechado",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "url": "https://app.clickup.com/t/86ak0h5ya",
-  "doneAt": 1790014865161
- },
- {
-  "id": "86ajzq08d",
-  "name": "Connectway",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ajzq08d",
-  "doneAt": 1789582102432
- },
- {
-  "id": "86ajzpzyp",
-  "name": "Positivo",
-  "status": "fechado",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/86ajzpzyp",
-  "doneAt": 1786544965990
- },
- {
-  "id": "86ajwevzf",
-  "name": "Apresentar a Arquitetura de Segurança da Nuvem Pública",
-  "status": "fechado",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "url": "https://app.clickup.com/t/86ajwevzf",
-  "doneAt": 1786541706344
- },
- {
-  "id": "86ajrg26r",
-  "name": "Dell",
-  "status": "fechado",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "url": "https://app.clickup.com/t/86ajrg26r",
-  "doneAt": 1789582097607
- },
- {
-  "id": "86ajrg219",
-  "name": "Lenovo",
-  "status": "fechado",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "url": "https://app.clickup.com/t/86ajrg219",
-  "doneAt": 1789582095258
- },
- {
-  "id": "86ajrfy36",
-  "name": "Avaliação de novos fornecedores de hardware",
-  "status": "fechado",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "url": "https://app.clickup.com/t/86ajrfy36",
-  "doneAt": 1789582102432
  },
  {
   "id": "86ajr1wkq",
@@ -246,12 +147,13 @@
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
+  "due": 1790146800000,
   "url": "https://app.clickup.com/t/86ajr1wkq",
   "doneAt": 1790171091120
  },
  {
   "id": "86ajr1wg3",
-  "name": "Tirar o nome SRE do time de Eng",
+  "name": "tirar o nome SRE da time de Eng",
   "status": "fechado",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
@@ -270,8 +172,45 @@
   "doneAt": 1786541974434
  },
  {
+  "id": "86ajr1v9q",
+  "name": "Projeto atualização BCP (OpenStack)Alerj",
+  "status": "em andamento",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1790319600000,
+  "url": "https://app.clickup.com/t/86ajr1v9q"
+ },
+ {
+  "id": "86ajr1v4w",
+  "name": "Projeto segunda região UOL",
+  "status": "em andamento",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1v4w"
+ },
+ {
+  "id": "86ajr1uxp",
+  "name": "Criação da Pagina da Eng no SharePoint",
+  "status": "bloqueada",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1uxp"
+ },
+ {
+  "id": "86ajr1ukv",
+  "name": "Painel automatico de capacity",
+  "status": "bloqueada",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1ukv"
+ },
+ {
   "id": "86ajr1uh2",
-  "name": "Controle de férias",
+  "name": "Controle férias",
   "status": "fechado",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
@@ -291,7 +230,7 @@
  },
  {
   "id": "86aj5r3za",
-  "name": "Problema no LB da 3.0",
+  "name": "Problema no LB da 3.0 ... não funciona",
   "status": "fechado",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
@@ -301,12 +240,32 @@
  },
  {
   "id": "86ahpyh97",
-  "name": "Solução de archive/discos não performáticos",
+  "name": "Solução de archive/discos não performaticos Ex. S3 para competir com o mercados",
   "status": "fechado",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
   "url": "https://app.clickup.com/t/86ahpyh97",
   "doneAt": 1785432778097
+ },
+ {
+  "id": "86aea9jaw",
+  "name": "Planejar - Atualização do OpenStack (por módulo)",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1802070000000,
+  "url": "https://app.clickup.com/t/86aea9jaw"
+ },
+ {
+  "id": "86aea8x8b",
+  "name": "Resolver - MongoDB versão 8.2",
+  "status": "em andamento",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1790838000000,
+  "url": "https://app.clickup.com/t/86aea8x8b"
  }
 ]

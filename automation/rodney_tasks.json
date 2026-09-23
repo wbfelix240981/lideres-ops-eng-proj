@@ -1,5 +1,25 @@
 [
  {
+  "id": "86aknyngg",
+  "name": "Definição do novo modelo de Propostas Técnicas e Comerciais.",
+  "status": "em andamento",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1791010800000,
+  "url": "https://app.clickup.com/t/86aknyngg"
+ },
+ {
+  "id": "86aknymeg",
+  "name": "Migrar a sofIA para de IaaS para PaaS",
+  "status": "em andamento",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1793430000000,
+  "url": "https://app.clickup.com/t/86aknymeg"
+ },
+ {
   "id": "86ajvu86k",
   "name": "Montar ambiente com usuário e senha para demonstração para cliente com tudo 100% funcionando (billing, bc-backup, monitoração,  marketplace, MFA, calculadora, perfil de acesso(admin, financeiro, operador), com maquinas criadas, com dados para demonstrar.",
   "status": "impedimento",
@@ -12,7 +32,7 @@
  {
   "id": "86ajj3tdm",
   "name": "Criar processo  de renovação de serviço gerenciado",
-  "status": "impedimento",
+  "status": "em andamento",
   "assignees": [
    "Rodney Botelho",
    "Rafael Alves"
@@ -39,6 +59,7 @@
    "Rodney Botelho",
    "Bruno Queiroz"
   ],
+  "due": 1791615600000,
   "url": "https://app.clickup.com/t/86aj3w2uk"
  },
  {
@@ -53,7 +74,7 @@
  {
   "id": "86aj30ptn",
   "name": "Montar apresentação / Proposta BCP como nuvem Privada",
-  "status": "em andamento",
+  "status": "impedimento",
   "assignees": [
    "Rodney Botelho"
   ],
@@ -74,12 +95,13 @@
  {
   "id": "86aj30p6w",
   "name": "Criar Assistente de Pré-Vendas sofIA",
-  "status": "em andamento",
+  "status": "fechado",
   "assignees": [
    "Rodney Botelho"
   ],
   "due": 1793430000000,
-  "url": "https://app.clickup.com/t/86aj30p6w"
+  "url": "https://app.clickup.com/t/86aj30p6w",
+  "doneAt": 1790189014519
  },
  {
   "id": "86aj30nrz",
@@ -209,12 +231,13 @@
  {
   "id": "86aepfuaw",
   "name": "Sessões mão na massa com o Comercial apresentação do BCP",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [
    "Rodney Botelho"
   ],
   "due": 1777878000000,
-  "url": "https://app.clickup.com/t/86aepfuaw"
+  "url": "https://app.clickup.com/t/86aepfuaw",
+  "doneAt": 1790188915665
  },
  {
   "id": "86aepftv6",
