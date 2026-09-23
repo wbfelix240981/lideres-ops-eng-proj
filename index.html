@@ -4413,16 +4413,14 @@ function renderBoard(project){
   const board = document.getElementById('roadmapBoard');
   board.innerHTML = '';
 
-  // Concluído e Fechado contam juntos no índice, então também aparecem juntos aqui, numa coluna só.
-  let statusKeys = Object.keys(ROADMAP_STATUS_META).filter(k => k !== 'fechado');
+  // Concluído e Fechado agora ficam em colunas separadas, mas as duas
+  // aparecem compactas (botão que expande ao clicar).
+  let statusKeys = Object.keys(ROADMAP_STATUS_META);
 
   // Se um filtro (chip) estiver ativo, mostra só as colunas compatíveis com ele
   if(activeStatus && activeStatus !== 'all'){
     const permitido = BOARD_FILTER_MAP[activeStatus] || [];
-    statusKeys = statusKeys.filter(k=>{
-      const matchStatuses = k === 'concluído' ? ROADMAP_DONE_STATUSES : [k];
-      return matchStatuses.some(s=>permitido.includes(s));
-    });
+    statusKeys = statusKeys.filter(k=>permitido.includes(k));
   }
 
   if(statusKeys.length === 0){
@@ -4432,8 +4430,7 @@ function renderBoard(project){
 
   statusKeys.forEach(statusKey=>{
     const meta = ROADMAP_STATUS_META[statusKey];
-    const matchStatuses = statusKey === 'concluído' ? ROADMAP_DONE_STATUSES : [statusKey];
-    let tasks = (project.tasks||[]).filter(t=>matchStatuses.includes(t.status));
+    let tasks = (project.tasks||[]).filter(t=>t.status===statusKey);
     if(tasks.length===0) return; // esconde colunas vazias
 
     tasks = [...tasks].sort((a,b)=>{
@@ -4446,7 +4443,8 @@ function renderBoard(project){
 
     const col = document.createElement('div');
     col.className = 'board-col';
-    const isConcluido = statusKey === 'concluído';
+    const isConcluido = statusKey === 'concluído' || statusKey === 'fechado';
+    const adjetivo = statusKey === 'fechado' ? 'fechada' : 'concluída';
     const cardsHtml = tasks.length ? tasks.map(t=>{
           const recent = isRecentlyDone(t);
           let dueBadge = '';
@@ -4486,7 +4484,7 @@ function renderBoard(project){
       ${isConcluido && tasks.length ? `
       <button class="board-col-toggle" type="button">
         <svg class="toggle-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
-        Ver ${tasks.length} concluída${tasks.length>1?'s':''}
+        Ver ${tasks.length} ${adjetivo}${tasks.length>1?'s':''}
       </button>
       <div class="board-col-body board-col-collapsed">${cardsHtml}</div>`
       : `<div class="board-col-body">${cardsHtml}</div>`}`;
@@ -4497,7 +4495,7 @@ function renderBoard(project){
       toggleBtn.addEventListener('click', ()=>{
         const collapsed = body.classList.toggle('board-col-collapsed');
         toggleBtn.classList.toggle('open', !collapsed);
-        toggleBtn.lastChild.textContent = collapsed ? ` Ver ${tasks.length} concluída${tasks.length>1?'s':''}` : ` Ocultar concluída${tasks.length>1?'s':''}`;
+        toggleBtn.lastChild.textContent = collapsed ? ` Ver ${tasks.length} ${adjetivo}${tasks.length>1?'s':''}` : ` Ocultar ${adjetivo}${tasks.length>1?'s':''}`;
       });
     }
 
