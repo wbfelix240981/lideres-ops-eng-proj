@@ -4325,11 +4325,13 @@ function renderRing(project){
   const hasBoard = !!(project.tasks && project.tasks.length);
 
   if(hasBoard){
-    // Sem metas cadastradas, mas com quadro do ClickUp: os índices refletem as tarefas do quadro
+    // Sem metas cadastradas, mas com quadro do ClickUp: os índices refletem as tarefas do quadro.
+    // Os agrupamentos aqui são exatamente os mesmos usados pelos filtros (chips) do quadro,
+    // pra garantir que o índice sempre bata com o que aparece ao clicar em cada filtro.
     const total = project.tasks.length;
     const done = project.tasks.filter(t=>ROADMAP_DONE_STATUSES.includes(t.status)).length;
-    const inProgress = project.tasks.filter(t=>t.status==='em andamento' || t.status==='revisando').length;
-    const notStarted = project.tasks.filter(t=>t.status==='aberto' || t.status==='planejamento').length;
+    const inProgress = project.tasks.filter(t=>t.status==='em andamento').length;
+    const notStarted = project.tasks.filter(t=>t.status==='aberto').length;
     const others = total - done - inProgress - notStarted;
 
     document.getElementById('kpiStrip').innerHTML = `
@@ -4337,7 +4339,7 @@ function renderRing(project){
     <div class="kpi c-shipped"><div class="k-num">${done}</div><div class="k-label">Concluídas</div></div>
     <div class="kpi c-progress"><div class="k-num">${inProgress}</div><div class="k-label">Em andamento</div></div>
     <div class="kpi c-backlog"><div class="k-num">${notStarted}</div><div class="k-label">Não iniciadas</div></div>
-    ${others>0 ? `<div class="kpi kpi-muted"><div class="k-num">${others}</div><div class="k-label">Bloqueadas / aguardando</div></div>` : ''}`;
+    ${others>0 ? `<div class="kpi kpi-muted"><div class="k-num">${others}</div><div class="k-label">Outras (planejamento, revisão, bloqueadas...)</div></div>` : ''}`;
 
     document.getElementById('indexNote').style.display = 'none';
     return;
