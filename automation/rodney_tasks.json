@@ -41,6 +41,17 @@
   "url": "https://app.clickup.com/t/86ajj3tdm"
  },
  {
+  "id": "86ajgemrt",
+  "name": "POC WL BTech",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1785222000000,
+  "url": "https://app.clickup.com/t/86ajgemrt",
+  "doneAt": 1785879488743
+ },
+ {
   "id": "86aj3w2uk",
   "name": "Apresentação Técnica do Storware",
   "status": "impedimento",
@@ -58,7 +69,6 @@
   "assignees": [
    "Rodney Botelho"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86aj30q9k"
  },
  {
@@ -70,45 +80,6 @@
   ],
   "due": 1787900400000,
   "url": "https://app.clickup.com/t/86aj30ptn"
- },
- {
-  "id": "86aexma93",
-  "name": "Laboratório de Coriolis para criação de cenários de migrações.",
-  "status": "rejeitada",
-  "assignees": [],
-  "due": 1773990000000,
-  "url": "https://app.clickup.com/t/86aexma93"
- },
- {
-  "id": "86aexj1mp",
-  "name": "Apresentação Processo de Migração Binario Cloud",
-  "status": "impedimento",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1775286000000,
-  "url": "https://app.clickup.com/t/86aexj1mp"
- },
- {
-  "id": "86aex10jn",
-  "name": "Criar os diagramas de arquitetura para cada serviço da Binario Cloud",
-  "status": "rejeitada",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1772175600000,
-  "url": "https://app.clickup.com/t/86aex10jn"
- },
- {
-  "id": "86ajgemrt",
-  "name": "POC WL BTech",
-  "status": "fechado",
-  "assignees": [
-   "Rodney Botelho"
-  ],
-  "due": 1785222000000,
-  "url": "https://app.clickup.com/t/86ajgemrt",
-  "doneAt": 1785879488743
  },
  {
   "id": "86aj30pjy",
@@ -139,7 +110,6 @@
   "assignees": [
    "Rodney Botelho"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86aj30nrz",
   "doneAt": 1784146208945
  },
@@ -150,7 +120,6 @@
   "assignees": [
    "Rodney Botelho"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86aj30n7g",
   "doneAt": 1784146176764
  },
@@ -164,6 +133,35 @@
   "due": 1774681200000,
   "url": "https://app.clickup.com/t/86agcw1hy",
   "doneAt": 1786561893367
+ },
+ {
+  "id": "86aexma93",
+  "name": "Laboratório de Coriolis para criação de cenários de migrações.",
+  "status": "rejeitada",
+  "assignees": [],
+  "due": 1773990000000,
+  "url": "https://app.clickup.com/t/86aexma93"
+ },
+ {
+  "id": "86aexj1mp",
+  "name": "Apresentação Processo de Migração Binario Cloud",
+  "status": "impedimento",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1775286000000,
+  "url": "https://app.clickup.com/t/86aexj1mp"
+ },
+ {
+  "id": "86aex55hj",
+  "name": "Pre-Requisito e Cenários para Construção de POC",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1769756400000,
+  "url": "https://app.clickup.com/t/86aex55hj",
+  "doneAt": 1781125666907
  },
  {
   "id": "86aex18fe",
@@ -210,6 +208,16 @@
   "doneAt": 1782412009724
  },
  {
+  "id": "86aex10jn",
+  "name": "Criar os diagramas de arquitetura para cada serviço da Binario Cloud",
+  "status": "rejeitada",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1772175600000,
+  "url": "https://app.clickup.com/t/86aex10jn"
+ },
+ {
   "id": "86aepfuwc",
   "name": "Validar caderno de Teste",
   "status": "fechado",
@@ -243,6 +251,17 @@
   "doneAt": 1782411784650
  },
  {
+  "id": "86ae58pm6",
+  "name": "Template de Levantamento Técnico (assessment)",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1769151600000,
+  "url": "https://app.clickup.com/t/86ae58pm6",
+  "doneAt": 1781125666907
+ },
+ {
   "id": "86ae58ma1",
   "name": "Checklist padrão das informações técnicas necessárias para elaboração de propostas.",
   "status": "fechado",
@@ -252,5 +271,38 @@
   "due": 1769151600000,
   "url": "https://app.clickup.com/t/86ae58ma1",
   "doneAt": 1782411965581
+ },
+ {
+  "id": "86ae55bjr",
+  "name": "Cronograma de trabalho presencial (time)",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1767942000000,
+  "url": "https://app.clickup.com/t/86ae55bjr",
+  "doneAt": 1781125666907
+ },
+ {
+  "id": "86ae55bbd",
+  "name": "Refazer visão clickup",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1767337200000,
+  "url": "https://app.clickup.com/t/86ae55bbd",
+  "doneAt": 1781125666907
+ },
+ {
+  "id": "86ae55ar2",
+  "name": "Plano de 100dias",
+  "status": "fechado",
+  "assignees": [
+   "Rodney Botelho"
+  ],
+  "due": 1768028400000,
+  "url": "https://app.clickup.com/t/86ae55ar2",
+  "doneAt": 1781125666907
  }
 ]

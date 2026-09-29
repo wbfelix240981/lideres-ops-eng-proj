@@ -6,7 +6,6 @@
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86akj76gw"
  },
  {
@@ -18,127 +17,6 @@
   ],
   "due": 1787986800000,
   "url": "https://app.clickup.com/t/86ak33ugq"
- },
- {
-  "id": "86ajvyfac",
-  "name": "Auditoria dentro do BCP (quem, o que e como fez)",
-  "status": "aberto",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "due": null,
-  "url": "https://app.clickup.com/t/86ajvyfac"
- },
- {
-  "id": "86ajvx0jp",
-  "name": "Reformular o controller do veeam para remover do proxmox",
-  "status": "em andamento",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "due": 1793343600000,
-  "url": "https://app.clickup.com/t/86ajvx0jp"
- },
- {
-  "id": "86ajr1wkz",
-  "name": "Módulo de  kubernetrs (eliminar Magnum)",
-  "status": "planejamento",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "due": 1798700400000,
-  "url": "https://app.clickup.com/t/86ajr1wkz"
- },
- {
-  "id": "86ajr1wkw",
-  "name": "Firewall como serviço, desengavetar sua sugestão de 2 anos atrás) FWaaS",
-  "status": "planejamento",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "due": 1801378800000,
-  "url": "https://app.clickup.com/t/86ajr1wkw"
- },
- {
-  "id": "86ajr1wkv",
-  "name": "Criar menu de automação no skyline (acho um diferencial legal para o cliente( subir máquina, schedular desligue de máquinas, agendar ações que nosso módulo de automação ajuda))",
-  "status": "aguardando retorno",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez",
-   "Bruno Queiroz"
-  ],
-  "due": null,
-  "url": "https://app.clickup.com/t/86ajr1wkv"
- },
- {
-  "id": "86ajr1wkt",
-  "name": "Functions como serviço (falamos bem rápido ontem)",
-  "status": "aberto",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "due": null,
-  "url": "https://app.clickup.com/t/86ajr1wkt"
- },
- {
-  "id": "86ajr1v9q",
-  "name": "Projeto atualização BCP (OpenStack)Alerj",
-  "status": "em andamento",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "due": 1790319600000,
-  "url": "https://app.clickup.com/t/86ajr1v9q"
- },
- {
-  "id": "86ajr1v4w",
-  "name": "Projeto segunda região UOL",
-  "status": "em andamento",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "due": null,
-  "url": "https://app.clickup.com/t/86ajr1v4w"
- },
- {
-  "id": "86ajr1uxp",
-  "name": "Criação da Pagina da Eng no SharePoint",
-  "status": "bloqueada",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "due": null,
-  "url": "https://app.clickup.com/t/86ajr1uxp"
- },
- {
-  "id": "86ajr1ukv",
-  "name": "Painel automatico de capacity",
-  "status": "bloqueada",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "due": null,
-  "url": "https://app.clickup.com/t/86ajr1ukv"
- },
- {
-  "id": "86aea9jaw",
-  "name": "Planejar - Atualização do OpenStack (por módulo)",
-  "status": "aberto",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "due": 1802070000000,
-  "url": "https://app.clickup.com/t/86aea9jaw"
- },
- {
-  "id": "86aea8x8b",
-  "name": "Resolver - MongoDB versão 8.2",
-  "status": "em andamento",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "due": 1790838000000,
-  "url": "https://app.clickup.com/t/86aea8x8b"
  },
  {
   "id": "86ak0t9un",
@@ -191,9 +69,27 @@
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ajwevzf",
   "doneAt": 1786541706344
+ },
+ {
+  "id": "86ajvyfac",
+  "name": "Auditoria dentro do BCP (quem, o que e como fez)",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajvyfac"
+ },
+ {
+  "id": "86ajvx0jp",
+  "name": "Reformular o controller do veeam para remover do proxmox",
+  "status": "em andamento",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1793343600000,
+  "url": "https://app.clickup.com/t/86ajvx0jp"
  },
  {
   "id": "86ajrfy36",
@@ -202,9 +98,47 @@
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ajrfy36",
   "doneAt": 1789582102432
+ },
+ {
+  "id": "86ajr1wkz",
+  "name": "Módulo de  kubernetrs (eliminar Magnum)",
+  "status": "planejamento",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1798700400000,
+  "url": "https://app.clickup.com/t/86ajr1wkz"
+ },
+ {
+  "id": "86ajr1wkw",
+  "name": "Firewall como serviço, desengavetar sua sugestão de 2 anos atrás) FWaaS",
+  "status": "planejamento",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1801378800000,
+  "url": "https://app.clickup.com/t/86ajr1wkw"
+ },
+ {
+  "id": "86ajr1wkv",
+  "name": "Criar menu de automação no skyline (acho um diferencial legal para o cliente( subir máquina, schedular desligue de máquinas, agendar ações que nosso módulo de automação ajuda))",
+  "status": "aguardando retorno",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez",
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1wkv"
+ },
+ {
+  "id": "86ajr1wkt",
+  "name": "Functions como serviço (falamos bem rápido ontem)",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1wkt"
  },
  {
   "id": "86ajr1wkq",
@@ -224,7 +158,6 @@
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ajr1wg3",
   "doneAt": 1786542900884
  },
@@ -235,9 +168,45 @@
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ajr1w0u",
   "doneAt": 1786541974434
+ },
+ {
+  "id": "86ajr1v9q",
+  "name": "Projeto atualização BCP (OpenStack)Alerj",
+  "status": "em andamento",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1790319600000,
+  "url": "https://app.clickup.com/t/86ajr1v9q"
+ },
+ {
+  "id": "86ajr1v4w",
+  "name": "Projeto segunda região UOL",
+  "status": "em andamento",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1v4w"
+ },
+ {
+  "id": "86ajr1uxp",
+  "name": "Criação da Pagina da Eng no SharePoint",
+  "status": "bloqueada",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1uxp"
+ },
+ {
+  "id": "86ajr1ukv",
+  "name": "Painel automatico de capacity",
+  "status": "bloqueada",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/86ajr1ukv"
  },
  {
   "id": "86ajr1uh2",
@@ -246,7 +215,6 @@
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ajr1uh2",
   "doneAt": 1786541613438
  },
@@ -257,7 +225,6 @@
   "assignees": [
    "Bruno Queiroz"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86aja10qx",
   "doneAt": 1786542724168
  },
@@ -268,7 +235,6 @@
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86aj5r3za",
   "doneAt": 1786564834859
  },
@@ -279,8 +245,27 @@
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
-  "due": null,
   "url": "https://app.clickup.com/t/86ahpyh97",
   "doneAt": 1785432778097
+ },
+ {
+  "id": "86aea9jaw",
+  "name": "Planejar - Atualização do OpenStack (por módulo)",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1802070000000,
+  "url": "https://app.clickup.com/t/86aea9jaw"
+ },
+ {
+  "id": "86aea8x8b",
+  "name": "Resolver - MongoDB versão 8.2",
+  "status": "em andamento",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "due": 1790838000000,
+  "url": "https://app.clickup.com/t/86aea8x8b"
  }
 ]
