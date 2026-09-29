@@ -31,24 +31,19 @@ DIR = os.path.dirname(os.path.abspath(__file__))
 ERROR_LOG_PATH = os.path.join(DIR, "sync_errors.log")
 
 # --- Mapeamento de listas do ClickUp ---------------------------------------
-# Cada lista pode precisar de um valor diferente para o parâmetro
-# "subtasks" da API do ClickUp — descobrimos isso na prática (ver
-# automation/sync_errors.log, entradas "DIAGNOSTICO", e o histórico do
-# repositório): a lista do João tem muitos itens que são tecnicamente
-# subtarefas no ClickUp (os controles numerados tipo "14.1", "14.2"), então
-# só aparecem por completo com subtasks=true. Já em outras listas (mais
-# "flat", sem essa hierarquia) subtasks=true faz o ClickUp devolver tarefas
-# duplicadas. Por isso o valor é configurado individualmente por lista, e
-# não como uma opção global.
-# A lista do João (901326962545) é a única que nunca voltou certa em
-# nenhuma combinação testada: subtasks=false traz só 7 das 165 tarefas reais,
-# e subtasks=true traz 283 (praticamente o dobro do certo). Não conseguimos
-# entender a causa exata sem acesso direto para depurar a API ao vivo. Por
-# isso ela fica com subtasks=false (mais parecido com as outras listas) e
-# CONFIAMOS na trava de segurança abaixo (MIN_FRACTION_OF_PREVIOUS) para
-# simplesmente não sobrescrever o arquivo sempre que isso acontecer — ou
-# seja, o quadro do João não se atualiza sozinho até isso ser investigado
-# com mais calma, mas também não perde dados.
+# Todas as listas usam subtasks=false: o painel deve mostrar só as tarefas
+# PAI de cada quadro, nunca as subtarefas/dependências dentro delas (pedido
+# explícito do usuário). Antes isso gerava confusão porque a lista do João
+# tem muita subtarefa pendurada em poucas tarefas-pai (ela "encolhia" de 165
+# para 7 itens e parecia um bug) — mas 7 é exatamente o número correto de
+# tarefas-pai dele; os outros 158 eram dependências que não deveriam
+# aparecer como cards soltos no quadro. subtasks=true foi testado e causa
+# duplicação em várias listas (itens aparecem tanto como pai quanto de novo
+# dentro do pai), por isso NUNCA deve ser usado aqui.
+# A trava de segurança abaixo (MIN_FRACTION_OF_PREVIOUS/MAX_MULTIPLE_OF_PREVIOUS)
+# continua ativa como proteção geral contra qualquer instabilidade futura da
+# API, mas não é mais esperado que o João (ou qualquer outra lista) varie
+# tanto de um sync para o outro.
 LEADER_LISTS = {
     "wagner_tasks.json": {"list_id": "901326954601", "subtasks": False},
     "bruno_tasks.json": {"list_id": "901318773612", "subtasks": False},
@@ -204,10 +199,10 @@ CLOSED_LOOKBACK_MS = 180 * 24 * 60 * 60 * 1000  # 180 dias
 
 
 # Se a busca trouxer muito menos ou muito mais itens do que já existia,
-# provavelmente algo deu errado (bug de paginação/subtarefas, erro da API,
-# etc.) e o arquivo NÃO é sobrescrito — fica com os dados anteriores. Isso
-# evita repetir os dois incidentes reais que já aconteceram aqui: o quadro
-# do João caindo de 165 para 7 tarefas, e depois inchando para 283.
+# provavelmente algo deu errado (bug de paginação da API, instabilidade
+# temporária, etc.) e o arquivo NÃO é sobrescrito — fica com os dados
+# anteriores. Proteção geral contra incidentes como o quadro do João
+# inchando de ~7 tarefas-pai para 283 itens (subtarefas duplicadas).
 MIN_FRACTION_OF_PREVIOUS = 0.5
 MAX_MULTIPLE_OF_PREVIOUS = 1.5
 

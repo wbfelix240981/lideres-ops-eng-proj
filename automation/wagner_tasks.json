@@ -24,7 +24,78 @@
   "name": "Incluir no painel de projetos (visão final)",
   "status": "em andamento",
   "assignees": [],
+  "due": null,
   "url": "https://app.clickup.com/t/86aknnda0"
+ },
+ {
+  "id": "86ak851en",
+  "name": "Storware planejamento QTSxClientesxdatas",
+  "status": "em andamento",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1790146800000,
+  "url": "https://app.clickup.com/t/86ak851en"
+ },
+ {
+  "id": "86aj73tvf",
+  "name": "Controle sendo o mesmo core do CC (projetos.binario.cloud)",
+  "status": "em andamento",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1790751600000,
+  "url": "https://app.clickup.com/t/86aj73tvf"
+ },
+ {
+  "id": "86aj73tua",
+  "name": "Consolidação da Governança",
+  "status": "em andamento",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1798700400000,
+  "url": "https://app.clickup.com/t/86aj73tua"
+ },
+ {
+  "id": "86aj73ttz",
+  "name": "Sanitização 3.0 (contínuo)",
+  "status": "em andamento",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1798700400000,
+  "url": "https://app.clickup.com/t/86aj73ttz"
+ },
+ {
+  "id": "86aj73tth",
+  "name": "Sanitização 2.0 (contínuo)",
+  "status": "em andamento",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1798700400000,
+  "url": "https://app.clickup.com/t/86aj73tth"
+ },
+ {
+  "id": "86ahar7zw",
+  "name": "Processo da area",
+  "status": "revisando",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1790751600000,
+  "url": "https://app.clickup.com/t/86ahar7zw"
+ },
+ {
+  "id": "86ahar7wh",
+  "name": "Plano de 100 dias",
+  "status": "revisando",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1790751600000,
+  "url": "https://app.clickup.com/t/86ahar7wh"
  },
  {
   "id": "86akjzbhn",
@@ -53,18 +124,9 @@
   "name": "Abrir GMUD para desligar o servidor do Znuny em 1/09",
   "status": "fechado",
   "assignees": [],
+  "due": null,
   "url": "https://app.clickup.com/t/86ak851vd",
   "doneAt": 1789584210550
- },
- {
-  "id": "86ak851en",
-  "name": "Storware planejamento QTSxClientesxdatas",
-  "status": "em andamento",
-  "assignees": [
-   "Wagner Bento Felix"
-  ],
-  "due": 1790146800000,
-  "url": "https://app.clickup.com/t/86ak851en"
  },
  {
   "id": "86ak0yjnn",
@@ -106,6 +168,7 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
+  "due": null,
   "url": "https://app.clickup.com/t/86ajhv42w",
   "doneAt": 1784128185933
  },
@@ -116,6 +179,7 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
+  "due": null,
   "url": "https://app.clickup.com/t/86ajdufj9",
   "doneAt": 1784128255901
  },
@@ -126,6 +190,7 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
+  "due": null,
   "url": "https://app.clickup.com/t/86aj74xpa",
   "doneAt": 1784128003113
  },
@@ -152,54 +217,15 @@
   "doneAt": 1786540831332
  },
  {
-  "id": "86aj73tvf",
-  "name": "Controle sendo o mesmo core do CC (projetos.binario.cloud)",
-  "status": "em andamento",
-  "assignees": [
-   "Wagner Bento Felix"
-  ],
-  "due": 1790751600000,
-  "url": "https://app.clickup.com/t/86aj73tvf"
- },
- {
   "id": "86aj73tut",
   "name": "Migração 2>3 temos que reduzir e chegar a <=100 VMS de clientes e ter a comprovação",
   "status": "fechado",
   "assignees": [
    "Wagner Bento Felix"
   ],
+  "due": null,
   "url": "https://app.clickup.com/t/86aj73tut",
   "doneAt": 1784127886561
- },
- {
-  "id": "86aj73tua",
-  "name": "Consolidação da Governança",
-  "status": "em andamento",
-  "assignees": [
-   "Wagner Bento Felix"
-  ],
-  "due": 1798700400000,
-  "url": "https://app.clickup.com/t/86aj73tua"
- },
- {
-  "id": "86aj73ttz",
-  "name": "Sanitização 3.0 (contínuo)",
-  "status": "em andamento",
-  "assignees": [
-   "Wagner Bento Felix"
-  ],
-  "due": 1798700400000,
-  "url": "https://app.clickup.com/t/86aj73ttz"
- },
- {
-  "id": "86aj73tth",
-  "name": "Sanitização 2.0 (contínuo)",
-  "status": "em andamento",
-  "assignees": [
-   "Wagner Bento Felix"
-  ],
-  "due": 1798700400000,
-  "url": "https://app.clickup.com/t/86aj73tth"
  },
  {
   "id": "86aj73try",
@@ -219,6 +245,7 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
+  "due": null,
   "url": "https://app.clickup.com/t/86aj73trc",
   "doneAt": 1784128135170
  },
@@ -229,6 +256,7 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
+  "due": null,
   "url": "https://app.clickup.com/t/86ahf5dbz",
   "doneAt": 1784128079225
  },
@@ -239,6 +267,7 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
+  "due": null,
   "url": "https://app.clickup.com/t/86ahf5dby",
   "doneAt": 1781125683729
  },
@@ -249,6 +278,7 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
+  "due": null,
   "url": "https://app.clickup.com/t/86ahf5dbn",
   "doneAt": 1781125683729
  },
@@ -259,6 +289,7 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
+  "due": null,
   "url": "https://app.clickup.com/t/86ahf5dba",
   "doneAt": 1782239952032
  },
@@ -269,6 +300,7 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
+  "due": null,
   "url": "https://app.clickup.com/t/86ahf5db1",
   "doneAt": 1784128299271
  },
@@ -279,6 +311,7 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
+  "due": null,
   "url": "https://app.clickup.com/t/86ahf5daf",
   "doneAt": 1784128305278
  },
@@ -289,6 +322,7 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
+  "due": null,
   "url": "https://app.clickup.com/t/86ahd7jn3",
   "doneAt": 1782240066498
  },
@@ -299,6 +333,7 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
+  "due": null,
   "url": "https://app.clickup.com/t/86ahd7hkq",
   "doneAt": 1781125683729
  },
@@ -309,6 +344,7 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
+  "due": null,
   "url": "https://app.clickup.com/t/86ahar8k5",
   "doneAt": 1784128095240
  },
@@ -319,6 +355,7 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
+  "due": null,
   "url": "https://app.clickup.com/t/86ahar8a7",
   "doneAt": 1782240074492
  },
@@ -329,28 +366,9 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
+  "due": null,
   "url": "https://app.clickup.com/t/86ahar860",
   "doneAt": 1781722897592
- },
- {
-  "id": "86ahar7zw",
-  "name": "Processo da area",
-  "status": "revisando",
-  "assignees": [
-   "Wagner Bento Felix"
-  ],
-  "due": 1790751600000,
-  "url": "https://app.clickup.com/t/86ahar7zw"
- },
- {
-  "id": "86ahar7wh",
-  "name": "Plano de 100 dias",
-  "status": "revisando",
-  "assignees": [
-   "Wagner Bento Felix"
-  ],
-  "due": 1790751600000,
-  "url": "https://app.clickup.com/t/86ahar7wh"
  },
  {
   "id": "86ah462pk",
@@ -359,6 +377,7 @@
   "assignees": [
    "Wagner Bento Felix"
   ],
+  "due": null,
   "url": "https://app.clickup.com/t/86ah462pk",
   "doneAt": 1784128119928
  }
