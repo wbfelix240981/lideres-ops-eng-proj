@@ -1,5 +1,55 @@
 [
  {
+  "id": "86akruj2p",
+  "name": "Portal de Escritorio de projetos, adicionar campos no CARD",
+  "status": "aberto",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1791442800000,
+  "url": "https://app.clickup.com/t/86akruj2p"
+ },
+ {
+  "id": "86akruhwh",
+  "name": "Excluir maquinas da Refrio desligados e outros dominios do grupo desligadas",
+  "status": "aberto",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1791183600000,
+  "url": "https://app.clickup.com/t/86akruhwh"
+ },
+ {
+  "id": "86akruht8",
+  "name": "Excluir cliente 1tean",
+  "status": "aberto",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1791183600000,
+  "url": "https://app.clickup.com/t/86akruht8"
+ },
+ {
+  "id": "86akruhff",
+  "name": "Excluir cliente QOS 2.0",
+  "status": "aberto",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1791183600000,
+  "url": "https://app.clickup.com/t/86akruhff"
+ },
+ {
+  "id": "86akruh7w",
+  "name": "Excluir cliente SmarAPD 2.0",
+  "status": "aberto",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1791183600000,
+  "url": "https://app.clickup.com/t/86akruh7w"
+ },
+ {
   "id": "86akq3mht",
   "name": "Alteração na Apresentação do tático",
   "status": "em andamento",
