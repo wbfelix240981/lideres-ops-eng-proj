@@ -2,12 +2,19 @@ name: Sincronizar com ClickUp
 
 on:
   schedule:
-    # De hora em hora
-    - cron: '0 */3 * * *'
+    # De 30 em 30 minutos, das 06:00 às 22:00 (horário de Brasília, UTC-3).
+    # O cron do GitHub é sempre em UTC: 06h-22h BRT = 09:00-01:00 UTC.
+    - cron: '0,30 9-23 * * *'   # 06:00 às 20:30 BRT
+    - cron: '0,30 0 * * *'      # 21:00 e 21:30 BRT
+    - cron: '0 1 * * *'         # 22:00 BRT
   workflow_dispatch: {}   # permite rodar manualmente pelo painel do GitHub
 
 permissions:
   contents: write
+
+concurrency:
+  group: sync-clickup
+  cancel-in-progress: false
 
 jobs:
   sync:
