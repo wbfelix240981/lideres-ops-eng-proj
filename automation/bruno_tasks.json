@@ -1,5 +1,35 @@
 [
  {
+  "id": "17ttbukx7eu",
+  "name": "Novo relatório de HE do time CSE conforme o meu de Setembro",
+  "status": "aberto",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1794034800000,
+  "url": "https://app.clickup.com/t/17ttbukx7eu"
+ },
+ {
+  "id": "17ttbukx7et",
+  "name": "Liberar Node IPDA para ENG",
+  "status": "aberto",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1792479600000,
+  "url": "https://app.clickup.com/t/17ttbukx7et"
+ },
+ {
+  "id": "17ttbukx7ed",
+  "name": "Atualizar certificado ardo do Central",
+  "status": "aberto",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1792393200000,
+  "url": "https://app.clickup.com/t/17ttbukx7ed"
+ },
+ {
   "id": "86akq3x5y",
   "name": "Mudar a visualização do tático - KPI de produtvidade",
   "status": "aberto",
