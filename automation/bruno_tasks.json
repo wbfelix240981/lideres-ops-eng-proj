@@ -1,5 +1,15 @@
 [
  {
+  "id": "17ttbukxdaa",
+  "name": "Enviar do relatório comprobatório da exclusão de clientes, conforme processo. Enviar para área demandante(Contratos)",
+  "status": "aberto",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1793343600000,
+  "url": "https://app.clickup.com/t/17ttbukxdaa"
+ },
+ {
   "id": "17ttbukxaxv",
   "name": "Relatório de Capacity Plan da ISH para defesa de migração para 3.0",
   "status": "aberto",
