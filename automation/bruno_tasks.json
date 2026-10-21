@@ -32,7 +32,7 @@
  {
   "id": "17ttbukx7et",
   "name": "Liberar Node IPDA para ENG",
-  "status": "aberto",
+  "status": "concluído",
   "assignees": [
    "Bruno Queiroz"
   ],
@@ -42,7 +42,7 @@
  {
   "id": "17ttbukx7ed",
   "name": "Atualizar certificado ardo do Central",
-  "status": "aberto",
+  "status": "concluído",
   "assignees": [
    "Bruno Queiroz"
   ],
@@ -52,7 +52,7 @@
  {
   "id": "86akq3x5y",
   "name": "Mudar a visualização do tático - KPI de produtvidade",
-  "status": "aberto",
+  "status": "concluído",
   "assignees": [
    "Bruno Queiroz"
   ],
@@ -61,8 +61,8 @@
  },
  {
   "id": "86akq3vxy",
-  "name": "Acompanhamento do consumo CEPH x Proejtado",
-  "status": "aberto",
+  "name": "Acompanhamento do consumo CEPH x Projetado",
+  "status": "aguardando retorno",
   "assignees": [
    "Bruno Queiroz"
   ],
@@ -82,7 +82,7 @@
  {
   "id": "86akq3nk0",
   "name": "Treinamento - Openstack (cronograma + aulas gravadas )",
-  "status": "aberto",
+  "status": "concluído",
   "assignees": [
    "Bruno Queiroz"
   ],
@@ -157,7 +157,7 @@
  {
   "id": "86aj73kd8",
   "name": "Viabilizar seu cara para andar com os produtos BC Automation (produto igual ao da SkyOne) e BC Ops & Governance",
-  "status": "bloqueada",
+  "status": "rejeitada",
   "assignees": [
    "Bruno Queiroz"
   ],
