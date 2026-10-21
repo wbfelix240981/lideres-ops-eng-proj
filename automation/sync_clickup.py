@@ -173,8 +173,15 @@ def api_get_all_tasks(list_id, include_closed=True, subtasks=False):
     return todas
 
 
+# Nomes exibidos no painel que diferem do username no ClickUp.
+# A lista "João" agora pertence ao Renan Polo (troca pedida em 21/10/2026);
+# enquanto o ClickUp ainda mostrar "João Alves", exibimos "Renan Polo".
+ASSIGNEE_DISPLAY_RENAME = {"João Alves": "Renan Polo"}
+
+
 def assignee_names(task):
-    return [a["username"] for a in task.get("assignees", [])]
+    return [ASSIGNEE_DISPLAY_RENAME.get(a["username"], a["username"])
+            for a in task.get("assignees", [])]
 
 
 def to_ms(due_date):
