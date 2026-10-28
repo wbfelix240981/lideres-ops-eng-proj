@@ -2,7 +2,7 @@
  {
   "id": "17ttbukxb3e",
   "name": "Atualização do Skyline da UOL com a versão da Algar",
-  "status": "em andamento",
+  "status": "aguardando retorno",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
@@ -106,7 +106,7 @@
  {
   "id": "86ajvyfac",
   "name": "Auditoria dentro do BCP (quem, o que e como fez)",
-  "status": "aberto",
+  "status": "planejamento",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
@@ -219,6 +219,7 @@
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
+  "due": 1793948400000,
   "url": "https://app.clickup.com/t/86ajr1v4w"
  },
  {
@@ -292,7 +293,7 @@
  {
   "id": "86aea8x8b",
   "name": "Resolver - MongoDB versão 8.2",
-  "status": "revisando",
+  "status": "rejeitada",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
