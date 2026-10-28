@@ -116,7 +116,7 @@
  {
   "id": "86ajvx0jp",
   "name": "Reformular o controller do veeam para remover do proxmox",
-  "status": "em andamento",
+  "status": "aguardando retorno",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
