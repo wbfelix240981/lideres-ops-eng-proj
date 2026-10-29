@@ -1,5 +1,35 @@
 [
  {
+  "id": "17ttbukzj7t",
+  "name": "Resposta do email de defesa de novos reciirsos da Cannect",
+  "status": "aberto",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1793257200000,
+  "url": "https://app.clickup.com/t/17ttbukzj7t"
+ },
+ {
+  "id": "17ttbukzj7n",
+  "name": "atualização do PHP",
+  "status": "aberto",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1793948400000,
+  "url": "https://app.clickup.com/t/17ttbukzj7n"
+ },
+ {
+  "id": "17ttbukzj7j",
+  "name": "Migração PROXMOX",
+  "status": "aberto",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1794553200000,
+  "url": "https://app.clickup.com/t/17ttbukzj7j"
+ },
+ {
   "id": "17ttbukxdaa",
   "name": "Enviar do relatório comprobatório da exclusão de clientes, conforme processo. Enviar para área demandante(Contratos)",
   "status": "aberto",
