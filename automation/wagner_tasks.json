@@ -45,12 +45,13 @@
  {
   "id": "86akruh7w",
   "name": "Excluir cliente SmarAPD 2.0",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [
    "Wagner Bento Felix"
   ],
   "due": 1791183600000,
-  "url": "https://app.clickup.com/t/86akruh7w"
+  "url": "https://app.clickup.com/t/86akruh7w",
+  "doneAt": 1793286993567
  },
  {
   "id": "86akq3mht",
