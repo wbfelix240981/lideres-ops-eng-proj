@@ -2,7 +2,7 @@
  {
   "id": "17ttbukzj7t",
   "name": "Resposta do email de defesa de novos reciirsos da Cannect",
-  "status": "aberto",
+  "status": "concluído",
   "assignees": [
    "Bruno Queiroz"
   ],
@@ -32,7 +32,7 @@
  {
   "id": "17ttbukxdaa",
   "name": "Enviar do relatório comprobatório da exclusão de clientes, conforme processo. Enviar para área demandante(Contratos)",
-  "status": "aberto",
+  "status": "concluído",
   "assignees": [
    "Bruno Queiroz"
   ],
@@ -142,13 +142,14 @@
  {
   "id": "86akjyw7m",
   "name": "Migração de Bloco de IPs 2.0",
-  "status": "aguardando retorno",
+  "status": "fechado",
   "assignees": [
    "Bruno Queiroz",
    "Wagner Bento Felix"
   ],
   "due": 1797318000000,
-  "url": "https://app.clickup.com/t/86akjyw7m"
+  "url": "https://app.clickup.com/t/86akjyw7m",
+  "doneAt": 1793358723067
  },
  {
   "id": "86ak5pat9",
