@@ -1,5 +1,24 @@
 [
  {
+  "id": "17ttbum08fp",
+  "name": "Plano 100 dias",
+  "status": "aberto",
+  "assignees": [
+   "Renan Polo"
+  ],
+  "url": "https://app.clickup.com/t/17ttbum08fp"
+ },
+ {
+  "id": "17ttbum08f9",
+  "name": "REvistar a POL SEG 007",
+  "status": "concluído",
+  "assignees": [
+   "Renan Polo"
+  ],
+  "due": 1793689200000,
+  "url": "https://app.clickup.com/t/17ttbum08f9"
+ },
+ {
   "id": "86ajzma7r",
   "name": "Painel - ENG",
   "status": "aberto",
@@ -11,7 +30,7 @@
  {
   "id": "86ajzm6gy",
   "name": "AI Command Center V2",
-  "status": "em andamento",
+  "status": "bloqueada",
   "assignees": [
    "Renan Polo"
   ],
@@ -20,7 +39,7 @@
  {
   "id": "86ajcyw9x",
   "name": "Shield",
-  "status": "em andamento",
+  "status": "bloqueada",
   "assignees": [
    "Renan Polo"
   ],
@@ -29,7 +48,7 @@
  {
   "id": "86ahug2mx",
   "name": "AI Command Center",
-  "status": "em andamento",
+  "status": "bloqueada",
   "assignees": [
    "Renan Polo"
   ],
