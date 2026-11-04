@@ -66,7 +66,7 @@
   "assignees": [
    "Bruno Queiroz"
   ],
-  "due": 1792738800000,
+  "due": 1794553200000,
   "url": "https://app.clickup.com/t/17ttbukxaxv"
  },
  {
@@ -112,7 +112,7 @@
  {
   "id": "86akq3vxy",
   "name": "Acompanhamento do consumo CEPH x Projetado",
-  "status": "aguardando retorno",
+  "status": "concluído",
   "assignees": [
    "Bruno Queiroz"
   ],
@@ -146,7 +146,7 @@
   "assignees": [
    "Bruno Queiroz"
   ],
-  "due": 1791529200000,
+  "due": 1793948400000,
   "url": "https://app.clickup.com/t/86akq3ktj"
  },
  {
@@ -156,7 +156,7 @@
   "assignees": [
    "Bruno Queiroz"
   ],
-  "due": 1791529200000,
+  "due": 1793948400000,
   "url": "https://app.clickup.com/t/86akq3knv"
  },
  {
@@ -208,12 +208,13 @@
  {
   "id": "86aj73kd8",
   "name": "Viabilizar seu cara para andar com os produtos BC Automation (produto igual ao da SkyOne) e BC Ops & Governance",
-  "status": "rejeitada",
+  "status": "fechado",
   "assignees": [
    "Bruno Queiroz"
   ],
   "due": 1785999600000,
-  "url": "https://app.clickup.com/t/86aj73kd8"
+  "url": "https://app.clickup.com/t/86aj73kd8",
+  "doneAt": 1793815309442
  },
  {
   "id": "86aj73kcy",
@@ -258,7 +259,7 @@
  {
   "id": "86ahjxj34",
   "name": "Validação dos PaaS na plataforma ",
-  "status": "revisando",
+  "status": "concluído",
   "assignees": [
    "Bruno Queiroz"
   ],
@@ -520,7 +521,7 @@
  {
   "id": "86ac6u9cp",
   "name": "Plano de documentação para Clientes Gerenciados",
-  "status": "em andamento",
+  "status": "concluído",
   "assignees": [
    "Bruno Queiroz"
   ],
@@ -619,7 +620,7 @@
  {
   "id": "86aba9ak9",
   "name": "Controle de projetos de melhorias e inovações da área",
-  "status": "em andamento",
+  "status": "concluído",
   "assignees": [
    "Bruno Queiroz"
   ],
@@ -629,7 +630,7 @@
  {
   "id": "86aba8mgv",
   "name": "Montar e entender como iremos atuar nos ambiente Cloud PRIVADA",
-  "status": "planejamento",
+  "status": "concluído",
   "assignees": [
    "Bruno Queiroz",
    "Gustavo Camargo"
