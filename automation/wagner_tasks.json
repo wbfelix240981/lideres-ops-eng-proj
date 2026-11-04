@@ -1,5 +1,26 @@
 [
  {
+  "id": "17ttbum0km3",
+  "name": "Apresentação Comitê Tático Outubro 2026",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/17ttbum0km3"
+ },
+ {
+  "id": "17ttbum0km0",
+  "name": "Sanitização da Plataforma Cloud 2.0 - Radio - Monte",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/17ttbum0km0"
+ },
+ {
+  "id": "17ttbum0kkz",
+  "name": "Sanitização da Plataforma Cloud 2.0 - BMC-Hyundai",
+  "status": "em andamento",
+  "assignees": [],
+  "url": "https://app.clickup.com/t/17ttbum0kkz"
+ },
+ {
   "id": "86akruj2p",
   "name": "Portal de Escritorio de projetos, adicionar campos no CARD",
   "status": "concluído",
@@ -67,7 +88,7 @@
  {
   "id": "86aknudmq",
   "name": "PDCA de Projetos x Comercial",
-  "status": "aberto",
+  "status": "em andamento",
   "assignees": [
    "Wagner Bento Felix"
   ],
@@ -115,7 +136,7 @@
  {
   "id": "86ak851en",
   "name": "Storware planejamento QTSxClientesxdatas",
-  "status": "em andamento",
+  "status": "revisando",
   "assignees": [
    "Wagner Bento Felix"
   ],

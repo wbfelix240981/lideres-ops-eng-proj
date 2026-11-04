@@ -2,7 +2,7 @@
  {
   "id": "17ttbukxb3e",
   "name": "Atualização do Skyline da UOL com a versão da Algar",
-  "status": "aguardando retorno",
+  "status": "concluído",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
@@ -12,22 +12,24 @@
  {
   "id": "17ttbukxay6",
   "name": "Jornada nodeIPDA até entrar na 3.0",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
   "due": 1792738800000,
-  "url": "https://app.clickup.com/t/17ttbukxay6"
+  "url": "https://app.clickup.com/t/17ttbukxay6",
+  "doneAt": 1793811173303
  },
  {
   "id": "17ttbukxay3",
   "name": "Jornada node18 até entrar na 3.0",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
   "due": 1792738800000,
-  "url": "https://app.clickup.com/t/17ttbukxay3"
+  "url": "https://app.clickup.com/t/17ttbukxay3",
+  "doneAt": 1793811176460
  },
  {
   "id": "86akj76gw",
@@ -42,12 +44,13 @@
  {
   "id": "86ak33ugq",
   "name": "Centralizar nossos projeto no GIT corporativo",
-  "status": "aguardando retorno",
+  "status": "fechado",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
   "due": 1787986800000,
-  "url": "https://app.clickup.com/t/86ak33ugq"
+  "url": "https://app.clickup.com/t/86ak33ugq",
+  "doneAt": 1793811229203
  },
  {
   "id": "86ak0t9un",
@@ -230,15 +233,6 @@
    "Leonardo Gomes Jorge Gonçalez"
   ],
   "url": "https://app.clickup.com/t/86ajr1uxp"
- },
- {
-  "id": "86ajr1ukv",
-  "name": "Painel automatico de capacity",
-  "status": "bloqueada",
-  "assignees": [
-   "Leonardo Gomes Jorge Gonçalez"
-  ],
-  "url": "https://app.clickup.com/t/86ajr1ukv"
  },
  {
   "id": "86ajr1uh2",

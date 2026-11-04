@@ -1,12 +1,22 @@
 [
  {
-  "id": "17ttbum0azy",
-  "name": "Projeto interno de migração de uma banco para fazer o DataLake",
+  "id": "17ttbum0m97",
+  "name": "Faturamento - Licenças BC-Backup",
   "status": "aberto",
   "assignees": [
    "Bruno Queiroz"
   ],
-  "due": 1793948400000,
+  "due": 1793775600000,
+  "url": "https://app.clickup.com/t/17ttbum0m97"
+ },
+ {
+  "id": "17ttbum0azy",
+  "name": "Projeto interno de migração de uma banco para fazer o DataLake",
+  "status": "em andamento",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "due": 1794553200000,
   "url": "https://app.clickup.com/t/17ttbum0azy"
  },
  {
@@ -22,7 +32,7 @@
  {
   "id": "17ttbukzj7n",
   "name": "atualização do PHP",
-  "status": "aberto",
+  "status": "concluído",
   "assignees": [
    "Bruno Queiroz"
   ],
