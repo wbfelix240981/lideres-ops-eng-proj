@@ -2,12 +2,13 @@
  {
   "id": "17ttbukxb3e",
   "name": "Atualização do Skyline da UOL com a versão da Algar",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
   "due": 1793343600000,
-  "url": "https://app.clickup.com/t/17ttbukxb3e"
+  "url": "https://app.clickup.com/t/17ttbukxb3e",
+  "doneAt": 1793821749963
  },
  {
   "id": "17ttbukxay6",
