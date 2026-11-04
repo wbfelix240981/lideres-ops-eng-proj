@@ -119,7 +119,7 @@
  {
   "id": "86ajvx0jp",
   "name": "Reformular o controller do veeam para remover do proxmox",
-  "status": "aguardando retorno",
+  "status": "rejeitada",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
@@ -143,7 +143,7 @@
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
-  "due": 1798700400000,
+  "due": 1804230000000,
   "url": "https://app.clickup.com/t/86ajr1wkz"
  },
  {
@@ -277,7 +277,7 @@
  {
   "id": "86aea9jaw",
   "name": "Planejar - Atualização do OpenStack (por módulo)",
-  "status": "aberto",
+  "status": "planejamento",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
