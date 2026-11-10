@@ -2,7 +2,7 @@
  {
   "id": "17ttbum19ju",
   "name": "Sanitização de Snapshots Obsoletos da Cloud 2.0 (Outubro)",
-  "status": "aberto",
+  "status": "em andamento",
   "assignees": [],
   "due": 1794553200000,
   "url": "https://app.clickup.com/t/17ttbum19ju"
@@ -10,7 +10,7 @@
  {
   "id": "17ttbum19jt",
   "name": "Sanitização de Snapshots Obsoletos da Cloud 3.0 (Outubro)",
-  "status": "aberto",
+  "status": "em andamento",
   "assignees": [],
   "due": 1794553200000,
   "url": "https://app.clickup.com/t/17ttbum19jt"
@@ -18,7 +18,7 @@
  {
   "id": "17ttbum19jk",
   "name": "Sanitização da Plataforma Cloud 2.0 - Grupo Refrio",
-  "status": "aberto",
+  "status": "em andamento",
   "assignees": [],
   "due": 1794553200000,
   "url": "https://app.clickup.com/t/17ttbum19jk"
@@ -52,7 +52,7 @@
  {
   "id": "17ttbum0kkz",
   "name": "Sanitização da Plataforma Cloud 2.0 - BMC-Hyundai",
-  "status": "em andamento",
+  "status": "bloqueada",
   "assignees": [],
   "due": 1794294000000,
   "url": "https://app.clickup.com/t/17ttbum0kkz"
