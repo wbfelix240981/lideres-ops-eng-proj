@@ -2,7 +2,7 @@
  {
   "id": "86aknyngg",
   "name": "Definição do novo modelo de Propostas Técnicas e Comerciais.",
-  "status": "em andamento",
+  "status": "rejeitada",
   "assignees": [
    "Rodney Botelho"
   ],
@@ -12,33 +12,35 @@
  {
   "id": "86aknymeg",
   "name": "Migrar a sofIA para de IaaS para PaaS",
-  "status": "em andamento",
+  "status": "fechado",
   "assignees": [
    "Rodney Botelho"
   ],
   "due": 1793430000000,
-  "url": "https://app.clickup.com/t/86aknymeg"
+  "url": "https://app.clickup.com/t/86aknymeg",
+  "doneAt": 1794402446467
  },
  {
   "id": "86ajvu86k",
   "name": "Montar ambiente com usuário e senha para demonstração para cliente com tudo 100% funcionando (billing, bc-backup, monitoração,  marketplace, MFA, calculadora, perfil de acesso(admin, financeiro, operador), com maquinas criadas, com dados para demonstrar.",
-  "status": "impedimento",
+  "status": "em andamento",
   "assignees": [
    "Rodney Botelho"
   ],
-  "due": 1788073200000,
+  "due": 1798700400000,
   "url": "https://app.clickup.com/t/86ajvu86k"
  },
  {
   "id": "86ajj3tdm",
   "name": "Criar processo  de renovação de serviço gerenciado",
-  "status": "em andamento",
+  "status": "fechado",
   "assignees": [
    "Rodney Botelho",
    "Rafael Alves"
   ],
   "due": 1785481200000,
-  "url": "https://app.clickup.com/t/86ajj3tdm"
+  "url": "https://app.clickup.com/t/86ajj3tdm",
+  "doneAt": 1794402102014
  },
  {
   "id": "86ajgemrt",
@@ -74,11 +76,11 @@
  {
   "id": "86aj30ptn",
   "name": "Montar apresentação / Proposta BCP como nuvem Privada",
-  "status": "impedimento",
+  "status": "em andamento",
   "assignees": [
    "Rodney Botelho"
   ],
-  "due": 1787900400000,
+  "due": 1796022000000,
   "url": "https://app.clickup.com/t/86aj30ptn"
  },
  {
