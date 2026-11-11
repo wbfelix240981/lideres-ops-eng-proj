@@ -1,5 +1,25 @@
 [
  {
+  "id": "17ttbum19n8",
+  "name": "Marcar reunião com o João+Barboza+Gustavo (Suporte+passagem de Conhecimento)",
+  "status": "aberto",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1794380400000,
+  "url": "https://app.clickup.com/t/17ttbum19n8"
+ },
+ {
+  "id": "17ttbum19kx",
+  "name": "Abertura de Vaga Subs para madrugada",
+  "status": "em andamento",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1794553200000,
+  "url": "https://app.clickup.com/t/17ttbum19kx"
+ },
+ {
   "id": "86akk0g54",
   "name": "Se apresentar para Cannect",
   "status": "em andamento",
