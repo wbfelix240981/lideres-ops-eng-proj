@@ -1,5 +1,14 @@
 [
  {
+  "id": "17ttbum2gfw",
+  "name": "Erro BC-BACKUP - Relatórios - Backup do Ambiente Virtual",
+  "status": "aberto",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/17ttbum2gfw"
+ },
+ {
   "id": "17ttbum18pj",
   "name": "Migração dos sistemas de apoio para a UnderCloud",
   "status": "aberto",
