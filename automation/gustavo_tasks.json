@@ -1,5 +1,55 @@
 [
  {
+  "id": "17ttbum335y",
+  "name": "Resolver o problema da Pedreira, deixar de ser dedicado",
+  "status": "aberto",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1795762800000,
+  "url": "https://app.clickup.com/t/17ttbum335y"
+ },
+ {
+  "id": "17ttbum334x",
+  "name": "Cancelar, link da Gimba NeoVia",
+  "status": "aberto",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1795676400000,
+  "url": "https://app.clickup.com/t/17ttbum334x"
+ },
+ {
+  "id": "17ttbum333u",
+  "name": "Ações de recuperação do modulo de memória do Linux13",
+  "status": "aberto",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1796367600000,
+  "url": "https://app.clickup.com/t/17ttbum333u"
+ },
+ {
+  "id": "17ttbum332p",
+  "name": "Se apresentar para Grupo Raizes",
+  "status": "aberto",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1795762800000,
+  "url": "https://app.clickup.com/t/17ttbum332p"
+ },
+ {
+  "id": "17ttbum3321",
+  "name": "Criar RoadMap do Command Center",
+  "status": "aberto",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1795158000000,
+  "url": "https://app.clickup.com/t/17ttbum3321"
+ },
+ {
   "id": "17ttbum32p9",
   "name": "Desativação NEOVIA Gimba",
   "status": "em andamento",
@@ -12,43 +62,47 @@
  {
   "id": "17ttbum19n8",
   "name": "Marcar reunião com o João+Barboza+Gustavo (Suporte+passagem de Conhecimento)",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [
    "Gustavo Camargo"
   ],
   "due": 1794380400000,
-  "url": "https://app.clickup.com/t/17ttbum19n8"
+  "url": "https://app.clickup.com/t/17ttbum19n8",
+  "doneAt": 1795025869077
  },
  {
   "id": "17ttbum19kx",
   "name": "Abertura de Vaga Subs para madrugada",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [
    "Gustavo Camargo"
   ],
   "due": 1794553200000,
-  "url": "https://app.clickup.com/t/17ttbum19kx"
+  "url": "https://app.clickup.com/t/17ttbum19kx",
+  "doneAt": 1795025646686
  },
  {
   "id": "86akk0g54",
   "name": "Se apresentar para Cannect",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [
    "Gustavo Camargo"
   ],
   "due": 1790319600000,
-  "url": "https://app.clickup.com/t/86akk0g54"
+  "url": "https://app.clickup.com/t/86akk0g54",
+  "doneAt": 1795026034408
  },
  {
   "id": "86ak6hayd",
   "name": "Resolução Dismac SAP",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [
    "Gustavo Camargo",
    "Bruno Queiroz"
   ],
   "due": 1787900400000,
-  "url": "https://app.clickup.com/t/86ak6hayd"
+  "url": "https://app.clickup.com/t/86ak6hayd",
+  "doneAt": 1795026201578
  },
  {
   "id": "86ak2tamx",

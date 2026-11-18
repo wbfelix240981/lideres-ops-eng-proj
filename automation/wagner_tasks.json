@@ -52,9 +52,9 @@
  {
   "id": "17ttbum0kkz",
   "name": "Sanitização da Plataforma Cloud 2.0 - BMC-Hyundai",
-  "status": "bloqueada",
+  "status": "em andamento",
   "assignees": [],
-  "due": 1794294000000,
+  "due": 1795071600000,
   "url": "https://app.clickup.com/t/17ttbum0kkz"
  },
  {
@@ -126,7 +126,7 @@
  {
   "id": "86aknudmq",
   "name": "PDCA de Projetos x Comercial",
-  "status": "em andamento",
+  "status": "concluído",
   "assignees": [
    "Wagner Bento Felix"
   ],
@@ -451,7 +451,7 @@
  {
   "id": "86ahar7zw",
   "name": "Processo da area",
-  "status": "revisando",
+  "status": "bloqueada",
   "assignees": [
    "Wagner Bento Felix"
   ],
@@ -461,7 +461,7 @@
  {
   "id": "86ahar7wh",
   "name": "Plano de 100 dias",
-  "status": "revisando",
+  "status": "bloqueada",
   "assignees": [
    "Wagner Bento Felix"
   ],
