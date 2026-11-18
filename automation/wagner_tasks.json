@@ -1,27 +1,51 @@
 [
  {
+  "id": "17ttbum340b",
+  "name": "Migração FW Automaligica",
+  "status": "aberto",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1795762800000,
+  "url": "https://app.clickup.com/t/17ttbum340b"
+ },
+ {
+  "id": "17ttbum3409",
+  "name": "Migração maquina Coriolis",
+  "status": "aberto",
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
+  "due": 1795762800000,
+  "url": "https://app.clickup.com/t/17ttbum3409"
+ },
+ {
   "id": "17ttbum19ju",
   "name": "Sanitização de Snapshots Obsoletos da Cloud 2.0 (Outubro)",
   "status": "em andamento",
-  "assignees": [],
+  "assignees": [
+   "Wagner Bento Felix"
+  ],
   "due": 1795071600000,
   "url": "https://app.clickup.com/t/17ttbum19ju"
  },
  {
   "id": "17ttbum19jt",
   "name": "Sanitização de Snapshots Obsoletos da Cloud 3.0 (Outubro)",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [],
   "due": 1794553200000,
-  "url": "https://app.clickup.com/t/17ttbum19jt"
+  "url": "https://app.clickup.com/t/17ttbum19jt",
+  "doneAt": 1795027876521
  },
  {
   "id": "17ttbum19jk",
   "name": "Sanitização da Plataforma Cloud 2.0 - Grupo Refrio",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [],
   "due": 1794553200000,
-  "url": "https://app.clickup.com/t/17ttbum19jk"
+  "url": "https://app.clickup.com/t/17ttbum19jk",
+  "doneAt": 1795027892901
  },
  {
   "id": "17ttbum0rer",
@@ -36,18 +60,20 @@
  {
   "id": "17ttbum0km3",
   "name": "Apresentação Comitê Tático Outubro 2026",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [],
   "due": 1794294000000,
-  "url": "https://app.clickup.com/t/17ttbum0km3"
+  "url": "https://app.clickup.com/t/17ttbum0km3",
+  "doneAt": 1795027898883
  },
  {
   "id": "17ttbum0km0",
   "name": "Sanitização da Plataforma Cloud 2.0 - Radio - Monte",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [],
   "due": 1794380400000,
-  "url": "https://app.clickup.com/t/17ttbum0km0"
+  "url": "https://app.clickup.com/t/17ttbum0km0",
+  "doneAt": 1795027907013
  },
  {
   "id": "17ttbum0kkz",
@@ -126,12 +152,13 @@
  {
   "id": "86aknudmq",
   "name": "PDCA de Projetos x Comercial",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [
    "Wagner Bento Felix"
   ],
   "due": 1796022000000,
-  "url": "https://app.clickup.com/t/86aknudmq"
+  "url": "https://app.clickup.com/t/86aknudmq",
+  "doneAt": 1795028011346
  },
  {
   "id": "86aknnda0",

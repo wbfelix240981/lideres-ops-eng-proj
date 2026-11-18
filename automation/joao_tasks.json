@@ -38,21 +38,13 @@
  {
   "id": "17ttbum08f9",
   "name": "Revisão da POL SEG 007",
-  "status": "concluído",
+  "status": "fechado",
   "assignees": [
    "Renan Polo"
   ],
   "due": 1793689200000,
-  "url": "https://app.clickup.com/t/17ttbum08f9"
- },
- {
-  "id": "86ajzm6gy",
-  "name": "AI Command Center V2",
-  "status": "bloqueada",
-  "assignees": [
-   "Renan Polo"
-  ],
-  "url": "https://app.clickup.com/t/86ajzm6gy"
+  "url": "https://app.clickup.com/t/17ttbum08f9",
+  "doneAt": 1795028795225
  },
  {
   "id": "86ajcyw9x",
@@ -64,18 +56,9 @@
   "url": "https://app.clickup.com/t/86ajcyw9x"
  },
  {
-  "id": "86ahug2mx",
-  "name": "AI Command Center",
-  "status": "bloqueada",
-  "assignees": [
-   "Renan Polo"
-  ],
-  "url": "https://app.clickup.com/t/86ahug2mx"
- },
- {
   "id": "86ah4657t",
   "name": "Jornada - ISO 27001",
-  "status": "em andamento",
+  "status": "impedimento",
   "assignees": [
    "Renan Polo"
   ],
