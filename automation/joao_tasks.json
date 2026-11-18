@@ -1,17 +1,30 @@
 [
  {
-  "id": "17ttbum2vq0",
-  "name": "Análise e encaminhamento das vuln encontradas Zanshin - Claro",
+  "id": "17ttbum31p1",
+  "name": "Correções das vulnerabilidades 365",
   "status": "em andamento",
-  "assignees": [],
-  "url": "https://app.clickup.com/t/17ttbum2vq0"
+  "assignees": [
+   "Renan Polo"
+  ],
+  "url": "https://app.clickup.com/t/17ttbum31p1"
  },
  {
   "id": "17ttbum2vpm",
   "name": "Responder questionário de avaliação de seg. - Claro",
   "status": "em andamento",
-  "assignees": [],
+  "assignees": [
+   "Renan Polo"
+  ],
   "url": "https://app.clickup.com/t/17ttbum2vpm"
+ },
+ {
+  "id": "17ttbum2md6",
+  "name": "Vunerabilidade no sistema.binario.net",
+  "status": "em andamento",
+  "assignees": [
+   "Renan Polo"
+  ],
+  "url": "https://app.clickup.com/t/17ttbum2md6"
  },
  {
   "id": "17ttbum08fp",
