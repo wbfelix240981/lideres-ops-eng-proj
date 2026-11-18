@@ -1,8 +1,18 @@
 [
  {
+  "id": "17ttbum32p9",
+  "name": "Desativação NEOVIA Gimba",
+  "status": "em andamento",
+  "assignees": [
+   "Gustavo Camargo"
+  ],
+  "due": 1795762800000,
+  "url": "https://app.clickup.com/t/17ttbum32p9"
+ },
+ {
   "id": "17ttbum19n8",
   "name": "Marcar reunião com o João+Barboza+Gustavo (Suporte+passagem de Conhecimento)",
-  "status": "aberto",
+  "status": "concluído",
   "assignees": [
    "Gustavo Camargo"
   ],
@@ -12,7 +22,7 @@
  {
   "id": "17ttbum19kx",
   "name": "Abertura de Vaga Subs para madrugada",
-  "status": "em andamento",
+  "status": "concluído",
   "assignees": [
    "Gustavo Camargo"
   ],
@@ -22,7 +32,7 @@
  {
   "id": "86akk0g54",
   "name": "Se apresentar para Cannect",
-  "status": "em andamento",
+  "status": "concluído",
   "assignees": [
    "Gustavo Camargo"
   ],
@@ -32,7 +42,7 @@
  {
   "id": "86ak6hayd",
   "name": "Resolução Dismac SAP",
-  "status": "impedimento",
+  "status": "concluído",
   "assignees": [
    "Gustavo Camargo",
    "Bruno Queiroz"
