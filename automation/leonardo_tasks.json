@@ -1,5 +1,14 @@
 [
  {
+  "id": "17ttbum47fn",
+  "name": "Definição e Aplicação do controle de acessos - Funcionários",
+  "status": "aberto",
+  "assignees": [
+   "Leonardo Gomes Jorge Gonçalez"
+  ],
+  "url": "https://app.clickup.com/t/17ttbum47fn"
+ },
+ {
   "id": "17ttbukxb3e",
   "name": "Atualização do Skyline da UOL com a versão da Algar",
   "status": "fechado",
@@ -34,8 +43,8 @@
  },
  {
   "id": "86akj76gw",
-  "name": "Reformular controle de acesso - funcionários",
-  "status": "aberto",
+  "name": "Estudo reformular controle de acesso - funcionários",
+  "status": "concluído",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
@@ -110,7 +119,7 @@
  {
   "id": "86ajvyfac",
   "name": "Auditoria dentro do BCP (quem, o que e como fez)",
-  "status": "planejamento",
+  "status": "bloqueada",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
@@ -219,7 +228,7 @@
  {
   "id": "86ajr1v4w",
   "name": "Projeto segunda região UOL",
-  "status": "em andamento",
+  "status": "concluído",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
@@ -229,10 +238,11 @@
  {
   "id": "86ajr1uxp",
   "name": "Criação da Pagina da Eng no SharePoint",
-  "status": "bloqueada",
+  "status": "em andamento",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],
+  "due": 1795762800000,
   "url": "https://app.clickup.com/t/86ajr1uxp"
  },
  {
@@ -278,7 +288,7 @@
  {
   "id": "86aea9jaw",
   "name": "Planejar - Atualização do OpenStack (por módulo)",
-  "status": "planejamento",
+  "status": "em andamento",
   "assignees": [
    "Leonardo Gomes Jorge Gonçalez"
   ],

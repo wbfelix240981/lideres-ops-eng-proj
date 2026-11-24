@@ -1,5 +1,14 @@
 [
  {
+  "id": "17ttbum45jm",
+  "name": "Solicitar passagem para presencialidade em 10/12",
+  "status": "aberto",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/17ttbum45jm"
+ },
+ {
   "id": "17ttbum2vzz",
   "name": "Error ao clicar em Download (Backup Montado) BC-BACKUP",
   "status": "aberto",
