@@ -2,36 +2,40 @@
  {
   "id": "17ttbum45we",
   "name": "Sanitização e Exclusão de Backups Obsoletos - Brudden",
-  "status": "aberto",
+  "status": "em andamento",
   "assignees": [],
+  "due": 1796022000000,
   "url": "https://app.clickup.com/t/17ttbum45we"
  },
  {
   "id": "17ttbum45wd",
   "name": "Sanitização e Exclusão de Backups Obsoletos - Perboni",
-  "status": "aberto",
+  "status": "em andamento",
   "assignees": [],
   "url": "https://app.clickup.com/t/17ttbum45wd"
  },
  {
   "id": "17ttbum45w6",
   "name": "Sanitização e Exclusão de Backups Obsoletos - LEOGAP",
-  "status": "aberto",
+  "status": "em andamento",
   "assignees": [],
+  "due": 1796022000000,
   "url": "https://app.clickup.com/t/17ttbum45w6"
  },
  {
   "id": "17ttbum45w5",
   "name": "Sanitização e Exclusão de Backups Obsoletos - Municio de Jaguarao",
-  "status": "aberto",
+  "status": "em andamento",
   "assignees": [],
+  "due": 1796022000000,
   "url": "https://app.clickup.com/t/17ttbum45w5"
  },
  {
   "id": "17ttbum45w4",
   "name": "Sanitização e Exclusão de Backups Obsoletos - OAB",
-  "status": "aberto",
+  "status": "em andamento",
   "assignees": [],
+  "due": 1796022000000,
   "url": "https://app.clickup.com/t/17ttbum45w4"
  },
  {
@@ -43,7 +47,7 @@
  },
  {
   "id": "17ttbum45vt",
-  "name": "Sanitização e Exclusão de Backups Obsoletos - EMBRATEL (TELMEX)",
+  "name": "Sanitização e Exclusão  - EMBRATEL (TELMEX)",
   "status": "aberto",
   "assignees": [],
   "url": "https://app.clickup.com/t/17ttbum45vt"
@@ -58,28 +62,31 @@
  {
   "id": "17ttbum39eg",
   "name": "Migração Magazine Luiza",
-  "status": "aberto",
+  "status": "bloqueada",
   "assignees": [],
+  "due": 1798614000000,
   "url": "https://app.clickup.com/t/17ttbum39eg"
  },
  {
   "id": "17ttbum39e6",
   "name": "Migração BMC",
-  "status": "aberto",
+  "status": "concluído",
   "assignees": [],
+  "due": 1795244400000,
   "url": "https://app.clickup.com/t/17ttbum39e6"
  },
  {
   "id": "17ttbum39e5",
   "name": "Migração Grupo Raizes",
-  "status": "aberto",
+  "status": "em andamento",
   "assignees": [],
+  "due": 1798614000000,
   "url": "https://app.clickup.com/t/17ttbum39e5"
  },
  {
   "id": "17ttbum340b",
   "name": "Migração FW Automaligica",
-  "status": "aberto",
+  "status": "em andamento",
   "assignees": [
    "Wagner Bento Felix"
   ],
@@ -89,7 +96,7 @@
  {
   "id": "17ttbum3409",
   "name": "Migração maquina Coriolis",
-  "status": "aberto",
+  "status": "em andamento",
   "assignees": [
    "Wagner Bento Felix"
   ],
