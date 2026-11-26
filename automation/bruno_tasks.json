@@ -1,5 +1,23 @@
 [
  {
+  "id": "17ttbum4qca",
+  "name": "Reduzir o ambiente da Cannect",
+  "status": "aberto",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/17ttbum4qca"
+ },
+ {
+  "id": "17ttbum4qc8",
+  "name": "Responder a questão da POC da UPX",
+  "status": "aberto",
+  "assignees": [
+   "Bruno Queiroz"
+  ],
+  "url": "https://app.clickup.com/t/17ttbum4qc8"
+ },
+ {
   "id": "17ttbum45jm",
   "name": "Solicitar passagem para presencialidade em 10/12",
   "status": "aberto",
