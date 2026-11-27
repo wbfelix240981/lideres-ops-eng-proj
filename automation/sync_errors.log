@@ -1,24 +1,3 @@
-[2026-11-25T03:41:02.727849+00:00] diagnostico_paginacao(901323507381)
-[DIAGNOSTICO] list_id=901323507381 subtasks=false include_closed=true | paginas=[{'page': 0, 'qtd_retornada': 29, 'last_page_field': True}] | total_bruto=29 | ids_unicos=29 | duplicados=0
-----------------------------------------------------------------------
-[2026-11-25T07:45:10.069088+00:00] diagnostico_paginacao(901326954601)
-[DIAGNOSTICO] list_id=901326954601 subtasks=false include_closed=true | paginas=[{'page': 0, 'qtd_retornada': 61, 'last_page_field': True}] | total_bruto=61 | ids_unicos=61 | duplicados=0
-----------------------------------------------------------------------
-[2026-11-25T07:45:11.284171+00:00] diagnostico_paginacao(901318773612)
-[DIAGNOSTICO] list_id=901318773612 subtasks=false include_closed=true | paginas=[{'page': 0, 'qtd_retornada': 75, 'last_page_field': True}] | total_bruto=75 | ids_unicos=75 | duplicados=0
-----------------------------------------------------------------------
-[2026-11-25T07:45:11.754537+00:00] diagnostico_paginacao(901328009767)
-[DIAGNOSTICO] list_id=901328009767 subtasks=false include_closed=true | paginas=[{'page': 0, 'qtd_retornada': 30, 'last_page_field': True}] | total_bruto=30 | ids_unicos=30 | duplicados=0
-----------------------------------------------------------------------
-[2026-11-25T07:45:12.232138+00:00] diagnostico_paginacao(901326962545)
-[DIAGNOSTICO] list_id=901326962545 subtasks=false include_closed=true | paginas=[{'page': 0, 'qtd_retornada': 9, 'last_page_field': True}] | total_bruto=9 | ids_unicos=9 | duplicados=0
-----------------------------------------------------------------------
-[2026-11-25T07:45:12.893833+00:00] diagnostico_paginacao(901318774255)
-[DIAGNOSTICO] list_id=901318774255 subtasks=false include_closed=true | paginas=[{'page': 0, 'qtd_retornada': 76, 'last_page_field': True}] | total_bruto=76 | ids_unicos=76 | duplicados=0
-----------------------------------------------------------------------
-[2026-11-25T07:45:12.896843+00:00] sync_leader_board(gustavo_tasks.json)
-Fetch retornou 76 tarefas, mais do que era esperado a partir das 48 que já existiam. Mantendo dados anteriores intactos para não arriscar perder ou duplicar informação real.
-----------------------------------------------------------------------
 [2026-11-25T07:45:13.849578+00:00] diagnostico_paginacao(901323507381)
 [DIAGNOSTICO] list_id=901323507381 subtasks=false include_closed=true | paginas=[{'page': 0, 'qtd_retornada': 29, 'last_page_field': True}] | total_bruto=29 | ids_unicos=29 | duplicados=0
 ----------------------------------------------------------------------
@@ -146,5 +125,26 @@ Fetch retornou 77 tarefas, mais do que era esperado a partir das 48 que já exis
 Fetch retornou 77 tarefas, mais do que era esperado a partir das 48 que já existiam. Mantendo dados anteriores intactos para não arriscar perder ou duplicar informação real.
 ----------------------------------------------------------------------
 [2026-11-26T18:52:25.224979+00:00] diagnostico_paginacao(901323507381)
+[DIAGNOSTICO] list_id=901323507381 subtasks=false include_closed=true | paginas=[{'page': 0, 'qtd_retornada': 29, 'last_page_field': True}] | total_bruto=29 | ids_unicos=29 | duplicados=0
+----------------------------------------------------------------------
+[2026-11-27T02:03:33.180504+00:00] diagnostico_paginacao(901326954601)
+[DIAGNOSTICO] list_id=901326954601 subtasks=false include_closed=true | paginas=[{'page': 0, 'qtd_retornada': 61, 'last_page_field': True}] | total_bruto=61 | ids_unicos=61 | duplicados=0
+----------------------------------------------------------------------
+[2026-11-27T02:03:34.404860+00:00] diagnostico_paginacao(901318773612)
+[DIAGNOSTICO] list_id=901318773612 subtasks=false include_closed=true | paginas=[{'page': 0, 'qtd_retornada': 77, 'last_page_field': True}] | total_bruto=77 | ids_unicos=77 | duplicados=0
+----------------------------------------------------------------------
+[2026-11-27T02:03:36.595435+00:00] diagnostico_paginacao(901328009767)
+[DIAGNOSTICO] list_id=901328009767 subtasks=false include_closed=true | paginas=[{'page': 0, 'qtd_retornada': 30, 'last_page_field': True}] | total_bruto=30 | ids_unicos=30 | duplicados=0
+----------------------------------------------------------------------
+[2026-11-27T02:03:37.162493+00:00] diagnostico_paginacao(901326962545)
+[DIAGNOSTICO] list_id=901326962545 subtasks=false include_closed=true | paginas=[{'page': 0, 'qtd_retornada': 9, 'last_page_field': True}] | total_bruto=9 | ids_unicos=9 | duplicados=0
+----------------------------------------------------------------------
+[2026-11-27T02:04:08.254082+00:00] diagnostico_paginacao(901318774255)
+[DIAGNOSTICO] list_id=901318774255 subtasks=false include_closed=true | paginas=[{'page': 0, 'qtd_retornada': 77, 'last_page_field': True}] | total_bruto=77 | ids_unicos=77 | duplicados=0
+----------------------------------------------------------------------
+[2026-11-27T02:04:08.254786+00:00] sync_leader_board(gustavo_tasks.json)
+Fetch retornou 77 tarefas, mais do que era esperado a partir das 48 que já existiam. Mantendo dados anteriores intactos para não arriscar perder ou duplicar informação real.
+----------------------------------------------------------------------
+[2026-11-27T02:04:08.695560+00:00] diagnostico_paginacao(901323507381)
 [DIAGNOSTICO] list_id=901323507381 subtasks=false include_closed=true | paginas=[{'page': 0, 'qtd_retornada': 29, 'last_page_field': True}] | total_bruto=29 | ids_unicos=29 | duplicados=0
 ----------------------------------------------------------------------
